@@ -1,0 +1,10 @@
+{
+  "original_path": "D:\\论文+比赛\\2026比赛\\CAIL\\法律修订候选检索\\初赛\\runs\\v4_multiquery_20261028\\multiquery_retrieval\\rat2rev-en\\selected\\test\\rrf.jsonl",
+  "original_sha256": "0b29971d90e5f983bcaccff8ddf73674908104879b7588773244d18049bb61d6",
+  "canonical_ranked_path": "experiments\\E11\\runs\\E11.001\\rat2rev-en\\ranked.jsonl",
+  "canonical_sha256": "0b29971d90e5f983bcaccff8ddf73674908104879b7588773244d18049bb61d6",
+  "qrels_sha256": "c5215c8506c684bcbed81b5d04429db6fe7a83ba77ddfb1888cb57a607fdf485",
+  "output_length": 200,
+  "conditions": "Historical bilingual pipeline; original generators differ across languages",
+  "inference_was_not_repeated": true
+}

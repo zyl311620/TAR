@@ -1,0 +1,92 @@
+{
+  "complete": true,
+  "task": "rev2rev-en",
+  "variant": "finetuned",
+  "identity_hash": "fdf75107f6ff30413b58e3461aa2553a696d2935a6d07abd80d7234782b8123e",
+  "scorer": {
+    "corpus_sha256": "dea3c9a5b5986e4aacb3add4c91263a1c8639e337818ed49cc6d19c7b11a9827",
+    "query_source_sha256": "5baf688c055612020150ee550d2cf2c05c850c1918190834da297931a7b122c8",
+    "model_config_sha256": "e87a4f50c475c7276fc642eabfc986a7c8da1c8a30a4ee34b4979048b330f2be",
+    "model_weight_index_sha256": "8a22e7ffd6001796256c0be7c73594835b6f907eec442fde691301ebf35087d9",
+    "source_sha256": {
+      "reranker.py": "c9cddb5e4200d650361c4b044fb1b8abea31fc2b5536129f91a42c343fa1584a"
+    },
+    "max_length": 8192,
+    "token_ids": {
+      "recare": [
+        9834,
+        902
+      ]
+    },
+    "prefix_ids": [
+      151644,
+      8948,
+      198,
+      60256,
+      3425,
+      279,
+      11789,
+      20027,
+      279,
+      8502,
+      3118,
+      389,
+      279,
+      11361,
+      323,
+      279,
+      758,
+      1235,
+      3897,
+      13,
+      7036,
+      429,
+      279,
+      4226,
+      646,
+      1172,
+      387,
+      330,
+      9693,
+      1,
+      476,
+      330,
+      2152,
+      3263,
+      151645,
+      198,
+      151644,
+      872,
+      198
+    ],
+    "suffix_ids": [
+      151645,
+      198,
+      151644,
+      77091,
+      198,
+      151667,
+      271,
+      151668,
+      271
+    ]
+  },
+  "candidates_sha256": "e45e3ee30c02b3597e353c6d4f7d5f43938ad4b101d4f5d95763d9b68f816d51",
+  "run_sha256": "994d562ec3b68ef3d11b0f99809226ba547ca17644286cae46dfdf6df5f44d3d",
+  "native_reference_sha256": "0947c620b8067dcec21168dd378d7ebe0fc5006d93903234dab2e67dcbda19d7",
+  "cache_sources": [
+    {
+      "directory": "/root/user/cs_tcci_zhouyulin/recare_official_20261024/runs/qwen3_rerank_native/rev2rev-en_local_team_run1",
+      "manifest_sha256": "1794d6569ef3708a1e071a62d9915afb0f8fe2ec7fca3829e0366eecec3bf2ef",
+      "scores_sha256": "fa915696c2fb64765096993f6c087a92fc5cdf6147a98c8c88803c5494ee37c1",
+      "queries": 503,
+      "fresh_native_reference_max_difference": 0.0078125
+    }
+  ],
+  "metrics": {
+    "ndcg_10": 0.19494419082150724,
+    "recall_100": 0.4142118277583321
+  },
+  "top_k": 200,
+  "qrels_used_for_inference": false
+}

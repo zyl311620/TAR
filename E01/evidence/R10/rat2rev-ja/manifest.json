@@ -1,0 +1,22 @@
+{
+  "complete": true,
+  "signature": "f2ee7a8affb74717ca27d681d2e457b91e2edd8ece59a2bd5cf7283d794983e4",
+  "at": "2026-10-30T21:05:39+08:00",
+  "task": "rat2rev-ja",
+  "split": "test",
+  "model": {
+    "directory": "Qwen3-Embedding-8B",
+    "method": "Qwen3-Embedding-8B",
+    "pooling": "last_token",
+    "max_length": 32768,
+    "normalize": true,
+    "dtype": "bfloat16",
+    "attention": "flash_attention_2",
+    "query_prefix": "Instruct: Given a web search query, retrieve relevant passages that answer the query\nQuery: "
+  },
+  "index_signature": "ab170ac9949ab774b8c4484f73841e27978fe00e99486b8a21bff0bd50620cf4",
+  "query_rewrite": false,
+  "full_corpus_retrieval": true,
+  "model_api_calls": 0,
+  "scored_top1000_sha256": "f595598d3a34841efd47460a403ff4b218b204bd9bb0b501fcf2eff262ff0aa2"
+}

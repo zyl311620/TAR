@@ -1,0 +1,25 @@
+{
+  "model_path": "/root/user/cs_tcci_zhouyulin/LLM_list/Qwen3-8B",
+  "model_signature": "96904184738e357761d3c76100324f876c8b4b313c7906291301fb5223ebff01",
+  "served_model": "paper-qwen3-8b",
+  "recipes": [
+    "q2e",
+    "q2d",
+    "task_q2e",
+    "multi5",
+    "long_single"
+  ],
+  "splits": [
+    "validation",
+    "test"
+  ],
+  "temperature": 0,
+  "max_tokens": 4096,
+  "thinking_enabled": false,
+  "workers": 8,
+  "repetition_penalty": 1.08,
+  "bounded_json_decoder": true,
+  "decoder_protocol": "bounded regex v4; outlines CLI backend; no backend fallback",
+  "generator": "same Qwen3-8B for every controlled query recipe",
+  "extra_metadata_or_qrels_in_prompt": false
+}

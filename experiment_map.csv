@@ -1,0 +1,11 @@
+﻿paper_experiment,title,legacy_experiment,presentation,paper_asset,rows,task_settings
+E01,Baselines and complete-system references,E01,table,tab:E01,26,104
+E02,Module controls and interactions,E02,table,tab:E02,7,28
+E03,Query strategies and anchored views,E03,composite figure,fig:E03,12,48
+E04,Task criteria under a fixed cached backend,E04,composite figure,fig:E04,4,16
+E05,Candidate and cross-encoder depth,E05,composite figure,fig:E05,8,32
+E06,RRF parameter sensitivity,E07,composite figure,fig:E07,9,36
+E07,Retrieval backbones and ranking backends,E08,table,tab:E08,13,52
+E08,Historical fine-tuning pairs,E10,composite figure,fig:E10,8,16
+E09,Coverage and the ranking gap,E11,composite figure,fig:E11,3,12
+E10,Repeatability and input-order sensitivity,E12,composite figure,fig:E12,5,20

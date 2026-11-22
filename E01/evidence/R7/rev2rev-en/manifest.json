@@ -1,0 +1,19 @@
+{
+  "complete": true,
+  "signature": "461c9882ad8a21aa08ee8c871c20648d5cd0f8e5b03539d859f3aa5261474cf0",
+  "at": "2026-10-30T12:58:03+08:00",
+  "task": "rev2rev-en",
+  "split": "test",
+  "model": {
+    "directory": "bge-m3",
+    "method": "BGE-M3 dense",
+    "pooling": "cls",
+    "max_length": 8192,
+    "normalize": true
+  },
+  "index_signature": "963b1b6a292cc56607db2360bc728ef33bfa9aff8f49ddc4932823705979d300",
+  "query_rewrite": false,
+  "full_corpus_retrieval": true,
+  "model_api_calls": 0,
+  "scored_top1000_sha256": "398ab592dfffa7904430ce9eb2e8d4f69bb1551b9fa58e638724f7917d96858f"
+}

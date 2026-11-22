@@ -1,0 +1,51 @@
+{
+  "complete": true,
+  "identity": {
+    "variant": "finetuned",
+    "task": "rev2rev-en",
+    "split": "test",
+    "corpus_sha256": "dea3c9a5b5986e4aacb3add4c91263a1c8639e337818ed49cc6d19c7b11a9827",
+    "rewrites_sha256": "fe87792db48c65e5cfed22eab29e533336739caa906835a843f59fd4f961c713",
+    "original_queries_sha256": "cb631abe2ccd8b9dba6959d5e436cbd8b82a28885a56f138c4a2217ad4a29e9f",
+    "embedding_weights_sha256": "db1b2495dbcda8600f6130571a59bc59b097f88ab0c81461820ef6863ed0a07e",
+    "passage_index_sha256": "fe97af90d8a7336da28dbb30423faccedf0ce8c3b49a60a89e7333fc948992a6",
+    "query_task": "retrieval.query",
+    "passage_task": "retrieval.passage",
+    "max_length": 8192,
+    "dense_top_k": 200,
+    "bm25_top_k": 200,
+    "fusion_top_k": 200,
+    "bm25_k1": 1.2,
+    "bm25_b": 0.75,
+    "rrf_k": 60,
+    "weights": [
+      1.0,
+      1.0
+    ],
+    "rewrite_used_for": "dense queries only",
+    "reranker_queries": "complete original queries"
+  },
+  "identity_hash": "0acccd507d5eb9583159697822ada9fd0a27293620ae946d8e9257ccc36c312a",
+  "queries": 503,
+  "run_sha256": {
+    "dense.jsonl": "2504d98a9b9e426c5dfc25c14dfe1d0b308f5dbedb34e72a18de804c5011393d",
+    "bm25.jsonl": "923d8cbdc28c326a4adcdb2dc2ad7f391f6655fde51861988c903e8c065480c0",
+    "rrf.jsonl": "e45e3ee30c02b3597e353c6d4f7d5f43938ad4b101d4f5d95763d9b68f816d51"
+  },
+  "metrics": {
+    "dense.jsonl": {
+      "ndcg_10": 0.16709422546233924,
+      "recall_100": 0.33203607074261193
+    },
+    "bm25.jsonl": {
+      "ndcg_10": 0.22021776622378655,
+      "recall_100": 0.3744750479153095
+    },
+    "rrf.jsonl": {
+      "ndcg_10": 0.22380410122921224,
+      "recall_100": 0.40933222606263703
+    }
+  },
+  "qrels_used_for_inference": false,
+  "completed_at": "2026-10-27T21:54:28+08:00"
+}

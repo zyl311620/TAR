@@ -1,0 +1,158 @@
+[
+  {
+    "row_id": "E03.R1",
+    "configuration": "原 query 单路",
+    "source_experiment": "E03",
+    "source_row_id": "E03.001",
+    "source_row_id_v2": "E03.V2.R001",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E03.R2",
+    "configuration": "Q2E 通用扩展",
+    "source_experiment": "E03",
+    "source_row_id": "E03.002",
+    "source_row_id_v2": "E03.V2.R002",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E03.R3",
+    "configuration": "Q2D / HyDE-style",
+    "source_experiment": "E03",
+    "source_row_id": "E03.003",
+    "source_row_id_v2": "E03.V2.R003",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E03.R4",
+    "configuration": "Task-Q2E，query-only 输入",
+    "source_experiment": "E03",
+    "source_row_id": "E03.004",
+    "source_row_id_v2": "E03.V2.R004",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E03.R5",
+    "configuration": "同生成器单路改写",
+    "source_experiment": "E03",
+    "source_row_id": "E03.005",
+    "source_row_id_v2": "E03.V2.R005",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E03.R6",
+    "configuration": "只用生成3路，无 anchor",
+    "source_experiment": "E03",
+    "source_row_id": "E03.006",
+    "source_row_id_v2": "E03.V2.R006",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E03.R7",
+    "configuration": "只用生成5路，无 anchor",
+    "source_experiment": "E03",
+    "source_row_id": "E03.007",
+    "source_row_id_v2": "E03.V2.R007",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E03.R8",
+    "configuration": "原 query anchor + 1路",
+    "source_experiment": "E03",
+    "source_row_id": "E03.008",
+    "source_row_id_v2": "E03.V2.R008",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E03.R9",
+    "configuration": "原 query anchor + 3路",
+    "source_experiment": "E03",
+    "source_row_id": "E03.009",
+    "source_row_id_v2": "E03.V2.R009",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E03.R10",
+    "configuration": "原 query anchor + 5路，U",
+    "source_experiment": "E03",
+    "source_row_id": "E03.010",
+    "source_row_id_v2": "E03.V2.R010",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E03.R11",
+    "configuration": "anchor + 同一条改写重复5份",
+    "source_experiment": "E03",
+    "source_row_id": "E03.011",
+    "source_row_id_v2": "E03.V2.R011",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E03.R12",
+    "configuration": "等总生成预算的单条长改写【补充】",
+    "source_experiment": "E03",
+    "source_row_id": "E03.012",
+    "source_row_id_v2": "E03.V2.R012",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  }
+]

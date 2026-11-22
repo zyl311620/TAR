@@ -1,0 +1,119 @@
+{
+  "model": {
+    "path": "/root/user/cs_tcci_zhouyulin/LLM_list/jina-embeddings-v5-text-small",
+    "file_stats": {
+      "adapters/classification/adapter_config.json": [
+        884,
+        1793339045387586730
+      ],
+      "adapters/classification/adapter_model.safetensors": [
+        40420208,
+        1793339048031593330
+      ],
+      "adapters/clustering/adapter_config.json": [
+        883,
+        1793339045707587535
+      ],
+      "adapters/clustering/adapter_model.safetensors": [
+        40420208,
+        1793339048103593507
+      ],
+      "adapters/retrieval/adapter_config.json": [
+        883,
+        1793339045727587585
+      ],
+      "adapters/retrieval/adapter_model.safetensors": [
+        40420176,
+        1793339048899595473
+      ],
+      "adapters/text-matching/adapter_config.json": [
+        883,
+        1793339046219588819
+      ],
+      "adapters/text-matching/adapter_model.safetensors": [
+        40420208,
+        1793339049131596043
+      ],
+      "config.json": [
+        991,
+        1793339048343594100
+      ],
+      "config_sentence_transformers.json": [
+        282,
+        1793339048415594278
+      ],
+      "configuration.json": [
+        76,
+        1793339048675594919
+      ],
+      "configuration_jina_embeddings_v5.py": [
+        120,
+        1793339048783595187
+      ],
+      "custom_st.py": [
+        4263,
+        1793339049011595749
+      ],
+      "generation_config.json": [
+        239,
+        1793339049155596103
+      ],
+      "model.safetensors": [
+        1192133208,
+        1793339113159724037
+      ],
+      "modeling_jina_embeddings_v5.py": [
+        4132,
+        1793339049523597005
+      ],
+      "modules.json": [
+        168,
+        1793339049539597044
+      ],
+      "tokenizer.json": [
+        11422654,
+        1793339050251598788
+      ],
+      "tokenizer_config.json": [
+        9732,
+        1793339049947598045
+      ],
+      "vocab.json": [
+        2776833,
+        1793339049967598094
+      ]
+    },
+    "files": {
+      "adapters/classification/adapter_config.json": "7c3f89c17197f40070fae65449fd013c6cf0ee5565ceb45e9d5e292aa8472563",
+      "adapters/classification/adapter_model.safetensors": "4ff3d2222b6f48354bdcf51b4dee4540c0da948d06240c7e042308f79e46c2e7",
+      "adapters/clustering/adapter_config.json": "af5a532a5d1855712b98829a1442f1b67e41165e140520ae5752060486a15b3f",
+      "adapters/clustering/adapter_model.safetensors": "276e311513d8bdf3a2a099bf6b365b28d5c8e0b64cc4ac55b526f1ae76cc2b4a",
+      "adapters/retrieval/adapter_config.json": "f37c5d6dd368e2675e54e01b685252d4d44eed042c773a48f56ebe1565cd0320",
+      "adapters/retrieval/adapter_model.safetensors": "2bc6ab71895eb04664e4d995ee29e1620603f3a3fc4dfc573bc2383dfc85bb94",
+      "adapters/text-matching/adapter_config.json": "60009adb7fb7be486dea1e318a1acb85eba8f04e209a296eca7454d3f6d95400",
+      "adapters/text-matching/adapter_model.safetensors": "c3a3051591b1c769eb9b0f87fc762b599aedf11094b5b3d7488e8007cc5cfa4d",
+      "config.json": "1af1e1269488c83d8b2332e42099f0d2201d687fbe074d1ed096c6201f283546",
+      "config_sentence_transformers.json": "2ec7728a4e2342834ea77f2cf099b2a1ed7f14045610c6d3312da7159093429a",
+      "configuration.json": "6bc26d64eb5024b4d1dab5a52371958b429256d6c9d59787f1f5294a54e0cebd",
+      "configuration_jina_embeddings_v5.py": "d67791f10558ca2bd67d4c64aa3262b9458b23f1803370c11aa6d5366ad8735b",
+      "custom_st.py": "6b9f7b9dc5539d5430ae4a920f0f1b7e7be31f2a976ee077790487672e0d26e3",
+      "generation_config.json": "2325da0f15bb848e018c5ae071b7943332e9f871d6b60e2ed22ca97d4cb993d2",
+      "model.safetensors": "045fa75ff963a528cda2589fb1ca0a9ad848b53511780ed4f08f6fe10f6167c3",
+      "modeling_jina_embeddings_v5.py": "389836c791ae345c164108c23858522590be32477b370c94b218cb1b4f10c69c",
+      "modules.json": "b54acf92eab134d664abbbc5e42fd92f27535d3605666962c15dc3c32b2d9744",
+      "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+      "tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+      "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    },
+    "sha256": "1f1ba18cad37c68cd1323059c87258c5dbdf7bbfa94fea7092f84d78d73c2762"
+  },
+  "spec": {
+    "directory": "jina-embeddings-v5-text-small",
+    "method": "Jina-v5-text-small",
+    "pooling": "jina_v5",
+    "max_length": 8192,
+    "normalize": true
+  },
+  "gpu": "0",
+  "at": "2026-10-30T19:14:21+08:00"
+}

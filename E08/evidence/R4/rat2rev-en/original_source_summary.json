@@ -1,0 +1,328 @@
+{
+  "complete": true,
+  "created_at": "2026-10-28T02:31:54+08:00",
+  "tasks": {
+    "rat2rev-en": {
+      "pretrained": {
+        "rewritten_embedding": {
+          "metrics": {
+            "ndcg_10": 0.18888356969889633,
+            "recall_100": 0.33190365019615203
+          },
+          "path": "/root/user/cs_tcci_zhouyulin/recare_official_20261024/runs/finetune/jina_v3_recovery_v2/hybrid_top50_fulltext/pretrained/retrieval/rat2rev-en/dense.jsonl",
+          "sha256": "cc4cf4113a51d594e65610ba037ef71ed099a804cc98fe9b8505addc5402561d"
+        },
+        "bm25": {
+          "metrics": {
+            "ndcg_10": 0.1470237704818596,
+            "recall_100": 0.27764668838182105
+          },
+          "path": "/root/user/cs_tcci_zhouyulin/recare_official_20261024/runs/finetune/jina_v3_recovery_v2/hybrid_top50_fulltext/pretrained/retrieval/rat2rev-en/bm25.jsonl",
+          "sha256": "80595a4c39f429de3ce7b79601b5aa159b0060b4eaf31060385baf2a853243fc"
+        },
+        "rrf": {
+          "metrics": {
+            "ndcg_10": 0.19040519005304943,
+            "recall_100": 0.3647207995695931
+          },
+          "path": "/root/user/cs_tcci_zhouyulin/recare_official_20261024/runs/finetune/jina_v3_recovery_v2/hybrid_top50_fulltext/pretrained/retrieval/rat2rev-en/rrf.jsonl",
+          "sha256": "a2360b4a1fc0549c871de15c3cbeb1121b684ecd949b4632562b1f823d5ad950"
+        },
+        "qwen_reranker": {
+          "metrics": {
+            "ndcg_10": 0.24700128277228592,
+            "recall_100": 0.3933043706191423
+          },
+          "path": "/root/user/cs_tcci_zhouyulin/recare_official_20261024/runs/finetune/jina_v3_recovery_v2/hybrid_top50_fulltext/pretrained/qwen/rat2rev-en/recare.jsonl",
+          "sha256": "08bf88d80292f3694df85e35ecc9412446c8a0f2bb85797ba5f96fe63b561acc"
+        },
+        "llm_reranker": {
+          "metrics": {
+            "ndcg_10": 0.3136486510378504,
+            "recall_100": 0.3933043706191423
+          },
+          "path": "/root/user/cs_tcci_zhouyulin/recare_official_20261024/runs/finetune/jina_v3_recovery_v2/hybrid_top50_fulltext/pretrained/llm/rerank/rat2rev-en/local_team_rat2rev-en_run1.jsonl",
+          "sha256": "f7c07f4653e963a3c5c683fe5df6c2bb431ea887caf3a110a1ab5da3200f49e4"
+        }
+      },
+      "finetuned": {
+        "rewritten_embedding": {
+          "metrics": {
+            "ndcg_10": 0.17975280661071244,
+            "recall_100": 0.3443684785125383
+          },
+          "path": "/root/user/cs_tcci_zhouyulin/recare_official_20261024/runs/finetune/jina_v3_recovery_v2/hybrid_top50_fulltext/finetuned/retrieval/rat2rev-en/dense.jsonl",
+          "sha256": "045c6109c36867947efd7e28a9de828f5d7561bf56ce345878d9fdf0e383ec7d"
+        },
+        "bm25": {
+          "metrics": {
+            "ndcg_10": 0.1470237704818596,
+            "recall_100": 0.27764668838182105
+          },
+          "path": "/root/user/cs_tcci_zhouyulin/recare_official_20261024/runs/finetune/jina_v3_recovery_v2/hybrid_top50_fulltext/finetuned/retrieval/rat2rev-en/bm25.jsonl",
+          "sha256": "80595a4c39f429de3ce7b79601b5aa159b0060b4eaf31060385baf2a853243fc"
+        },
+        "rrf": {
+          "metrics": {
+            "ndcg_10": 0.18720106068105274,
+            "recall_100": 0.372855324412092
+          },
+          "path": "/root/user/cs_tcci_zhouyulin/recare_official_20261024/runs/finetune/jina_v3_recovery_v2/hybrid_top50_fulltext/finetuned/retrieval/rat2rev-en/rrf.jsonl",
+          "sha256": "c3f7ca2adfd2f99599e9760c6ce1b2998157b641ac3ca28e7ee3c0d68cb781e4"
+        },
+        "qwen_reranker": {
+          "metrics": {
+            "ndcg_10": 0.24279175833445846,
+            "recall_100": 0.3994032342050634
+          },
+          "path": "/root/user/cs_tcci_zhouyulin/recare_official_20261024/runs/finetune/jina_v3_recovery_v2/hybrid_top50_fulltext/finetuned/qwen/rat2rev-en/recare.jsonl",
+          "sha256": "75ac220782fffee9dc6b4fde462ef996b38912583af59ce319f072d034ed5a71"
+        },
+        "llm_reranker": {
+          "metrics": {
+            "ndcg_10": 0.3135021425489058,
+            "recall_100": 0.3994032342050634
+          },
+          "path": "/root/user/cs_tcci_zhouyulin/recare_official_20261024/runs/finetune/jina_v3_recovery_v2/hybrid_top50_fulltext/finetuned/llm/rerank/rat2rev-en/local_team_rat2rev-en_run1.jsonl",
+          "sha256": "5373efa2fb53e49643605fd76819599e31c07b347a71ab598bafbc87d139626d"
+        }
+      },
+      "absolute_change": {
+        "rewritten_embedding": {
+          "ndcg_10": -0.00913076308818389,
+          "recall_100": 0.01246482831638629
+        },
+        "bm25": {
+          "ndcg_10": 0.0,
+          "recall_100": 0.0
+        },
+        "rrf": {
+          "ndcg_10": -0.0032041293719966835,
+          "recall_100": 0.008134524842498936
+        },
+        "qwen_reranker": {
+          "ndcg_10": -0.004209524437827461,
+          "recall_100": 0.006098863585921099
+        },
+        "llm_reranker": {
+          "ndcg_10": -0.00014650848894459667,
+          "recall_100": 0.006098863585921099
+        }
+      },
+      "final_ndcg_query_changes": {
+        "improved": 30,
+        "unchanged": 54,
+        "degraded": 29,
+        "relative_percent": -0.04671102153948059
+      },
+      "candidate_pool_analysis": {
+        "analysis_only": true,
+        "qrels_used_for_inference": false,
+        "qrels_sha256": "c5215c8506c684bcbed81b5d04429db6fe7a83ba77ddfb1888cb57a607fdf485",
+        "binary_qrels": true,
+        "pretrained": {
+          "recall_50": 0.34611200616076065,
+          "oracle_ndcg_10_within_top50": 0.5454197826820496
+        },
+        "finetuned": {
+          "recall_50": 0.348539473692467,
+          "oracle_ndcg_10_within_top50": 0.549793763196592
+        }
+      }
+    },
+    "rev2rev-en": {
+      "pretrained": {
+        "rewritten_embedding": {
+          "metrics": {
+            "ndcg_10": 0.1771169214089061,
+            "recall_100": 0.3284576273829295
+          },
+          "path": "/root/user/cs_tcci_zhouyulin/recare_official_20261024/runs/finetune/jina_v3_recovery_v2/hybrid_top50_fulltext/pretrained/retrieval/rev2rev-en/dense.jsonl",
+          "sha256": "1354e8eb9356da6265d01727ba4c4c2fd99c23c472c8f944748f079fd60c9388"
+        },
+        "bm25": {
+          "metrics": {
+            "ndcg_10": 0.22021776622378655,
+            "recall_100": 0.3744750479153095
+          },
+          "path": "/root/user/cs_tcci_zhouyulin/recare_official_20261024/runs/finetune/jina_v3_recovery_v2/hybrid_top50_fulltext/pretrained/retrieval/rev2rev-en/bm25.jsonl",
+          "sha256": "923d8cbdc28c326a4adcdb2dc2ad7f391f6655fde51861988c903e8c065480c0"
+        },
+        "rrf": {
+          "metrics": {
+            "ndcg_10": 0.219803264455666,
+            "recall_100": 0.398931698255517
+          },
+          "path": "/root/user/cs_tcci_zhouyulin/recare_official_20261024/runs/finetune/jina_v3_recovery_v2/hybrid_top50_fulltext/pretrained/retrieval/rev2rev-en/rrf.jsonl",
+          "sha256": "4414856eed068236fb4c27cc2c34336de260e15f0177e60e421b6fb983bdd707"
+        },
+        "qwen_reranker": {
+          "metrics": {
+            "ndcg_10": 0.1966333489253185,
+            "recall_100": 0.40980115574335374
+          },
+          "path": "/root/user/cs_tcci_zhouyulin/recare_official_20261024/runs/finetune/jina_v3_recovery_v2/hybrid_top50_fulltext/pretrained/qwen/rev2rev-en/recare.jsonl",
+          "sha256": "ad9bdf2bc1acc1076712f0a8fe43e90a0c5ce400c8c287dfd6578a77a81327ac"
+        },
+        "llm_reranker": {
+          "metrics": {
+            "ndcg_10": 0.2543167689519078,
+            "recall_100": 0.40980115574335374
+          },
+          "path": "/root/user/cs_tcci_zhouyulin/recare_official_20261024/runs/finetune/jina_v3_recovery_v2/hybrid_top50_fulltext/pretrained/llm/rerank/rev2rev-en/local_team_rev2rev-en_run1.jsonl",
+          "sha256": "f8cef591b5bcc6079ccb5578faadab5454bfd82e71fe1db84b0de6c1c3bb519c"
+        }
+      },
+      "finetuned": {
+        "rewritten_embedding": {
+          "metrics": {
+            "ndcg_10": 0.16709422546233924,
+            "recall_100": 0.33203607074261193
+          },
+          "path": "/root/user/cs_tcci_zhouyulin/recare_official_20261024/runs/finetune/jina_v3_recovery_v2/hybrid_top50_fulltext/finetuned/retrieval/rev2rev-en/dense.jsonl",
+          "sha256": "2504d98a9b9e426c5dfc25c14dfe1d0b308f5dbedb34e72a18de804c5011393d"
+        },
+        "bm25": {
+          "metrics": {
+            "ndcg_10": 0.22021776622378655,
+            "recall_100": 0.3744750479153095
+          },
+          "path": "/root/user/cs_tcci_zhouyulin/recare_official_20261024/runs/finetune/jina_v3_recovery_v2/hybrid_top50_fulltext/finetuned/retrieval/rev2rev-en/bm25.jsonl",
+          "sha256": "923d8cbdc28c326a4adcdb2dc2ad7f391f6655fde51861988c903e8c065480c0"
+        },
+        "rrf": {
+          "metrics": {
+            "ndcg_10": 0.22380410122921224,
+            "recall_100": 0.40933222606263703
+          },
+          "path": "/root/user/cs_tcci_zhouyulin/recare_official_20261024/runs/finetune/jina_v3_recovery_v2/hybrid_top50_fulltext/finetuned/retrieval/rev2rev-en/rrf.jsonl",
+          "sha256": "e45e3ee30c02b3597e353c6d4f7d5f43938ad4b101d4f5d95763d9b68f816d51"
+        },
+        "qwen_reranker": {
+          "metrics": {
+            "ndcg_10": 0.19494419082150724,
+            "recall_100": 0.4142118277583321
+          },
+          "path": "/root/user/cs_tcci_zhouyulin/recare_official_20261024/runs/finetune/jina_v3_recovery_v2/hybrid_top50_fulltext/finetuned/qwen/rev2rev-en/recare.jsonl",
+          "sha256": "994d562ec3b68ef3d11b0f99809226ba547ca17644286cae46dfdf6df5f44d3d"
+        },
+        "llm_reranker": {
+          "metrics": {
+            "ndcg_10": 0.25608689915408994,
+            "recall_100": 0.4142118277583321
+          },
+          "path": "/root/user/cs_tcci_zhouyulin/recare_official_20261024/runs/finetune/jina_v3_recovery_v2/hybrid_top50_fulltext/finetuned/llm/rerank/rev2rev-en/local_team_rev2rev-en_run1.jsonl",
+          "sha256": "757702f0bbfb45f9cb9accaef888ea54571715e1ecf8efffbcea698604ce751d"
+        }
+      },
+      "absolute_change": {
+        "rewritten_embedding": {
+          "ndcg_10": -0.01002269594656685,
+          "recall_100": 0.003578443359682437
+        },
+        "bm25": {
+          "ndcg_10": 0.0,
+          "recall_100": 0.0
+        },
+        "rrf": {
+          "ndcg_10": 0.004000836773546235,
+          "recall_100": 0.01040052780712003
+        },
+        "qwen_reranker": {
+          "ndcg_10": -0.0016891581038112613,
+          "recall_100": 0.004410672014978356
+        },
+        "llm_reranker": {
+          "ndcg_10": 0.0017701302021821408,
+          "recall_100": 0.004410672014978356
+        }
+      },
+      "final_ndcg_query_changes": {
+        "improved": 116,
+        "unchanged": 274,
+        "degraded": 113,
+        "relative_percent": 0.6960336156664804
+      },
+      "candidate_pool_analysis": {
+        "analysis_only": true,
+        "qrels_used_for_inference": false,
+        "qrels_sha256": "21a4908238fdd57ce19d9e1ac5d7474cca18d2a52677d8727df2260ee0ec216b",
+        "binary_qrels": true,
+        "pretrained": {
+          "recall_50": 0.33249241420387854,
+          "oracle_ndcg_10_within_top50": 0.5247434890337455
+        },
+        "finetuned": {
+          "recall_50": 0.33266881422738565,
+          "oracle_ndcg_10_within_top50": 0.5236996438678889
+        }
+      }
+    }
+  },
+  "selection_changed_on_test": false,
+  "official_provenance": {
+    "created_at": "2026-10-28T02:31:53+08:00",
+    "official_commit": "443a9344b99dfd271fbd1534e4401e50cd14f693",
+    "official_source_unmodified": true,
+    "official_repo": "/root/user/cs_tcci_zhouyulin/recare_official_20261024/official_baselines/ReCaRe",
+    "source_sha256": {
+      "data.py": "8f0e06a43f008c5de98e2873a8514b260c472003c7a9452b1121c30ba5ad52a3",
+      "dense.py": "50580e158e1baad4b0044f202a881a52aac142cc61e82076d45aceb0cbea0663",
+      "eval.py": "dd036c263f78fd281406529214a80e68c4623183793b04f3334a26a3d2952fc3",
+      "ranked_eval.py": "629222ff13869e134291c7e8e0495b69e32eafb13522f5d179600eb3ad898426"
+    },
+    "dataset": "/root/user/cs_tcci_zhouyulin/recare_official_20261024/ReCaRe",
+    "split": "test",
+    "mode": "paired_jina_finetune_fulltext",
+    "tasks": [
+      "rat2rev-en",
+      "rev2rev-en"
+    ]
+  },
+  "selected_model": {
+    "selected_at": "2026-10-27T20:52:53+08:00",
+    "selected_variant": "dual_mixed_anchor",
+    "selected_checkpoint": "/root/user/cs_tcci_zhouyulin/recare_official_20261024/runs/finetune/jina_v3_recovery_v2/exports/dual_mixed_anchor-step00024",
+    "weights_sha256": "db1b2495dbcda8600f6130571a59bc59b097f88ab0c81461820ef6863ed0a07e",
+    "config_sha256": "85b92e2d98ad8d7d2ae66275c29e90419282c78f0e2651a2c37094169b2894a1",
+    "selection_source": "event-isolated validation; no test-based checkpoint selection",
+    "test_labels_used": false,
+    "native_validation": {
+      "rat2rev-en": {
+        "ndcg_10": 0.10602922190135608,
+        "recall_100": 0.2498450398906262
+      },
+      "rev2rev-en": {
+        "ndcg_10": 0.14808385032772162,
+        "recall_100": 0.19949915887569042
+      }
+    },
+    "original_native_validation": {
+      "rat2rev-en": {
+        "ndcg_10": 0.10131680505747498,
+        "recall_100": 0.25103321920506744
+      },
+      "rev2rev-en": {
+        "ndcg_10": 0.14611021001548619,
+        "recall_100": 0.19948087569892547
+      }
+    },
+    "phase2_best_step": 0,
+    "phase2_completed_epochs": 1,
+    "phase2_training_groups_processed": 1851,
+    "phase2_result_sha256": "d473d2cad003cb51fae78164c72ce9a5d02fdd98c7ab7b0ac30b28ef1e6846a5",
+    "reason": "Second-stage calibration did not improve eligible validation metrics; retain the validated first-stage fine-tuned checkpoint"
+  },
+  "configuration": {
+    "rewritten_dense": true,
+    "bm25_query": "full original",
+    "dense_bm25_rrf_top_k": 200,
+    "rrf_k": 60,
+    "qwen_template": "pinned ReCaRe",
+    "qwen_max_tokens": 8192,
+    "llm_top_k": 50,
+    "llm_candidate_text": "full",
+    "llm_query_text": "full original",
+    "llm_overflow": "smaller overlapping windows; no text truncation"
+  }
+}

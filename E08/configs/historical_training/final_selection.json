@@ -1,0 +1,34 @@
+{
+  "selected_at": "2026-10-27T20:52:53+08:00",
+  "selected_variant": "dual_mixed_anchor",
+  "selected_checkpoint": "/root/user/cs_tcci_zhouyulin/recare_official_20261024/runs/finetune/jina_v3_recovery_v2/exports/dual_mixed_anchor-step00024",
+  "weights_sha256": "db1b2495dbcda8600f6130571a59bc59b097f88ab0c81461820ef6863ed0a07e",
+  "config_sha256": "85b92e2d98ad8d7d2ae66275c29e90419282c78f0e2651a2c37094169b2894a1",
+  "selection_source": "event-isolated validation; no test-based checkpoint selection",
+  "test_labels_used": false,
+  "native_validation": {
+    "rat2rev-en": {
+      "ndcg_10": 0.10602922190135608,
+      "recall_100": 0.2498450398906262
+    },
+    "rev2rev-en": {
+      "ndcg_10": 0.14808385032772162,
+      "recall_100": 0.19949915887569042
+    }
+  },
+  "original_native_validation": {
+    "rat2rev-en": {
+      "ndcg_10": 0.10131680505747498,
+      "recall_100": 0.25103321920506744
+    },
+    "rev2rev-en": {
+      "ndcg_10": 0.14611021001548619,
+      "recall_100": 0.19948087569892547
+    }
+  },
+  "phase2_best_step": 0,
+  "phase2_completed_epochs": 1,
+  "phase2_training_groups_processed": 1851,
+  "phase2_result_sha256": "d473d2cad003cb51fae78164c72ce9a5d02fdd98c7ab7b0ac30b28ef1e6846a5",
+  "reason": "Second-stage calibration did not improve eligible validation metrics; retain the validated first-stage fine-tuned checkpoint"
+}

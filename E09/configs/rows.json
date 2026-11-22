@@ -1,0 +1,41 @@
+[
+  {
+    "row_id": "E09.R1",
+    "configuration": "RRF Top200完整排名",
+    "source_experiment": "E11",
+    "source_row_id": "E11.001",
+    "source_row_id_v2": "E11.V2.R001",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E09.R2",
+    "configuration": "Qwen重排200后的完整排名",
+    "source_experiment": "E11",
+    "source_row_id": "E11.002",
+    "source_row_id_v2": "E11.V2.R002",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E09.R3",
+    "configuration": "最终LLM重排Top100、尾部保留",
+    "source_experiment": "E11",
+    "source_row_id": "E11.003",
+    "source_row_id_v2": "E11.V2.R003",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  }
+]

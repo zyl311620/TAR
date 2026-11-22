@@ -1,0 +1,19 @@
+{
+  "signature": "b992fcb44db6100d625ad78a7b7187b5d63734851047328500faa4e69256ac8b",
+  "at": "2026-10-30T17:34:50+08:00",
+  "complete": true,
+  "split": "test",
+  "task": "rat2rev-en",
+  "k": 100,
+  "dense_weight": 2.0,
+  "bm25_params": {
+    "k1": 1.2,
+    "b": 0.75
+  },
+  "input_files": {
+    "experiments/E01/native/bm25/rat2rev-en/test/k1.2_b0.75/top1000.scored.jsonl": "0b6c71e2bb3f1f3ef81075e84b616e2e7f391c259049cb9d48a405d6fb40b811",
+    "experiments/E01/native/jina-embeddings-v4/rat2rev-en/test/top1000.scored.jsonl": "bc69fa99c4dda39317150f9fe446970e8189386b814288bba97d402d13569c83"
+  },
+  "query_policy": "original_only",
+  "new_model_api_calls": 0
+}

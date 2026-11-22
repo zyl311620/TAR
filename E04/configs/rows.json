@@ -1,0 +1,54 @@
+[
+  {
+    "row_id": "E04.R1",
+    "configuration": "T0：通用主题相关性【gpt-6.1-sol缓存】",
+    "source_experiment": "E04",
+    "source_row_id": "E04.001",
+    "source_row_id_v2": "E04.V2.R001",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E04.R2",
+    "configuration": "T1：明确 Rat/Rev 任务定义【gpt-6.1-sol缓存】",
+    "source_experiment": "E04",
+    "source_row_id": "E04.002",
+    "source_row_id_v2": "E04.V2.R002",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E04.R3",
+    "configuration": "T2：T1 + 修订方向与制度关系判据【gpt-6.1-sol缓存】",
+    "source_experiment": "E04",
+    "source_row_id": "E04.003",
+    "source_row_id_v2": "E04.V2.R003",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E04.R4",
+    "configuration": "T0-budget：通用判据、相近推理/输出预算【gpt-6.1-sol缓存】",
+    "source_experiment": "E04",
+    "source_row_id": "E04.004",
+    "source_row_id_v2": "E04.V2.R004",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  }
+]

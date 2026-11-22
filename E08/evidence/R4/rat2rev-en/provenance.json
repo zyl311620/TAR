@@ -1,0 +1,10 @@
+{
+  "original_path": "/root/user/cs_tcci_zhouyulin/recare_official_20261024/runs/finetune/jina_v3_recovery_v2/hybrid_top50_fulltext/finetuned/retrieval/rat2rev-en/rrf.jsonl",
+  "original_sha256": "c3f7ca2adfd2f99599e9760c6ce1b2998157b641ac3ca28e7ee3c0d68cb781e4",
+  "canonical_ranked_path": "experiments/E10/runs/E10.004/rat2rev-en/ranked.jsonl",
+  "canonical_sha256": "c3f7ca2adfd2f99599e9760c6ce1b2998157b641ac3ca28e7ee3c0d68cb781e4",
+  "qrels_sha256": "c5215c8506c684bcbed81b5d04429db6fe7a83ba77ddfb1888cb57a607fdf485",
+  "output_length": 200,
+  "conditions": "",
+  "inference_was_not_repeated": true
+}

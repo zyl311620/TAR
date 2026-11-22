@@ -1,0 +1,10 @@
+{
+  "original_path": "D:\\论文+比赛\\2026比赛\\CAIL\\法律修订候选检索\\初赛\\runs\\v4_multiquery_20261028\\v4_single\\reranking\\v4_single\\qwen\\rev2rev-en\\recare.jsonl",
+  "original_sha256": "9566a44fa34d148a3783815ec5b30129285dfe997a43d7a7bd53d7d56fa7f351",
+  "canonical_ranked_path": "experiments\\E11\\runs\\E11.002\\rev2rev-en\\ranked.jsonl",
+  "canonical_sha256": "9566a44fa34d148a3783815ec5b30129285dfe997a43d7a7bd53d7d56fa7f351",
+  "qrels_sha256": "21a4908238fdd57ce19d9e1ac5d7474cca18d2a52677d8727df2260ee0ec216b",
+  "output_length": 200,
+  "conditions": "Historical bilingual pipeline; original generators differ across languages",
+  "inference_was_not_repeated": true
+}

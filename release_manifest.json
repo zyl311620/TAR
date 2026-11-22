@@ -1,0 +1,125 @@
+{
+  "created_at": "2026-11-07T19:20:59+08:00",
+  "scope_authority": "current human-edited manuscript, not old study completion counters",
+  "manuscript_sha256": "0591718dd65f8d497d993fd82f5e7b3774b21c366f53e410c34a15418cdfc96c",
+  "experiments": [
+    {
+      "paper_experiment": "E01",
+      "title": "Baselines and complete-system references",
+      "legacy_experiment": "E01",
+      "presentation": "table",
+      "paper_asset": "tab:E01",
+      "rows": 26,
+      "task_settings": 104
+    },
+    {
+      "paper_experiment": "E02",
+      "title": "Module controls and interactions",
+      "legacy_experiment": "E02",
+      "presentation": "table",
+      "paper_asset": "tab:E02",
+      "rows": 7,
+      "task_settings": 28
+    },
+    {
+      "paper_experiment": "E03",
+      "title": "Query strategies and anchored views",
+      "legacy_experiment": "E03",
+      "presentation": "composite figure",
+      "paper_asset": "fig:E03",
+      "rows": 12,
+      "task_settings": 48
+    },
+    {
+      "paper_experiment": "E04",
+      "title": "Task criteria under a fixed cached backend",
+      "legacy_experiment": "E04",
+      "presentation": "composite figure",
+      "paper_asset": "fig:E04",
+      "rows": 4,
+      "task_settings": 16
+    },
+    {
+      "paper_experiment": "E05",
+      "title": "Candidate and cross-encoder depth",
+      "legacy_experiment": "E05",
+      "presentation": "composite figure",
+      "paper_asset": "fig:E05",
+      "rows": 8,
+      "task_settings": 32
+    },
+    {
+      "paper_experiment": "E06",
+      "title": "RRF parameter sensitivity",
+      "legacy_experiment": "E07",
+      "presentation": "composite figure",
+      "paper_asset": "fig:E07",
+      "rows": 9,
+      "task_settings": 36
+    },
+    {
+      "paper_experiment": "E07",
+      "title": "Retrieval backbones and ranking backends",
+      "legacy_experiment": "E08",
+      "presentation": "table",
+      "paper_asset": "tab:E08",
+      "rows": 13,
+      "task_settings": 52
+    },
+    {
+      "paper_experiment": "E08",
+      "title": "Historical fine-tuning pairs",
+      "legacy_experiment": "E10",
+      "presentation": "composite figure",
+      "paper_asset": "fig:E10",
+      "rows": 8,
+      "task_settings": 16
+    },
+    {
+      "paper_experiment": "E09",
+      "title": "Coverage and the ranking gap",
+      "legacy_experiment": "E11",
+      "presentation": "composite figure",
+      "paper_asset": "fig:E11",
+      "rows": 3,
+      "task_settings": 12
+    },
+    {
+      "paper_experiment": "E10",
+      "title": "Repeatability and input-order sensitivity",
+      "legacy_experiment": "E12",
+      "presentation": "composite figure",
+      "paper_asset": "fig:E12",
+      "rows": 5,
+      "task_settings": 20
+    }
+  ],
+  "settings": 364,
+  "unique_ranked_files": 272,
+  "raw_request_files": 119801,
+  "missing_raw_request_references": 0,
+  "old_study_directories_modified": false,
+  "new_inference": false,
+  "excluded_from_release": [
+    "old E06 unfinished397B text/window controls",
+    "old E09 transfer policies",
+    "old E13 removed human review",
+    "old E14 optional efficiency",
+    "unperformed397B conditions in other families",
+    "retired GPT extensions",
+    "failed/partial checkpoints",
+    "SSH, provider, deployment and queue maintenance code"
+  ],
+  "original_evidence_remains_at": "../../experiments and ../../revisions; synchronized working trees are not deleted",
+  "official_reported_rows_are_not_new_inference": true,
+  "native9b_R10_decoder_difference_disclosed": true,
+  "distribution_policy": {
+    "dataset_contents_distributed": false,
+    "manuscript_assets_distributed": false,
+    "raw_requests_distributed": false,
+    "generated_query_text_distributed": false,
+    "old_release_withdrawn": true,
+    "external_inputs": "evaluation_inputs.json",
+    "note": "Historical counts describe the local archived study, not publicly bundled raw evidence."
+  }
+}

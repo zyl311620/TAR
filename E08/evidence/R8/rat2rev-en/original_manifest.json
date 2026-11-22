@@ -1,0 +1,51 @@
+{
+  "identity": {
+    "version": "qwen35-zero-shot-v1",
+    "task": "rat2rev-en",
+    "split": "test",
+    "mode": "rerank",
+    "queries_sha256": "7e0893e2e4a504f98461ba5ca57a137f21b7356f49cd59d8af40d77cdda80777",
+    "corpus_sha256": "dea3c9a5b5986e4aacb3add4c91263a1c8639e337818ed49cc6d19c7b11a9827",
+    "llm": {
+      "model": "Qwen3.5-397B",
+      "endpoint_hash": "9a7fb82a1ce23b866f50448a0008d6bd840269c04d4746d90b05cc364ed84f4f",
+      "extra_body": {
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "response_format": {
+          "type": "json_object"
+        }
+      },
+      "temperature": 0,
+      "format_attempts": 5,
+      "context_limit": 262144
+    },
+    "test_labels_used_for_inference": false,
+    "prompt_template_sha256": "8d6019a412f68905f4d2357915df6c70cf8bcb0c35ee2019c8cae411aea24348",
+    "baseline_sha256": "75ac220782fffee9dc6b4fde462ef996b38912583af59ce319f072d034ed5a71",
+    "top_k": 50,
+    "window_size": 50,
+    "stride": 50,
+    "full_original_queries": true,
+    "full_candidate_text": true,
+    "passage_word_cap": null,
+    "tail_after_top_k_preserved": true,
+    "baseline_manifest_sha256": "68879d2c939b39e4d4c28e86df2feba8f1bed0324a18669e102f3940dbabdaa8",
+    "context_overflow_policy": "smaller overlapping windows; never truncate text"
+  },
+  "identity_hash": "308268b0b996d6178a45543fb9523ed67c0f74f356d06d4e6aeed1a6e8fa871d",
+  "status": "complete",
+  "started_at": "2026-10-27T22:56:08+08:00",
+  "expected_queries": 113,
+  "completed_queries": 113,
+  "updated_at": "2026-10-27T23:49:10+08:00",
+  "errors": [],
+  "result": "/root/user/cs_tcci_zhouyulin/recare_official_20261024/runs/finetune/jina_v3_recovery_v2/hybrid_top50_fulltext/finetuned/llm/rerank/rat2rev-en/local_team_rat2rev-en_run1.jsonl",
+  "result_sha256": "5373efa2fb53e49643605fd76819599e31c07b347a71ab598bafbc87d139626d",
+  "completed_at": "2026-10-27T23:49:10+08:00",
+  "logical_calls": 116,
+  "prompt_tokens": 6700634,
+  "completion_tokens": 28979,
+  "api_calls": 151
+}

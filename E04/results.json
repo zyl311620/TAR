@@ -1,0 +1,722 @@
+[
+  {
+    "row_id": "E04.R1",
+    "source_row_id": "E04.001",
+    "source_row_id_v2": "E04.V2.R001",
+    "configuration": "T0：通用主题相关性【gpt-6.1-sol缓存】",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_gpt_experiment",
+    "metrics": {
+      "ndcg_10": 0.3788346397522432,
+      "recall_100": 0.43032695447664965,
+      "map": 0.26070502379445115
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/c31e913110198c88df609ff1708d21c4ce452a1cbe16b55b16beb0645c5310f6.jsonl",
+        "sha256": "c31e913110198c88df609ff1708d21c4ce452a1cbe16b55b16beb0645c5310f6"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E04/runs/E04.001/rat2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "c31e913110198c88df609ff1708d21c4ce452a1cbe16b55b16beb0645c5310f6",
+      "split": "test",
+      "config": {
+        "criterion": "T0",
+        "depth": 100,
+        "fixed_window": false,
+        "passage_cap": 0,
+        "query_cap": 0,
+        "passage_word_cap": 0
+      },
+      "model": "gpt-6.1-sol",
+      "new_gpt_http_requests": 260
+    },
+    "evidence": [
+      "E04/evidence/R1/rat2rev-en/manifest.json",
+      "E04/evidence/R1/rat2rev-en/official_metrics.json",
+      "E04/evidence/R1/rat2rev-en/metrics.json",
+      "E04/evidence/R1/rat2rev-en/per_query.csv"
+    ],
+    "request_indexes": [
+      "E04/evidence/R1/rat2rev-en/requests.json"
+    ]
+  },
+  {
+    "row_id": "E04.R1",
+    "source_row_id": "E04.001",
+    "source_row_id_v2": "E04.V2.R001",
+    "configuration": "T0：通用主题相关性【gpt-6.1-sol缓存】",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_gpt_experiment",
+    "metrics": {
+      "ndcg_10": 0.2625032809663563,
+      "recall_100": 0.4319828436448042,
+      "map": 0.17809618213260478
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/900fefe9dbcfabf8f09e2c4acaebebd6c655792e3654034a1a58055fa0803f26.jsonl",
+        "sha256": "900fefe9dbcfabf8f09e2c4acaebebd6c655792e3654034a1a58055fa0803f26"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E04/runs/E04.001/rev2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "900fefe9dbcfabf8f09e2c4acaebebd6c655792e3654034a1a58055fa0803f26",
+      "split": "test",
+      "config": {
+        "criterion": "T0",
+        "depth": 100,
+        "fixed_window": false,
+        "passage_cap": 0,
+        "query_cap": 0,
+        "passage_word_cap": 0
+      },
+      "model": "gpt-6.1-sol",
+      "new_gpt_http_requests": 951
+    },
+    "evidence": [
+      "E04/evidence/R1/rev2rev-en/manifest.json",
+      "E04/evidence/R1/rev2rev-en/official_metrics.json",
+      "E04/evidence/R1/rev2rev-en/metrics.json",
+      "E04/evidence/R1/rev2rev-en/per_query.csv"
+    ],
+    "request_indexes": [
+      "E04/evidence/R1/rev2rev-en/requests.json"
+    ]
+  },
+  {
+    "row_id": "E04.R1",
+    "source_row_id": "E04.001",
+    "source_row_id_v2": "E04.V2.R001",
+    "configuration": "T0：通用主题相关性【gpt-6.1-sol缓存】",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_gpt_experiment",
+    "metrics": {
+      "ndcg_10": 0.48714253232192734,
+      "recall_100": 0.548316201884656,
+      "map": 0.3248355009097988
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/d17a3972e6e4508b9603fc2472b4f73a8c8a3e394718cf509d570d6e6c2d0c04.jsonl",
+        "sha256": "d17a3972e6e4508b9603fc2472b4f73a8c8a3e394718cf509d570d6e6c2d0c04"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E04/runs/E04.001/rat2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "d17a3972e6e4508b9603fc2472b4f73a8c8a3e394718cf509d570d6e6c2d0c04",
+      "split": "test",
+      "config": {
+        "criterion": "T0",
+        "depth": 100,
+        "fixed_window": false,
+        "passage_cap": 0,
+        "query_cap": 0,
+        "passage_word_cap": 0
+      },
+      "model": "gpt-6.1-sol",
+      "new_gpt_http_requests": 213
+    },
+    "evidence": [
+      "E04/evidence/R1/rat2rev-ja/manifest.json",
+      "E04/evidence/R1/rat2rev-ja/official_metrics.json",
+      "E04/evidence/R1/rat2rev-ja/metrics.json",
+      "E04/evidence/R1/rat2rev-ja/per_query.csv"
+    ],
+    "request_indexes": [
+      "E04/evidence/R1/rat2rev-ja/requests.json"
+    ]
+  },
+  {
+    "row_id": "E04.R1",
+    "source_row_id": "E04.001",
+    "source_row_id_v2": "E04.V2.R001",
+    "configuration": "T0：通用主题相关性【gpt-6.1-sol缓存】",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_gpt_experiment",
+    "metrics": {
+      "ndcg_10": 0.3098198938150764,
+      "recall_100": 0.5016260127325776,
+      "map": 0.199590206937275
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/4e39539ca39be9071c6edc3919e096a40edd5cd7c9d583621b68f050253aca1f.jsonl",
+        "sha256": "4e39539ca39be9071c6edc3919e096a40edd5cd7c9d583621b68f050253aca1f"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E04/runs/E04.001/rev2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "4e39539ca39be9071c6edc3919e096a40edd5cd7c9d583621b68f050253aca1f",
+      "split": "test",
+      "config": {
+        "criterion": "T0",
+        "depth": 100,
+        "fixed_window": false,
+        "passage_cap": 0,
+        "query_cap": 0,
+        "passage_word_cap": 0
+      },
+      "model": "gpt-6.1-sol",
+      "new_gpt_http_requests": 931
+    },
+    "evidence": [
+      "E04/evidence/R1/rev2rev-ja/manifest.json",
+      "E04/evidence/R1/rev2rev-ja/official_metrics.json",
+      "E04/evidence/R1/rev2rev-ja/metrics.json",
+      "E04/evidence/R1/rev2rev-ja/per_query.csv"
+    ],
+    "request_indexes": [
+      "E04/evidence/R1/rev2rev-ja/requests.json"
+    ]
+  },
+  {
+    "row_id": "E04.R2",
+    "source_row_id": "E04.002",
+    "source_row_id_v2": "E04.V2.R002",
+    "configuration": "T1：明确 Rat/Rev 任务定义【gpt-6.1-sol缓存】",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_gpt_experiment",
+    "metrics": {
+      "ndcg_10": 0.4457487874936842,
+      "recall_100": 0.43032695447664965,
+      "map": 0.30248082657056263
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/7b3af46e9d2d3244036903991bf41c035e7ea1b2429ef098366d741d1ad21020.jsonl",
+        "sha256": "7b3af46e9d2d3244036903991bf41c035e7ea1b2429ef098366d741d1ad21020"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E04/runs/E04.002/rat2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "7b3af46e9d2d3244036903991bf41c035e7ea1b2429ef098366d741d1ad21020",
+      "split": "test",
+      "config": {
+        "criterion": "T1",
+        "depth": 100,
+        "fixed_window": false,
+        "passage_cap": 0,
+        "query_cap": 0,
+        "passage_word_cap": 0
+      },
+      "model": "gpt-6.1-sol",
+      "new_gpt_http_requests": 254
+    },
+    "evidence": [
+      "E04/evidence/R2/rat2rev-en/manifest.json",
+      "E04/evidence/R2/rat2rev-en/official_metrics.json",
+      "E04/evidence/R2/rat2rev-en/metrics.json",
+      "E04/evidence/R2/rat2rev-en/per_query.csv"
+    ],
+    "request_indexes": [
+      "E04/evidence/R2/rat2rev-en/requests.json"
+    ]
+  },
+  {
+    "row_id": "E04.R2",
+    "source_row_id": "E04.002",
+    "source_row_id_v2": "E04.V2.R002",
+    "configuration": "T1：明确 Rat/Rev 任务定义【gpt-6.1-sol缓存】",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_gpt_experiment",
+    "metrics": {
+      "ndcg_10": 0.3535922701393312,
+      "recall_100": 0.4319828436448042,
+      "map": 0.2323427271067481
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/78d0af2dc6716643b71687bb4a0d4eacd0fe6ea5766de4316d25ed3ba3cbb678.jsonl",
+        "sha256": "78d0af2dc6716643b71687bb4a0d4eacd0fe6ea5766de4316d25ed3ba3cbb678"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E04/runs/E04.002/rev2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "78d0af2dc6716643b71687bb4a0d4eacd0fe6ea5766de4316d25ed3ba3cbb678",
+      "split": "test",
+      "config": {
+        "criterion": "T1",
+        "depth": 100,
+        "fixed_window": false,
+        "passage_cap": 0,
+        "query_cap": 0,
+        "passage_word_cap": 0
+      },
+      "model": "gpt-6.1-sol",
+      "new_gpt_http_requests": 937
+    },
+    "evidence": [
+      "E04/evidence/R2/rev2rev-en/manifest.json",
+      "E04/evidence/R2/rev2rev-en/official_metrics.json",
+      "E04/evidence/R2/rev2rev-en/metrics.json",
+      "E04/evidence/R2/rev2rev-en/per_query.csv"
+    ],
+    "request_indexes": [
+      "E04/evidence/R2/rev2rev-en/requests.json"
+    ]
+  },
+  {
+    "row_id": "E04.R2",
+    "source_row_id": "E04.002",
+    "source_row_id_v2": "E04.V2.R002",
+    "configuration": "T1：明确 Rat/Rev 任务定义【gpt-6.1-sol缓存】",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_gpt_experiment",
+    "metrics": {
+      "ndcg_10": 0.5336523128788915,
+      "recall_100": 0.548316201884656,
+      "map": 0.35463705004873675
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/efa45734d75087c7ce2e4640f2c4bf25620e26cf539dd35e918d7b27b021532e.jsonl",
+        "sha256": "efa45734d75087c7ce2e4640f2c4bf25620e26cf539dd35e918d7b27b021532e"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E04/runs/E04.002/rat2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "efa45734d75087c7ce2e4640f2c4bf25620e26cf539dd35e918d7b27b021532e",
+      "split": "test",
+      "config": {
+        "criterion": "T1",
+        "depth": 100,
+        "fixed_window": false,
+        "passage_cap": 0,
+        "query_cap": 0,
+        "passage_word_cap": 0
+      },
+      "model": "gpt-6.1-sol",
+      "new_gpt_http_requests": 185
+    },
+    "evidence": [
+      "E04/evidence/R2/rat2rev-ja/manifest.json",
+      "E04/evidence/R2/rat2rev-ja/official_metrics.json",
+      "E04/evidence/R2/rat2rev-ja/metrics.json",
+      "E04/evidence/R2/rat2rev-ja/per_query.csv"
+    ],
+    "request_indexes": [
+      "E04/evidence/R2/rat2rev-ja/requests.json"
+    ]
+  },
+  {
+    "row_id": "E04.R2",
+    "source_row_id": "E04.002",
+    "source_row_id_v2": "E04.V2.R002",
+    "configuration": "T1：明确 Rat/Rev 任务定义【gpt-6.1-sol缓存】",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_gpt_experiment",
+    "metrics": {
+      "ndcg_10": 0.3249467309344647,
+      "recall_100": 0.5016260127325776,
+      "map": 0.21232791698586007
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/e1fcd8fbb693764e00ec3c4e8bb363e1dcd5937edc25c2433c8002880a16a87d.jsonl",
+        "sha256": "e1fcd8fbb693764e00ec3c4e8bb363e1dcd5937edc25c2433c8002880a16a87d"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E04/runs/E04.002/rev2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "e1fcd8fbb693764e00ec3c4e8bb363e1dcd5937edc25c2433c8002880a16a87d",
+      "split": "test",
+      "config": {
+        "criterion": "T1",
+        "depth": 100,
+        "fixed_window": false,
+        "passage_cap": 0,
+        "query_cap": 0,
+        "passage_word_cap": 0
+      },
+      "model": "gpt-6.1-sol",
+      "new_gpt_http_requests": 910
+    },
+    "evidence": [
+      "E04/evidence/R2/rev2rev-ja/manifest.json",
+      "E04/evidence/R2/rev2rev-ja/official_metrics.json",
+      "E04/evidence/R2/rev2rev-ja/metrics.json",
+      "E04/evidence/R2/rev2rev-ja/per_query.csv"
+    ],
+    "request_indexes": [
+      "E04/evidence/R2/rev2rev-ja/requests.json"
+    ]
+  },
+  {
+    "row_id": "E04.R3",
+    "source_row_id": "E04.003",
+    "source_row_id_v2": "E04.V2.R003",
+    "configuration": "T2：T1 + 修订方向与制度关系判据【gpt-6.1-sol缓存】",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_gpt_experiment",
+    "metrics": {
+      "ndcg_10": 0.4459149504722015,
+      "recall_100": 0.43032695447664965,
+      "map": 0.301725198835369
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/19580650ad7bbe89097794f4d067189155d615d12d3a81697a688ef292542d40.jsonl",
+        "sha256": "19580650ad7bbe89097794f4d067189155d615d12d3a81697a688ef292542d40"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E04/runs/E04.003/rat2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "19580650ad7bbe89097794f4d067189155d615d12d3a81697a688ef292542d40",
+      "split": "test",
+      "config": {
+        "criterion": "T2",
+        "depth": 100,
+        "fixed_window": false,
+        "passage_cap": 0,
+        "query_cap": 0,
+        "passage_word_cap": 0
+      },
+      "model": "gpt-6.1-sol",
+      "new_gpt_http_requests": 270
+    },
+    "evidence": [
+      "E04/evidence/R3/rat2rev-en/manifest.json",
+      "E04/evidence/R3/rat2rev-en/official_metrics.json",
+      "E04/evidence/R3/rat2rev-en/metrics.json",
+      "E04/evidence/R3/rat2rev-en/per_query.csv"
+    ],
+    "request_indexes": [
+      "E04/evidence/R3/rat2rev-en/requests.json"
+    ]
+  },
+  {
+    "row_id": "E04.R3",
+    "source_row_id": "E04.003",
+    "source_row_id_v2": "E04.V2.R003",
+    "configuration": "T2：T1 + 修订方向与制度关系判据【gpt-6.1-sol缓存】",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_gpt_experiment",
+    "metrics": {
+      "ndcg_10": 0.35366681222767005,
+      "recall_100": 0.4319828436448042,
+      "map": 0.22918149011007208
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/9de46e57bdf7d12e877a31bc418129af6de9bbecf4694418ca4ea83ce51e2dee.jsonl",
+        "sha256": "9de46e57bdf7d12e877a31bc418129af6de9bbecf4694418ca4ea83ce51e2dee"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E04/runs/E04.003/rev2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "9de46e57bdf7d12e877a31bc418129af6de9bbecf4694418ca4ea83ce51e2dee",
+      "split": "test",
+      "config": {
+        "criterion": "T2",
+        "depth": 100,
+        "fixed_window": false,
+        "passage_cap": 0,
+        "query_cap": 0,
+        "passage_word_cap": 0
+      },
+      "model": "gpt-6.1-sol",
+      "new_gpt_http_requests": 935
+    },
+    "evidence": [
+      "E04/evidence/R3/rev2rev-en/manifest.json",
+      "E04/evidence/R3/rev2rev-en/official_metrics.json",
+      "E04/evidence/R3/rev2rev-en/metrics.json",
+      "E04/evidence/R3/rev2rev-en/per_query.csv"
+    ],
+    "request_indexes": [
+      "E04/evidence/R3/rev2rev-en/requests.json"
+    ]
+  },
+  {
+    "row_id": "E04.R3",
+    "source_row_id": "E04.003",
+    "source_row_id_v2": "E04.V2.R003",
+    "configuration": "T2：T1 + 修订方向与制度关系判据【gpt-6.1-sol缓存】",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_gpt_experiment",
+    "metrics": {
+      "ndcg_10": 0.5320524144641628,
+      "recall_100": 0.548316201884656,
+      "map": 0.3488786144839982
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/53c79d2e3dc1e0aa1bd265450ee955906f0ddd465717fe80d1c34cc39acbffd1.jsonl",
+        "sha256": "53c79d2e3dc1e0aa1bd265450ee955906f0ddd465717fe80d1c34cc39acbffd1"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E04/runs/E04.003/rat2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "53c79d2e3dc1e0aa1bd265450ee955906f0ddd465717fe80d1c34cc39acbffd1",
+      "split": "test",
+      "config": {
+        "criterion": "T2",
+        "depth": 100,
+        "fixed_window": false,
+        "passage_cap": 0,
+        "query_cap": 0,
+        "passage_word_cap": 0
+      },
+      "model": "gpt-6.1-sol",
+      "new_gpt_http_requests": 174
+    },
+    "evidence": [
+      "E04/evidence/R3/rat2rev-ja/manifest.json",
+      "E04/evidence/R3/rat2rev-ja/official_metrics.json",
+      "E04/evidence/R3/rat2rev-ja/metrics.json",
+      "E04/evidence/R3/rat2rev-ja/per_query.csv"
+    ],
+    "request_indexes": [
+      "E04/evidence/R3/rat2rev-ja/requests.json"
+    ]
+  },
+  {
+    "row_id": "E04.R3",
+    "source_row_id": "E04.003",
+    "source_row_id_v2": "E04.V2.R003",
+    "configuration": "T2：T1 + 修订方向与制度关系判据【gpt-6.1-sol缓存】",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_gpt_experiment",
+    "metrics": {
+      "ndcg_10": 0.3304328618693221,
+      "recall_100": 0.5016260127325776,
+      "map": 0.21907878152375349
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/a34a816ccda23165c4efafc039618153e7fa8ec4a946bdfc3c8d0d1f581f638f.jsonl",
+        "sha256": "a34a816ccda23165c4efafc039618153e7fa8ec4a946bdfc3c8d0d1f581f638f"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E04/runs/E04.003/rev2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "a34a816ccda23165c4efafc039618153e7fa8ec4a946bdfc3c8d0d1f581f638f",
+      "split": "test",
+      "config": {
+        "criterion": "T2",
+        "depth": 100,
+        "fixed_window": false,
+        "passage_cap": 0,
+        "query_cap": 0,
+        "passage_word_cap": 0
+      },
+      "model": "gpt-6.1-sol",
+      "new_gpt_http_requests": 933
+    },
+    "evidence": [
+      "E04/evidence/R3/rev2rev-ja/manifest.json",
+      "E04/evidence/R3/rev2rev-ja/official_metrics.json",
+      "E04/evidence/R3/rev2rev-ja/metrics.json",
+      "E04/evidence/R3/rev2rev-ja/per_query.csv"
+    ],
+    "request_indexes": [
+      "E04/evidence/R3/rev2rev-ja/requests.json"
+    ]
+  },
+  {
+    "row_id": "E04.R4",
+    "source_row_id": "E04.004",
+    "source_row_id_v2": "E04.V2.R004",
+    "configuration": "T0-budget：通用判据、相近推理/输出预算【gpt-6.1-sol缓存】",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_gpt_experiment",
+    "metrics": {
+      "ndcg_10": 0.3788346397522432,
+      "recall_100": 0.43032695447664965,
+      "map": 0.26070502379445115
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/c31e913110198c88df609ff1708d21c4ce452a1cbe16b55b16beb0645c5310f6.jsonl",
+        "sha256": "c31e913110198c88df609ff1708d21c4ce452a1cbe16b55b16beb0645c5310f6"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E04/runs/E04.004/rat2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "c31e913110198c88df609ff1708d21c4ce452a1cbe16b55b16beb0645c5310f6",
+      "split": "test",
+      "config": {
+        "criterion": "T0-budget",
+        "depth": 100,
+        "fixed_window": false,
+        "passage_cap": 0,
+        "query_cap": 0,
+        "passage_word_cap": 0
+      },
+      "model": "gpt-6.1-sol",
+      "new_gpt_http_requests": 0
+    },
+    "evidence": [
+      "E04/evidence/R4/rat2rev-en/manifest.json",
+      "E04/evidence/R4/rat2rev-en/official_metrics.json",
+      "E04/evidence/R4/rat2rev-en/metrics.json",
+      "E04/evidence/R4/rat2rev-en/per_query.csv"
+    ],
+    "request_indexes": [
+      "E04/evidence/R4/rat2rev-en/requests.json"
+    ]
+  },
+  {
+    "row_id": "E04.R4",
+    "source_row_id": "E04.004",
+    "source_row_id_v2": "E04.V2.R004",
+    "configuration": "T0-budget：通用判据、相近推理/输出预算【gpt-6.1-sol缓存】",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_gpt_experiment",
+    "metrics": {
+      "ndcg_10": 0.2625032809663563,
+      "recall_100": 0.4319828436448042,
+      "map": 0.17809618213260478
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/900fefe9dbcfabf8f09e2c4acaebebd6c655792e3654034a1a58055fa0803f26.jsonl",
+        "sha256": "900fefe9dbcfabf8f09e2c4acaebebd6c655792e3654034a1a58055fa0803f26"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E04/runs/E04.004/rev2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "900fefe9dbcfabf8f09e2c4acaebebd6c655792e3654034a1a58055fa0803f26",
+      "split": "test",
+      "config": {
+        "criterion": "T0-budget",
+        "depth": 100,
+        "fixed_window": false,
+        "passage_cap": 0,
+        "query_cap": 0,
+        "passage_word_cap": 0
+      },
+      "model": "gpt-6.1-sol",
+      "new_gpt_http_requests": 0
+    },
+    "evidence": [
+      "E04/evidence/R4/rev2rev-en/manifest.json",
+      "E04/evidence/R4/rev2rev-en/official_metrics.json",
+      "E04/evidence/R4/rev2rev-en/metrics.json",
+      "E04/evidence/R4/rev2rev-en/per_query.csv"
+    ],
+    "request_indexes": [
+      "E04/evidence/R4/rev2rev-en/requests.json"
+    ]
+  },
+  {
+    "row_id": "E04.R4",
+    "source_row_id": "E04.004",
+    "source_row_id_v2": "E04.V2.R004",
+    "configuration": "T0-budget：通用判据、相近推理/输出预算【gpt-6.1-sol缓存】",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_gpt_experiment",
+    "metrics": {
+      "ndcg_10": 0.48714253232192734,
+      "recall_100": 0.548316201884656,
+      "map": 0.3248355009097988
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/d17a3972e6e4508b9603fc2472b4f73a8c8a3e394718cf509d570d6e6c2d0c04.jsonl",
+        "sha256": "d17a3972e6e4508b9603fc2472b4f73a8c8a3e394718cf509d570d6e6c2d0c04"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E04/runs/E04.004/rat2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "d17a3972e6e4508b9603fc2472b4f73a8c8a3e394718cf509d570d6e6c2d0c04",
+      "split": "test",
+      "config": {
+        "criterion": "T0-budget",
+        "depth": 100,
+        "fixed_window": false,
+        "passage_cap": 0,
+        "query_cap": 0,
+        "passage_word_cap": 0
+      },
+      "model": "gpt-6.1-sol",
+      "new_gpt_http_requests": 0
+    },
+    "evidence": [
+      "E04/evidence/R4/rat2rev-ja/manifest.json",
+      "E04/evidence/R4/rat2rev-ja/official_metrics.json",
+      "E04/evidence/R4/rat2rev-ja/metrics.json",
+      "E04/evidence/R4/rat2rev-ja/per_query.csv"
+    ],
+    "request_indexes": [
+      "E04/evidence/R4/rat2rev-ja/requests.json"
+    ]
+  },
+  {
+    "row_id": "E04.R4",
+    "source_row_id": "E04.004",
+    "source_row_id_v2": "E04.V2.R004",
+    "configuration": "T0-budget：通用判据、相近推理/输出预算【gpt-6.1-sol缓存】",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_gpt_experiment",
+    "metrics": {
+      "ndcg_10": 0.3098198938150764,
+      "recall_100": 0.5016260127325776,
+      "map": 0.199590206937275
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/4e39539ca39be9071c6edc3919e096a40edd5cd7c9d583621b68f050253aca1f.jsonl",
+        "sha256": "4e39539ca39be9071c6edc3919e096a40edd5cd7c9d583621b68f050253aca1f"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E04/runs/E04.004/rev2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "4e39539ca39be9071c6edc3919e096a40edd5cd7c9d583621b68f050253aca1f",
+      "split": "test",
+      "config": {
+        "criterion": "T0-budget",
+        "depth": 100,
+        "fixed_window": false,
+        "passage_cap": 0,
+        "query_cap": 0,
+        "passage_word_cap": 0
+      },
+      "model": "gpt-6.1-sol",
+      "new_gpt_http_requests": 0
+    },
+    "evidence": [
+      "E04/evidence/R4/rev2rev-ja/manifest.json",
+      "E04/evidence/R4/rev2rev-ja/official_metrics.json",
+      "E04/evidence/R4/rev2rev-ja/metrics.json",
+      "E04/evidence/R4/rev2rev-ja/per_query.csv"
+    ],
+    "request_indexes": [
+      "E04/evidence/R4/rev2rev-ja/requests.json"
+    ]
+  }
+]

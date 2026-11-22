@@ -1,0 +1,51 @@
+{
+  "identity": {
+    "version": "qwen35-zero-shot-v1",
+    "task": "rev2rev-en",
+    "split": "test",
+    "mode": "rerank",
+    "queries_sha256": "cb631abe2ccd8b9dba6959d5e436cbd8b82a28885a56f138c4a2217ad4a29e9f",
+    "corpus_sha256": "dea3c9a5b5986e4aacb3add4c91263a1c8639e337818ed49cc6d19c7b11a9827",
+    "llm": {
+      "model": "Qwen3.5-397B",
+      "endpoint_hash": "9a7fb82a1ce23b866f50448a0008d6bd840269c04d4746d90b05cc364ed84f4f",
+      "extra_body": {
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "response_format": {
+          "type": "json_object"
+        }
+      },
+      "temperature": 0,
+      "format_attempts": 5,
+      "context_limit": 262144
+    },
+    "test_labels_used_for_inference": false,
+    "prompt_template_sha256": "3045ee795e615b367b3b434e5f1596090bffec1fea4042c6016c0a9cdc9684ec",
+    "baseline_sha256": "ad9bdf2bc1acc1076712f0a8fe43e90a0c5ce400c8c287dfd6578a77a81327ac",
+    "top_k": 50,
+    "window_size": 50,
+    "stride": 50,
+    "full_original_queries": true,
+    "full_candidate_text": true,
+    "passage_word_cap": null,
+    "tail_after_top_k_preserved": true,
+    "baseline_manifest_sha256": "8cd3a6b1b57b960da96ede3465503255b1cb1c9055713864e69fa74dd8e7ee4a",
+    "context_overflow_policy": "smaller overlapping windows; never truncate text"
+  },
+  "identity_hash": "82844b8904c47dfd44b31610fdca70404a2d30426430d0e33459e9cc9150e8f1",
+  "status": "complete",
+  "started_at": "2026-10-27T22:50:37+08:00",
+  "expected_queries": 503,
+  "completed_queries": 503,
+  "updated_at": "2026-10-28T01:03:05+08:00",
+  "errors": [],
+  "result": "/root/user/cs_tcci_zhouyulin/recare_official_20261024/runs/finetune/jina_v3_recovery_v2/hybrid_top50_fulltext/pretrained/llm/rerank/rev2rev-en/local_team_rev2rev-en_run1.jsonl",
+  "result_sha256": "f8cef591b5bcc6079ccb5578faadab5454bfd82e71fe1db84b0de6c1c3bb519c",
+  "completed_at": "2026-10-28T01:03:05+08:00",
+  "logical_calls": 503,
+  "prompt_tokens": 23114949,
+  "completion_tokens": 125569,
+  "api_calls": 637
+}

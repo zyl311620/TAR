@@ -1,0 +1,21 @@
+{
+  "complete": true,
+  "signature": "abebfc92faba42bcc8f66a17be848ccea74205c86d404f06703704f29a67f2a3",
+  "at": "2026-10-30T16:11:35+08:00",
+  "task": "rev2rev-ja",
+  "split": "test",
+  "model": {
+    "directory": "multilingual-e5-base",
+    "method": "multilingual-e5-base",
+    "pooling": "mean",
+    "max_length": 512,
+    "normalize": true,
+    "query_prefix": "query: ",
+    "passage_prefix": "passage: "
+  },
+  "index_signature": "f61271916f67ca97778b5bcecade650a3ef4246f4a002dca2e0f4c43cf234b41",
+  "query_rewrite": false,
+  "full_corpus_retrieval": true,
+  "model_api_calls": 0,
+  "scored_top1000_sha256": "032179d72ad2ee65662c6237493ea396d8662857ea7d88e706d2853272b58f1c"
+}

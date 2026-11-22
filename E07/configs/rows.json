@@ -1,0 +1,171 @@
+[
+  {
+    "row_id": "E07.R1",
+    "configuration": "Jina-v4 / original query",
+    "source_experiment": "E08",
+    "source_row_id": "E08.001",
+    "source_row_id_v2": "E08.V2.R001",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E07.R2",
+    "configuration": "Jina-v4 / anchor + five",
+    "source_experiment": "E08",
+    "source_row_id": "E08.002",
+    "source_row_id_v2": "E08.V2.R002",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E07.R3",
+    "configuration": "Qwen3-Embedding-8B / original",
+    "source_experiment": "E08",
+    "source_row_id": "E08.003",
+    "source_row_id_v2": "E08.V2.R003",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E07.R4",
+    "configuration": "Qwen3-Embedding-8B / anchor + five",
+    "source_experiment": "E08",
+    "source_row_id": "E08.004",
+    "source_row_id_v2": "E08.V2.R004",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E07.R5",
+    "configuration": "Jina-v5-text-small / original",
+    "source_experiment": "E08",
+    "source_row_id": "E08.005",
+    "source_row_id_v2": "E08.V2.R005",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E07.R6",
+    "configuration": "Jina-v5-text-small / anchor + five",
+    "source_experiment": "E08",
+    "source_row_id": "E08.006",
+    "source_row_id_v2": "E08.V2.R006",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E07.R7",
+    "configuration": "TAR-SQ control / Qwen3-8B / T0",
+    "source_experiment": "E08",
+    "source_row_id": "E08.007",
+    "source_row_id_v2": "E08.V2.R007",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E07.R8",
+    "configuration": "TAR-SQ control / Qwen3-8B / T2",
+    "source_experiment": "E08",
+    "source_row_id": "E08.008",
+    "source_row_id_v2": "E08.V2.R008",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E07.R9",
+    "configuration": "TAR-SQ control / Qwen3.5-9B / T0",
+    "source_experiment": "E08",
+    "source_row_id": "E08.009",
+    "source_row_id_v2": "E08.V2.R009",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E07.R10",
+    "configuration": "TAR-SQ control / Qwen3.5-9B / T2",
+    "source_experiment": "E08",
+    "source_row_id": "E08.010",
+    "source_row_id_v2": "E08.V2.R010",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E07.R11",
+    "configuration": "TAR-SQ control / cached GPT / T0",
+    "source_experiment": "E08",
+    "source_row_id": "E08.011",
+    "source_row_id_v2": "E08.V2.R011",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E07.R12",
+    "configuration": "TAR-SQ control / cached GPT / T2",
+    "source_experiment": "E08",
+    "source_row_id": "E08.012",
+    "source_row_id_v2": "E08.V2.R012",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E07.R13",
+    "configuration": "TAR-SQ (Ours; cached GPT / T1)",
+    "source_experiment": "E08",
+    "source_row_id": "E08.018",
+    "source_row_id_v2": "E08.V2.R013",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  }
+]

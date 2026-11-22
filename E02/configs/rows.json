@@ -1,0 +1,93 @@
+[
+  {
+    "row_id": "E02.R1",
+    "configuration": "TAR ablation A0: dense only",
+    "source_experiment": "E02",
+    "source_row_id": "E02.001",
+    "source_row_id_v2": "E02.V2.R001",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E02.R2",
+    "configuration": "TAR ablation A1: A0 + BM25 / RRF",
+    "source_experiment": "E02",
+    "source_row_id": "E02.002",
+    "source_row_id_v2": "E02.V2.R002",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E02.R3",
+    "configuration": "TAR ablation A2: A1 + anchored views",
+    "source_experiment": "E02",
+    "source_row_id": "E02.003",
+    "source_row_id_v2": "E02.V2.R003",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E02.R4",
+    "configuration": "TAR ablation A3: A1 + Qwen200",
+    "source_experiment": "E02",
+    "source_row_id": "E02.004",
+    "source_row_id_v2": "E02.V2.R004",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E02.R5",
+    "configuration": "TAR ablation A4: A2 + Qwen200",
+    "source_experiment": "E02",
+    "source_row_id": "E02.005",
+    "source_row_id_v2": "E02.V2.R005",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E02.R6",
+    "configuration": "TAR ablation A5: no Qwen / cached GPT",
+    "source_experiment": "E02",
+    "source_row_id": "E02.006",
+    "source_row_id_v2": "E02.V2.R006",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E02.R7",
+    "configuration": "TAR-SQ control A6 (cached GPT)",
+    "source_experiment": "E02",
+    "source_row_id": "E02.007",
+    "source_row_id_v2": "E02.V2.R007",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "signature": "03db9ede02899e01f1a3200552ceb11446c84e694df7a8076c6fbc4a54227044",
+  "at": "2026-10-30T18:28:06+08:00",
+  "complete": true,
+  "split": "validation",
+  "task": "rev2rev-ja",
+  "k": 100,
+  "dense_weight": 0.5,
+  "bm25_params": {
+    "k1": 0.9,
+    "b": 0.75
+  },
+  "input_files": {
+    "experiments/E01/native/bm25/rev2rev-ja/validation/k0.9_b0.75/top1000.scored.jsonl": "35edbda9392c8a5e1fb6d1abed731fd48888b0ecde68983e1f2e8a9f068f3442",
+    "experiments/E01/native/jina-embeddings-v4/rev2rev-ja/validation/top1000.scored.jsonl": "a4b2d40c168a5a2abb363b2c147b166fc49cf0eacf41e19fb0090e9063c97207"
+  },
+  "query_policy": "original_only",
+  "new_model_api_calls": 0
+}

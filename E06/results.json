@@ -1,0 +1,1226 @@
+[
+  {
+    "row_id": "E06.R1",
+    "source_row_id": "E07.001",
+    "source_row_id_v2": "E07.V2.R001",
+    "configuration": "k=20；dense/BM25=0.5 / 1",
+    "task": "rat2rev-en",
+    "split": "validation",
+    "scope_qids": null,
+    "source_type": "new_native_validation",
+    "metrics": {
+      "ndcg_10": 0.179941786947707,
+      "recall_100": 0.3436453207410411,
+      "map": 0.11571333954302129
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/d663fc350937ac8eb941464a041f90be16c227b1c6f1cfe960b18a9ae40e0770.jsonl",
+        "sha256": "d663fc350937ac8eb941464a041f90be16c227b1c6f1cfe960b18a9ae40e0770"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E07/runs/E07.001/rat2rev-en/validation/ranked.jsonl",
+      "canonical_sha256": "d663fc350937ac8eb941464a041f90be16c227b1c6f1cfe960b18a9ae40e0770",
+      "split": "validation",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E07/runs/E07.001/rat2rev-en/validation/manifest.json"
+    },
+    "evidence": [
+      "E06/evidence/R1/rat2rev-en/manifest.json",
+      "E06/evidence/R1/rat2rev-en/official_metrics.json",
+      "E06/evidence/R1/rat2rev-en/metrics.json",
+      "E06/evidence/R1/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E06.R1",
+    "source_row_id": "E07.001",
+    "source_row_id_v2": "E07.V2.R001",
+    "configuration": "k=20；dense/BM25=0.5 / 1",
+    "task": "rev2rev-en",
+    "split": "validation",
+    "scope_qids": null,
+    "source_type": "new_native_validation",
+    "metrics": {
+      "ndcg_10": 0.22027087938572615,
+      "recall_100": 0.36738510134425784,
+      "map": 0.13669773756394804
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/c230830efd3a4107a9777d7e1e1a45b2dc52a56a3f38988a77ee1e6c0a16738b.jsonl",
+        "sha256": "c230830efd3a4107a9777d7e1e1a45b2dc52a56a3f38988a77ee1e6c0a16738b"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E07/runs/E07.001/rev2rev-en/validation/ranked.jsonl",
+      "canonical_sha256": "c230830efd3a4107a9777d7e1e1a45b2dc52a56a3f38988a77ee1e6c0a16738b",
+      "split": "validation",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E07/runs/E07.001/rev2rev-en/validation/manifest.json"
+    },
+    "evidence": [
+      "E06/evidence/R1/rev2rev-en/manifest.json",
+      "E06/evidence/R1/rev2rev-en/official_metrics.json",
+      "E06/evidence/R1/rev2rev-en/metrics.json",
+      "E06/evidence/R1/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E06.R1",
+    "source_row_id": "E07.001",
+    "source_row_id_v2": "E07.V2.R001",
+    "configuration": "k=20；dense/BM25=0.5 / 1",
+    "task": "rat2rev-ja",
+    "split": "validation",
+    "scope_qids": null,
+    "source_type": "new_native_validation",
+    "metrics": {
+      "ndcg_10": 0.3490699182722878,
+      "recall_100": 0.5778412032635262,
+      "map": 0.24183243045268293
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/c3336eb48ca38132fcdd776710fb971b1713023547d82aa596c9f4b08358f818.jsonl",
+        "sha256": "c3336eb48ca38132fcdd776710fb971b1713023547d82aa596c9f4b08358f818"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E07/runs/E07.001/rat2rev-ja/validation/ranked.jsonl",
+      "canonical_sha256": "c3336eb48ca38132fcdd776710fb971b1713023547d82aa596c9f4b08358f818",
+      "split": "validation",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E07/runs/E07.001/rat2rev-ja/validation/manifest.json"
+    },
+    "evidence": [
+      "E06/evidence/R1/rat2rev-ja/manifest.json",
+      "E06/evidence/R1/rat2rev-ja/official_metrics.json",
+      "E06/evidence/R1/rat2rev-ja/metrics.json",
+      "E06/evidence/R1/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E06.R1",
+    "source_row_id": "E07.001",
+    "source_row_id_v2": "E07.V2.R001",
+    "configuration": "k=20；dense/BM25=0.5 / 1",
+    "task": "rev2rev-ja",
+    "split": "validation",
+    "scope_qids": null,
+    "source_type": "new_native_validation",
+    "metrics": {
+      "ndcg_10": 0.31093774029944954,
+      "recall_100": 0.506203715895121,
+      "map": 0.21039857453607036
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/7e60d763095f93a4fb2f4513b2a33a2366827314d720ddd96176d9cb8c4d5d5b.jsonl",
+        "sha256": "7e60d763095f93a4fb2f4513b2a33a2366827314d720ddd96176d9cb8c4d5d5b"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E07/runs/E07.001/rev2rev-ja/validation/ranked.jsonl",
+      "canonical_sha256": "7e60d763095f93a4fb2f4513b2a33a2366827314d720ddd96176d9cb8c4d5d5b",
+      "split": "validation",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E07/runs/E07.001/rev2rev-ja/validation/manifest.json"
+    },
+    "evidence": [
+      "E06/evidence/R1/rev2rev-ja/manifest.json",
+      "E06/evidence/R1/rev2rev-ja/official_metrics.json",
+      "E06/evidence/R1/rev2rev-ja/metrics.json",
+      "E06/evidence/R1/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E06.R2",
+    "source_row_id": "E07.002",
+    "source_row_id_v2": "E07.V2.R002",
+    "configuration": "k=20；dense/BM25=1 / 1",
+    "task": "rat2rev-en",
+    "split": "validation",
+    "scope_qids": null,
+    "source_type": "new_native_validation",
+    "metrics": {
+      "ndcg_10": 0.20082228268369268,
+      "recall_100": 0.3639792535876752,
+      "map": 0.12360978546063964
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/c55044d85a4f63fdbb18ed57a3f30f3e9cd363821bb35c667d5136dd10ea580a.jsonl",
+        "sha256": "c55044d85a4f63fdbb18ed57a3f30f3e9cd363821bb35c667d5136dd10ea580a"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E07/runs/E07.002/rat2rev-en/validation/ranked.jsonl",
+      "canonical_sha256": "c55044d85a4f63fdbb18ed57a3f30f3e9cd363821bb35c667d5136dd10ea580a",
+      "split": "validation",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E07/runs/E07.002/rat2rev-en/validation/manifest.json"
+    },
+    "evidence": [
+      "E06/evidence/R2/rat2rev-en/manifest.json",
+      "E06/evidence/R2/rat2rev-en/official_metrics.json",
+      "E06/evidence/R2/rat2rev-en/metrics.json",
+      "E06/evidence/R2/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E06.R2",
+    "source_row_id": "E07.002",
+    "source_row_id_v2": "E07.V2.R002",
+    "configuration": "k=20；dense/BM25=1 / 1",
+    "task": "rev2rev-en",
+    "split": "validation",
+    "scope_qids": null,
+    "source_type": "new_native_validation",
+    "metrics": {
+      "ndcg_10": 0.23323945021943562,
+      "recall_100": 0.3843628838148402,
+      "map": 0.147263545893899
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/7e380bd431c1af7dbf3adfc1fe9941d9b3f929e1d3c210318ef717febd13b178.jsonl",
+        "sha256": "7e380bd431c1af7dbf3adfc1fe9941d9b3f929e1d3c210318ef717febd13b178"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E07/runs/E07.002/rev2rev-en/validation/ranked.jsonl",
+      "canonical_sha256": "7e380bd431c1af7dbf3adfc1fe9941d9b3f929e1d3c210318ef717febd13b178",
+      "split": "validation",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E07/runs/E07.002/rev2rev-en/validation/manifest.json"
+    },
+    "evidence": [
+      "E06/evidence/R2/rev2rev-en/manifest.json",
+      "E06/evidence/R2/rev2rev-en/official_metrics.json",
+      "E06/evidence/R2/rev2rev-en/metrics.json",
+      "E06/evidence/R2/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E06.R2",
+    "source_row_id": "E07.002",
+    "source_row_id_v2": "E07.V2.R002",
+    "configuration": "k=20；dense/BM25=1 / 1",
+    "task": "rat2rev-ja",
+    "split": "validation",
+    "scope_qids": null,
+    "source_type": "new_native_validation",
+    "metrics": {
+      "ndcg_10": 0.3513100817071735,
+      "recall_100": 0.5846165519986446,
+      "map": 0.24531695117568614
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/156d9ac8529a4592af8d4a1bfc54555f3428d1d0712effac1e433070c6b1a7a1.jsonl",
+        "sha256": "156d9ac8529a4592af8d4a1bfc54555f3428d1d0712effac1e433070c6b1a7a1"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E07/runs/E07.002/rat2rev-ja/validation/ranked.jsonl",
+      "canonical_sha256": "156d9ac8529a4592af8d4a1bfc54555f3428d1d0712effac1e433070c6b1a7a1",
+      "split": "validation",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E07/runs/E07.002/rat2rev-ja/validation/manifest.json"
+    },
+    "evidence": [
+      "E06/evidence/R2/rat2rev-ja/manifest.json",
+      "E06/evidence/R2/rat2rev-ja/official_metrics.json",
+      "E06/evidence/R2/rat2rev-ja/metrics.json",
+      "E06/evidence/R2/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E06.R2",
+    "source_row_id": "E07.002",
+    "source_row_id_v2": "E07.V2.R002",
+    "configuration": "k=20；dense/BM25=1 / 1",
+    "task": "rev2rev-ja",
+    "split": "validation",
+    "scope_qids": null,
+    "source_type": "new_native_validation",
+    "metrics": {
+      "ndcg_10": 0.31968681258406545,
+      "recall_100": 0.5216447208831824,
+      "map": 0.2169583635474332
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/3133c42400eaa1b797fd38948cda71b90218bb67f9cd3cd1595e61a5a6326538.jsonl",
+        "sha256": "3133c42400eaa1b797fd38948cda71b90218bb67f9cd3cd1595e61a5a6326538"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E07/runs/E07.002/rev2rev-ja/validation/ranked.jsonl",
+      "canonical_sha256": "3133c42400eaa1b797fd38948cda71b90218bb67f9cd3cd1595e61a5a6326538",
+      "split": "validation",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E07/runs/E07.002/rev2rev-ja/validation/manifest.json"
+    },
+    "evidence": [
+      "E06/evidence/R2/rev2rev-ja/manifest.json",
+      "E06/evidence/R2/rev2rev-ja/official_metrics.json",
+      "E06/evidence/R2/rev2rev-ja/metrics.json",
+      "E06/evidence/R2/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E06.R3",
+    "source_row_id": "E07.003",
+    "source_row_id_v2": "E07.V2.R003",
+    "configuration": "k=20；dense/BM25=2 / 1",
+    "task": "rat2rev-en",
+    "split": "validation",
+    "scope_qids": null,
+    "source_type": "new_native_validation",
+    "metrics": {
+      "ndcg_10": 0.19963418331351623,
+      "recall_100": 0.37151072114055445,
+      "map": 0.12522488309081728
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/4da04ead549a990d67f6022e8e20c50c4a9f088ca042f3ecd95764c0f9d2a54c.jsonl",
+        "sha256": "4da04ead549a990d67f6022e8e20c50c4a9f088ca042f3ecd95764c0f9d2a54c"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E07/runs/E07.003/rat2rev-en/validation/ranked.jsonl",
+      "canonical_sha256": "4da04ead549a990d67f6022e8e20c50c4a9f088ca042f3ecd95764c0f9d2a54c",
+      "split": "validation",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E07/runs/E07.003/rat2rev-en/validation/manifest.json"
+    },
+    "evidence": [
+      "E06/evidence/R3/rat2rev-en/manifest.json",
+      "E06/evidence/R3/rat2rev-en/official_metrics.json",
+      "E06/evidence/R3/rat2rev-en/metrics.json",
+      "E06/evidence/R3/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E06.R3",
+    "source_row_id": "E07.003",
+    "source_row_id_v2": "E07.V2.R003",
+    "configuration": "k=20；dense/BM25=2 / 1",
+    "task": "rev2rev-en",
+    "split": "validation",
+    "scope_qids": null,
+    "source_type": "new_native_validation",
+    "metrics": {
+      "ndcg_10": 0.23721036489396868,
+      "recall_100": 0.39318556370585167,
+      "map": 0.15036384430988955
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/0f6fa79867c2a2796884999f116d9e291f7db5b832d56a86e9c849be7378a09f.jsonl",
+        "sha256": "0f6fa79867c2a2796884999f116d9e291f7db5b832d56a86e9c849be7378a09f"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E07/runs/E07.003/rev2rev-en/validation/ranked.jsonl",
+      "canonical_sha256": "0f6fa79867c2a2796884999f116d9e291f7db5b832d56a86e9c849be7378a09f",
+      "split": "validation",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E07/runs/E07.003/rev2rev-en/validation/manifest.json"
+    },
+    "evidence": [
+      "E06/evidence/R3/rev2rev-en/manifest.json",
+      "E06/evidence/R3/rev2rev-en/official_metrics.json",
+      "E06/evidence/R3/rev2rev-en/metrics.json",
+      "E06/evidence/R3/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E06.R3",
+    "source_row_id": "E07.003",
+    "source_row_id_v2": "E07.V2.R003",
+    "configuration": "k=20；dense/BM25=2 / 1",
+    "task": "rat2rev-ja",
+    "split": "validation",
+    "scope_qids": null,
+    "source_type": "new_native_validation",
+    "metrics": {
+      "ndcg_10": 0.345760975039724,
+      "recall_100": 0.5770426879839821,
+      "map": 0.24145422287452498
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/bdf766652b53cfa5275cba1f67334cc6900eb352d2229138d48ed49c5ef54a8d.jsonl",
+        "sha256": "bdf766652b53cfa5275cba1f67334cc6900eb352d2229138d48ed49c5ef54a8d"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E07/runs/E07.003/rat2rev-ja/validation/ranked.jsonl",
+      "canonical_sha256": "bdf766652b53cfa5275cba1f67334cc6900eb352d2229138d48ed49c5ef54a8d",
+      "split": "validation",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E07/runs/E07.003/rat2rev-ja/validation/manifest.json"
+    },
+    "evidence": [
+      "E06/evidence/R3/rat2rev-ja/manifest.json",
+      "E06/evidence/R3/rat2rev-ja/official_metrics.json",
+      "E06/evidence/R3/rat2rev-ja/metrics.json",
+      "E06/evidence/R3/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E06.R3",
+    "source_row_id": "E07.003",
+    "source_row_id_v2": "E07.V2.R003",
+    "configuration": "k=20；dense/BM25=2 / 1",
+    "task": "rev2rev-ja",
+    "split": "validation",
+    "scope_qids": null,
+    "source_type": "new_native_validation",
+    "metrics": {
+      "ndcg_10": 0.31777260644557015,
+      "recall_100": 0.5243700756483676,
+      "map": 0.21692355045774808
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/0c1ae723b391be2aa26d92625e7261620c5b53b90af9dc29ba9113e931345b2d.jsonl",
+        "sha256": "0c1ae723b391be2aa26d92625e7261620c5b53b90af9dc29ba9113e931345b2d"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E07/runs/E07.003/rev2rev-ja/validation/ranked.jsonl",
+      "canonical_sha256": "0c1ae723b391be2aa26d92625e7261620c5b53b90af9dc29ba9113e931345b2d",
+      "split": "validation",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E07/runs/E07.003/rev2rev-ja/validation/manifest.json"
+    },
+    "evidence": [
+      "E06/evidence/R3/rev2rev-ja/manifest.json",
+      "E06/evidence/R3/rev2rev-ja/official_metrics.json",
+      "E06/evidence/R3/rev2rev-ja/metrics.json",
+      "E06/evidence/R3/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E06.R4",
+    "source_row_id": "E07.004",
+    "source_row_id_v2": "E07.V2.R004",
+    "configuration": "k=60；dense/BM25=0.5 / 1",
+    "task": "rat2rev-en",
+    "split": "validation",
+    "scope_qids": null,
+    "source_type": "new_native_validation",
+    "metrics": {
+      "ndcg_10": 0.18734527508827692,
+      "recall_100": 0.33394528623859104,
+      "map": 0.11735767086375151
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/e37aa73c98aaa19ecec7e647c85e60dc5d6b5b5e9efd2ff5afef7e78a9a3538e.jsonl",
+        "sha256": "e37aa73c98aaa19ecec7e647c85e60dc5d6b5b5e9efd2ff5afef7e78a9a3538e"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E07/runs/E07.004/rat2rev-en/validation/ranked.jsonl",
+      "canonical_sha256": "e37aa73c98aaa19ecec7e647c85e60dc5d6b5b5e9efd2ff5afef7e78a9a3538e",
+      "split": "validation",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E07/runs/E07.004/rat2rev-en/validation/manifest.json"
+    },
+    "evidence": [
+      "E06/evidence/R4/rat2rev-en/manifest.json",
+      "E06/evidence/R4/rat2rev-en/official_metrics.json",
+      "E06/evidence/R4/rat2rev-en/metrics.json",
+      "E06/evidence/R4/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E06.R4",
+    "source_row_id": "E07.004",
+    "source_row_id_v2": "E07.V2.R004",
+    "configuration": "k=60；dense/BM25=0.5 / 1",
+    "task": "rev2rev-en",
+    "split": "validation",
+    "scope_qids": null,
+    "source_type": "new_native_validation",
+    "metrics": {
+      "ndcg_10": 0.22598477122051738,
+      "recall_100": 0.3524680630586604,
+      "map": 0.13655449406374798
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/3638287fb77f1b22fb9455eb850682ebcc2620146ee78bb320ff9985bb5f8ab2.jsonl",
+        "sha256": "3638287fb77f1b22fb9455eb850682ebcc2620146ee78bb320ff9985bb5f8ab2"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E07/runs/E07.004/rev2rev-en/validation/ranked.jsonl",
+      "canonical_sha256": "3638287fb77f1b22fb9455eb850682ebcc2620146ee78bb320ff9985bb5f8ab2",
+      "split": "validation",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E07/runs/E07.004/rev2rev-en/validation/manifest.json"
+    },
+    "evidence": [
+      "E06/evidence/R4/rev2rev-en/manifest.json",
+      "E06/evidence/R4/rev2rev-en/official_metrics.json",
+      "E06/evidence/R4/rev2rev-en/metrics.json",
+      "E06/evidence/R4/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E06.R4",
+    "source_row_id": "E07.004",
+    "source_row_id_v2": "E07.V2.R004",
+    "configuration": "k=60；dense/BM25=0.5 / 1",
+    "task": "rat2rev-ja",
+    "split": "validation",
+    "scope_qids": null,
+    "source_type": "new_native_validation",
+    "metrics": {
+      "ndcg_10": 0.34954497435118953,
+      "recall_100": 0.5708265073521434,
+      "map": 0.24078476191304438
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/4744218ff916e18628cb0ec27cb33e52b4ecfed3ff83c2f8e54ff991882b2b70.jsonl",
+        "sha256": "4744218ff916e18628cb0ec27cb33e52b4ecfed3ff83c2f8e54ff991882b2b70"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E07/runs/E07.004/rat2rev-ja/validation/ranked.jsonl",
+      "canonical_sha256": "4744218ff916e18628cb0ec27cb33e52b4ecfed3ff83c2f8e54ff991882b2b70",
+      "split": "validation",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E07/runs/E07.004/rat2rev-ja/validation/manifest.json"
+    },
+    "evidence": [
+      "E06/evidence/R4/rat2rev-ja/manifest.json",
+      "E06/evidence/R4/rat2rev-ja/official_metrics.json",
+      "E06/evidence/R4/rat2rev-ja/metrics.json",
+      "E06/evidence/R4/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E06.R4",
+    "source_row_id": "E07.004",
+    "source_row_id_v2": "E07.V2.R004",
+    "configuration": "k=60；dense/BM25=0.5 / 1",
+    "task": "rev2rev-ja",
+    "split": "validation",
+    "scope_qids": null,
+    "source_type": "new_native_validation",
+    "metrics": {
+      "ndcg_10": 0.3127115864195978,
+      "recall_100": 0.49861513365163235,
+      "map": 0.2106880383853741
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/c3cb510b9061124edc23531c41d16bd087719d8aa528bc4cc7e36a49822d97dd.jsonl",
+        "sha256": "c3cb510b9061124edc23531c41d16bd087719d8aa528bc4cc7e36a49822d97dd"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E07/runs/E07.004/rev2rev-ja/validation/ranked.jsonl",
+      "canonical_sha256": "c3cb510b9061124edc23531c41d16bd087719d8aa528bc4cc7e36a49822d97dd",
+      "split": "validation",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E07/runs/E07.004/rev2rev-ja/validation/manifest.json"
+    },
+    "evidence": [
+      "E06/evidence/R4/rev2rev-ja/manifest.json",
+      "E06/evidence/R4/rev2rev-ja/official_metrics.json",
+      "E06/evidence/R4/rev2rev-ja/metrics.json",
+      "E06/evidence/R4/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E06.R5",
+    "source_row_id": "E07.005",
+    "source_row_id_v2": "E07.V2.R005",
+    "configuration": "k=60；dense/BM25=1 / 1",
+    "task": "rat2rev-en",
+    "split": "validation",
+    "scope_qids": null,
+    "source_type": "new_native_validation",
+    "metrics": {
+      "ndcg_10": 0.19744952145784603,
+      "recall_100": 0.3687676933710382,
+      "map": 0.12323845448425329
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/419fd18d822b50e049d0e81f591fcbaa6b60badc5760bf9988fbbff8dfd05593.jsonl",
+        "sha256": "419fd18d822b50e049d0e81f591fcbaa6b60badc5760bf9988fbbff8dfd05593"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E07/runs/E07.005/rat2rev-en/validation/ranked.jsonl",
+      "canonical_sha256": "419fd18d822b50e049d0e81f591fcbaa6b60badc5760bf9988fbbff8dfd05593",
+      "split": "validation",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E07/runs/E07.005/rat2rev-en/validation/manifest.json"
+    },
+    "evidence": [
+      "E06/evidence/R5/rat2rev-en/manifest.json",
+      "E06/evidence/R5/rat2rev-en/official_metrics.json",
+      "E06/evidence/R5/rat2rev-en/metrics.json",
+      "E06/evidence/R5/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E06.R5",
+    "source_row_id": "E07.005",
+    "source_row_id_v2": "E07.V2.R005",
+    "configuration": "k=60；dense/BM25=1 / 1",
+    "task": "rev2rev-en",
+    "split": "validation",
+    "scope_qids": null,
+    "source_type": "new_native_validation",
+    "metrics": {
+      "ndcg_10": 0.2306074566372148,
+      "recall_100": 0.38901939065991803,
+      "map": 0.14511423966878845
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/bbce28b0757e0d6f220a498eae3d7afb6a6a9132955e317278108c5abbdcc1eb.jsonl",
+        "sha256": "bbce28b0757e0d6f220a498eae3d7afb6a6a9132955e317278108c5abbdcc1eb"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E07/runs/E07.005/rev2rev-en/validation/ranked.jsonl",
+      "canonical_sha256": "bbce28b0757e0d6f220a498eae3d7afb6a6a9132955e317278108c5abbdcc1eb",
+      "split": "validation",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E07/runs/E07.005/rev2rev-en/validation/manifest.json"
+    },
+    "evidence": [
+      "E06/evidence/R5/rev2rev-en/manifest.json",
+      "E06/evidence/R5/rev2rev-en/official_metrics.json",
+      "E06/evidence/R5/rev2rev-en/metrics.json",
+      "E06/evidence/R5/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E06.R5",
+    "source_row_id": "E07.005",
+    "source_row_id_v2": "E07.V2.R005",
+    "configuration": "k=60；dense/BM25=1 / 1",
+    "task": "rat2rev-ja",
+    "split": "validation",
+    "scope_qids": null,
+    "source_type": "new_native_validation",
+    "metrics": {
+      "ndcg_10": 0.35012927714375547,
+      "recall_100": 0.5901898353343593,
+      "map": 0.24622203280350508
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/8c4f87220cd1811d4780debd55a6fcaf4ac724b9050c3e1b833c8a8bb4119dba.jsonl",
+        "sha256": "8c4f87220cd1811d4780debd55a6fcaf4ac724b9050c3e1b833c8a8bb4119dba"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E07/runs/E07.005/rat2rev-ja/validation/ranked.jsonl",
+      "canonical_sha256": "8c4f87220cd1811d4780debd55a6fcaf4ac724b9050c3e1b833c8a8bb4119dba",
+      "split": "validation",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E07/runs/E07.005/rat2rev-ja/validation/manifest.json"
+    },
+    "evidence": [
+      "E06/evidence/R5/rat2rev-ja/manifest.json",
+      "E06/evidence/R5/rat2rev-ja/official_metrics.json",
+      "E06/evidence/R5/rat2rev-ja/metrics.json",
+      "E06/evidence/R5/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E06.R5",
+    "source_row_id": "E07.005",
+    "source_row_id_v2": "E07.V2.R005",
+    "configuration": "k=60；dense/BM25=1 / 1",
+    "task": "rev2rev-ja",
+    "split": "validation",
+    "scope_qids": null,
+    "source_type": "new_native_validation",
+    "metrics": {
+      "ndcg_10": 0.31715634266096665,
+      "recall_100": 0.5203109699273839,
+      "map": 0.2165387529499867
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/fc6f81a2a92cc6c4f8805b25f3dc5d16f3d0d07a172b05a0cfc7cbcc306b577f.jsonl",
+        "sha256": "fc6f81a2a92cc6c4f8805b25f3dc5d16f3d0d07a172b05a0cfc7cbcc306b577f"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E07/runs/E07.005/rev2rev-ja/validation/ranked.jsonl",
+      "canonical_sha256": "fc6f81a2a92cc6c4f8805b25f3dc5d16f3d0d07a172b05a0cfc7cbcc306b577f",
+      "split": "validation",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E07/runs/E07.005/rev2rev-ja/validation/manifest.json"
+    },
+    "evidence": [
+      "E06/evidence/R5/rev2rev-ja/manifest.json",
+      "E06/evidence/R5/rev2rev-ja/official_metrics.json",
+      "E06/evidence/R5/rev2rev-ja/metrics.json",
+      "E06/evidence/R5/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E06.R6",
+    "source_row_id": "E07.006",
+    "source_row_id_v2": "E07.V2.R006",
+    "configuration": "k=60；dense/BM25=2 / 1",
+    "task": "rat2rev-en",
+    "split": "validation",
+    "scope_qids": null,
+    "source_type": "new_native_validation",
+    "metrics": {
+      "ndcg_10": 0.20153620225958813,
+      "recall_100": 0.3794033572458559,
+      "map": 0.12646530117696092
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/5630346781b162058e732538d1f23f8298364924092a900ac29feeeb0ae25a3b.jsonl",
+        "sha256": "5630346781b162058e732538d1f23f8298364924092a900ac29feeeb0ae25a3b"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E07/runs/E07.006/rat2rev-en/validation/ranked.jsonl",
+      "canonical_sha256": "5630346781b162058e732538d1f23f8298364924092a900ac29feeeb0ae25a3b",
+      "split": "validation",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E07/runs/E07.006/rat2rev-en/validation/manifest.json"
+    },
+    "evidence": [
+      "E06/evidence/R6/rat2rev-en/manifest.json",
+      "E06/evidence/R6/rat2rev-en/official_metrics.json",
+      "E06/evidence/R6/rat2rev-en/metrics.json",
+      "E06/evidence/R6/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E06.R6",
+    "source_row_id": "E07.006",
+    "source_row_id_v2": "E07.V2.R006",
+    "configuration": "k=60；dense/BM25=2 / 1",
+    "task": "rev2rev-en",
+    "split": "validation",
+    "scope_qids": null,
+    "source_type": "new_native_validation",
+    "metrics": {
+      "ndcg_10": 0.23323307981577296,
+      "recall_100": 0.39365240661783485,
+      "map": 0.14813325418132728
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/71ee4eee071bd17110599ac168e11e1a91cb7ae1c14368e0c4dc8e0de333fcb8.jsonl",
+        "sha256": "71ee4eee071bd17110599ac168e11e1a91cb7ae1c14368e0c4dc8e0de333fcb8"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E07/runs/E07.006/rev2rev-en/validation/ranked.jsonl",
+      "canonical_sha256": "71ee4eee071bd17110599ac168e11e1a91cb7ae1c14368e0c4dc8e0de333fcb8",
+      "split": "validation",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E07/runs/E07.006/rev2rev-en/validation/manifest.json"
+    },
+    "evidence": [
+      "E06/evidence/R6/rev2rev-en/manifest.json",
+      "E06/evidence/R6/rev2rev-en/official_metrics.json",
+      "E06/evidence/R6/rev2rev-en/metrics.json",
+      "E06/evidence/R6/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E06.R6",
+    "source_row_id": "E07.006",
+    "source_row_id_v2": "E07.V2.R006",
+    "configuration": "k=60；dense/BM25=2 / 1",
+    "task": "rat2rev-ja",
+    "split": "validation",
+    "scope_qids": null,
+    "source_type": "new_native_validation",
+    "metrics": {
+      "ndcg_10": 0.3477655373110804,
+      "recall_100": 0.5736607203922778,
+      "map": 0.2422005451400386
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/9be8e55a61763abfa455f3385376d076a857226b461a84d3589011c1e0652673.jsonl",
+        "sha256": "9be8e55a61763abfa455f3385376d076a857226b461a84d3589011c1e0652673"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E07/runs/E07.006/rat2rev-ja/validation/ranked.jsonl",
+      "canonical_sha256": "9be8e55a61763abfa455f3385376d076a857226b461a84d3589011c1e0652673",
+      "split": "validation",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E07/runs/E07.006/rat2rev-ja/validation/manifest.json"
+    },
+    "evidence": [
+      "E06/evidence/R6/rat2rev-ja/manifest.json",
+      "E06/evidence/R6/rat2rev-ja/official_metrics.json",
+      "E06/evidence/R6/rat2rev-ja/metrics.json",
+      "E06/evidence/R6/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E06.R6",
+    "source_row_id": "E07.006",
+    "source_row_id_v2": "E07.V2.R006",
+    "configuration": "k=60；dense/BM25=2 / 1",
+    "task": "rev2rev-ja",
+    "split": "validation",
+    "scope_qids": null,
+    "source_type": "new_native_validation",
+    "metrics": {
+      "ndcg_10": 0.31945672250932805,
+      "recall_100": 0.5251141790559857,
+      "map": 0.21742702151410678
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/781b167e585f6466674d5f9a08abef95f678a26f567ea09b57a3fcdfb6466c82.jsonl",
+        "sha256": "781b167e585f6466674d5f9a08abef95f678a26f567ea09b57a3fcdfb6466c82"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E07/runs/E07.006/rev2rev-ja/validation/ranked.jsonl",
+      "canonical_sha256": "781b167e585f6466674d5f9a08abef95f678a26f567ea09b57a3fcdfb6466c82",
+      "split": "validation",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E07/runs/E07.006/rev2rev-ja/validation/manifest.json"
+    },
+    "evidence": [
+      "E06/evidence/R6/rev2rev-ja/manifest.json",
+      "E06/evidence/R6/rev2rev-ja/official_metrics.json",
+      "E06/evidence/R6/rev2rev-ja/metrics.json",
+      "E06/evidence/R6/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E06.R7",
+    "source_row_id": "E07.007",
+    "source_row_id_v2": "E07.V2.R007",
+    "configuration": "k=100；dense/BM25=0.5 / 1",
+    "task": "rat2rev-en",
+    "split": "validation",
+    "scope_qids": null,
+    "source_type": "new_native_validation",
+    "metrics": {
+      "ndcg_10": 0.18978480541265647,
+      "recall_100": 0.3150540928914245,
+      "map": 0.11693409477130591
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/5cf3e3ab4a66cc863087d6df9e3f67222ffaf2285daf283f671b13e6ace01dea.jsonl",
+        "sha256": "5cf3e3ab4a66cc863087d6df9e3f67222ffaf2285daf283f671b13e6ace01dea"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E07/runs/E07.007/rat2rev-en/validation/ranked.jsonl",
+      "canonical_sha256": "5cf3e3ab4a66cc863087d6df9e3f67222ffaf2285daf283f671b13e6ace01dea",
+      "split": "validation",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E07/runs/E07.007/rat2rev-en/validation/manifest.json"
+    },
+    "evidence": [
+      "E06/evidence/R7/rat2rev-en/manifest.json",
+      "E06/evidence/R7/rat2rev-en/official_metrics.json",
+      "E06/evidence/R7/rat2rev-en/metrics.json",
+      "E06/evidence/R7/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E06.R7",
+    "source_row_id": "E07.007",
+    "source_row_id_v2": "E07.V2.R007",
+    "configuration": "k=100；dense/BM25=0.5 / 1",
+    "task": "rev2rev-en",
+    "split": "validation",
+    "scope_qids": null,
+    "source_type": "new_native_validation",
+    "metrics": {
+      "ndcg_10": 0.22608948247147007,
+      "recall_100": 0.3438112598825259,
+      "map": 0.13679222632168853
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/5876911b023a3477eb167a7f0551a46e9def33f264c2ee1adbedc47b8989af5e.jsonl",
+        "sha256": "5876911b023a3477eb167a7f0551a46e9def33f264c2ee1adbedc47b8989af5e"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E07/runs/E07.007/rev2rev-en/validation/ranked.jsonl",
+      "canonical_sha256": "5876911b023a3477eb167a7f0551a46e9def33f264c2ee1adbedc47b8989af5e",
+      "split": "validation",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E07/runs/E07.007/rev2rev-en/validation/manifest.json"
+    },
+    "evidence": [
+      "E06/evidence/R7/rev2rev-en/manifest.json",
+      "E06/evidence/R7/rev2rev-en/official_metrics.json",
+      "E06/evidence/R7/rev2rev-en/metrics.json",
+      "E06/evidence/R7/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E06.R7",
+    "source_row_id": "E07.007",
+    "source_row_id_v2": "E07.V2.R007",
+    "configuration": "k=100；dense/BM25=0.5 / 1",
+    "task": "rat2rev-ja",
+    "split": "validation",
+    "scope_qids": null,
+    "source_type": "new_native_validation",
+    "metrics": {
+      "ndcg_10": 0.34906588719747167,
+      "recall_100": 0.5716649879542332,
+      "map": 0.2406692562215804
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/627d1a98b3b23ab3394937433462aab653c84b5623443b1ba33556b8a1ca2e2d.jsonl",
+        "sha256": "627d1a98b3b23ab3394937433462aab653c84b5623443b1ba33556b8a1ca2e2d"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E07/runs/E07.007/rat2rev-ja/validation/ranked.jsonl",
+      "canonical_sha256": "627d1a98b3b23ab3394937433462aab653c84b5623443b1ba33556b8a1ca2e2d",
+      "split": "validation",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E07/runs/E07.007/rat2rev-ja/validation/manifest.json"
+    },
+    "evidence": [
+      "E06/evidence/R7/rat2rev-ja/manifest.json",
+      "E06/evidence/R7/rat2rev-ja/official_metrics.json",
+      "E06/evidence/R7/rat2rev-ja/metrics.json",
+      "E06/evidence/R7/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E06.R7",
+    "source_row_id": "E07.007",
+    "source_row_id_v2": "E07.V2.R007",
+    "configuration": "k=100；dense/BM25=0.5 / 1",
+    "task": "rev2rev-ja",
+    "split": "validation",
+    "scope_qids": null,
+    "source_type": "new_native_validation",
+    "metrics": {
+      "ndcg_10": 0.31160856527245034,
+      "recall_100": 0.4972449844354579,
+      "map": 0.21026177189503656
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/e9dd4f291ac8a7ec023e846b7287aa31824c9874d02bc8f7b923ea16d08ef165.jsonl",
+        "sha256": "e9dd4f291ac8a7ec023e846b7287aa31824c9874d02bc8f7b923ea16d08ef165"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E07/runs/E07.007/rev2rev-ja/validation/ranked.jsonl",
+      "canonical_sha256": "e9dd4f291ac8a7ec023e846b7287aa31824c9874d02bc8f7b923ea16d08ef165",
+      "split": "validation",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E07/runs/E07.007/rev2rev-ja/validation/manifest.json"
+    },
+    "evidence": [
+      "E06/evidence/R7/rev2rev-ja/manifest.json",
+      "E06/evidence/R7/rev2rev-ja/official_metrics.json",
+      "E06/evidence/R7/rev2rev-ja/metrics.json",
+      "E06/evidence/R7/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E06.R8",
+    "source_row_id": "E07.008",
+    "source_row_id_v2": "E07.V2.R008",
+    "configuration": "k=100；dense/BM25=1 / 1",
+    "task": "rat2rev-en",
+    "split": "validation",
+    "scope_qids": null,
+    "source_type": "new_native_validation",
+    "metrics": {
+      "ndcg_10": 0.19301730608462547,
+      "recall_100": 0.3702282912114981,
+      "map": 0.12147757488934693
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/fe1144f9d0737ca1acd0bea11fcd38e8bc30e5698ce3a3b93a8008ff64fa1031.jsonl",
+        "sha256": "fe1144f9d0737ca1acd0bea11fcd38e8bc30e5698ce3a3b93a8008ff64fa1031"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E07/runs/E07.008/rat2rev-en/validation/ranked.jsonl",
+      "canonical_sha256": "fe1144f9d0737ca1acd0bea11fcd38e8bc30e5698ce3a3b93a8008ff64fa1031",
+      "split": "validation",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E07/runs/E07.008/rat2rev-en/validation/manifest.json"
+    },
+    "evidence": [
+      "E06/evidence/R8/rat2rev-en/manifest.json",
+      "E06/evidence/R8/rat2rev-en/official_metrics.json",
+      "E06/evidence/R8/rat2rev-en/metrics.json",
+      "E06/evidence/R8/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E06.R8",
+    "source_row_id": "E07.008",
+    "source_row_id_v2": "E07.V2.R008",
+    "configuration": "k=100；dense/BM25=1 / 1",
+    "task": "rev2rev-en",
+    "split": "validation",
+    "scope_qids": null,
+    "source_type": "new_native_validation",
+    "metrics": {
+      "ndcg_10": 0.22945123279427226,
+      "recall_100": 0.3859770103944294,
+      "map": 0.1441527401210431
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/970dee67e8b9bc7ad83aee4f02f38ca26c66d6dbc362ca57bf1015c7151a01c3.jsonl",
+        "sha256": "970dee67e8b9bc7ad83aee4f02f38ca26c66d6dbc362ca57bf1015c7151a01c3"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E07/runs/E07.008/rev2rev-en/validation/ranked.jsonl",
+      "canonical_sha256": "970dee67e8b9bc7ad83aee4f02f38ca26c66d6dbc362ca57bf1015c7151a01c3",
+      "split": "validation",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E07/runs/E07.008/rev2rev-en/validation/manifest.json"
+    },
+    "evidence": [
+      "E06/evidence/R8/rev2rev-en/manifest.json",
+      "E06/evidence/R8/rev2rev-en/official_metrics.json",
+      "E06/evidence/R8/rev2rev-en/metrics.json",
+      "E06/evidence/R8/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E06.R8",
+    "source_row_id": "E07.008",
+    "source_row_id_v2": "E07.V2.R008",
+    "configuration": "k=100；dense/BM25=1 / 1",
+    "task": "rat2rev-ja",
+    "split": "validation",
+    "scope_qids": null,
+    "source_type": "new_native_validation",
+    "metrics": {
+      "ndcg_10": 0.34898567643183437,
+      "recall_100": 0.5880149338744264,
+      "map": 0.2454025114293615
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/8683c8fd520caa6543505b05671bb7cb11af83bc44606e525abd1a8b6136d2a3.jsonl",
+        "sha256": "8683c8fd520caa6543505b05671bb7cb11af83bc44606e525abd1a8b6136d2a3"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E07/runs/E07.008/rat2rev-ja/validation/ranked.jsonl",
+      "canonical_sha256": "8683c8fd520caa6543505b05671bb7cb11af83bc44606e525abd1a8b6136d2a3",
+      "split": "validation",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E07/runs/E07.008/rat2rev-ja/validation/manifest.json"
+    },
+    "evidence": [
+      "E06/evidence/R8/rat2rev-ja/manifest.json",
+      "E06/evidence/R8/rat2rev-ja/official_metrics.json",
+      "E06/evidence/R8/rat2rev-ja/metrics.json",
+      "E06/evidence/R8/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E06.R8",
+    "source_row_id": "E07.008",
+    "source_row_id_v2": "E07.V2.R008",
+    "configuration": "k=100；dense/BM25=1 / 1",
+    "task": "rev2rev-ja",
+    "split": "validation",
+    "scope_qids": null,
+    "source_type": "new_native_validation",
+    "metrics": {
+      "ndcg_10": 0.3164880254163027,
+      "recall_100": 0.517569995872874,
+      "map": 0.2159260921873933
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/b02f0d4cbc590fd744f8a04af81a98ae40bc8b9a00526ef4e041ae76966c065c.jsonl",
+        "sha256": "b02f0d4cbc590fd744f8a04af81a98ae40bc8b9a00526ef4e041ae76966c065c"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E07/runs/E07.008/rev2rev-ja/validation/ranked.jsonl",
+      "canonical_sha256": "b02f0d4cbc590fd744f8a04af81a98ae40bc8b9a00526ef4e041ae76966c065c",
+      "split": "validation",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E07/runs/E07.008/rev2rev-ja/validation/manifest.json"
+    },
+    "evidence": [
+      "E06/evidence/R8/rev2rev-ja/manifest.json",
+      "E06/evidence/R8/rev2rev-ja/official_metrics.json",
+      "E06/evidence/R8/rev2rev-ja/metrics.json",
+      "E06/evidence/R8/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E06.R9",
+    "source_row_id": "E07.009",
+    "source_row_id_v2": "E07.V2.R009",
+    "configuration": "k=100；dense/BM25=2 / 1",
+    "task": "rat2rev-en",
+    "split": "validation",
+    "scope_qids": null,
+    "source_type": "new_native_validation",
+    "metrics": {
+      "ndcg_10": 0.19961097102680744,
+      "recall_100": 0.3762627951863057,
+      "map": 0.12624470201404916
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/9a358ce37952d5b64ac30a2db7c0d568bb63a33e5d21c847ba62f355b7b711fe.jsonl",
+        "sha256": "9a358ce37952d5b64ac30a2db7c0d568bb63a33e5d21c847ba62f355b7b711fe"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E07/runs/E07.009/rat2rev-en/validation/ranked.jsonl",
+      "canonical_sha256": "9a358ce37952d5b64ac30a2db7c0d568bb63a33e5d21c847ba62f355b7b711fe",
+      "split": "validation",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E07/runs/E07.009/rat2rev-en/validation/manifest.json"
+    },
+    "evidence": [
+      "E06/evidence/R9/rat2rev-en/manifest.json",
+      "E06/evidence/R9/rat2rev-en/official_metrics.json",
+      "E06/evidence/R9/rat2rev-en/metrics.json",
+      "E06/evidence/R9/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E06.R9",
+    "source_row_id": "E07.009",
+    "source_row_id_v2": "E07.V2.R009",
+    "configuration": "k=100；dense/BM25=2 / 1",
+    "task": "rev2rev-en",
+    "split": "validation",
+    "scope_qids": null,
+    "source_type": "new_native_validation",
+    "metrics": {
+      "ndcg_10": 0.23096983740096952,
+      "recall_100": 0.3939219795851702,
+      "map": 0.14676278729603467
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/669b9a7c638462dc7262b9416d2bf7395d60dca654f465e7e06f7db1d3d2d6b1.jsonl",
+        "sha256": "669b9a7c638462dc7262b9416d2bf7395d60dca654f465e7e06f7db1d3d2d6b1"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E07/runs/E07.009/rev2rev-en/validation/ranked.jsonl",
+      "canonical_sha256": "669b9a7c638462dc7262b9416d2bf7395d60dca654f465e7e06f7db1d3d2d6b1",
+      "split": "validation",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E07/runs/E07.009/rev2rev-en/validation/manifest.json"
+    },
+    "evidence": [
+      "E06/evidence/R9/rev2rev-en/manifest.json",
+      "E06/evidence/R9/rev2rev-en/official_metrics.json",
+      "E06/evidence/R9/rev2rev-en/metrics.json",
+      "E06/evidence/R9/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E06.R9",
+    "source_row_id": "E07.009",
+    "source_row_id_v2": "E07.V2.R009",
+    "configuration": "k=100；dense/BM25=2 / 1",
+    "task": "rat2rev-ja",
+    "split": "validation",
+    "scope_qids": null,
+    "source_type": "new_native_validation",
+    "metrics": {
+      "ndcg_10": 0.34406274421325894,
+      "recall_100": 0.5720614799122274,
+      "map": 0.2415120901762637
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/5238307d9b6db5dfe5a13496408f54d5ac3befe9c4c8a8c9b0d42468d5e380c5.jsonl",
+        "sha256": "5238307d9b6db5dfe5a13496408f54d5ac3befe9c4c8a8c9b0d42468d5e380c5"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E07/runs/E07.009/rat2rev-ja/validation/ranked.jsonl",
+      "canonical_sha256": "5238307d9b6db5dfe5a13496408f54d5ac3befe9c4c8a8c9b0d42468d5e380c5",
+      "split": "validation",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E07/runs/E07.009/rat2rev-ja/validation/manifest.json"
+    },
+    "evidence": [
+      "E06/evidence/R9/rat2rev-ja/manifest.json",
+      "E06/evidence/R9/rat2rev-ja/official_metrics.json",
+      "E06/evidence/R9/rat2rev-ja/metrics.json",
+      "E06/evidence/R9/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E06.R9",
+    "source_row_id": "E07.009",
+    "source_row_id_v2": "E07.V2.R009",
+    "configuration": "k=100；dense/BM25=2 / 1",
+    "task": "rev2rev-ja",
+    "split": "validation",
+    "scope_qids": null,
+    "source_type": "new_native_validation",
+    "metrics": {
+      "ndcg_10": 0.3172303468464354,
+      "recall_100": 0.5231113710243839,
+      "map": 0.21667236856866526
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/e37995cda10170ee3dd4b312bf1623f2bb6c5999b8a501234cb5cc9cf3cfa3bc.jsonl",
+        "sha256": "e37995cda10170ee3dd4b312bf1623f2bb6c5999b8a501234cb5cc9cf3cfa3bc"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E07/runs/E07.009/rev2rev-ja/validation/ranked.jsonl",
+      "canonical_sha256": "e37995cda10170ee3dd4b312bf1623f2bb6c5999b8a501234cb5cc9cf3cfa3bc",
+      "split": "validation",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E07/runs/E07.009/rev2rev-ja/validation/manifest.json"
+    },
+    "evidence": [
+      "E06/evidence/R9/rev2rev-ja/manifest.json",
+      "E06/evidence/R9/rev2rev-ja/official_metrics.json",
+      "E06/evidence/R9/rev2rev-ja/metrics.json",
+      "E06/evidence/R9/rev2rev-ja/per_query.csv"
+    ]
+  }
+]

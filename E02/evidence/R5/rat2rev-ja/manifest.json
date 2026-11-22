@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "model_signature": "a9f0fba4c77181a42ddd7d0e4661476faefedd561374c00176087f36917248e6",
+  "source_manifest": "experiments/E03/runs/E03.010/rat2rev-ja/test/manifest.json",
+  "source_sha256": "284cd56091f1ce192ce8f9caa01cd7096d6fcf2a3ff81cef6e4878c89f98c3b7",
+  "count": 200,
+  "split": "test",
+  "task": "rat2rev-ja",
+  "output_length": 200
+}

@@ -1,0 +1,26 @@
+{
+  "complete": true,
+  "model_signature": "1f1ba18cad37c68cd1323059c87258c5dbdf7bbfa94fea7092f84d78d73c2762",
+  "bm25_params": {
+    "k1": 1.2,
+    "b": 0.75
+  },
+  "recipe": "multi5",
+  "count": 5,
+  "anchor": true,
+  "repeated_control": false,
+  "dense_total_weight": 1.0,
+  "branch_weights": [
+    0.5,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1
+  ],
+  "rrf_k": 100,
+  "task": "rev2rev-en",
+  "split": "test",
+  "at": "2026-10-31T02:56:08+08:00",
+  "generator": "Qwen3-8B; same across controlled recipes"
+}

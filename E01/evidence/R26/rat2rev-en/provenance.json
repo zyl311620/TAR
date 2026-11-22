@@ -1,0 +1,10 @@
+{
+  "original_path": "D:\\论文+比赛\\2026比赛\\CAIL\\法律修订候选检索\\初赛\\submissions\\english_main_best_gpt61_20261029_run1\\local_team_rat2rev-en_run1.jsonl",
+  "original_sha256": "ce31888dc9aea414a8291dd6030ce0a77602b51dc1d5eae812fe061a47889ca1",
+  "canonical_ranked_path": "experiments\\E01\\runs\\E01.029\\rat2rev-en\\ranked.jsonl",
+  "canonical_sha256": "ce31888dc9aea414a8291dd6030ce0a77602b51dc1d5eae812fe061a47889ca1",
+  "qrels_sha256": "c5215c8506c684bcbed81b5d04429db6fe7a83ba77ddfb1888cb57a607fdf485",
+  "output_length": 200,
+  "conditions": "Exploratory historical bilingual pipeline",
+  "inference_was_not_repeated": true
+}

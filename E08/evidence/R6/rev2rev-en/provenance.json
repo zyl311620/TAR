@@ -1,0 +1,10 @@
+{
+  "original_path": "/root/user/cs_tcci_zhouyulin/recare_official_20261024/runs/finetune/jina_v3_recovery_v2/hybrid_top50_fulltext/finetuned/qwen/rev2rev-en/recare.jsonl",
+  "original_sha256": "994d562ec3b68ef3d11b0f99809226ba547ca17644286cae46dfdf6df5f44d3d",
+  "canonical_ranked_path": "experiments/E10/runs/E10.006/rev2rev-en/ranked.jsonl",
+  "canonical_sha256": "994d562ec3b68ef3d11b0f99809226ba547ca17644286cae46dfdf6df5f44d3d",
+  "qrels_sha256": "21a4908238fdd57ce19d9e1ac5d7474cca18d2a52677d8727df2260ee0ec216b",
+  "output_length": 200,
+  "conditions": "",
+  "inference_was_not_repeated": true
+}

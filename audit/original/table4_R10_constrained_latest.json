@@ -1,0 +1,71 @@
+{
+  "at": "2026-11-07T13:11:24+08:00",
+  "pid": 2273063,
+  "process_state": "Z",
+  "immutable_source_verified": true,
+  "decoder_protocol": "native-exact-permutation-json-v1-20261106",
+  "new_protocol_counts": {
+    "rev2rev-en": 503,
+    "rev2rev-ja": 535
+  },
+  "old_unconstrained_counts_retained": {
+    "rev2rev-en": 197,
+    "rev2rev-ja": 146
+  },
+  "not_additive": true,
+  "new_generation_log_entries": 8520,
+  "recent_completed_queries": [
+    {
+      "at": "2026-11-07T08:07:50+08:00",
+      "task": "rev2rev-ja",
+      "qid": "502AC0000000022_20201001_000000000000000_8",
+      "completed": 532,
+      "expected": 535,
+      "logical_calls": 3,
+      "cache_hits": 0
+    },
+    {
+      "at": "2026-11-07T08:08:10+08:00",
+      "task": "rev2rev-ja",
+      "qid": "505AC0000000032_20240216_000000000000000_9",
+      "completed": 533,
+      "expected": 535,
+      "logical_calls": 1,
+      "cache_hits": 0
+    },
+    {
+      "at": "2026-11-07T08:08:45+08:00",
+      "task": "rev2rev-ja",
+      "qid": "506AC0000000018_20250401_000000000000000_20",
+      "completed": 534,
+      "expected": 535,
+      "logical_calls": 3,
+      "cache_hits": 0
+    },
+    {
+      "at": "2026-11-07T08:09:06+08:00",
+      "task": "rev2rev-ja",
+      "qid": "507AC0000000067_20261212_000000000000000_38",
+      "completed": 535,
+      "expected": 535,
+      "logical_calls": 1,
+      "cache_hits": 0
+    }
+  ],
+  "all_logged_requests_format_valid": true,
+  "guard_hashes": {
+    "/root/user/cs_tcci_zhouyulin/.cache/recare-qwen397/uncertain_inflight.json": "980bc3853841a7cd3af9d0896d02707f3e33a9b751d04321479847f9f19e0962"
+  },
+  "status": {
+    "at": "2026-11-07T08:09:07+08:00",
+    "status": "complete_pending_independent_audit",
+    "pid": 2273063,
+    "tasks": [
+      "rev2rev-en",
+      "rev2rev-ja"
+    ],
+    "decoder_protocol": "native-exact-permutation-json-v1-20261106",
+    "published_to_original_results": false
+  },
+  "log_tail": " \"task\": \"rev2rev-ja\", \"qid\": \"505AC0000000032_20240216_000000000000000_9\", \"completed\": 533, \"expected\": 535, \"logical_calls\": 1, \"cache_hits\": 0}\nCONSTRAINED_NATIVE_REQUEST {\"at\": \"2026-11-07T08:08:22+08:00\", \"task\": \"rev2rev-ja\", \"documents\": 50, \"seconds\": 12.006, \"identity\": \"d090067f4468bd94a89343152bc3811b636e0f914ad5b5b2cddb10ffb1b08414\", \"format_valid\": true}\nCONSTRAINED_NATIVE_REQUEST {\"at\": \"2026-11-07T08:08:34+08:00\", \"task\": \"rev2rev-ja\", \"documents\": 50, \"seconds\": 11.915, \"identity\": \"13521520354861a593ee40bb625d84f7c91071a9973684d6ae22b5a964367f94\", \"format_valid\": true}\nCONSTRAINED_NATIVE_REQUEST {\"at\": \"2026-11-07T08:08:45+08:00\", \"task\": \"rev2rev-ja\", \"documents\": 50, \"seconds\": 10.949, \"identity\": \"2c08a7248e74cb5e24e2a5d088594b2850028a19bd858e126698a9a9779e5277\", \"format_valid\": true}\nCONSTRAINED_QUERY_COMPLETE {\"at\": \"2026-11-07T08:08:45+08:00\", \"task\": \"rev2rev-ja\", \"qid\": \"506AC0000000018_20250401_000000000000000_20\", \"completed\": 534, \"expected\": 535, \"logical_calls\": 3, \"cache_hits\": 0}\nCONSTRAINED_NATIVE_REQUEST {\"at\": \"2026-11-07T08:09:06+08:00\", \"task\": \"rev2rev-ja\", \"documents\": 100, \"seconds\": 20.713, \"identity\": \"d0b515b0567516a6fc9cb6780a999b4aa8af11159787657b64095a2c0028536a\", \"format_valid\": true}\nCONSTRAINED_QUERY_COMPLETE {\"at\": \"2026-11-07T08:09:06+08:00\", \"task\": \"rev2rev-ja\", \"qid\": \"507AC0000000067_20261212_000000000000000_38\", \"completed\": 535, \"expected\": 535, \"logical_calls\": 1, \"cache_hits\": 0}\nCONSTRAINED_PAIR_COMPLETE rev2rev-ja\n"
+}

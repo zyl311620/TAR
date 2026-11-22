@@ -1,0 +1,23 @@
+{
+  "complete": true,
+  "task": "rev2rev-en",
+  "split": "test",
+  "index_identity_hash": "0fb587d75cc3ea76c63396d62a4181aa38dd610de550e05ac354cd24dc7b4210",
+  "run_sha256": {
+    "rrf.jsonl": "90d242312a47f940da9c1a087107187dfd75015b6e6aee2698710f5d25637f41",
+    "dense_original.jsonl": "ff997f35bb35009d83d87241f65ab1d0607d8d01b36bdda977b37a8a66cf5e09"
+  },
+  "metrics": {
+    "dense_original": {
+      "ndcg_10": 0.24493470254367725,
+      "recall_100": 0.4209208370069421,
+      "recall_1000": 0.6526423738986051
+    },
+    "rrf": {
+      "ndcg_10": 0.24790615128712662,
+      "recall_100": 0.44196741830062075,
+      "recall_1000": 0.508195825155946
+    }
+  },
+  "qrels_used_for_inference": false
+}

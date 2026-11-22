@@ -1,0 +1,67 @@
+[
+  {
+    "row_id": "E10.R1",
+    "configuration": "Qwen3-8B / Qwen原顺序，3次独立调用",
+    "source_experiment": "E12",
+    "source_row_id": "E12.001",
+    "source_row_id_v2": "E12.V2.R001",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E10.R2",
+    "configuration": "Qwen3-8B / 同一集合反序，3次独立调用",
+    "source_experiment": "E12",
+    "source_row_id": "E12.003",
+    "source_row_id_v2": "E12.V2.R002",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E10.R3",
+    "configuration": "Qwen3-8B / 同一集合固定随机序，3次独立调用",
+    "source_experiment": "E12",
+    "source_row_id": "E12.005",
+    "source_row_id_v2": "E12.V2.R003",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E10.R4",
+    "configuration": "Qwen3-8B / 仅空白/格式规范化【补充】",
+    "source_experiment": "E12",
+    "source_row_id": "E12.007",
+    "source_row_id_v2": "E12.V2.R004",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E10.R5",
+    "configuration": "Qwen3-8B / 多视角检索丢一路【补充，改变候选池】",
+    "source_experiment": "E12",
+    "source_row_id": "E12.009",
+    "source_row_id_v2": "E12.V2.R005",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  }
+]

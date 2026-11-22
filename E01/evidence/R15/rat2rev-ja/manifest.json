@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "model_signature": "b47a0d9fa03bf1ab8f5702e0332fd5979bfc571ac42c477d32b0b96416e1f059",
+  "source_manifest": "cache/fusion_original/rat2rev-ja/test/k100_w2/manifest.json",
+  "source_sha256": "3ee2d9b7c727c0ba07f024ccf5c8bd19339a46d15456766d50d72ba7f544640f",
+  "count": 200,
+  "split": "test",
+  "task": "rat2rev-ja",
+  "output_length": 200
+}

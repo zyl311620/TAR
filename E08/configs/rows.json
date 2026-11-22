@@ -1,0 +1,90 @@
+[
+  {
+    "row_id": "E08.R1",
+    "configuration": "Jina-v3 / 未额外微调",
+    "source_experiment": "E10",
+    "source_row_id": "E10.001",
+    "source_row_id_v2": "E10.V2.R001",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en"
+    ]
+  },
+  {
+    "row_id": "E08.R2",
+    "configuration": "Jina-v3 / 额外微调",
+    "source_experiment": "E10",
+    "source_row_id": "E10.002",
+    "source_row_id_v2": "E10.V2.R002",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en"
+    ]
+  },
+  {
+    "row_id": "E08.R3",
+    "configuration": "Jina-v3 / 未额外微调",
+    "source_experiment": "E10",
+    "source_row_id": "E10.003",
+    "source_row_id_v2": "E10.V2.R003",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en"
+    ]
+  },
+  {
+    "row_id": "E08.R4",
+    "configuration": "Jina-v3 / 额外微调",
+    "source_experiment": "E10",
+    "source_row_id": "E10.004",
+    "source_row_id_v2": "E10.V2.R004",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en"
+    ]
+  },
+  {
+    "row_id": "E08.R5",
+    "configuration": "Jina-v3 / 未额外微调",
+    "source_experiment": "E10",
+    "source_row_id": "E10.005",
+    "source_row_id_v2": "E10.V2.R005",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en"
+    ]
+  },
+  {
+    "row_id": "E08.R6",
+    "configuration": "Jina-v3 / 额外微调",
+    "source_experiment": "E10",
+    "source_row_id": "E10.006",
+    "source_row_id_v2": "E10.V2.R006",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en"
+    ]
+  },
+  {
+    "row_id": "E08.R7",
+    "configuration": "Jina-v3 / 未额外微调",
+    "source_experiment": "E10",
+    "source_row_id": "E10.007",
+    "source_row_id_v2": "E10.V2.R007",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en"
+    ]
+  },
+  {
+    "row_id": "E08.R8",
+    "configuration": "Jina-v3 / 额外微调",
+    "source_experiment": "E10",
+    "source_row_id": "E10.008",
+    "source_row_id_v2": "E10.V2.R008",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en"
+    ]
+  }
+]

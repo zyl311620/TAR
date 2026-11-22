@@ -1,0 +1,11 @@
+{
+  "complete": true,
+  "task": "rat2rev-en",
+  "split": "test",
+  "configuration": "anchor_plus_5",
+  "source_model": "v4",
+  "run_sha256": {
+    "rrf.jsonl": "0b29971d90e5f983bcaccff8ddf73674908104879b7588773244d18049bb61d6"
+  },
+  "qrels_used_for_inference": false
+}

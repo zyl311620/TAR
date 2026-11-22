@@ -1,0 +1,53 @@
+{
+  "at": "2026-10-30T22:33:07+08:00",
+  "grid": [
+    {
+      "fb_docs": 5,
+      "fb_terms": 10,
+      "original_query_weight": 0.5
+    },
+    {
+      "fb_docs": 5,
+      "fb_terms": 10,
+      "original_query_weight": 0.8
+    },
+    {
+      "fb_docs": 5,
+      "fb_terms": 20,
+      "original_query_weight": 0.5
+    },
+    {
+      "fb_docs": 5,
+      "fb_terms": 20,
+      "original_query_weight": 0.8
+    },
+    {
+      "fb_docs": 10,
+      "fb_terms": 10,
+      "original_query_weight": 0.5
+    },
+    {
+      "fb_docs": 10,
+      "fb_terms": 10,
+      "original_query_weight": 0.8
+    },
+    {
+      "fb_docs": 10,
+      "fb_terms": 20,
+      "original_query_weight": 0.5
+    },
+    {
+      "fb_docs": 10,
+      "fb_terms": 20,
+      "original_query_weight": 0.8
+    }
+  ],
+  "bm25": {
+    "k1": 0.9,
+    "b": 0.4
+  },
+  "source_reference": "castorini/anserini Rm3Reranker.java",
+  "feedback": "score-weighted normalized term frequencies; original query interpolation",
+  "japanese": "JapaneseAnalyzer; disable ASCII-only term filter",
+  "test_used_for_selection": false
+}

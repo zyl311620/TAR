@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-31T01:31:41+08:00",
+  "scope": "execution order only; all frozen row/task pairs retained",
+  "selection": "first pending pair with a complete matching Qwen C200 test manifest",
+  "test_metrics_used_for_order": false,
+  "parallel_gpt_workers": 1,
+  "ranking_configuration": "unchanged gpt_experiments.profile(E04,row)",
+  "request_cache_and_global_lock": "unchanged"
+}

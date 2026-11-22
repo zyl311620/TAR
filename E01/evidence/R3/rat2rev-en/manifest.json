@@ -1,0 +1,17 @@
+{
+  "complete": true,
+  "signature": "638743de504de8525d3dcd02a7a4a7e070fcc83f8756a63ab5c0958830a1fe34",
+  "at": "2026-10-30T22:38:16+08:00",
+  "config": {
+    "fb_docs": 5,
+    "fb_terms": 10,
+    "original_query_weight": 0.8
+  },
+  "split": "test",
+  "task": "rat2rev-en",
+  "index_signature": "39fc09d5809684d53a9e869d5121ac142a81c066ff0441a306f1af04f4687d21",
+  "output_length": 200,
+  "implementation": "direct Lucene RM3; not bitwise Anserini/Pyserini",
+  "term_filter": "length 2..20; df<=10%; ascii only for English",
+  "tie_break": "feedback term frequency desc then term asc"
+}

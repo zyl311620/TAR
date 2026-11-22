@@ -1,0 +1,119 @@
+[
+  {
+    "row_id": "E06.R1",
+    "configuration": "k=20；dense/BM25=0.5 / 1",
+    "source_experiment": "E07",
+    "source_row_id": "E07.001",
+    "source_row_id_v2": "E07.V2.R001",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E06.R2",
+    "configuration": "k=20；dense/BM25=1 / 1",
+    "source_experiment": "E07",
+    "source_row_id": "E07.002",
+    "source_row_id_v2": "E07.V2.R002",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E06.R3",
+    "configuration": "k=20；dense/BM25=2 / 1",
+    "source_experiment": "E07",
+    "source_row_id": "E07.003",
+    "source_row_id_v2": "E07.V2.R003",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E06.R4",
+    "configuration": "k=60；dense/BM25=0.5 / 1",
+    "source_experiment": "E07",
+    "source_row_id": "E07.004",
+    "source_row_id_v2": "E07.V2.R004",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E06.R5",
+    "configuration": "k=60；dense/BM25=1 / 1",
+    "source_experiment": "E07",
+    "source_row_id": "E07.005",
+    "source_row_id_v2": "E07.V2.R005",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E06.R6",
+    "configuration": "k=60；dense/BM25=2 / 1",
+    "source_experiment": "E07",
+    "source_row_id": "E07.006",
+    "source_row_id_v2": "E07.V2.R006",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E06.R7",
+    "configuration": "k=100；dense/BM25=0.5 / 1",
+    "source_experiment": "E07",
+    "source_row_id": "E07.007",
+    "source_row_id_v2": "E07.V2.R007",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E06.R8",
+    "configuration": "k=100；dense/BM25=1 / 1",
+    "source_experiment": "E07",
+    "source_row_id": "E07.008",
+    "source_row_id_v2": "E07.V2.R008",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E06.R9",
+    "configuration": "k=100；dense/BM25=2 / 1",
+    "source_experiment": "E07",
+    "source_row_id": "E07.009",
+    "source_row_id_v2": "E07.V2.R009",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  }
+]

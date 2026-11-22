@@ -1,0 +1,19 @@
+{
+  "complete": true,
+  "signature": "30c5ea11fe2336a06197d253fbe2230c50dc25b9a1a6193685174e1159b45c31",
+  "at": "2026-10-30T21:23:01+08:00",
+  "task": "rat2rev-en",
+  "split": "test",
+  "model": {
+    "directory": "jina-embeddings-v5-text-small",
+    "method": "Jina-v5-text-small",
+    "pooling": "jina_v5",
+    "max_length": 32768,
+    "normalize": true
+  },
+  "index_signature": "56b3a0ad27a73ef1525c094991427ae666141f15b8b84c4ebcacb5039dd2e151",
+  "query_rewrite": false,
+  "full_corpus_retrieval": true,
+  "model_api_calls": 0,
+  "scored_top1000_sha256": "3e1f243a52144b436482c802ff5ceab2c6f66eeb15b3f69b2a67a74408997b06"
+}

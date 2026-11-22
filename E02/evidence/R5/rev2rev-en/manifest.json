@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "model_signature": "a9f0fba4c77181a42ddd7d0e4661476faefedd561374c00176087f36917248e6",
+  "source_manifest": "experiments/E03/runs/E03.010/rev2rev-en/test/manifest.json",
+  "source_sha256": "73be0265acfef7e7e9c6efa634cdc57e610f826f6fb45bffbaaf9907d4c9684d",
+  "count": 200,
+  "split": "test",
+  "task": "rev2rev-en",
+  "output_length": 200
+}

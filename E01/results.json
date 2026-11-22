@@ -1,0 +1,3430 @@
+[
+  {
+    "row_id": "E01.R1",
+    "source_row_id": "E01.001",
+    "source_row_id_v2": "E01.V2.R001",
+    "configuration": "BM25 (official parameters)",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.11634291944502158,
+      "recall_100": 0.22556239458819816,
+      "map": 0.06833778200684626
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/4a4344eda3f60c60038b1d7782ef835707927428ad8c31c0d478f0e44eabc6f8.jsonl",
+        "sha256": "4a4344eda3f60c60038b1d7782ef835707927428ad8c31c0d478f0e44eabc6f8"
+      }
+    ],
+    "original_provenance": {
+      "native_folder": "experiments/E01/native/bm25/rat2rev-en/test/k0.9_b0.4",
+      "run_sha256": "4a4344eda3f60c60038b1d7782ef835707927428ad8c31c0d478f0e44eabc6f8",
+      "k1": 0.9,
+      "b": 0.4,
+      "analyzer": "class org.apache.lucene.analysis.en.EnglishAnalyzer",
+      "index_signature": "39fc09d5809684d53a9e869d5121ac142a81c066ff0441a306f1af04f4687d21",
+      "output_length": 200
+    },
+    "evidence": [
+      "E01/evidence/R1/rat2rev-en/manifest.json",
+      "E01/evidence/R1/rat2rev-en/official_metrics.json",
+      "E01/evidence/R1/rat2rev-en/metrics.json",
+      "E01/evidence/R1/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R1",
+    "source_row_id": "E01.001",
+    "source_row_id_v2": "E01.V2.R001",
+    "configuration": "BM25 (official parameters)",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.2013133319946491,
+      "recall_100": 0.3103171658378485,
+      "map": 0.1174795030271895
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/865fa3fec450e143aa10116fdbcb7cf1244ea07eb20cb42dbd9a11acac6522d2.jsonl",
+        "sha256": "865fa3fec450e143aa10116fdbcb7cf1244ea07eb20cb42dbd9a11acac6522d2"
+      }
+    ],
+    "original_provenance": {
+      "native_folder": "experiments/E01/native/bm25/rev2rev-en/test/k0.9_b0.4",
+      "run_sha256": "865fa3fec450e143aa10116fdbcb7cf1244ea07eb20cb42dbd9a11acac6522d2",
+      "k1": 0.9,
+      "b": 0.4,
+      "analyzer": "class org.apache.lucene.analysis.en.EnglishAnalyzer",
+      "index_signature": "39fc09d5809684d53a9e869d5121ac142a81c066ff0441a306f1af04f4687d21",
+      "output_length": 200
+    },
+    "evidence": [
+      "E01/evidence/R1/rev2rev-en/manifest.json",
+      "E01/evidence/R1/rev2rev-en/official_metrics.json",
+      "E01/evidence/R1/rev2rev-en/metrics.json",
+      "E01/evidence/R1/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R1",
+    "source_row_id": "E01.001",
+    "source_row_id_v2": "E01.V2.R001",
+    "configuration": "BM25 (official parameters)",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.2705557315460841,
+      "recall_100": 0.46989076304893734,
+      "map": 0.1909339272423103
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/b2b99dd9cbf8994526535309efacc100ae5fa1e21cc409560d0f077e96c1c5af.jsonl",
+        "sha256": "b2b99dd9cbf8994526535309efacc100ae5fa1e21cc409560d0f077e96c1c5af"
+      }
+    ],
+    "original_provenance": {
+      "native_folder": "experiments/E01/native/bm25/rat2rev-ja/test/k0.9_b0.4",
+      "run_sha256": "b2b99dd9cbf8994526535309efacc100ae5fa1e21cc409560d0f077e96c1c5af",
+      "k1": 0.9,
+      "b": 0.4,
+      "analyzer": "class org.apache.lucene.analysis.ja.JapaneseAnalyzer",
+      "index_signature": "cb93bf8912d9f1de4e73e79fa73db52ab7d1d65692279d6188ca3967ee604670",
+      "output_length": 200
+    },
+    "evidence": [
+      "E01/evidence/R1/rat2rev-ja/manifest.json",
+      "E01/evidence/R1/rat2rev-ja/official_metrics.json",
+      "E01/evidence/R1/rat2rev-ja/metrics.json",
+      "E01/evidence/R1/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R1",
+    "source_row_id": "E01.001",
+    "source_row_id_v2": "E01.V2.R001",
+    "configuration": "BM25 (official parameters)",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.2726332231854372,
+      "recall_100": 0.41764054396790984,
+      "map": 0.1676055040602538
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/05f476e8520547512588c7a8842bd5293422c00160331c6256e8e8fef486ae7a.jsonl",
+        "sha256": "05f476e8520547512588c7a8842bd5293422c00160331c6256e8e8fef486ae7a"
+      }
+    ],
+    "original_provenance": {
+      "native_folder": "experiments/E01/native/bm25/rev2rev-ja/test/k0.9_b0.4",
+      "run_sha256": "05f476e8520547512588c7a8842bd5293422c00160331c6256e8e8fef486ae7a",
+      "k1": 0.9,
+      "b": 0.4,
+      "analyzer": "class org.apache.lucene.analysis.ja.JapaneseAnalyzer",
+      "index_signature": "cb93bf8912d9f1de4e73e79fa73db52ab7d1d65692279d6188ca3967ee604670",
+      "output_length": 200
+    },
+    "evidence": [
+      "E01/evidence/R1/rev2rev-ja/manifest.json",
+      "E01/evidence/R1/rev2rev-ja/official_metrics.json",
+      "E01/evidence/R1/rev2rev-ja/metrics.json",
+      "E01/evidence/R1/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R2",
+    "source_row_id": "E01.002",
+    "source_row_id_v2": "E01.V2.R002",
+    "configuration": "BM25 (validation-selected)",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.16146331332422575,
+      "recall_100": 0.3080863386192574,
+      "map": 0.10191727102688415
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/1a77d9b3c22f9670d167731a662c315a704b3e5647ea4e802e1d259de9ebbbb0.jsonl",
+        "sha256": "1a77d9b3c22f9670d167731a662c315a704b3e5647ea4e802e1d259de9ebbbb0"
+      }
+    ],
+    "original_provenance": {
+      "native_folder": "experiments/E01/native/bm25/rat2rev-en/test/k1.2_b0.75",
+      "run_sha256": "1a77d9b3c22f9670d167731a662c315a704b3e5647ea4e802e1d259de9ebbbb0",
+      "k1": 1.2,
+      "b": 0.75,
+      "analyzer": "class org.apache.lucene.analysis.en.EnglishAnalyzer",
+      "index_signature": "39fc09d5809684d53a9e869d5121ac142a81c066ff0441a306f1af04f4687d21",
+      "output_length": 200
+    },
+    "evidence": [
+      "E01/evidence/R2/rat2rev-en/manifest.json",
+      "E01/evidence/R2/rat2rev-en/official_metrics.json",
+      "E01/evidence/R2/rat2rev-en/metrics.json",
+      "E01/evidence/R2/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R2",
+    "source_row_id": "E01.002",
+    "source_row_id_v2": "E01.V2.R002",
+    "configuration": "BM25 (validation-selected)",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.22346075857392952,
+      "recall_100": 0.3731660949939776,
+      "map": 0.13664372600957836
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/1b7816e14a259a0800416cc0ef91c5d7a93552dc6033bbd603cd79d21a9194b8.jsonl",
+        "sha256": "1b7816e14a259a0800416cc0ef91c5d7a93552dc6033bbd603cd79d21a9194b8"
+      }
+    ],
+    "original_provenance": {
+      "native_folder": "experiments/E01/native/bm25/rev2rev-en/test/k1.2_b0.75",
+      "run_sha256": "1b7816e14a259a0800416cc0ef91c5d7a93552dc6033bbd603cd79d21a9194b8",
+      "k1": 1.2,
+      "b": 0.75,
+      "analyzer": "class org.apache.lucene.analysis.en.EnglishAnalyzer",
+      "index_signature": "39fc09d5809684d53a9e869d5121ac142a81c066ff0441a306f1af04f4687d21",
+      "output_length": 200
+    },
+    "evidence": [
+      "E01/evidence/R2/rev2rev-en/manifest.json",
+      "E01/evidence/R2/rev2rev-en/official_metrics.json",
+      "E01/evidence/R2/rev2rev-en/metrics.json",
+      "E01/evidence/R2/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R2",
+    "source_row_id": "E01.002",
+    "source_row_id_v2": "E01.V2.R002",
+    "configuration": "BM25 (validation-selected)",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.29512733378320516,
+      "recall_100": 0.4647379745509286,
+      "map": 0.20545620624485303
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/e437279fde2cbb8bf5a7914939d819f577bf47a10cc3946d77f42460138ccf98.jsonl",
+        "sha256": "e437279fde2cbb8bf5a7914939d819f577bf47a10cc3946d77f42460138ccf98"
+      }
+    ],
+    "original_provenance": {
+      "native_folder": "experiments/E01/native/bm25/rat2rev-ja/test/k1.2_b0.75",
+      "run_sha256": "e437279fde2cbb8bf5a7914939d819f577bf47a10cc3946d77f42460138ccf98",
+      "k1": 1.2,
+      "b": 0.75,
+      "analyzer": "class org.apache.lucene.analysis.ja.JapaneseAnalyzer",
+      "index_signature": "cb93bf8912d9f1de4e73e79fa73db52ab7d1d65692279d6188ca3967ee604670",
+      "output_length": 200
+    },
+    "evidence": [
+      "E01/evidence/R2/rat2rev-ja/manifest.json",
+      "E01/evidence/R2/rat2rev-ja/official_metrics.json",
+      "E01/evidence/R2/rat2rev-ja/metrics.json",
+      "E01/evidence/R2/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R2",
+    "source_row_id": "E01.002",
+    "source_row_id_v2": "E01.V2.R002",
+    "configuration": "BM25 (validation-selected)",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.2762449078079183,
+      "recall_100": 0.4285059218843117,
+      "map": 0.17255143801045442
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/6181f52722c7e75bc746ec2896efa317405cbfef2ef6cbb6bb3d7f6b9f525bb5.jsonl",
+        "sha256": "6181f52722c7e75bc746ec2896efa317405cbfef2ef6cbb6bb3d7f6b9f525bb5"
+      }
+    ],
+    "original_provenance": {
+      "native_folder": "experiments/E01/native/bm25/rev2rev-ja/test/k0.9_b0.75",
+      "run_sha256": "6181f52722c7e75bc746ec2896efa317405cbfef2ef6cbb6bb3d7f6b9f525bb5",
+      "k1": 0.9,
+      "b": 0.75,
+      "analyzer": "class org.apache.lucene.analysis.ja.JapaneseAnalyzer",
+      "index_signature": "cb93bf8912d9f1de4e73e79fa73db52ab7d1d65692279d6188ca3967ee604670",
+      "output_length": 200
+    },
+    "evidence": [
+      "E01/evidence/R2/rev2rev-ja/manifest.json",
+      "E01/evidence/R2/rev2rev-ja/official_metrics.json",
+      "E01/evidence/R2/rev2rev-ja/metrics.json",
+      "E01/evidence/R2/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R3",
+    "source_row_id": "E01.003",
+    "source_row_id_v2": "E01.V2.R003",
+    "configuration": "BM25 + RM3",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.11366015162663273,
+      "recall_100": 0.2376987781480703,
+      "map": 0.07855282757427581
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/2e4d2395a47627e80393ca57ce0653ec4e6060d11ea7e029f144f05cf3db0741.jsonl",
+        "sha256": "2e4d2395a47627e80393ca57ce0653ec4e6060d11ea7e029f144f05cf3db0741"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/native/rm3/rat2rev-en/test/6fdb85a679dbe75c/ranked.jsonl",
+      "canonical_sha256": "2e4d2395a47627e80393ca57ce0653ec4e6060d11ea7e029f144f05cf3db0741",
+      "split": "test",
+      "selected_by": "validation only"
+    },
+    "evidence": [
+      "E01/evidence/R3/rat2rev-en/manifest.json",
+      "E01/evidence/R3/rat2rev-en/official_metrics.json",
+      "E01/evidence/R3/rat2rev-en/metrics.json",
+      "E01/evidence/R3/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R3",
+    "source_row_id": "E01.003",
+    "source_row_id_v2": "E01.V2.R003",
+    "configuration": "BM25 + RM3",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.19710905405970486,
+      "recall_100": 0.3430658538514819,
+      "map": 0.12466527953741965
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/360285ca66935c706e637455fcaacc574b9b6b835010e65b9f602fe5822c93b2.jsonl",
+        "sha256": "360285ca66935c706e637455fcaacc574b9b6b835010e65b9f602fe5822c93b2"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/native/rm3/rev2rev-en/test/6fdb85a679dbe75c/ranked.jsonl",
+      "canonical_sha256": "360285ca66935c706e637455fcaacc574b9b6b835010e65b9f602fe5822c93b2",
+      "split": "test",
+      "selected_by": "validation only"
+    },
+    "evidence": [
+      "E01/evidence/R3/rev2rev-en/manifest.json",
+      "E01/evidence/R3/rev2rev-en/official_metrics.json",
+      "E01/evidence/R3/rev2rev-en/metrics.json",
+      "E01/evidence/R3/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R3",
+    "source_row_id": "E01.003",
+    "source_row_id_v2": "E01.V2.R003",
+    "configuration": "BM25 + RM3",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.27714569470757056,
+      "recall_100": 0.46980001013425204,
+      "map": 0.19995994617807836
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/8500dcb84917bb3ff209252d4f68bb0a47d426bd3907275389ff803d8872c0b5.jsonl",
+        "sha256": "8500dcb84917bb3ff209252d4f68bb0a47d426bd3907275389ff803d8872c0b5"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/native/rm3/rat2rev-ja/test/0a7c0a4a7651e03d/ranked.jsonl",
+      "canonical_sha256": "8500dcb84917bb3ff209252d4f68bb0a47d426bd3907275389ff803d8872c0b5",
+      "split": "test",
+      "selected_by": "validation only"
+    },
+    "evidence": [
+      "E01/evidence/R3/rat2rev-ja/manifest.json",
+      "E01/evidence/R3/rat2rev-ja/official_metrics.json",
+      "E01/evidence/R3/rat2rev-ja/metrics.json",
+      "E01/evidence/R3/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R3",
+    "source_row_id": "E01.003",
+    "source_row_id_v2": "E01.V2.R003",
+    "configuration": "BM25 + RM3",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.26520491982544325,
+      "recall_100": 0.4252617528566373,
+      "map": 0.168935031162724
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/78f259ea3043be8b60d4ff27d74b121f7e29365497f745e995fb2eed83861e57.jsonl",
+        "sha256": "78f259ea3043be8b60d4ff27d74b121f7e29365497f745e995fb2eed83861e57"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/native/rm3/rev2rev-ja/test/0a7c0a4a7651e03d/ranked.jsonl",
+      "canonical_sha256": "78f259ea3043be8b60d4ff27d74b121f7e29365497f745e995fb2eed83861e57",
+      "split": "test",
+      "selected_by": "validation only"
+    },
+    "evidence": [
+      "E01/evidence/R3/rev2rev-ja/manifest.json",
+      "E01/evidence/R3/rev2rev-ja/official_metrics.json",
+      "E01/evidence/R3/rev2rev-ja/metrics.json",
+      "E01/evidence/R3/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R4",
+    "source_row_id": "E01.004",
+    "source_row_id_v2": "E01.V2.R004",
+    "configuration": "mDPR (reported)\\textsuperscript{r}",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "official_reported",
+    "metrics": {
+      "ndcg_10": 0.054652451600909396,
+      "recall_100": 0.08411811335309768,
+      "map": 0.023993031688289906
+    },
+    "rankings": [],
+    "original_provenance": {
+      "original_path": "D:\\论文+比赛\\2026比赛\\CAIL\\法律修订候选检索\\初赛\\official_baselines\\ReCaRe\\results\\metrics\\mdpr_rat2rev_en.json",
+      "original_sha256": "bbde9b03694bc0d4a069a89ee803bebb5034e9d872a60f9549db785e0973e244",
+      "original_output_length": "official original protocol; not normalized to L=200",
+      "ranked_run_released_locally": false,
+      "new_inference": false,
+      "n_queries": 113
+    },
+    "evidence": [],
+    "reported_metrics": "E01/evidence/R4/rat2rev-en/reported_metrics.json"
+  },
+  {
+    "row_id": "E01.R4",
+    "source_row_id": "E01.004",
+    "source_row_id_v2": "E01.V2.R004",
+    "configuration": "mDPR (reported)\\textsuperscript{r}",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "official_reported",
+    "metrics": {
+      "ndcg_10": 0.11976205905671716,
+      "recall_100": 0.17931970960843888,
+      "map": 0.0608574398333338
+    },
+    "rankings": [],
+    "original_provenance": {
+      "original_path": "D:\\论文+比赛\\2026比赛\\CAIL\\法律修订候选检索\\初赛\\official_baselines\\ReCaRe\\results\\metrics\\mdpr_rev2rev_en.json",
+      "original_sha256": "d4a002ebd1df2c5c018d05686ccd32370edfee8999faa20ab1108859899227c9",
+      "original_output_length": "official original protocol; not normalized to L=200",
+      "ranked_run_released_locally": false,
+      "new_inference": false,
+      "n_queries": 503
+    },
+    "evidence": [],
+    "reported_metrics": "E01/evidence/R4/rev2rev-en/reported_metrics.json"
+  },
+  {
+    "row_id": "E01.R4",
+    "source_row_id": "E01.004",
+    "source_row_id_v2": "E01.V2.R004",
+    "configuration": "mDPR (reported)\\textsuperscript{r}",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "official_reported",
+    "metrics": {
+      "ndcg_10": 0.22611560591452773,
+      "recall_100": 0.349131704207208,
+      "map": 0.13750093315058448
+    },
+    "rankings": [],
+    "original_provenance": {
+      "original_path": "D:\\论文+比赛\\2026比赛\\CAIL\\法律修订候选检索\\初赛\\official_baselines\\ReCaRe\\results\\metrics\\mdpr_rat2rev_ja.json",
+      "original_sha256": "bf8839e09d36cf520932f74ad01569664200aa5b5a0fbbb7fca51e2f4b76dcf2",
+      "original_output_length": "official original protocol; not normalized to L=200",
+      "ranked_run_released_locally": false,
+      "new_inference": false,
+      "n_queries": 121
+    },
+    "evidence": [],
+    "reported_metrics": "E01/evidence/R4/rat2rev-ja/reported_metrics.json"
+  },
+  {
+    "row_id": "E01.R4",
+    "source_row_id": "E01.004",
+    "source_row_id_v2": "E01.V2.R004",
+    "configuration": "mDPR (reported)\\textsuperscript{r}",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "official_reported",
+    "metrics": {
+      "ndcg_10": 0.2435612604687885,
+      "recall_100": 0.39391076038099965,
+      "map": 0.15058744550986372
+    },
+    "rankings": [],
+    "original_provenance": {
+      "original_path": "D:\\论文+比赛\\2026比赛\\CAIL\\法律修订候选检索\\初赛\\official_baselines\\ReCaRe\\results\\metrics\\mdpr_rev2rev_ja.json",
+      "original_sha256": "f79338a093d10589a87eabd628d1249b06ca44b565de8e0a5caff7fa746eaed1",
+      "original_output_length": "official original protocol; not normalized to L=200",
+      "ranked_run_released_locally": false,
+      "new_inference": false,
+      "n_queries": 535
+    },
+    "evidence": [],
+    "reported_metrics": "E01/evidence/R4/rev2rev-ja/reported_metrics.json"
+  },
+  {
+    "row_id": "E01.R5",
+    "source_row_id": "E01.005",
+    "source_row_id_v2": "E01.V2.R005",
+    "configuration": "mContriever (reported)\\textsuperscript{r}",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "official_reported",
+    "metrics": {
+      "ndcg_10": 0.058468144673732125,
+      "recall_100": 0.1628697724785716,
+      "map": 0.028702184654365463
+    },
+    "rankings": [],
+    "original_provenance": {
+      "original_path": "D:\\论文+比赛\\2026比赛\\CAIL\\法律修订候选检索\\初赛\\official_baselines\\ReCaRe\\results\\metrics\\mcontriever_rat2rev_en.json",
+      "original_sha256": "da3e7264d6c9c6ba5d2116955bdde57867eeaa5a94f6955b04da9125320915b7",
+      "original_output_length": "official original protocol; not normalized to L=200",
+      "ranked_run_released_locally": false,
+      "new_inference": false,
+      "n_queries": 113
+    },
+    "evidence": [],
+    "reported_metrics": "E01/evidence/R5/rat2rev-en/reported_metrics.json"
+  },
+  {
+    "row_id": "E01.R5",
+    "source_row_id": "E01.005",
+    "source_row_id_v2": "E01.V2.R005",
+    "configuration": "mContriever (reported)\\textsuperscript{r}",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "official_reported",
+    "metrics": {
+      "ndcg_10": 0.1628484488662946,
+      "recall_100": 0.260579257284171,
+      "map": 0.08893239967412704
+    },
+    "rankings": [],
+    "original_provenance": {
+      "original_path": "D:\\论文+比赛\\2026比赛\\CAIL\\法律修订候选检索\\初赛\\official_baselines\\ReCaRe\\results\\metrics\\mcontriever_rev2rev_en.json",
+      "original_sha256": "bbd1a68e0b9fb65e1473975fa5d928e48c54d5155bd31ff2505b96c7725a6ced",
+      "original_output_length": "official original protocol; not normalized to L=200",
+      "ranked_run_released_locally": false,
+      "new_inference": false,
+      "n_queries": 503
+    },
+    "evidence": [],
+    "reported_metrics": "E01/evidence/R5/rev2rev-en/reported_metrics.json"
+  },
+  {
+    "row_id": "E01.R5",
+    "source_row_id": "E01.005",
+    "source_row_id_v2": "E01.V2.R005",
+    "configuration": "mContriever (reported)\\textsuperscript{r}",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "official_reported",
+    "metrics": {
+      "ndcg_10": 0.2045585192655202,
+      "recall_100": 0.415547500111854,
+      "map": 0.1410766762455721
+    },
+    "rankings": [],
+    "original_provenance": {
+      "original_path": "D:\\论文+比赛\\2026比赛\\CAIL\\法律修订候选检索\\初赛\\official_baselines\\ReCaRe\\results\\metrics\\mcontriever_rat2rev_ja.json",
+      "original_sha256": "52e83a3943752e20e1135e02d94cb94e4d952381feee8b711dff36de2e4d36de",
+      "original_output_length": "official original protocol; not normalized to L=200",
+      "ranked_run_released_locally": false,
+      "new_inference": false,
+      "n_queries": 121
+    },
+    "evidence": [],
+    "reported_metrics": "E01/evidence/R5/rat2rev-ja/reported_metrics.json"
+  },
+  {
+    "row_id": "E01.R5",
+    "source_row_id": "E01.005",
+    "source_row_id_v2": "E01.V2.R005",
+    "configuration": "mContriever (reported)\\textsuperscript{r}",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "official_reported",
+    "metrics": {
+      "ndcg_10": 0.2607566075703813,
+      "recall_100": 0.42395465983708686,
+      "map": 0.16282605699915456
+    },
+    "rankings": [],
+    "original_provenance": {
+      "original_path": "D:\\论文+比赛\\2026比赛\\CAIL\\法律修订候选检索\\初赛\\official_baselines\\ReCaRe\\results\\metrics\\mcontriever_rev2rev_ja.json",
+      "original_sha256": "fdf7911620a06f2dd7c5c7e82d40a9749f073821941d6056edfe5c87a0529579",
+      "original_output_length": "official original protocol; not normalized to L=200",
+      "ranked_run_released_locally": false,
+      "new_inference": false,
+      "n_queries": 535
+    },
+    "evidence": [],
+    "reported_metrics": "E01/evidence/R5/rev2rev-ja/reported_metrics.json"
+  },
+  {
+    "row_id": "E01.R6",
+    "source_row_id": "E01.006",
+    "source_row_id_v2": "E01.V2.R006",
+    "configuration": "multilingual-e5-base",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.10956175759936539,
+      "recall_100": 0.2163438812694055,
+      "map": 0.05856503086576258
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/5d656e107c1eaccf49f961980594a566f612ad46e3c8e3058d805beeef0d5691.jsonl",
+        "sha256": "5d656e107c1eaccf49f961980594a566f612ad46e3c8e3058d805beeef0d5691"
+      }
+    ],
+    "original_provenance": {
+      "native_folder": "experiments/E01/native/multilingual-e5-base/rat2rev-en/test",
+      "run_sha256": "5d656e107c1eaccf49f961980594a566f612ad46e3c8e3058d805beeef0d5691",
+      "index_signature": "112813c3b0d13ea7c42396afbfeb894862d28b27f166cf33ca1ad4538c097f10",
+      "signature": "0a87b506bf65a8df74c5353f8168cf2d311ac892951e0542f867d21af55698df",
+      "output_length": 200,
+      "model_api_calls": 0
+    },
+    "evidence": [
+      "E01/evidence/R6/rat2rev-en/manifest.json",
+      "E01/evidence/R6/rat2rev-en/official_metrics.json",
+      "E01/evidence/R6/rat2rev-en/metrics.json",
+      "E01/evidence/R6/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R6",
+    "source_row_id": "E01.006",
+    "source_row_id_v2": "E01.V2.R006",
+    "configuration": "multilingual-e5-base",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.1644471601293572,
+      "recall_100": 0.2837920183385872,
+      "map": 0.09122373137297256
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/708069ec12168383b4bc4deab960ea5393a5f6b75ba0746d63723f4c978c5a58.jsonl",
+        "sha256": "708069ec12168383b4bc4deab960ea5393a5f6b75ba0746d63723f4c978c5a58"
+      }
+    ],
+    "original_provenance": {
+      "native_folder": "experiments/E01/native/multilingual-e5-base/rev2rev-en/test",
+      "run_sha256": "708069ec12168383b4bc4deab960ea5393a5f6b75ba0746d63723f4c978c5a58",
+      "index_signature": "112813c3b0d13ea7c42396afbfeb894862d28b27f166cf33ca1ad4538c097f10",
+      "signature": "6f3b1d0fd88d67b26aedfcd6f3ec1d0eb105a1dbddef603213b438455f50929d",
+      "output_length": 200,
+      "model_api_calls": 0
+    },
+    "evidence": [
+      "E01/evidence/R6/rev2rev-en/manifest.json",
+      "E01/evidence/R6/rev2rev-en/official_metrics.json",
+      "E01/evidence/R6/rev2rev-en/metrics.json",
+      "E01/evidence/R6/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R6",
+    "source_row_id": "E01.006",
+    "source_row_id_v2": "E01.V2.R006",
+    "configuration": "multilingual-e5-base",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.24486584598881536,
+      "recall_100": 0.42607746136557734,
+      "map": 0.1553254123337214
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/09d282c302d6d4fd24020a5a4d1211b66767bf4949a4676288df68720054e1c3.jsonl",
+        "sha256": "09d282c302d6d4fd24020a5a4d1211b66767bf4949a4676288df68720054e1c3"
+      }
+    ],
+    "original_provenance": {
+      "native_folder": "experiments/E01/native/multilingual-e5-base/rat2rev-ja/test",
+      "run_sha256": "09d282c302d6d4fd24020a5a4d1211b66767bf4949a4676288df68720054e1c3",
+      "index_signature": "f61271916f67ca97778b5bcecade650a3ef4246f4a002dca2e0f4c43cf234b41",
+      "signature": "6554454b7a86ecb44a7a358372e2bbf41f8fc0422fb988c00c679b8a9fde6c78",
+      "output_length": 200,
+      "model_api_calls": 0
+    },
+    "evidence": [
+      "E01/evidence/R6/rat2rev-ja/manifest.json",
+      "E01/evidence/R6/rat2rev-ja/official_metrics.json",
+      "E01/evidence/R6/rat2rev-ja/metrics.json",
+      "E01/evidence/R6/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R6",
+    "source_row_id": "E01.006",
+    "source_row_id_v2": "E01.V2.R006",
+    "configuration": "multilingual-e5-base",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.24798250932186822,
+      "recall_100": 0.3937469115541098,
+      "map": 0.14677712646760507
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/2c51554982bd9ccf89cb33d4bb42f422494b57dbbbaa6201824ef694e00ed865.jsonl",
+        "sha256": "2c51554982bd9ccf89cb33d4bb42f422494b57dbbbaa6201824ef694e00ed865"
+      }
+    ],
+    "original_provenance": {
+      "native_folder": "experiments/E01/native/multilingual-e5-base/rev2rev-ja/test",
+      "run_sha256": "2c51554982bd9ccf89cb33d4bb42f422494b57dbbbaa6201824ef694e00ed865",
+      "index_signature": "f61271916f67ca97778b5bcecade650a3ef4246f4a002dca2e0f4c43cf234b41",
+      "signature": "abebfc92faba42bcc8f66a17be848ccea74205c86d404f06703704f29a67f2a3",
+      "output_length": 200,
+      "model_api_calls": 0
+    },
+    "evidence": [
+      "E01/evidence/R6/rev2rev-ja/manifest.json",
+      "E01/evidence/R6/rev2rev-ja/official_metrics.json",
+      "E01/evidence/R6/rev2rev-ja/metrics.json",
+      "E01/evidence/R6/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R7",
+    "source_row_id": "E01.007",
+    "source_row_id_v2": "E01.V2.R007",
+    "configuration": "BGE-M3 dense",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.12575114302153634,
+      "recall_100": 0.21987156403106173,
+      "map": 0.06410360517729964
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/dc8c4f0e1db4ac59f8a7bea76449c54723478e1646f1ec8b472a76c01248a0d7.jsonl",
+        "sha256": "dc8c4f0e1db4ac59f8a7bea76449c54723478e1646f1ec8b472a76c01248a0d7"
+      }
+    ],
+    "original_provenance": {
+      "native_folder": "experiments/E01/native/bge-m3/rat2rev-en/test",
+      "run_sha256": "dc8c4f0e1db4ac59f8a7bea76449c54723478e1646f1ec8b472a76c01248a0d7",
+      "index_signature": "963b1b6a292cc56607db2360bc728ef33bfa9aff8f49ddc4932823705979d300",
+      "signature": "7ba8cfac858127837f9f4aa8b9a9a7b8ae576efe1d35cdfae688ebcb0492386e",
+      "output_length": 200,
+      "model_api_calls": 0
+    },
+    "evidence": [
+      "E01/evidence/R7/rat2rev-en/manifest.json",
+      "E01/evidence/R7/rat2rev-en/official_metrics.json",
+      "E01/evidence/R7/rat2rev-en/metrics.json",
+      "E01/evidence/R7/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R7",
+    "source_row_id": "E01.007",
+    "source_row_id_v2": "E01.V2.R007",
+    "configuration": "BGE-M3 dense",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.17214360438592682,
+      "recall_100": 0.30559056128333995,
+      "map": 0.1009662050138117
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/f1add4ac01b2b4dfa914e6075b20e0e75f0921835d79270a3fe4fd434bd69eb6.jsonl",
+        "sha256": "f1add4ac01b2b4dfa914e6075b20e0e75f0921835d79270a3fe4fd434bd69eb6"
+      }
+    ],
+    "original_provenance": {
+      "native_folder": "experiments/E01/native/bge-m3/rev2rev-en/test",
+      "run_sha256": "f1add4ac01b2b4dfa914e6075b20e0e75f0921835d79270a3fe4fd434bd69eb6",
+      "index_signature": "963b1b6a292cc56607db2360bc728ef33bfa9aff8f49ddc4932823705979d300",
+      "signature": "461c9882ad8a21aa08ee8c871c20648d5cd0f8e5b03539d859f3aa5261474cf0",
+      "output_length": 200,
+      "model_api_calls": 0
+    },
+    "evidence": [
+      "E01/evidence/R7/rev2rev-en/manifest.json",
+      "E01/evidence/R7/rev2rev-en/official_metrics.json",
+      "E01/evidence/R7/rev2rev-en/metrics.json",
+      "E01/evidence/R7/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R7",
+    "source_row_id": "E01.007",
+    "source_row_id_v2": "E01.V2.R007",
+    "configuration": "BGE-M3 dense",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.23746235394507503,
+      "recall_100": 0.4259153785444288,
+      "map": 0.15250553912175477
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/3f2cc6f726520bcf8b6865e86c40eb2d62d380657f0803dd3a56a0279ecb931b.jsonl",
+        "sha256": "3f2cc6f726520bcf8b6865e86c40eb2d62d380657f0803dd3a56a0279ecb931b"
+      }
+    ],
+    "original_provenance": {
+      "native_folder": "experiments/E01/native/bge-m3/rat2rev-ja/test",
+      "run_sha256": "3f2cc6f726520bcf8b6865e86c40eb2d62d380657f0803dd3a56a0279ecb931b",
+      "index_signature": "65d06f363181f828b271d9f786c3b63547988b1dda5720d121aea3a73015c1bd",
+      "signature": "16009311b8eaf23a173712227faf64ac75953a0da0d7bfa6cb277db43a8d169e",
+      "output_length": 200,
+      "model_api_calls": 0
+    },
+    "evidence": [
+      "E01/evidence/R7/rat2rev-ja/manifest.json",
+      "E01/evidence/R7/rat2rev-ja/official_metrics.json",
+      "E01/evidence/R7/rat2rev-ja/metrics.json",
+      "E01/evidence/R7/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R7",
+    "source_row_id": "E01.007",
+    "source_row_id_v2": "E01.V2.R007",
+    "configuration": "BGE-M3 dense",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.24652828492572573,
+      "recall_100": 0.3983900347824103,
+      "map": 0.14903375703691776
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/6de0ed531ac5e65f412837bd3b17314261185b87776a5671b4c9120c1cd808b5.jsonl",
+        "sha256": "6de0ed531ac5e65f412837bd3b17314261185b87776a5671b4c9120c1cd808b5"
+      }
+    ],
+    "original_provenance": {
+      "native_folder": "experiments/E01/native/bge-m3/rev2rev-ja/test",
+      "run_sha256": "6de0ed531ac5e65f412837bd3b17314261185b87776a5671b4c9120c1cd808b5",
+      "index_signature": "65d06f363181f828b271d9f786c3b63547988b1dda5720d121aea3a73015c1bd",
+      "signature": "b26cc167a42f27eef89cadfa1a1e6d7d11dbe9219ead05981300e00aac833851",
+      "output_length": 200,
+      "model_api_calls": 0
+    },
+    "evidence": [
+      "E01/evidence/R7/rev2rev-ja/manifest.json",
+      "E01/evidence/R7/rev2rev-ja/official_metrics.json",
+      "E01/evidence/R7/rev2rev-ja/metrics.json",
+      "E01/evidence/R7/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R8",
+    "source_row_id": "E01.008",
+    "source_row_id_v2": "E01.V2.R008",
+    "configuration": "Jina-v3",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.16287299589482035,
+      "recall_100": 0.3308904989624178,
+      "map": 0.09700453277004138
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/b7a4d4ee3b08e373885b1b883d13efa6e934208a295be1143784fab61ad53935.jsonl",
+        "sha256": "b7a4d4ee3b08e373885b1b883d13efa6e934208a295be1143784fab61ad53935"
+      }
+    ],
+    "original_provenance": {
+      "native_folder": "experiments/E01/native/jina-embeddings-v3/rat2rev-en/test",
+      "run_sha256": "b7a4d4ee3b08e373885b1b883d13efa6e934208a295be1143784fab61ad53935",
+      "index_signature": "2b04f7869250ae3d2e6c0d04c86ce2b1ab31a06755c8479aea4ccdd62c22208d",
+      "signature": "82b012c9b7d78259380b7f1e184ec5c4ff62f95a6cbd40d650dfb8206f4d254c",
+      "output_length": 200,
+      "model_api_calls": 0
+    },
+    "evidence": [
+      "E01/evidence/R8/rat2rev-en/manifest.json",
+      "E01/evidence/R8/rat2rev-en/official_metrics.json",
+      "E01/evidence/R8/rat2rev-en/metrics.json",
+      "E01/evidence/R8/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R8",
+    "source_row_id": "E01.008",
+    "source_row_id_v2": "E01.V2.R008",
+    "configuration": "Jina-v3",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.20321891940187295,
+      "recall_100": 0.33942344759222653,
+      "map": 0.12301966522435015
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/6984770cd46c8b72bc23032624c5c35b21f85cff9a8e133969181392e07f2dff.jsonl",
+        "sha256": "6984770cd46c8b72bc23032624c5c35b21f85cff9a8e133969181392e07f2dff"
+      }
+    ],
+    "original_provenance": {
+      "native_folder": "experiments/E01/native/jina-embeddings-v3/rev2rev-en/test",
+      "run_sha256": "6984770cd46c8b72bc23032624c5c35b21f85cff9a8e133969181392e07f2dff",
+      "index_signature": "2b04f7869250ae3d2e6c0d04c86ce2b1ab31a06755c8479aea4ccdd62c22208d",
+      "signature": "b48944872e5c4a43d92a674c4f8da75e17be9ace267bbef6d17074e2045491c8",
+      "output_length": 200,
+      "model_api_calls": 0
+    },
+    "evidence": [
+      "E01/evidence/R8/rev2rev-en/manifest.json",
+      "E01/evidence/R8/rev2rev-en/official_metrics.json",
+      "E01/evidence/R8/rev2rev-en/metrics.json",
+      "E01/evidence/R8/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R8",
+    "source_row_id": "E01.008",
+    "source_row_id_v2": "E01.V2.R008",
+    "configuration": "Jina-v3",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.2676599344017598,
+      "recall_100": 0.48206873223741564,
+      "map": 0.17653373312914258
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/93ecbbfef6e25c2e6321a647455834e330b164cb59533546de20573e952353ad.jsonl",
+        "sha256": "93ecbbfef6e25c2e6321a647455834e330b164cb59533546de20573e952353ad"
+      }
+    ],
+    "original_provenance": {
+      "native_folder": "experiments/E01/native/jina-embeddings-v3/rat2rev-ja/test",
+      "run_sha256": "93ecbbfef6e25c2e6321a647455834e330b164cb59533546de20573e952353ad",
+      "index_signature": "dbd4edd5ce9974355f60bc5390573d88f0c980a3595bc907be13f207a66c84b5",
+      "signature": "3098b548fceb5ff6e85bcc19dad5460478e6b41ee999a865675eb0dfe898ab74",
+      "output_length": 200,
+      "model_api_calls": 0
+    },
+    "evidence": [
+      "E01/evidence/R8/rat2rev-ja/manifest.json",
+      "E01/evidence/R8/rat2rev-ja/official_metrics.json",
+      "E01/evidence/R8/rat2rev-ja/metrics.json",
+      "E01/evidence/R8/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R8",
+    "source_row_id": "E01.008",
+    "source_row_id_v2": "E01.V2.R008",
+    "configuration": "Jina-v3",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.26087024243913925,
+      "recall_100": 0.46140395244280535,
+      "map": 0.16444176814248107
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/a48eeb47451506dabb2b9744805b0068198937c54f8afeb8acf421fc8d2a9cc6.jsonl",
+        "sha256": "a48eeb47451506dabb2b9744805b0068198937c54f8afeb8acf421fc8d2a9cc6"
+      }
+    ],
+    "original_provenance": {
+      "native_folder": "experiments/E01/native/jina-embeddings-v3/rev2rev-ja/test",
+      "run_sha256": "a48eeb47451506dabb2b9744805b0068198937c54f8afeb8acf421fc8d2a9cc6",
+      "index_signature": "dbd4edd5ce9974355f60bc5390573d88f0c980a3595bc907be13f207a66c84b5",
+      "signature": "f7fbc2589d94db2867540bd89f3cbb2b73a99628bf8e5bb7da3300bcd077ec20",
+      "output_length": 200,
+      "model_api_calls": 0
+    },
+    "evidence": [
+      "E01/evidence/R8/rev2rev-ja/manifest.json",
+      "E01/evidence/R8/rev2rev-ja/official_metrics.json",
+      "E01/evidence/R8/rev2rev-ja/metrics.json",
+      "E01/evidence/R8/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R9",
+    "source_row_id": "E01.009",
+    "source_row_id_v2": "E01.V2.R009",
+    "configuration": "Jina-v4",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.20623849377395956,
+      "recall_100": 0.36291916702368043,
+      "map": 0.1291777866344935
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/7c38bc5e517126b404f27fc1e1106186f3b7c931d9ee44927710ed3cb9f1a8f2.jsonl",
+        "sha256": "7c38bc5e517126b404f27fc1e1106186f3b7c931d9ee44927710ed3cb9f1a8f2"
+      }
+    ],
+    "original_provenance": {
+      "native_folder": "experiments/E01/native/jina-embeddings-v4/rat2rev-en/test",
+      "run_sha256": "7c38bc5e517126b404f27fc1e1106186f3b7c931d9ee44927710ed3cb9f1a8f2",
+      "index_signature": "e873a70d00b3cac15cb27e0936338030b17f6d40e315051c8f65ea49648558df",
+      "signature": "6c08c868409438c92a58f1ec5e0d7171e15e1f2058c37a9c5e1f1ec407ff2114",
+      "output_length": 200,
+      "model_api_calls": 0
+    },
+    "evidence": [
+      "E01/evidence/R9/rat2rev-en/manifest.json",
+      "E01/evidence/R9/rat2rev-en/official_metrics.json",
+      "E01/evidence/R9/rat2rev-en/metrics.json",
+      "E01/evidence/R9/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R9",
+    "source_row_id": "E01.009",
+    "source_row_id_v2": "E01.V2.R009",
+    "configuration": "Jina-v4",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.24492986283058482,
+      "recall_100": 0.42176819931385257,
+      "map": 0.15684028719054122
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/ea70d62e68b027879c805064f84cd2564390a3a2e95e6bb02c455d82b1c12566.jsonl",
+        "sha256": "ea70d62e68b027879c805064f84cd2564390a3a2e95e6bb02c455d82b1c12566"
+      }
+    ],
+    "original_provenance": {
+      "native_folder": "experiments/E01/native/jina-embeddings-v4/rev2rev-en/test",
+      "run_sha256": "ea70d62e68b027879c805064f84cd2564390a3a2e95e6bb02c455d82b1c12566",
+      "index_signature": "e873a70d00b3cac15cb27e0936338030b17f6d40e315051c8f65ea49648558df",
+      "signature": "9ee67bad576a60d438740185945d72f8b30ff74a34e48d767081337189832ec1",
+      "output_length": 200,
+      "model_api_calls": 0
+    },
+    "evidence": [
+      "E01/evidence/R9/rev2rev-en/manifest.json",
+      "E01/evidence/R9/rev2rev-en/official_metrics.json",
+      "E01/evidence/R9/rev2rev-en/metrics.json",
+      "E01/evidence/R9/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R9",
+    "source_row_id": "E01.009",
+    "source_row_id_v2": "E01.V2.R009",
+    "configuration": "Jina-v4",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.2844613946371891,
+      "recall_100": 0.4860663926360202,
+      "map": 0.1920678002717902
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/c82d4a4125ac85b8a753257eb3e2660554581b9ec14606893ac34f45765f602d.jsonl",
+        "sha256": "c82d4a4125ac85b8a753257eb3e2660554581b9ec14606893ac34f45765f602d"
+      }
+    ],
+    "original_provenance": {
+      "native_folder": "experiments/E01/native/jina-embeddings-v4/rat2rev-ja/test",
+      "run_sha256": "c82d4a4125ac85b8a753257eb3e2660554581b9ec14606893ac34f45765f602d",
+      "index_signature": "2f732bf48b2988e4a0d2520fc901f1db1cf1c1c2a4bbe886dc419d278bb70c6a",
+      "signature": "f41ba8cbc9ef8b342636e00f6ad8138066dd0d5f89466b7a0f93af0f1b6b0575",
+      "output_length": 200,
+      "model_api_calls": 0
+    },
+    "evidence": [
+      "E01/evidence/R9/rat2rev-ja/manifest.json",
+      "E01/evidence/R9/rat2rev-ja/official_metrics.json",
+      "E01/evidence/R9/rat2rev-ja/metrics.json",
+      "E01/evidence/R9/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R9",
+    "source_row_id": "E01.009",
+    "source_row_id_v2": "E01.V2.R009",
+    "configuration": "Jina-v4",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.2907956148328093,
+      "recall_100": 0.46555094010557235,
+      "map": 0.19131187554368664
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/52d719280bc44b606ed7bd7ca6fbc2e78a72f43974a1a4dbcecc48ae223d6b25.jsonl",
+        "sha256": "52d719280bc44b606ed7bd7ca6fbc2e78a72f43974a1a4dbcecc48ae223d6b25"
+      }
+    ],
+    "original_provenance": {
+      "native_folder": "experiments/E01/native/jina-embeddings-v4/rev2rev-ja/test",
+      "run_sha256": "52d719280bc44b606ed7bd7ca6fbc2e78a72f43974a1a4dbcecc48ae223d6b25",
+      "index_signature": "2f732bf48b2988e4a0d2520fc901f1db1cf1c1c2a4bbe886dc419d278bb70c6a",
+      "signature": "60084e18d270627eec4d5c4ee1a9ad42a7edff568c030545fa2955617eb04f98",
+      "output_length": 200,
+      "model_api_calls": 0
+    },
+    "evidence": [
+      "E01/evidence/R9/rev2rev-ja/manifest.json",
+      "E01/evidence/R9/rev2rev-ja/official_metrics.json",
+      "E01/evidence/R9/rev2rev-ja/metrics.json",
+      "E01/evidence/R9/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R10",
+    "source_row_id": "E01.010",
+    "source_row_id_v2": "E01.V2.R010",
+    "configuration": "Qwen3-Embedding-8B",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.17387742181463658,
+      "recall_100": 0.34126302593711827,
+      "map": 0.10765810762358075
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/a37dab7eda70a0f73cf228e33b7a55b3fed26a0a4629cd30e887d3df977ae10f.jsonl",
+        "sha256": "a37dab7eda70a0f73cf228e33b7a55b3fed26a0a4629cd30e887d3df977ae10f"
+      }
+    ],
+    "original_provenance": {
+      "native_folder": "experiments/E01/native/Qwen3-Embedding-8B/rat2rev-en/test",
+      "run_sha256": "a37dab7eda70a0f73cf228e33b7a55b3fed26a0a4629cd30e887d3df977ae10f",
+      "index_signature": "f3289c36274439cdc6758c4b6e76e39745c3aa791a0b5f1d905d65975f0bc88a",
+      "signature": "0845284055acf7e32e54fb6f9ab1d068c7d19f0d6a01c2530c937c958bfe1bf2",
+      "output_length": 200,
+      "model_api_calls": 0
+    },
+    "evidence": [
+      "E01/evidence/R10/rat2rev-en/manifest.json",
+      "E01/evidence/R10/rat2rev-en/official_metrics.json",
+      "E01/evidence/R10/rat2rev-en/metrics.json",
+      "E01/evidence/R10/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R10",
+    "source_row_id": "E01.010",
+    "source_row_id_v2": "E01.V2.R010",
+    "configuration": "Qwen3-Embedding-8B",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.17505542875410787,
+      "recall_100": 0.3610789562709638,
+      "map": 0.11353173524919878
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/e0cd4e9b87064a8d66232c2ab62e701e31cc3618fb153f064fafae77d5c720b3.jsonl",
+        "sha256": "e0cd4e9b87064a8d66232c2ab62e701e31cc3618fb153f064fafae77d5c720b3"
+      }
+    ],
+    "original_provenance": {
+      "native_folder": "experiments/E01/native/Qwen3-Embedding-8B/rev2rev-en/test",
+      "run_sha256": "e0cd4e9b87064a8d66232c2ab62e701e31cc3618fb153f064fafae77d5c720b3",
+      "index_signature": "f3289c36274439cdc6758c4b6e76e39745c3aa791a0b5f1d905d65975f0bc88a",
+      "signature": "af28293f1f3467abbfede9a92404324ccbd581b37b49f4717f2d575b26f7eb67",
+      "output_length": 200,
+      "model_api_calls": 0
+    },
+    "evidence": [
+      "E01/evidence/R10/rev2rev-en/manifest.json",
+      "E01/evidence/R10/rev2rev-en/official_metrics.json",
+      "E01/evidence/R10/rev2rev-en/metrics.json",
+      "E01/evidence/R10/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R10",
+    "source_row_id": "E01.010",
+    "source_row_id_v2": "E01.V2.R010",
+    "configuration": "Qwen3-Embedding-8B",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.3121087908759582,
+      "recall_100": 0.5206267507435597,
+      "map": 0.21830700722841354
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/d2198b4910296f268db26b1816cf428a2ba0444b4db119dcb44ebd0b2dd7ea5d.jsonl",
+        "sha256": "d2198b4910296f268db26b1816cf428a2ba0444b4db119dcb44ebd0b2dd7ea5d"
+      }
+    ],
+    "original_provenance": {
+      "native_folder": "experiments/E01/native/Qwen3-Embedding-8B/rat2rev-ja/test",
+      "run_sha256": "d2198b4910296f268db26b1816cf428a2ba0444b4db119dcb44ebd0b2dd7ea5d",
+      "index_signature": "ab170ac9949ab774b8c4484f73841e27978fe00e99486b8a21bff0bd50620cf4",
+      "signature": "f2ee7a8affb74717ca27d681d2e457b91e2edd8ece59a2bd5cf7283d794983e4",
+      "output_length": 200,
+      "model_api_calls": 0
+    },
+    "evidence": [
+      "E01/evidence/R10/rat2rev-ja/manifest.json",
+      "E01/evidence/R10/rat2rev-ja/official_metrics.json",
+      "E01/evidence/R10/rat2rev-ja/metrics.json",
+      "E01/evidence/R10/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R10",
+    "source_row_id": "E01.010",
+    "source_row_id_v2": "E01.V2.R010",
+    "configuration": "Qwen3-Embedding-8B",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.2740090798340572,
+      "recall_100": 0.4550425448205845,
+      "map": 0.17594075175450222
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/adea06be9687edf6e2ecb5a1d8386b34cce3e77a9be60cfee5e0e7cacc682242.jsonl",
+        "sha256": "adea06be9687edf6e2ecb5a1d8386b34cce3e77a9be60cfee5e0e7cacc682242"
+      }
+    ],
+    "original_provenance": {
+      "native_folder": "experiments/E01/native/Qwen3-Embedding-8B/rev2rev-ja/test",
+      "run_sha256": "adea06be9687edf6e2ecb5a1d8386b34cce3e77a9be60cfee5e0e7cacc682242",
+      "index_signature": "ab170ac9949ab774b8c4484f73841e27978fe00e99486b8a21bff0bd50620cf4",
+      "signature": "80527188cf502599eb74f5e4f56ac2d07233b37f9d4cd962a92c84b67fdc3156",
+      "output_length": 200,
+      "model_api_calls": 0
+    },
+    "evidence": [
+      "E01/evidence/R10/rev2rev-ja/manifest.json",
+      "E01/evidence/R10/rev2rev-ja/official_metrics.json",
+      "E01/evidence/R10/rev2rev-ja/metrics.json",
+      "E01/evidence/R10/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R11",
+    "source_row_id": "E01.011",
+    "source_row_id_v2": "E01.V2.R011",
+    "configuration": "Jina-v5-text-small",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.1775931137929959,
+      "recall_100": 0.3424490554929426,
+      "map": 0.11124960779645253
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/54851ea071efabb42d85624eefd1805a03c27e52ab1304e6df194320f2bd708f.jsonl",
+        "sha256": "54851ea071efabb42d85624eefd1805a03c27e52ab1304e6df194320f2bd708f"
+      }
+    ],
+    "original_provenance": {
+      "native_folder": "experiments/E01/native/jina-embeddings-v5-text-small/rat2rev-en/test",
+      "run_sha256": "54851ea071efabb42d85624eefd1805a03c27e52ab1304e6df194320f2bd708f",
+      "index_signature": "56b3a0ad27a73ef1525c094991427ae666141f15b8b84c4ebcacb5039dd2e151",
+      "signature": "30c5ea11fe2336a06197d253fbe2230c50dc25b9a1a6193685174e1159b45c31",
+      "output_length": 200,
+      "model_api_calls": 0
+    },
+    "evidence": [
+      "E01/evidence/R11/rat2rev-en/manifest.json",
+      "E01/evidence/R11/rat2rev-en/official_metrics.json",
+      "E01/evidence/R11/rat2rev-en/metrics.json",
+      "E01/evidence/R11/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R11",
+    "source_row_id": "E01.011",
+    "source_row_id_v2": "E01.V2.R011",
+    "configuration": "Jina-v5-text-small",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.1869114160517936,
+      "recall_100": 0.3610157963305708,
+      "map": 0.1168528160313136
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/3fe21b25e1ee3a7cc3ef3807e58e78556cccd1e1184969b96e576b8817ddfcff.jsonl",
+        "sha256": "3fe21b25e1ee3a7cc3ef3807e58e78556cccd1e1184969b96e576b8817ddfcff"
+      }
+    ],
+    "original_provenance": {
+      "native_folder": "experiments/E01/native/jina-embeddings-v5-text-small/rev2rev-en/test",
+      "run_sha256": "3fe21b25e1ee3a7cc3ef3807e58e78556cccd1e1184969b96e576b8817ddfcff",
+      "index_signature": "56b3a0ad27a73ef1525c094991427ae666141f15b8b84c4ebcacb5039dd2e151",
+      "signature": "b68c49a934a1762c3bdcbd1d8d9805034e573a8e240de7956d728bd8c3d8d723",
+      "output_length": 200,
+      "model_api_calls": 0
+    },
+    "evidence": [
+      "E01/evidence/R11/rev2rev-en/manifest.json",
+      "E01/evidence/R11/rev2rev-en/official_metrics.json",
+      "E01/evidence/R11/rev2rev-en/metrics.json",
+      "E01/evidence/R11/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R11",
+    "source_row_id": "E01.011",
+    "source_row_id_v2": "E01.V2.R011",
+    "configuration": "Jina-v5-text-small",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.2821090359287097,
+      "recall_100": 0.5106117419612937,
+      "map": 0.19381310736392932
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/f71f77465c30979b1e9dfc67a7d498f690d7bf8219ca8addcd3b530b189e037e.jsonl",
+        "sha256": "f71f77465c30979b1e9dfc67a7d498f690d7bf8219ca8addcd3b530b189e037e"
+      }
+    ],
+    "original_provenance": {
+      "native_folder": "experiments/E01/native/jina-embeddings-v5-text-small/rat2rev-ja/test",
+      "run_sha256": "f71f77465c30979b1e9dfc67a7d498f690d7bf8219ca8addcd3b530b189e037e",
+      "index_signature": "ebeae1715fc4415d9ebbf03b84d8c5c7ddae1d353e712deb76a0e8760b0091b9",
+      "signature": "1db2ea89c06df70ab0f5453f946df6cef1a9f9921cc361e94306eae99a295815",
+      "output_length": 200,
+      "model_api_calls": 0
+    },
+    "evidence": [
+      "E01/evidence/R11/rat2rev-ja/manifest.json",
+      "E01/evidence/R11/rat2rev-ja/official_metrics.json",
+      "E01/evidence/R11/rat2rev-ja/metrics.json",
+      "E01/evidence/R11/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R11",
+    "source_row_id": "E01.011",
+    "source_row_id_v2": "E01.V2.R011",
+    "configuration": "Jina-v5-text-small",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.2816143415813457,
+      "recall_100": 0.479480612890749,
+      "map": 0.18381802060075073
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/93a326d3bbbc0f6c75c609beebc7f17b41c4348a3dd70b7c2ff6169a152c297b.jsonl",
+        "sha256": "93a326d3bbbc0f6c75c609beebc7f17b41c4348a3dd70b7c2ff6169a152c297b"
+      }
+    ],
+    "original_provenance": {
+      "native_folder": "experiments/E01/native/jina-embeddings-v5-text-small/rev2rev-ja/test",
+      "run_sha256": "93a326d3bbbc0f6c75c609beebc7f17b41c4348a3dd70b7c2ff6169a152c297b",
+      "index_signature": "ebeae1715fc4415d9ebbf03b84d8c5c7ddae1d353e712deb76a0e8760b0091b9",
+      "signature": "48a4f23ff3975272f5e08f5ba80a4dbbcd2fb14a52c80af869eb301519c6fb3d",
+      "output_length": 200,
+      "model_api_calls": 0
+    },
+    "evidence": [
+      "E01/evidence/R11/rev2rev-ja/manifest.json",
+      "E01/evidence/R11/rev2rev-ja/official_metrics.json",
+      "E01/evidence/R11/rev2rev-ja/metrics.json",
+      "E01/evidence/R11/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R12",
+    "source_row_id": "E01.012",
+    "source_row_id_v2": "E01.V2.R012",
+    "configuration": "BM25 + Jina-v4, equal RRF",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.19155982493466614,
+      "recall_100": 0.3943841041037782,
+      "map": 0.12264375817980398
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/3f2de8a47452038c67b622008beb149c9a74dc71b55b4391507c21e0978f79f7.jsonl",
+        "sha256": "3f2de8a47452038c67b622008beb149c9a74dc71b55b4391507c21e0978f79f7"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.012/rat2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "3f2de8a47452038c67b622008beb149c9a74dc71b55b4391507c21e0978f79f7",
+      "split": "test",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E01/runs/E01.012/rat2rev-en/test/manifest.json"
+    },
+    "evidence": [
+      "E01/evidence/R12/rat2rev-en/manifest.json",
+      "E01/evidence/R12/rat2rev-en/official_metrics.json",
+      "E01/evidence/R12/rat2rev-en/metrics.json",
+      "E01/evidence/R12/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R12",
+    "source_row_id": "E01.012",
+    "source_row_id_v2": "E01.V2.R012",
+    "configuration": "BM25 + Jina-v4, equal RRF",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.24855124681797774,
+      "recall_100": 0.4387299816922179,
+      "map": 0.16162088646908418
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/99842a4c4af89ac57666295184415d6be6a25bb51e6fc8cf5dfaef485db8124a.jsonl",
+        "sha256": "99842a4c4af89ac57666295184415d6be6a25bb51e6fc8cf5dfaef485db8124a"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.012/rev2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "99842a4c4af89ac57666295184415d6be6a25bb51e6fc8cf5dfaef485db8124a",
+      "split": "test",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E01/runs/E01.012/rev2rev-en/test/manifest.json"
+    },
+    "evidence": [
+      "E01/evidence/R12/rev2rev-en/manifest.json",
+      "E01/evidence/R12/rev2rev-en/official_metrics.json",
+      "E01/evidence/R12/rev2rev-en/metrics.json",
+      "E01/evidence/R12/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R12",
+    "source_row_id": "E01.012",
+    "source_row_id_v2": "E01.V2.R012",
+    "configuration": "BM25 + Jina-v4, equal RRF",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.29939378731058747,
+      "recall_100": 0.5232422073028343,
+      "map": 0.21084953636172804
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/91b0d06f89b258fb4c4006f48248a812921661c0dd066435c47517fee1a990ee.jsonl",
+        "sha256": "91b0d06f89b258fb4c4006f48248a812921661c0dd066435c47517fee1a990ee"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.012/rat2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "91b0d06f89b258fb4c4006f48248a812921661c0dd066435c47517fee1a990ee",
+      "split": "test",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E01/runs/E01.012/rat2rev-ja/test/manifest.json"
+    },
+    "evidence": [
+      "E01/evidence/R12/rat2rev-ja/manifest.json",
+      "E01/evidence/R12/rat2rev-ja/official_metrics.json",
+      "E01/evidence/R12/rat2rev-ja/metrics.json",
+      "E01/evidence/R12/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R12",
+    "source_row_id": "E01.012",
+    "source_row_id_v2": "E01.V2.R012",
+    "configuration": "BM25 + Jina-v4, equal RRF",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.28952035725572545,
+      "recall_100": 0.48170385711524893,
+      "map": 0.18929567621830842
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/6895bb3ee6dc6d1b28fca19019688ea7178dab42811c3532c1109674f2743197.jsonl",
+        "sha256": "6895bb3ee6dc6d1b28fca19019688ea7178dab42811c3532c1109674f2743197"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.012/rev2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "6895bb3ee6dc6d1b28fca19019688ea7178dab42811c3532c1109674f2743197",
+      "split": "test",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E01/runs/E01.012/rev2rev-ja/test/manifest.json"
+    },
+    "evidence": [
+      "E01/evidence/R12/rev2rev-ja/manifest.json",
+      "E01/evidence/R12/rev2rev-ja/official_metrics.json",
+      "E01/evidence/R12/rev2rev-ja/metrics.json",
+      "E01/evidence/R12/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R13",
+    "source_row_id": "E01.013",
+    "source_row_id_v2": "E01.V2.R013",
+    "configuration": "BM25 + Jina-v4, weighted RRF",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.1975231225704035,
+      "recall_100": 0.3854958271820841,
+      "map": 0.12664962229571552
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/a719d4bb6e330e418477734209dda7caacb2aea0ad8ed84a6afd27dc3f5a892e.jsonl",
+        "sha256": "a719d4bb6e330e418477734209dda7caacb2aea0ad8ed84a6afd27dc3f5a892e"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.013/rat2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "a719d4bb6e330e418477734209dda7caacb2aea0ad8ed84a6afd27dc3f5a892e",
+      "split": "test",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E01/runs/E01.013/rat2rev-en/test/manifest.json"
+    },
+    "evidence": [
+      "E01/evidence/R13/rat2rev-en/manifest.json",
+      "E01/evidence/R13/rat2rev-en/official_metrics.json",
+      "E01/evidence/R13/rat2rev-en/metrics.json",
+      "E01/evidence/R13/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R13",
+    "source_row_id": "E01.013",
+    "source_row_id_v2": "E01.V2.R013",
+    "configuration": "BM25 + Jina-v4, weighted RRF",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.24855124681797774,
+      "recall_100": 0.4387299816922179,
+      "map": 0.16162088646908418
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/99842a4c4af89ac57666295184415d6be6a25bb51e6fc8cf5dfaef485db8124a.jsonl",
+        "sha256": "99842a4c4af89ac57666295184415d6be6a25bb51e6fc8cf5dfaef485db8124a"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.013/rev2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "99842a4c4af89ac57666295184415d6be6a25bb51e6fc8cf5dfaef485db8124a",
+      "split": "test",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E01/runs/E01.013/rev2rev-en/test/manifest.json"
+    },
+    "evidence": [
+      "E01/evidence/R13/rev2rev-en/manifest.json",
+      "E01/evidence/R13/rev2rev-en/official_metrics.json",
+      "E01/evidence/R13/rev2rev-en/metrics.json",
+      "E01/evidence/R13/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R13",
+    "source_row_id": "E01.013",
+    "source_row_id_v2": "E01.V2.R013",
+    "configuration": "BM25 + Jina-v4, weighted RRF",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.3004226135109501,
+      "recall_100": 0.523371020164839,
+      "map": 0.2108629438875247
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/3ee2d9b7c727c0ba07f024ccf5c8bd19339a46d15456766d50d72ba7f544640f.jsonl",
+        "sha256": "3ee2d9b7c727c0ba07f024ccf5c8bd19339a46d15456766d50d72ba7f544640f"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.013/rat2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "3ee2d9b7c727c0ba07f024ccf5c8bd19339a46d15456766d50d72ba7f544640f",
+      "split": "test",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E01/runs/E01.013/rat2rev-ja/test/manifest.json"
+    },
+    "evidence": [
+      "E01/evidence/R13/rat2rev-ja/manifest.json",
+      "E01/evidence/R13/rat2rev-ja/official_metrics.json",
+      "E01/evidence/R13/rat2rev-ja/metrics.json",
+      "E01/evidence/R13/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R13",
+    "source_row_id": "E01.013",
+    "source_row_id_v2": "E01.V2.R013",
+    "configuration": "BM25 + Jina-v4, weighted RRF",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.28952035725572545,
+      "recall_100": 0.48170385711524893,
+      "map": 0.18929567621830842
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/6895bb3ee6dc6d1b28fca19019688ea7178dab42811c3532c1109674f2743197.jsonl",
+        "sha256": "6895bb3ee6dc6d1b28fca19019688ea7178dab42811c3532c1109674f2743197"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.013/rev2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "6895bb3ee6dc6d1b28fca19019688ea7178dab42811c3532c1109674f2743197",
+      "split": "test",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E01/runs/E01.013/rev2rev-ja/test/manifest.json"
+    },
+    "evidence": [
+      "E01/evidence/R13/rev2rev-ja/manifest.json",
+      "E01/evidence/R13/rev2rev-ja/official_metrics.json",
+      "E01/evidence/R13/rev2rev-ja/metrics.json",
+      "E01/evidence/R13/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R14",
+    "source_row_id": "E01.014",
+    "source_row_id_v2": "E01.V2.R014",
+    "configuration": "Unreranked RRF",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.1975231225704035,
+      "recall_100": 0.3854958271820841,
+      "map": 0.12664962229571552
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/a719d4bb6e330e418477734209dda7caacb2aea0ad8ed84a6afd27dc3f5a892e.jsonl",
+        "sha256": "a719d4bb6e330e418477734209dda7caacb2aea0ad8ed84a6afd27dc3f5a892e"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.014/rat2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "a719d4bb6e330e418477734209dda7caacb2aea0ad8ed84a6afd27dc3f5a892e",
+      "split": "test",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E01/runs/E01.014/rat2rev-en/test/manifest.json"
+    },
+    "evidence": [
+      "E01/evidence/R14/rat2rev-en/manifest.json",
+      "E01/evidence/R14/rat2rev-en/official_metrics.json",
+      "E01/evidence/R14/rat2rev-en/metrics.json",
+      "E01/evidence/R14/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R14",
+    "source_row_id": "E01.014",
+    "source_row_id_v2": "E01.V2.R014",
+    "configuration": "Unreranked RRF",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.24855124681797774,
+      "recall_100": 0.4387299816922179,
+      "map": 0.16162088646908418
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/99842a4c4af89ac57666295184415d6be6a25bb51e6fc8cf5dfaef485db8124a.jsonl",
+        "sha256": "99842a4c4af89ac57666295184415d6be6a25bb51e6fc8cf5dfaef485db8124a"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.014/rev2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "99842a4c4af89ac57666295184415d6be6a25bb51e6fc8cf5dfaef485db8124a",
+      "split": "test",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E01/runs/E01.014/rev2rev-en/test/manifest.json"
+    },
+    "evidence": [
+      "E01/evidence/R14/rev2rev-en/manifest.json",
+      "E01/evidence/R14/rev2rev-en/official_metrics.json",
+      "E01/evidence/R14/rev2rev-en/metrics.json",
+      "E01/evidence/R14/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R14",
+    "source_row_id": "E01.014",
+    "source_row_id_v2": "E01.V2.R014",
+    "configuration": "Unreranked RRF",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.3004226135109501,
+      "recall_100": 0.523371020164839,
+      "map": 0.2108629438875247
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/3ee2d9b7c727c0ba07f024ccf5c8bd19339a46d15456766d50d72ba7f544640f.jsonl",
+        "sha256": "3ee2d9b7c727c0ba07f024ccf5c8bd19339a46d15456766d50d72ba7f544640f"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.014/rat2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "3ee2d9b7c727c0ba07f024ccf5c8bd19339a46d15456766d50d72ba7f544640f",
+      "split": "test",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E01/runs/E01.014/rat2rev-ja/test/manifest.json"
+    },
+    "evidence": [
+      "E01/evidence/R14/rat2rev-ja/manifest.json",
+      "E01/evidence/R14/rat2rev-ja/official_metrics.json",
+      "E01/evidence/R14/rat2rev-ja/metrics.json",
+      "E01/evidence/R14/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R14",
+    "source_row_id": "E01.014",
+    "source_row_id_v2": "E01.V2.R014",
+    "configuration": "Unreranked RRF",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.28952035725572545,
+      "recall_100": 0.48170385711524893,
+      "map": 0.18929567621830842
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/6895bb3ee6dc6d1b28fca19019688ea7178dab42811c3532c1109674f2743197.jsonl",
+        "sha256": "6895bb3ee6dc6d1b28fca19019688ea7178dab42811c3532c1109674f2743197"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.014/rev2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "6895bb3ee6dc6d1b28fca19019688ea7178dab42811c3532c1109674f2743197",
+      "split": "test",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E01/runs/E01.014/rev2rev-ja/test/manifest.json"
+    },
+    "evidence": [
+      "E01/evidence/R14/rev2rev-ja/manifest.json",
+      "E01/evidence/R14/rev2rev-ja/official_metrics.json",
+      "E01/evidence/R14/rev2rev-ja/metrics.json",
+      "E01/evidence/R14/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R15",
+    "source_row_id": "E01.015",
+    "source_row_id_v2": "E01.V2.R015",
+    "configuration": "BGE-Reranker-v2-M3",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.0790052952800757,
+      "recall_100": 0.3179022737682221,
+      "map": 0.054249554599238886
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/0670947ac5d02080cc5c5e533fff8e14398773bf8fcb1a34584bed9d781c903a.jsonl",
+        "sha256": "0670947ac5d02080cc5c5e533fff8e14398773bf8fcb1a34584bed9d781c903a"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.015/rat2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "0670947ac5d02080cc5c5e533fff8e14398773bf8fcb1a34584bed9d781c903a",
+      "split": "test",
+      "output_length": 200
+    },
+    "evidence": [
+      "E01/evidence/R15/rat2rev-en/manifest.json",
+      "E01/evidence/R15/rat2rev-en/official_metrics.json",
+      "E01/evidence/R15/rat2rev-en/metrics.json",
+      "E01/evidence/R15/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R15",
+    "source_row_id": "E01.015",
+    "source_row_id_v2": "E01.V2.R015",
+    "configuration": "BGE-Reranker-v2-M3",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.09483038532394412,
+      "recall_100": 0.3289956333517393,
+      "map": 0.06625554044206837
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/6a962848fb5ab04fc7b3d86482e2178eacb5e3af215ef6e4c394a5b2189ae20c.jsonl",
+        "sha256": "6a962848fb5ab04fc7b3d86482e2178eacb5e3af215ef6e4c394a5b2189ae20c"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.015/rev2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "6a962848fb5ab04fc7b3d86482e2178eacb5e3af215ef6e4c394a5b2189ae20c",
+      "split": "test",
+      "output_length": 200
+    },
+    "evidence": [
+      "E01/evidence/R15/rev2rev-en/manifest.json",
+      "E01/evidence/R15/rev2rev-en/official_metrics.json",
+      "E01/evidence/R15/rev2rev-en/metrics.json",
+      "E01/evidence/R15/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R15",
+    "source_row_id": "E01.015",
+    "source_row_id_v2": "E01.V2.R015",
+    "configuration": "BGE-Reranker-v2-M3",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.3011860485125622,
+      "recall_100": 0.5266099745086329,
+      "map": 0.20502301271366027
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/dce5bf15254495fbd915a457dfb5beae09a2ac1a5d20f55e818331b9c8151bb9.jsonl",
+        "sha256": "dce5bf15254495fbd915a457dfb5beae09a2ac1a5d20f55e818331b9c8151bb9"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.015/rat2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "dce5bf15254495fbd915a457dfb5beae09a2ac1a5d20f55e818331b9c8151bb9",
+      "split": "test",
+      "output_length": 200
+    },
+    "evidence": [
+      "E01/evidence/R15/rat2rev-ja/manifest.json",
+      "E01/evidence/R15/rat2rev-ja/official_metrics.json",
+      "E01/evidence/R15/rat2rev-ja/metrics.json",
+      "E01/evidence/R15/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R15",
+    "source_row_id": "E01.015",
+    "source_row_id_v2": "E01.V2.R015",
+    "configuration": "BGE-Reranker-v2-M3",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.21539124411668423,
+      "recall_100": 0.49117195584609347,
+      "map": 0.1499433820176947
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/a90d84585af06c23f9ac6d3a8468d6f2e8d401ba0922e5dccbb362f20f910867.jsonl",
+        "sha256": "a90d84585af06c23f9ac6d3a8468d6f2e8d401ba0922e5dccbb362f20f910867"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.015/rev2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "a90d84585af06c23f9ac6d3a8468d6f2e8d401ba0922e5dccbb362f20f910867",
+      "split": "test",
+      "output_length": 200
+    },
+    "evidence": [
+      "E01/evidence/R15/rev2rev-ja/manifest.json",
+      "E01/evidence/R15/rev2rev-ja/official_metrics.json",
+      "E01/evidence/R15/rev2rev-ja/metrics.json",
+      "E01/evidence/R15/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R16",
+    "source_row_id": "E01.016",
+    "source_row_id_v2": "E01.V2.R016",
+    "configuration": "Jina Reranker v2",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.20705898888756022,
+      "recall_100": 0.38325301196848266,
+      "map": 0.13134295396115694
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/74632cff92b7eeea726d2bdb19c66424dc87b9b39579469ef9f02b6214c9ffb6.jsonl",
+        "sha256": "74632cff92b7eeea726d2bdb19c66424dc87b9b39579469ef9f02b6214c9ffb6"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.016/rat2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "74632cff92b7eeea726d2bdb19c66424dc87b9b39579469ef9f02b6214c9ffb6",
+      "split": "test",
+      "output_length": 200
+    },
+    "evidence": [
+      "E01/evidence/R16/rat2rev-en/manifest.json",
+      "E01/evidence/R16/rat2rev-en/official_metrics.json",
+      "E01/evidence/R16/rat2rev-en/metrics.json",
+      "E01/evidence/R16/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R16",
+    "source_row_id": "E01.016",
+    "source_row_id_v2": "E01.V2.R016",
+    "configuration": "Jina Reranker v2",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.19020791624157396,
+      "recall_100": 0.40311357990723623,
+      "map": 0.12048284136400506
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/81129d2bd161ba5a3f265f1c8285d6fec834f4785f230237c4f112d29ed4b732.jsonl",
+        "sha256": "81129d2bd161ba5a3f265f1c8285d6fec834f4785f230237c4f112d29ed4b732"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.016/rev2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "81129d2bd161ba5a3f265f1c8285d6fec834f4785f230237c4f112d29ed4b732",
+      "split": "test",
+      "output_length": 200
+    },
+    "evidence": [
+      "E01/evidence/R16/rev2rev-en/manifest.json",
+      "E01/evidence/R16/rev2rev-en/official_metrics.json",
+      "E01/evidence/R16/rev2rev-en/metrics.json",
+      "E01/evidence/R16/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R16",
+    "source_row_id": "E01.016",
+    "source_row_id_v2": "E01.V2.R016",
+    "configuration": "Jina Reranker v2",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.2671305376636176,
+      "recall_100": 0.5141364210107302,
+      "map": 0.17945291347394113
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/648387b5a5c1efeee0a9d856ec77757527e97acb2861fe44d7ec852e876c3198.jsonl",
+        "sha256": "648387b5a5c1efeee0a9d856ec77757527e97acb2861fe44d7ec852e876c3198"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.016/rat2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "648387b5a5c1efeee0a9d856ec77757527e97acb2861fe44d7ec852e876c3198",
+      "split": "test",
+      "output_length": 200
+    },
+    "evidence": [
+      "E01/evidence/R16/rat2rev-ja/manifest.json",
+      "E01/evidence/R16/rat2rev-ja/official_metrics.json",
+      "E01/evidence/R16/rat2rev-ja/metrics.json",
+      "E01/evidence/R16/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R16",
+    "source_row_id": "E01.016",
+    "source_row_id_v2": "E01.V2.R016",
+    "configuration": "Jina Reranker v2",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.24905377823120783,
+      "recall_100": 0.4647104931985998,
+      "map": 0.15853284914661342
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/d4b9032306546bb8d3897f2d4307266b717503c1b212172a5f44411cab54c38e.jsonl",
+        "sha256": "d4b9032306546bb8d3897f2d4307266b717503c1b212172a5f44411cab54c38e"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.016/rev2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "d4b9032306546bb8d3897f2d4307266b717503c1b212172a5f44411cab54c38e",
+      "split": "test",
+      "output_length": 200
+    },
+    "evidence": [
+      "E01/evidence/R16/rev2rev-ja/manifest.json",
+      "E01/evidence/R16/rev2rev-ja/official_metrics.json",
+      "E01/evidence/R16/rev2rev-ja/metrics.json",
+      "E01/evidence/R16/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R17",
+    "source_row_id": "E01.017",
+    "source_row_id_v2": "E01.V2.R017",
+    "configuration": "Qwen3-Reranker-0.6B",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.2134438368299938,
+      "recall_100": 0.3867020141053775,
+      "map": 0.1364180048663991
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/7fedcde49931b6e2612d16270dc7ef148919365f79c5628dfc164c9229eaa347.jsonl",
+        "sha256": "7fedcde49931b6e2612d16270dc7ef148919365f79c5628dfc164c9229eaa347"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.017/rat2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "7fedcde49931b6e2612d16270dc7ef148919365f79c5628dfc164c9229eaa347",
+      "split": "test",
+      "output_length": 200
+    },
+    "evidence": [
+      "E01/evidence/R17/rat2rev-en/manifest.json",
+      "E01/evidence/R17/rat2rev-en/official_metrics.json",
+      "E01/evidence/R17/rat2rev-en/metrics.json",
+      "E01/evidence/R17/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R17",
+    "source_row_id": "E01.017",
+    "source_row_id_v2": "E01.V2.R017",
+    "configuration": "Qwen3-Reranker-0.6B",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.1848483879077991,
+      "recall_100": 0.41212495258208826,
+      "map": 0.12412764274522996
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/c36de2a6d7ed01a4fb5d2007f30d0231b1a370c8d30f389bf948431a31322516.jsonl",
+        "sha256": "c36de2a6d7ed01a4fb5d2007f30d0231b1a370c8d30f389bf948431a31322516"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.017/rev2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "c36de2a6d7ed01a4fb5d2007f30d0231b1a370c8d30f389bf948431a31322516",
+      "split": "test",
+      "output_length": 200
+    },
+    "evidence": [
+      "E01/evidence/R17/rev2rev-en/manifest.json",
+      "E01/evidence/R17/rev2rev-en/official_metrics.json",
+      "E01/evidence/R17/rev2rev-en/metrics.json",
+      "E01/evidence/R17/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R17",
+    "source_row_id": "E01.017",
+    "source_row_id_v2": "E01.V2.R017",
+    "configuration": "Qwen3-Reranker-0.6B",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.28894663579237206,
+      "recall_100": 0.5171856619949112,
+      "map": 0.19454887505263724
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/3374327d6c908f85d4102c71bd4a635f855d7584c7d7ae6f43c63062582ce9f5.jsonl",
+        "sha256": "3374327d6c908f85d4102c71bd4a635f855d7584c7d7ae6f43c63062582ce9f5"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.017/rat2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "3374327d6c908f85d4102c71bd4a635f855d7584c7d7ae6f43c63062582ce9f5",
+      "split": "test",
+      "output_length": 200
+    },
+    "evidence": [
+      "E01/evidence/R17/rat2rev-ja/manifest.json",
+      "E01/evidence/R17/rat2rev-ja/official_metrics.json",
+      "E01/evidence/R17/rat2rev-ja/metrics.json",
+      "E01/evidence/R17/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R17",
+    "source_row_id": "E01.017",
+    "source_row_id_v2": "E01.V2.R017",
+    "configuration": "Qwen3-Reranker-0.6B",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.24003757694733918,
+      "recall_100": 0.48311048505670834,
+      "map": 0.15558996552701077
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/841db51c987e83198b75dd2861b41e7945f323edf0f0e66572ee28036678a5cc.jsonl",
+        "sha256": "841db51c987e83198b75dd2861b41e7945f323edf0f0e66572ee28036678a5cc"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.017/rev2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "841db51c987e83198b75dd2861b41e7945f323edf0f0e66572ee28036678a5cc",
+      "split": "test",
+      "output_length": 200
+    },
+    "evidence": [
+      "E01/evidence/R17/rev2rev-ja/manifest.json",
+      "E01/evidence/R17/rev2rev-ja/official_metrics.json",
+      "E01/evidence/R17/rev2rev-ja/metrics.json",
+      "E01/evidence/R17/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R18",
+    "source_row_id": "E01.018",
+    "source_row_id_v2": "E01.V2.R018",
+    "configuration": "Qwen3-Reranker-4B",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.22823880470077418,
+      "recall_100": 0.4056307420488722,
+      "map": 0.15443452869323782
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/6497e0fdb7a5f5db8336dde5b6dc1582e59d1517d62b1e9056baa5c8d9271a5d.jsonl",
+        "sha256": "6497e0fdb7a5f5db8336dde5b6dc1582e59d1517d62b1e9056baa5c8d9271a5d"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.018/rat2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "6497e0fdb7a5f5db8336dde5b6dc1582e59d1517d62b1e9056baa5c8d9271a5d",
+      "split": "test",
+      "output_length": 200
+    },
+    "evidence": [
+      "E01/evidence/R18/rat2rev-en/manifest.json",
+      "E01/evidence/R18/rat2rev-en/official_metrics.json",
+      "E01/evidence/R18/rat2rev-en/metrics.json",
+      "E01/evidence/R18/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R18",
+    "source_row_id": "E01.018",
+    "source_row_id_v2": "E01.V2.R018",
+    "configuration": "Qwen3-Reranker-4B",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.1756209860234959,
+      "recall_100": 0.42688330475385067,
+      "map": 0.12364199266471897
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/1ee3760fac946ddbe06cc8b8ba75b58f0f2676d8c1e8b640441d0a8fcec074f6.jsonl",
+        "sha256": "1ee3760fac946ddbe06cc8b8ba75b58f0f2676d8c1e8b640441d0a8fcec074f6"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.018/rev2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "1ee3760fac946ddbe06cc8b8ba75b58f0f2676d8c1e8b640441d0a8fcec074f6",
+      "split": "test",
+      "output_length": 200
+    },
+    "evidence": [
+      "E01/evidence/R18/rev2rev-en/manifest.json",
+      "E01/evidence/R18/rev2rev-en/official_metrics.json",
+      "E01/evidence/R18/rev2rev-en/metrics.json",
+      "E01/evidence/R18/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R18",
+    "source_row_id": "E01.018",
+    "source_row_id_v2": "E01.V2.R018",
+    "configuration": "Qwen3-Reranker-4B",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.2843987571195859,
+      "recall_100": 0.5481913000580949,
+      "map": 0.1866259807027995
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/c2ff0f6a33592fddcf94f75558b227804ba24dd01e879f3381ceeeef4a5482be.jsonl",
+        "sha256": "c2ff0f6a33592fddcf94f75558b227804ba24dd01e879f3381ceeeef4a5482be"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.018/rat2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "c2ff0f6a33592fddcf94f75558b227804ba24dd01e879f3381ceeeef4a5482be",
+      "split": "test",
+      "output_length": 200
+    },
+    "evidence": [
+      "E01/evidence/R18/rat2rev-ja/manifest.json",
+      "E01/evidence/R18/rat2rev-ja/official_metrics.json",
+      "E01/evidence/R18/rat2rev-ja/metrics.json",
+      "E01/evidence/R18/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R18",
+    "source_row_id": "E01.018",
+    "source_row_id_v2": "E01.V2.R018",
+    "configuration": "Qwen3-Reranker-4B",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.2584606709489036,
+      "recall_100": 0.482893117375241,
+      "map": 0.16842011719792624
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/342dddbff0ec45b373a11a305dc2cd1718153ae1456c032006ca04650edf19cf.jsonl",
+        "sha256": "342dddbff0ec45b373a11a305dc2cd1718153ae1456c032006ca04650edf19cf"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.018/rev2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "342dddbff0ec45b373a11a305dc2cd1718153ae1456c032006ca04650edf19cf",
+      "split": "test",
+      "output_length": 200
+    },
+    "evidence": [
+      "E01/evidence/R18/rev2rev-ja/manifest.json",
+      "E01/evidence/R18/rev2rev-ja/official_metrics.json",
+      "E01/evidence/R18/rev2rev-ja/metrics.json",
+      "E01/evidence/R18/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R19",
+    "source_row_id": "E01.019",
+    "source_row_id_v2": "E01.V2.R019",
+    "configuration": "Qwen3-Reranker-8B",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.2554895224762645,
+      "recall_100": 0.43032695447664965,
+      "map": 0.17666204565634155
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/a8be342fe79d5ef94110200b72ccd03c7455a29c98974f58f2822e042b88c989.jsonl",
+        "sha256": "a8be342fe79d5ef94110200b72ccd03c7455a29c98974f58f2822e042b88c989"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.019/rat2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "a8be342fe79d5ef94110200b72ccd03c7455a29c98974f58f2822e042b88c989",
+      "split": "test",
+      "output_length": 200
+    },
+    "evidence": [
+      "E01/evidence/R19/rat2rev-en/manifest.json",
+      "E01/evidence/R19/rat2rev-en/official_metrics.json",
+      "E01/evidence/R19/rat2rev-en/metrics.json",
+      "E01/evidence/R19/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R19",
+    "source_row_id": "E01.019",
+    "source_row_id_v2": "E01.V2.R019",
+    "configuration": "Qwen3-Reranker-8B",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.20018478730722689,
+      "recall_100": 0.4319828436448042,
+      "map": 0.13360139743446978
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/724a073a06a1b34ccb202490da5a707916605f3d2135a094dacd62238330a1ce.jsonl",
+        "sha256": "724a073a06a1b34ccb202490da5a707916605f3d2135a094dacd62238330a1ce"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.019/rev2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "724a073a06a1b34ccb202490da5a707916605f3d2135a094dacd62238330a1ce",
+      "split": "test",
+      "output_length": 200
+    },
+    "evidence": [
+      "E01/evidence/R19/rev2rev-en/manifest.json",
+      "E01/evidence/R19/rev2rev-en/official_metrics.json",
+      "E01/evidence/R19/rev2rev-en/metrics.json",
+      "E01/evidence/R19/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R19",
+    "source_row_id": "E01.019",
+    "source_row_id_v2": "E01.V2.R019",
+    "configuration": "Qwen3-Reranker-8B",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.2882373571356546,
+      "recall_100": 0.548316201884656,
+      "map": 0.19781210584759112
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/eb4fe573f38267e55a1e044b64cbad64eaf4326259e0a6853c6773f2d98f179d.jsonl",
+        "sha256": "eb4fe573f38267e55a1e044b64cbad64eaf4326259e0a6853c6773f2d98f179d"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.019/rat2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "eb4fe573f38267e55a1e044b64cbad64eaf4326259e0a6853c6773f2d98f179d",
+      "split": "test",
+      "output_length": 200
+    },
+    "evidence": [
+      "E01/evidence/R19/rat2rev-ja/manifest.json",
+      "E01/evidence/R19/rat2rev-ja/official_metrics.json",
+      "E01/evidence/R19/rat2rev-ja/metrics.json",
+      "E01/evidence/R19/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R19",
+    "source_row_id": "E01.019",
+    "source_row_id_v2": "E01.V2.R019",
+    "configuration": "Qwen3-Reranker-8B",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.28503732998437875,
+      "recall_100": 0.5016260127325776,
+      "map": 0.186049854426944
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/2e1ad95feb0650420432f5256639295ada932502fd5bd722db54a50337b1eabd.jsonl",
+        "sha256": "2e1ad95feb0650420432f5256639295ada932502fd5bd722db54a50337b1eabd"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.019/rev2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "2e1ad95feb0650420432f5256639295ada932502fd5bd722db54a50337b1eabd",
+      "split": "test",
+      "output_length": 200
+    },
+    "evidence": [
+      "E01/evidence/R19/rev2rev-ja/manifest.json",
+      "E01/evidence/R19/rev2rev-ja/official_metrics.json",
+      "E01/evidence/R19/rev2rev-ja/metrics.json",
+      "E01/evidence/R19/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R20",
+    "source_row_id": "E01.020",
+    "source_row_id_v2": "E01.V2.R020",
+    "configuration": "Jina Reranker v3.5 (native batches)",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.18630586568571372,
+      "recall_100": 0.3691734372566373,
+      "map": 0.11558465202392124
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/7e074ca607e9e39babc6395051ec5e74694bb46c7ed1ea703c7a47db575ac9ff.jsonl",
+        "sha256": "7e074ca607e9e39babc6395051ec5e74694bb46c7ed1ea703c7a47db575ac9ff"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.020/rat2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "7e074ca607e9e39babc6395051ec5e74694bb46c7ed1ea703c7a47db575ac9ff",
+      "split": "test",
+      "output_length": 200
+    },
+    "evidence": [
+      "E01/evidence/R20/rat2rev-en/manifest.json",
+      "E01/evidence/R20/rat2rev-en/official_metrics.json",
+      "E01/evidence/R20/rat2rev-en/metrics.json",
+      "E01/evidence/R20/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R20",
+    "source_row_id": "E01.020",
+    "source_row_id_v2": "E01.V2.R020",
+    "configuration": "Jina Reranker v3.5 (native batches)",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.167665060950083,
+      "recall_100": 0.38979153708633774,
+      "map": 0.11142044475804914
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/1eec4e67a8ad949dcc3b82db72d691667df81379552d3fd26126586739706379.jsonl",
+        "sha256": "1eec4e67a8ad949dcc3b82db72d691667df81379552d3fd26126586739706379"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.020/rev2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "1eec4e67a8ad949dcc3b82db72d691667df81379552d3fd26126586739706379",
+      "split": "test",
+      "output_length": 200
+    },
+    "evidence": [
+      "E01/evidence/R20/rev2rev-en/manifest.json",
+      "E01/evidence/R20/rev2rev-en/official_metrics.json",
+      "E01/evidence/R20/rev2rev-en/metrics.json",
+      "E01/evidence/R20/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R20",
+    "source_row_id": "E01.020",
+    "source_row_id_v2": "E01.V2.R020",
+    "configuration": "Jina Reranker v3.5 (native batches)",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.2716184771982427,
+      "recall_100": 0.4926887371008527,
+      "map": 0.1663821657126699
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/c432870580d55e7b689ae5de932aa77d05339f932fcddd192ef9f7b15df5a7a8.jsonl",
+        "sha256": "c432870580d55e7b689ae5de932aa77d05339f932fcddd192ef9f7b15df5a7a8"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.020/rat2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "c432870580d55e7b689ae5de932aa77d05339f932fcddd192ef9f7b15df5a7a8",
+      "split": "test",
+      "output_length": 200
+    },
+    "evidence": [
+      "E01/evidence/R20/rat2rev-ja/manifest.json",
+      "E01/evidence/R20/rat2rev-ja/official_metrics.json",
+      "E01/evidence/R20/rat2rev-ja/metrics.json",
+      "E01/evidence/R20/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R20",
+    "source_row_id": "E01.020",
+    "source_row_id_v2": "E01.V2.R020",
+    "configuration": "Jina Reranker v3.5 (native batches)",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.24828763339744062,
+      "recall_100": 0.47270401346599333,
+      "map": 0.15233640591585773
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/41490b4c773530b6a72d379e303fd10a1bff8f31ba1d8bd9ae65114f3ca98138.jsonl",
+        "sha256": "41490b4c773530b6a72d379e303fd10a1bff8f31ba1d8bd9ae65114f3ca98138"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.020/rev2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "41490b4c773530b6a72d379e303fd10a1bff8f31ba1d8bd9ae65114f3ca98138",
+      "split": "test",
+      "output_length": 200
+    },
+    "evidence": [
+      "E01/evidence/R20/rev2rev-ja/manifest.json",
+      "E01/evidence/R20/rev2rev-ja/official_metrics.json",
+      "E01/evidence/R20/rev2rev-ja/metrics.json",
+      "E01/evidence/R20/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R21",
+    "source_row_id": "E01.021",
+    "source_row_id_v2": "E01.V2.R021",
+    "configuration": "Reported RankGPT / gpt-4.1-mini\\textsuperscript{r}",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "official_reported",
+    "metrics": {
+      "ndcg_10": 0.204880462963528,
+      "recall_100": 0.22556239458819816,
+      "map": 0.10998985753111473
+    },
+    "rankings": [],
+    "original_provenance": {
+      "original_path": "D:\\论文+比赛\\2026比赛\\CAIL\\法律修订候选检索\\初赛\\official_baselines\\ReCaRe\\results\\metrics\\rankgpt-gpt-4.1-mini+bm25_rat2rev_en.json",
+      "original_sha256": "d8bcc687b588d567fb76e35799c9554ff2a1be61060212886cf5eb6ec808c40a",
+      "original_output_length": "official original protocol; not normalized to L=200",
+      "ranked_run_released_locally": false,
+      "new_inference": false,
+      "n_queries": 113
+    },
+    "evidence": [],
+    "reported_metrics": "E01/evidence/R21/rat2rev-en/reported_metrics.json"
+  },
+  {
+    "row_id": "E01.R21",
+    "source_row_id": "E01.021",
+    "source_row_id_v2": "E01.V2.R021",
+    "configuration": "Reported RankGPT / gpt-4.1-mini\\textsuperscript{r}",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "official_reported",
+    "metrics": {
+      "ndcg_10": 0.19767882209357007,
+      "recall_100": 0.31064851109961117,
+      "map": 0.11815655019718205
+    },
+    "rankings": [],
+    "original_provenance": {
+      "original_path": "D:\\论文+比赛\\2026比赛\\CAIL\\法律修订候选检索\\初赛\\official_baselines\\ReCaRe\\results\\metrics\\rankgpt-gpt-4.1-mini+bm25_rev2rev_en.json",
+      "original_sha256": "ad61921e92e38f871a005145f66872a8d84502eaf9e989c59136f2c6eb8f0072",
+      "original_output_length": "official original protocol; not normalized to L=200",
+      "ranked_run_released_locally": false,
+      "new_inference": false,
+      "n_queries": 503
+    },
+    "evidence": [],
+    "reported_metrics": "E01/evidence/R21/rev2rev-en/reported_metrics.json"
+  },
+  {
+    "row_id": "E01.R21",
+    "source_row_id": "E01.021",
+    "source_row_id_v2": "E01.V2.R021",
+    "configuration": "Reported RankGPT / gpt-4.1-mini\\textsuperscript{r}",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "official_reported",
+    "metrics": {
+      "ndcg_10": 0.3731812779482825,
+      "recall_100": 0.46989076304893734,
+      "map": 0.23214886678437788
+    },
+    "rankings": [],
+    "original_provenance": {
+      "original_path": "D:\\论文+比赛\\2026比赛\\CAIL\\法律修订候选检索\\初赛\\official_baselines\\ReCaRe\\results\\metrics\\rankgpt-gpt-4.1-mini+bm25_rat2rev_ja.json",
+      "original_sha256": "8cddca4b0d0b86ceacee8f7fbcae28775f181f8173a9d0767fc6bd55472419ed",
+      "original_output_length": "official original protocol; not normalized to L=200",
+      "ranked_run_released_locally": false,
+      "new_inference": false,
+      "n_queries": 121
+    },
+    "evidence": [],
+    "reported_metrics": "E01/evidence/R21/rat2rev-ja/reported_metrics.json"
+  },
+  {
+    "row_id": "E01.R21",
+    "source_row_id": "E01.021",
+    "source_row_id_v2": "E01.V2.R021",
+    "configuration": "Reported RankGPT / gpt-4.1-mini\\textsuperscript{r}",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "official_reported",
+    "metrics": {
+      "ndcg_10": 0.29473593188082714,
+      "recall_100": 0.41764054396790995,
+      "map": 0.18167318029853136
+    },
+    "rankings": [],
+    "original_provenance": {
+      "original_path": "D:\\论文+比赛\\2026比赛\\CAIL\\法律修订候选检索\\初赛\\official_baselines\\ReCaRe\\results\\metrics\\rankgpt-gpt-4.1-mini+bm25_rev2rev_ja.json",
+      "original_sha256": "1fded5a476f4c221b6c7ee70bfd0bf80ccf5d54503707df8e35846858ccd73da",
+      "original_output_length": "official original protocol; not normalized to L=200",
+      "ranked_run_released_locally": false,
+      "new_inference": false,
+      "n_queries": 535
+    },
+    "evidence": [],
+    "reported_metrics": "E01/evidence/R21/rev2rev-ja/reported_metrics.json"
+  },
+  {
+    "row_id": "E01.R22",
+    "source_row_id": "E01.022",
+    "source_row_id_v2": "E01.V2.R022",
+    "configuration": "Reported RankGPT / gpt-5.4-mini\\textsuperscript{r}",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "official_reported",
+    "metrics": {
+      "ndcg_10": 0.22548147015022973,
+      "recall_100": 0.22556239458819816,
+      "map": 0.12261545514569243
+    },
+    "rankings": [],
+    "original_provenance": {
+      "original_path": "D:\\论文+比赛\\2026比赛\\CAIL\\法律修订候选检索\\初赛\\official_baselines\\ReCaRe\\results\\metrics\\rankgpt-gpt-5.4-mini+bm25_rat2rev_en.json",
+      "original_sha256": "db88a8ee0bb7a95d48a78ff0ecab47588da78c57f3909ce9009cf0ba77dfc073",
+      "original_output_length": "official original protocol; not normalized to L=200",
+      "ranked_run_released_locally": false,
+      "new_inference": false,
+      "n_queries": 113
+    },
+    "evidence": [],
+    "reported_metrics": "E01/evidence/R22/rat2rev-en/reported_metrics.json"
+  },
+  {
+    "row_id": "E01.R22",
+    "source_row_id": "E01.022",
+    "source_row_id_v2": "E01.V2.R022",
+    "configuration": "Reported RankGPT / gpt-5.4-mini\\textsuperscript{r}",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "official_reported",
+    "metrics": {
+      "ndcg_10": 0.21770100122819255,
+      "recall_100": 0.31064851109961117,
+      "map": 0.12685179745654848
+    },
+    "rankings": [],
+    "original_provenance": {
+      "original_path": "D:\\论文+比赛\\2026比赛\\CAIL\\法律修订候选检索\\初赛\\official_baselines\\ReCaRe\\results\\metrics\\rankgpt-gpt-5.4-mini+bm25_rev2rev_en.json",
+      "original_sha256": "3050d28ba066be7e5df71ef5a2461356fd0fc9c871fc1f049deb1f676cc0c290",
+      "original_output_length": "official original protocol; not normalized to L=200",
+      "ranked_run_released_locally": false,
+      "new_inference": false,
+      "n_queries": 503
+    },
+    "evidence": [],
+    "reported_metrics": "E01/evidence/R22/rev2rev-en/reported_metrics.json"
+  },
+  {
+    "row_id": "E01.R22",
+    "source_row_id": "E01.022",
+    "source_row_id_v2": "E01.V2.R022",
+    "configuration": "Reported RankGPT / gpt-5.4-mini\\textsuperscript{r}",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "official_reported",
+    "metrics": {
+      "ndcg_10": 0.3559792554597909,
+      "recall_100": 0.46989076304893734,
+      "map": 0.2137112825462815
+    },
+    "rankings": [],
+    "original_provenance": {
+      "original_path": "D:\\论文+比赛\\2026比赛\\CAIL\\法律修订候选检索\\初赛\\official_baselines\\ReCaRe\\results\\metrics\\rankgpt-gpt-5.4-mini+bm25_rat2rev_ja.json",
+      "original_sha256": "78afe96974bbca50f96b0c133e97d80520f4ec174e1eaf7165c64c583b09647b",
+      "original_output_length": "official original protocol; not normalized to L=200",
+      "ranked_run_released_locally": false,
+      "new_inference": false,
+      "n_queries": 121
+    },
+    "evidence": [],
+    "reported_metrics": "E01/evidence/R22/rat2rev-ja/reported_metrics.json"
+  },
+  {
+    "row_id": "E01.R22",
+    "source_row_id": "E01.022",
+    "source_row_id_v2": "E01.V2.R022",
+    "configuration": "Reported RankGPT / gpt-5.4-mini\\textsuperscript{r}",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "official_reported",
+    "metrics": {
+      "ndcg_10": 0.28273105977035046,
+      "recall_100": 0.41764054396790995,
+      "map": 0.17438596758052627
+    },
+    "rankings": [],
+    "original_provenance": {
+      "original_path": "D:\\论文+比赛\\2026比赛\\CAIL\\法律修订候选检索\\初赛\\official_baselines\\ReCaRe\\results\\metrics\\rankgpt-gpt-5.4-mini+bm25_rev2rev_ja.json",
+      "original_sha256": "b9fe95994787af5af354fb71824a8ee9ece889c6c98eba3c7cb244e364c03f9a",
+      "original_output_length": "official original protocol; not normalized to L=200",
+      "ranked_run_released_locally": false,
+      "new_inference": false,
+      "n_queries": 535
+    },
+    "evidence": [],
+    "reported_metrics": "E01/evidence/R22/rev2rev-ja/reported_metrics.json"
+  },
+  {
+    "row_id": "E01.R23",
+    "source_row_id": "E01.023",
+    "source_row_id_v2": "E01.V2.R023",
+    "configuration": "Our retrieval: single-query hybrid",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.1975231225704035,
+      "recall_100": 0.3854958271820841,
+      "map": 0.12664962229571552
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/a719d4bb6e330e418477734209dda7caacb2aea0ad8ed84a6afd27dc3f5a892e.jsonl",
+        "sha256": "a719d4bb6e330e418477734209dda7caacb2aea0ad8ed84a6afd27dc3f5a892e"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.023/rat2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "a719d4bb6e330e418477734209dda7caacb2aea0ad8ed84a6afd27dc3f5a892e",
+      "split": "test",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E01/runs/E01.023/rat2rev-en/test/manifest.json"
+    },
+    "evidence": [
+      "E01/evidence/R23/rat2rev-en/manifest.json",
+      "E01/evidence/R23/rat2rev-en/official_metrics.json",
+      "E01/evidence/R23/rat2rev-en/metrics.json",
+      "E01/evidence/R23/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R23",
+    "source_row_id": "E01.023",
+    "source_row_id_v2": "E01.V2.R023",
+    "configuration": "Our retrieval: single-query hybrid",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.24855124681797774,
+      "recall_100": 0.4387299816922179,
+      "map": 0.16162088646908418
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/99842a4c4af89ac57666295184415d6be6a25bb51e6fc8cf5dfaef485db8124a.jsonl",
+        "sha256": "99842a4c4af89ac57666295184415d6be6a25bb51e6fc8cf5dfaef485db8124a"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.023/rev2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "99842a4c4af89ac57666295184415d6be6a25bb51e6fc8cf5dfaef485db8124a",
+      "split": "test",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E01/runs/E01.023/rev2rev-en/test/manifest.json"
+    },
+    "evidence": [
+      "E01/evidence/R23/rev2rev-en/manifest.json",
+      "E01/evidence/R23/rev2rev-en/official_metrics.json",
+      "E01/evidence/R23/rev2rev-en/metrics.json",
+      "E01/evidence/R23/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R23",
+    "source_row_id": "E01.023",
+    "source_row_id_v2": "E01.V2.R023",
+    "configuration": "Our retrieval: single-query hybrid",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.3004226135109501,
+      "recall_100": 0.523371020164839,
+      "map": 0.2108629438875247
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/3ee2d9b7c727c0ba07f024ccf5c8bd19339a46d15456766d50d72ba7f544640f.jsonl",
+        "sha256": "3ee2d9b7c727c0ba07f024ccf5c8bd19339a46d15456766d50d72ba7f544640f"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.023/rat2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "3ee2d9b7c727c0ba07f024ccf5c8bd19339a46d15456766d50d72ba7f544640f",
+      "split": "test",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E01/runs/E01.023/rat2rev-ja/test/manifest.json"
+    },
+    "evidence": [
+      "E01/evidence/R23/rat2rev-ja/manifest.json",
+      "E01/evidence/R23/rat2rev-ja/official_metrics.json",
+      "E01/evidence/R23/rat2rev-ja/metrics.json",
+      "E01/evidence/R23/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R23",
+    "source_row_id": "E01.023",
+    "source_row_id_v2": "E01.V2.R023",
+    "configuration": "Our retrieval: single-query hybrid",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.28952035725572545,
+      "recall_100": 0.48170385711524893,
+      "map": 0.18929567621830842
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/6895bb3ee6dc6d1b28fca19019688ea7178dab42811c3532c1109674f2743197.jsonl",
+        "sha256": "6895bb3ee6dc6d1b28fca19019688ea7178dab42811c3532c1109674f2743197"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.023/rev2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "6895bb3ee6dc6d1b28fca19019688ea7178dab42811c3532c1109674f2743197",
+      "split": "test",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E01/runs/E01.023/rev2rev-ja/test/manifest.json"
+    },
+    "evidence": [
+      "E01/evidence/R23/rev2rev-ja/manifest.json",
+      "E01/evidence/R23/rev2rev-ja/official_metrics.json",
+      "E01/evidence/R23/rev2rev-ja/metrics.json",
+      "E01/evidence/R23/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R24",
+    "source_row_id": "E01.024",
+    "source_row_id_v2": "E01.V2.R024",
+    "configuration": "Our selection: hybrid + Qwen8B",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.2554895224762645,
+      "recall_100": 0.43032695447664965,
+      "map": 0.17666204565634155
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/a8be342fe79d5ef94110200b72ccd03c7455a29c98974f58f2822e042b88c989.jsonl",
+        "sha256": "a8be342fe79d5ef94110200b72ccd03c7455a29c98974f58f2822e042b88c989"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.024/rat2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "a8be342fe79d5ef94110200b72ccd03c7455a29c98974f58f2822e042b88c989",
+      "split": "test",
+      "output_length": 200
+    },
+    "evidence": [
+      "E01/evidence/R24/rat2rev-en/manifest.json",
+      "E01/evidence/R24/rat2rev-en/official_metrics.json",
+      "E01/evidence/R24/rat2rev-en/metrics.json",
+      "E01/evidence/R24/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R24",
+    "source_row_id": "E01.024",
+    "source_row_id_v2": "E01.V2.R024",
+    "configuration": "Our selection: hybrid + Qwen8B",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.20018478730722689,
+      "recall_100": 0.4319828436448042,
+      "map": 0.13360139743446978
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/724a073a06a1b34ccb202490da5a707916605f3d2135a094dacd62238330a1ce.jsonl",
+        "sha256": "724a073a06a1b34ccb202490da5a707916605f3d2135a094dacd62238330a1ce"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.024/rev2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "724a073a06a1b34ccb202490da5a707916605f3d2135a094dacd62238330a1ce",
+      "split": "test",
+      "output_length": 200
+    },
+    "evidence": [
+      "E01/evidence/R24/rev2rev-en/manifest.json",
+      "E01/evidence/R24/rev2rev-en/official_metrics.json",
+      "E01/evidence/R24/rev2rev-en/metrics.json",
+      "E01/evidence/R24/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R24",
+    "source_row_id": "E01.024",
+    "source_row_id_v2": "E01.V2.R024",
+    "configuration": "Our selection: hybrid + Qwen8B",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.2882373571356546,
+      "recall_100": 0.548316201884656,
+      "map": 0.19781210584759112
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/eb4fe573f38267e55a1e044b64cbad64eaf4326259e0a6853c6773f2d98f179d.jsonl",
+        "sha256": "eb4fe573f38267e55a1e044b64cbad64eaf4326259e0a6853c6773f2d98f179d"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.024/rat2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "eb4fe573f38267e55a1e044b64cbad64eaf4326259e0a6853c6773f2d98f179d",
+      "split": "test",
+      "output_length": 200
+    },
+    "evidence": [
+      "E01/evidence/R24/rat2rev-ja/manifest.json",
+      "E01/evidence/R24/rat2rev-ja/official_metrics.json",
+      "E01/evidence/R24/rat2rev-ja/metrics.json",
+      "E01/evidence/R24/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R24",
+    "source_row_id": "E01.024",
+    "source_row_id_v2": "E01.V2.R024",
+    "configuration": "Our selection: hybrid + Qwen8B",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.28503732998437875,
+      "recall_100": 0.5016260127325776,
+      "map": 0.186049854426944
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/2e1ad95feb0650420432f5256639295ada932502fd5bd722db54a50337b1eabd.jsonl",
+        "sha256": "2e1ad95feb0650420432f5256639295ada932502fd5bd722db54a50337b1eabd"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.024/rev2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "2e1ad95feb0650420432f5256639295ada932502fd5bd722db54a50337b1eabd",
+      "split": "test",
+      "output_length": 200
+    },
+    "evidence": [
+      "E01/evidence/R24/rev2rev-ja/manifest.json",
+      "E01/evidence/R24/rev2rev-ja/official_metrics.json",
+      "E01/evidence/R24/rev2rev-ja/metrics.json",
+      "E01/evidence/R24/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R25",
+    "source_row_id": "E01.026",
+    "source_row_id_v2": "E01.V2.R025",
+    "configuration": "TAR-SQ (Ours; cached GPT / T1)",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_gpt_experiment",
+    "metrics": {
+      "ndcg_10": 0.4457487874936842,
+      "recall_100": 0.43032695447664965,
+      "map": 0.30248082657056263
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/7b3af46e9d2d3244036903991bf41c035e7ea1b2429ef098366d741d1ad21020.jsonl",
+        "sha256": "7b3af46e9d2d3244036903991bf41c035e7ea1b2429ef098366d741d1ad21020"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.026/rat2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "7b3af46e9d2d3244036903991bf41c035e7ea1b2429ef098366d741d1ad21020",
+      "split": "test",
+      "method": "Rat anchor+5 / Rev original, predefined before new test",
+      "source_experiment": "E02.007"
+    },
+    "evidence": [
+      "E01/evidence/R25/rat2rev-en/manifest.json",
+      "E01/evidence/R25/rat2rev-en/official_metrics.json",
+      "E01/evidence/R25/rat2rev-en/metrics.json",
+      "E01/evidence/R25/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R25",
+    "source_row_id": "E01.026",
+    "source_row_id_v2": "E01.V2.R025",
+    "configuration": "TAR-SQ (Ours; cached GPT / T1)",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_gpt_experiment",
+    "metrics": {
+      "ndcg_10": 0.3535922701393312,
+      "recall_100": 0.4319828436448042,
+      "map": 0.2323427271067481
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/78d0af2dc6716643b71687bb4a0d4eacd0fe6ea5766de4316d25ed3ba3cbb678.jsonl",
+        "sha256": "78d0af2dc6716643b71687bb4a0d4eacd0fe6ea5766de4316d25ed3ba3cbb678"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.026/rev2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "78d0af2dc6716643b71687bb4a0d4eacd0fe6ea5766de4316d25ed3ba3cbb678",
+      "split": "test",
+      "method": "Rat anchor+5 / Rev original, predefined before new test",
+      "source_experiment": "E02.007"
+    },
+    "evidence": [
+      "E01/evidence/R25/rev2rev-en/manifest.json",
+      "E01/evidence/R25/rev2rev-en/official_metrics.json",
+      "E01/evidence/R25/rev2rev-en/metrics.json",
+      "E01/evidence/R25/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R25",
+    "source_row_id": "E01.026",
+    "source_row_id_v2": "E01.V2.R025",
+    "configuration": "TAR-SQ (Ours; cached GPT / T1)",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_gpt_experiment",
+    "metrics": {
+      "ndcg_10": 0.5336523128788915,
+      "recall_100": 0.548316201884656,
+      "map": 0.35463705004873675
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/efa45734d75087c7ce2e4640f2c4bf25620e26cf539dd35e918d7b27b021532e.jsonl",
+        "sha256": "efa45734d75087c7ce2e4640f2c4bf25620e26cf539dd35e918d7b27b021532e"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.026/rat2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "efa45734d75087c7ce2e4640f2c4bf25620e26cf539dd35e918d7b27b021532e",
+      "split": "test",
+      "method": "Rat anchor+5 / Rev original, predefined before new test",
+      "source_experiment": "E02.007"
+    },
+    "evidence": [
+      "E01/evidence/R25/rat2rev-ja/manifest.json",
+      "E01/evidence/R25/rat2rev-ja/official_metrics.json",
+      "E01/evidence/R25/rat2rev-ja/metrics.json",
+      "E01/evidence/R25/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R25",
+    "source_row_id": "E01.026",
+    "source_row_id_v2": "E01.V2.R025",
+    "configuration": "TAR-SQ (Ours; cached GPT / T1)",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_gpt_experiment",
+    "metrics": {
+      "ndcg_10": 0.3249467309344647,
+      "recall_100": 0.5016260127325776,
+      "map": 0.21232791698586007
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/e1fcd8fbb693764e00ec3c4e8bb363e1dcd5937edc25c2433c8002880a16a87d.jsonl",
+        "sha256": "e1fcd8fbb693764e00ec3c4e8bb363e1dcd5937edc25c2433c8002880a16a87d"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E01/runs/E01.026/rev2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "e1fcd8fbb693764e00ec3c4e8bb363e1dcd5937edc25c2433c8002880a16a87d",
+      "split": "test",
+      "method": "Rat anchor+5 / Rev original, predefined before new test",
+      "source_experiment": "E02.007"
+    },
+    "evidence": [
+      "E01/evidence/R25/rev2rev-ja/manifest.json",
+      "E01/evidence/R25/rev2rev-ja/official_metrics.json",
+      "E01/evidence/R25/rev2rev-ja/metrics.json",
+      "E01/evidence/R25/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R26",
+    "source_row_id": "E01.029",
+    "source_row_id_v2": "E01.V2.R026",
+    "configuration": "Our historical system H (frozen)",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "historical_replay",
+    "metrics": {
+      "ndcg_10": 0.4530401954325326,
+      "recall_100": 0.47141817014643306,
+      "map": 0.30778871431677457
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/ce31888dc9aea414a8291dd6030ce0a77602b51dc1d5eae812fe061a47889ca1.jsonl",
+        "sha256": "ce31888dc9aea414a8291dd6030ce0a77602b51dc1d5eae812fe061a47889ca1"
+      }
+    ],
+    "original_provenance": {
+      "original_path": "D:\\论文+比赛\\2026比赛\\CAIL\\法律修订候选检索\\初赛\\submissions\\english_main_best_gpt61_20261029_run1\\local_team_rat2rev-en_run1.jsonl",
+      "original_sha256": "ce31888dc9aea414a8291dd6030ce0a77602b51dc1d5eae812fe061a47889ca1",
+      "canonical_ranked_path": "experiments\\E01\\runs\\E01.029\\rat2rev-en\\ranked.jsonl",
+      "canonical_sha256": "ce31888dc9aea414a8291dd6030ce0a77602b51dc1d5eae812fe061a47889ca1",
+      "qrels_sha256": "c5215c8506c684bcbed81b5d04429db6fe7a83ba77ddfb1888cb57a607fdf485",
+      "output_length": 200,
+      "conditions": "Exploratory historical bilingual pipeline",
+      "inference_was_not_repeated": true
+    },
+    "evidence": [
+      "E01/evidence/R26/rat2rev-en/provenance.json",
+      "E01/evidence/R26/rat2rev-en/official_metrics.json",
+      "E01/evidence/R26/rat2rev-en/metrics.json",
+      "E01/evidence/R26/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R26",
+    "source_row_id": "E01.029",
+    "source_row_id_v2": "E01.V2.R026",
+    "configuration": "Our historical system H (frozen)",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "historical_replay",
+    "metrics": {
+      "ndcg_10": 0.3684642580644215,
+      "recall_100": 0.43526180107535384,
+      "map": 0.240918266467248
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/5b31ee3df1e3c9c6ed0dd2a6932055e02cae0e7de1aea901736eacb14274a0df.jsonl",
+        "sha256": "5b31ee3df1e3c9c6ed0dd2a6932055e02cae0e7de1aea901736eacb14274a0df"
+      }
+    ],
+    "original_provenance": {
+      "original_path": "D:\\论文+比赛\\2026比赛\\CAIL\\法律修订候选检索\\初赛\\submissions\\english_main_best_gpt61_20261029_run1\\local_team_rev2rev-en_run1.jsonl",
+      "original_sha256": "5b31ee3df1e3c9c6ed0dd2a6932055e02cae0e7de1aea901736eacb14274a0df",
+      "canonical_ranked_path": "experiments\\E01\\runs\\E01.029\\rev2rev-en\\ranked.jsonl",
+      "canonical_sha256": "5b31ee3df1e3c9c6ed0dd2a6932055e02cae0e7de1aea901736eacb14274a0df",
+      "qrels_sha256": "21a4908238fdd57ce19d9e1ac5d7474cca18d2a52677d8727df2260ee0ec216b",
+      "output_length": 200,
+      "conditions": "Exploratory historical bilingual pipeline",
+      "inference_was_not_repeated": true
+    },
+    "evidence": [
+      "E01/evidence/R26/rev2rev-en/provenance.json",
+      "E01/evidence/R26/rev2rev-en/official_metrics.json",
+      "E01/evidence/R26/rev2rev-en/metrics.json",
+      "E01/evidence/R26/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R26",
+    "source_row_id": "E01.029",
+    "source_row_id_v2": "E01.V2.R026",
+    "configuration": "Our historical system H (frozen)",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "historical_replay",
+    "metrics": {
+      "ndcg_10": 0.5191362879696059,
+      "recall_100": 0.5655061149987424,
+      "map": 0.35136516404269824
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/1e85f716a46c5302f0c4e778ccde5ef71c728707c094414280b68689ecc50d3b.jsonl",
+        "sha256": "1e85f716a46c5302f0c4e778ccde5ef71c728707c094414280b68689ecc50d3b"
+      }
+    ],
+    "original_provenance": {
+      "original_path": "D:\\论文+比赛\\2026比赛\\CAIL\\法律修订候选检索\\初赛\\runs\\japanese_best_20261029\\final\\local_team_rat2rev-ja_run1.jsonl",
+      "original_sha256": "1e85f716a46c5302f0c4e778ccde5ef71c728707c094414280b68689ecc50d3b",
+      "canonical_ranked_path": "experiments\\E01\\runs\\E01.029\\rat2rev-ja\\ranked.jsonl",
+      "canonical_sha256": "1e85f716a46c5302f0c4e778ccde5ef71c728707c094414280b68689ecc50d3b",
+      "qrels_sha256": "c10a46fbf861019e8661fce69885122cd1122e373f34fa3c0254aa1504bccc99",
+      "output_length": 200,
+      "conditions": "Exploratory historical bilingual pipeline",
+      "inference_was_not_repeated": true
+    },
+    "evidence": [
+      "E01/evidence/R26/rat2rev-ja/provenance.json",
+      "E01/evidence/R26/rat2rev-ja/official_metrics.json",
+      "E01/evidence/R26/rat2rev-ja/metrics.json",
+      "E01/evidence/R26/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E01.R26",
+    "source_row_id": "E01.029",
+    "source_row_id_v2": "E01.V2.R026",
+    "configuration": "Our historical system H (frozen)",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "historical_replay",
+    "metrics": {
+      "ndcg_10": 0.31954069812307556,
+      "recall_100": 0.4981913260314031,
+      "map": 0.2128671718167413
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/06123abdc4a3acf0b150f1d8bbdbb56c43d5e083fe36a7357fbe4b6e568a09bf.jsonl",
+        "sha256": "06123abdc4a3acf0b150f1d8bbdbb56c43d5e083fe36a7357fbe4b6e568a09bf"
+      }
+    ],
+    "original_provenance": {
+      "original_path": "D:\\论文+比赛\\2026比赛\\CAIL\\法律修订候选检索\\初赛\\runs\\japanese_best_20261029\\final\\local_team_rev2rev-ja_run1.jsonl",
+      "original_sha256": "06123abdc4a3acf0b150f1d8bbdbb56c43d5e083fe36a7357fbe4b6e568a09bf",
+      "canonical_ranked_path": "experiments\\E01\\runs\\E01.029\\rev2rev-ja\\ranked.jsonl",
+      "canonical_sha256": "06123abdc4a3acf0b150f1d8bbdbb56c43d5e083fe36a7357fbe4b6e568a09bf",
+      "qrels_sha256": "5549bfbbac295aaef91fa7ba17824252a4f617c8da6447de08be75af9d62d4aa",
+      "output_length": 200,
+      "conditions": "Exploratory historical bilingual pipeline",
+      "inference_was_not_repeated": true
+    },
+    "evidence": [
+      "E01/evidence/R26/rev2rev-ja/provenance.json",
+      "E01/evidence/R26/rev2rev-ja/official_metrics.json",
+      "E01/evidence/R26/rev2rev-ja/metrics.json",
+      "E01/evidence/R26/rev2rev-ja/per_query.csv"
+    ]
+  }
+]

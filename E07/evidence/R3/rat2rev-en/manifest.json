@@ -1,0 +1,21 @@
+{
+  "complete": true,
+  "model_signature": "cf260264feb85f2db01962626fb83a1afd69e0016dc4d39f56d7e399aac25770",
+  "bm25_params": {
+    "k1": 1.2,
+    "b": 0.75
+  },
+  "recipe": "original",
+  "count": 0,
+  "anchor": false,
+  "repeated_control": false,
+  "dense_total_weight": 2.0,
+  "branch_weights": [
+    2.0
+  ],
+  "rrf_k": 100,
+  "task": "rat2rev-en",
+  "split": "test",
+  "at": "2026-10-31T02:11:39+08:00",
+  "generator": "Qwen3-8B; same across controlled recipes"
+}

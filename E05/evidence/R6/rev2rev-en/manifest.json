@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "model_signature": "a9f0fba4c77181a42ddd7d0e4661476faefedd561374c00176087f36917248e6",
+  "source_manifest": "cache/fusion_original/rev2rev-en/validation/k100_w1/count500_source500/manifest.json",
+  "source_sha256": "7d37379f003f460eddb09995a1cc8f8a2f375afe596eddbc430e95a2e55c65e8",
+  "count": 200,
+  "split": "validation",
+  "task": "rev2rev-en",
+  "output_length": 200
+}

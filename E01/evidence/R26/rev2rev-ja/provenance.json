@@ -1,0 +1,10 @@
+{
+  "original_path": "D:\\论文+比赛\\2026比赛\\CAIL\\法律修订候选检索\\初赛\\runs\\japanese_best_20261029\\final\\local_team_rev2rev-ja_run1.jsonl",
+  "original_sha256": "06123abdc4a3acf0b150f1d8bbdbb56c43d5e083fe36a7357fbe4b6e568a09bf",
+  "canonical_ranked_path": "experiments\\E01\\runs\\E01.029\\rev2rev-ja\\ranked.jsonl",
+  "canonical_sha256": "06123abdc4a3acf0b150f1d8bbdbb56c43d5e083fe36a7357fbe4b6e568a09bf",
+  "qrels_sha256": "5549bfbbac295aaef91fa7ba17824252a4f617c8da6447de08be75af9d62d4aa",
+  "output_length": 200,
+  "conditions": "Exploratory historical bilingual pipeline",
+  "inference_was_not_repeated": true
+}

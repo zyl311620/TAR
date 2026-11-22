@@ -1,0 +1,106 @@
+[
+  {
+    "row_id": "E05.R1",
+    "configuration": "源深度 / S=100，输出至多200",
+    "source_experiment": "E05",
+    "source_row_id": "E05.001",
+    "source_row_id_v2": "E05.V2.R001",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E05.R2",
+    "configuration": "源深度 / S=300，输出200",
+    "source_experiment": "E05",
+    "source_row_id": "E05.002",
+    "source_row_id_v2": "E05.V2.R002",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E05.R3",
+    "configuration": "源深度 / S=500，输出200",
+    "source_experiment": "E05",
+    "source_row_id": "E05.003",
+    "source_row_id_v2": "E05.V2.R003",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E05.R4",
+    "configuration": "源深度 / S=1000，输出200",
+    "source_experiment": "E05",
+    "source_row_id": "E05.004",
+    "source_row_id_v2": "E05.V2.R004",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E05.R5",
+    "configuration": "Qwen深度 / C=100，S=500，无最终LLM",
+    "source_experiment": "E05",
+    "source_row_id": "E05.005",
+    "source_row_id_v2": "E05.V2.R005",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E05.R6",
+    "configuration": "Qwen深度 / C=200，S=500，无最终LLM",
+    "source_experiment": "E05",
+    "source_row_id": "E05.006",
+    "source_row_id_v2": "E05.V2.R006",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E05.R7",
+    "configuration": "Qwen深度 / C=300，S=500，无最终LLM",
+    "source_experiment": "E05",
+    "source_row_id": "E05.007",
+    "source_row_id_v2": "E05.V2.R007",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E05.R8",
+    "configuration": "Qwen深度 / C=500，S=500，无最终LLM",
+    "source_experiment": "E05",
+    "source_row_id": "E05.008",
+    "source_row_id_v2": "E05.V2.R008",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  }
+]

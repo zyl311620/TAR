@@ -1,0 +1,1034 @@
+[
+  {
+    "row_id": "E02.R1",
+    "source_row_id": "E02.001",
+    "source_row_id_v2": "E02.V2.R001",
+    "configuration": "TAR ablation A0: dense only",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.20623849377395956,
+      "recall_100": 0.36291916702368043,
+      "map": 0.1291777866344935
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/7c38bc5e517126b404f27fc1e1106186f3b7c931d9ee44927710ed3cb9f1a8f2.jsonl",
+        "sha256": "7c38bc5e517126b404f27fc1e1106186f3b7c931d9ee44927710ed3cb9f1a8f2"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E02/runs/E02.001/rat2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "7c38bc5e517126b404f27fc1e1106186f3b7c931d9ee44927710ed3cb9f1a8f2",
+      "split": "test",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E02/runs/E02.001/rat2rev-en/test/manifest.json"
+    },
+    "evidence": [
+      "E02/evidence/R1/rat2rev-en/manifest.json",
+      "E02/evidence/R1/rat2rev-en/official_metrics.json",
+      "E02/evidence/R1/rat2rev-en/metrics.json",
+      "E02/evidence/R1/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E02.R1",
+    "source_row_id": "E02.001",
+    "source_row_id_v2": "E02.V2.R001",
+    "configuration": "TAR ablation A0: dense only",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.24492986283058482,
+      "recall_100": 0.42176819931385257,
+      "map": 0.15684028719054122
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/ea70d62e68b027879c805064f84cd2564390a3a2e95e6bb02c455d82b1c12566.jsonl",
+        "sha256": "ea70d62e68b027879c805064f84cd2564390a3a2e95e6bb02c455d82b1c12566"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E02/runs/E02.001/rev2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "ea70d62e68b027879c805064f84cd2564390a3a2e95e6bb02c455d82b1c12566",
+      "split": "test",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E02/runs/E02.001/rev2rev-en/test/manifest.json"
+    },
+    "evidence": [
+      "E02/evidence/R1/rev2rev-en/manifest.json",
+      "E02/evidence/R1/rev2rev-en/official_metrics.json",
+      "E02/evidence/R1/rev2rev-en/metrics.json",
+      "E02/evidence/R1/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E02.R1",
+    "source_row_id": "E02.001",
+    "source_row_id_v2": "E02.V2.R001",
+    "configuration": "TAR ablation A0: dense only",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.2844613946371891,
+      "recall_100": 0.4860663926360202,
+      "map": 0.1920678002717902
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/c82d4a4125ac85b8a753257eb3e2660554581b9ec14606893ac34f45765f602d.jsonl",
+        "sha256": "c82d4a4125ac85b8a753257eb3e2660554581b9ec14606893ac34f45765f602d"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E02/runs/E02.001/rat2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "c82d4a4125ac85b8a753257eb3e2660554581b9ec14606893ac34f45765f602d",
+      "split": "test",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E02/runs/E02.001/rat2rev-ja/test/manifest.json"
+    },
+    "evidence": [
+      "E02/evidence/R1/rat2rev-ja/manifest.json",
+      "E02/evidence/R1/rat2rev-ja/official_metrics.json",
+      "E02/evidence/R1/rat2rev-ja/metrics.json",
+      "E02/evidence/R1/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E02.R1",
+    "source_row_id": "E02.001",
+    "source_row_id_v2": "E02.V2.R001",
+    "configuration": "TAR ablation A0: dense only",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.2907956148328093,
+      "recall_100": 0.46555094010557235,
+      "map": 0.19131187554368664
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/52d719280bc44b606ed7bd7ca6fbc2e78a72f43974a1a4dbcecc48ae223d6b25.jsonl",
+        "sha256": "52d719280bc44b606ed7bd7ca6fbc2e78a72f43974a1a4dbcecc48ae223d6b25"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E02/runs/E02.001/rev2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "52d719280bc44b606ed7bd7ca6fbc2e78a72f43974a1a4dbcecc48ae223d6b25",
+      "split": "test",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E02/runs/E02.001/rev2rev-ja/test/manifest.json"
+    },
+    "evidence": [
+      "E02/evidence/R1/rev2rev-ja/manifest.json",
+      "E02/evidence/R1/rev2rev-ja/official_metrics.json",
+      "E02/evidence/R1/rev2rev-ja/metrics.json",
+      "E02/evidence/R1/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E02.R2",
+    "source_row_id": "E02.002",
+    "source_row_id_v2": "E02.V2.R002",
+    "configuration": "TAR ablation A1: A0 + BM25 / RRF",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.1975231225704035,
+      "recall_100": 0.3854958271820841,
+      "map": 0.12664962229571552
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/a719d4bb6e330e418477734209dda7caacb2aea0ad8ed84a6afd27dc3f5a892e.jsonl",
+        "sha256": "a719d4bb6e330e418477734209dda7caacb2aea0ad8ed84a6afd27dc3f5a892e"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E02/runs/E02.002/rat2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "a719d4bb6e330e418477734209dda7caacb2aea0ad8ed84a6afd27dc3f5a892e",
+      "split": "test",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E02/runs/E02.002/rat2rev-en/test/manifest.json"
+    },
+    "evidence": [
+      "E02/evidence/R2/rat2rev-en/manifest.json",
+      "E02/evidence/R2/rat2rev-en/official_metrics.json",
+      "E02/evidence/R2/rat2rev-en/metrics.json",
+      "E02/evidence/R2/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E02.R2",
+    "source_row_id": "E02.002",
+    "source_row_id_v2": "E02.V2.R002",
+    "configuration": "TAR ablation A1: A0 + BM25 / RRF",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.24855124681797774,
+      "recall_100": 0.4387299816922179,
+      "map": 0.16162088646908418
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/99842a4c4af89ac57666295184415d6be6a25bb51e6fc8cf5dfaef485db8124a.jsonl",
+        "sha256": "99842a4c4af89ac57666295184415d6be6a25bb51e6fc8cf5dfaef485db8124a"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E02/runs/E02.002/rev2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "99842a4c4af89ac57666295184415d6be6a25bb51e6fc8cf5dfaef485db8124a",
+      "split": "test",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E02/runs/E02.002/rev2rev-en/test/manifest.json"
+    },
+    "evidence": [
+      "E02/evidence/R2/rev2rev-en/manifest.json",
+      "E02/evidence/R2/rev2rev-en/official_metrics.json",
+      "E02/evidence/R2/rev2rev-en/metrics.json",
+      "E02/evidence/R2/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E02.R2",
+    "source_row_id": "E02.002",
+    "source_row_id_v2": "E02.V2.R002",
+    "configuration": "TAR ablation A1: A0 + BM25 / RRF",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.3004226135109501,
+      "recall_100": 0.523371020164839,
+      "map": 0.2108629438875247
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/3ee2d9b7c727c0ba07f024ccf5c8bd19339a46d15456766d50d72ba7f544640f.jsonl",
+        "sha256": "3ee2d9b7c727c0ba07f024ccf5c8bd19339a46d15456766d50d72ba7f544640f"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E02/runs/E02.002/rat2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "3ee2d9b7c727c0ba07f024ccf5c8bd19339a46d15456766d50d72ba7f544640f",
+      "split": "test",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E02/runs/E02.002/rat2rev-ja/test/manifest.json"
+    },
+    "evidence": [
+      "E02/evidence/R2/rat2rev-ja/manifest.json",
+      "E02/evidence/R2/rat2rev-ja/official_metrics.json",
+      "E02/evidence/R2/rat2rev-ja/metrics.json",
+      "E02/evidence/R2/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E02.R2",
+    "source_row_id": "E02.002",
+    "source_row_id_v2": "E02.V2.R002",
+    "configuration": "TAR ablation A1: A0 + BM25 / RRF",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.28952035725572545,
+      "recall_100": 0.48170385711524893,
+      "map": 0.18929567621830842
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/6895bb3ee6dc6d1b28fca19019688ea7178dab42811c3532c1109674f2743197.jsonl",
+        "sha256": "6895bb3ee6dc6d1b28fca19019688ea7178dab42811c3532c1109674f2743197"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E02/runs/E02.002/rev2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "6895bb3ee6dc6d1b28fca19019688ea7178dab42811c3532c1109674f2743197",
+      "split": "test",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E02/runs/E02.002/rev2rev-ja/test/manifest.json"
+    },
+    "evidence": [
+      "E02/evidence/R2/rev2rev-ja/manifest.json",
+      "E02/evidence/R2/rev2rev-ja/official_metrics.json",
+      "E02/evidence/R2/rev2rev-ja/metrics.json",
+      "E02/evidence/R2/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E02.R3",
+    "source_row_id": "E02.003",
+    "source_row_id_v2": "E02.V2.R003",
+    "configuration": "TAR ablation A2: A1 + anchored views",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.1961553524552994,
+      "recall_100": 0.41928658061406954,
+      "map": 0.13112252192186025
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/990acdfb75ecaeaadfea44d96ad33f8cb632dc7ea6b91d30f95b148dbe2421d8.jsonl",
+        "sha256": "990acdfb75ecaeaadfea44d96ad33f8cb632dc7ea6b91d30f95b148dbe2421d8"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E02/runs/E02.003/rat2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "990acdfb75ecaeaadfea44d96ad33f8cb632dc7ea6b91d30f95b148dbe2421d8",
+      "split": "test",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E02/runs/E02.003/rat2rev-en/test/manifest.json"
+    },
+    "evidence": [
+      "E02/evidence/R3/rat2rev-en/manifest.json",
+      "E02/evidence/R3/rat2rev-en/official_metrics.json",
+      "E02/evidence/R3/rat2rev-en/metrics.json",
+      "E02/evidence/R3/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E02.R3",
+    "source_row_id": "E02.003",
+    "source_row_id_v2": "E02.V2.R003",
+    "configuration": "TAR ablation A2: A1 + anchored views",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.23487897738012609,
+      "recall_100": 0.41906069355742714,
+      "map": 0.1521041204275812
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/73be0265acfef7e7e9c6efa634cdc57e610f826f6fb45bffbaaf9907d4c9684d.jsonl",
+        "sha256": "73be0265acfef7e7e9c6efa634cdc57e610f826f6fb45bffbaaf9907d4c9684d"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E02/runs/E02.003/rev2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "73be0265acfef7e7e9c6efa634cdc57e610f826f6fb45bffbaaf9907d4c9684d",
+      "split": "test",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E02/runs/E02.003/rev2rev-en/test/manifest.json"
+    },
+    "evidence": [
+      "E02/evidence/R3/rev2rev-en/manifest.json",
+      "E02/evidence/R3/rev2rev-en/official_metrics.json",
+      "E02/evidence/R3/rev2rev-en/metrics.json",
+      "E02/evidence/R3/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E02.R3",
+    "source_row_id": "E02.003",
+    "source_row_id_v2": "E02.V2.R003",
+    "configuration": "TAR ablation A2: A1 + anchored views",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.2976073447087522,
+      "recall_100": 0.5297286579911702,
+      "map": 0.20951213525525605
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/284cd56091f1ce192ce8f9caa01cd7096d6fcf2a3ff81cef6e4878c89f98c3b7.jsonl",
+        "sha256": "284cd56091f1ce192ce8f9caa01cd7096d6fcf2a3ff81cef6e4878c89f98c3b7"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E02/runs/E02.003/rat2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "284cd56091f1ce192ce8f9caa01cd7096d6fcf2a3ff81cef6e4878c89f98c3b7",
+      "split": "test",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E02/runs/E02.003/rat2rev-ja/test/manifest.json"
+    },
+    "evidence": [
+      "E02/evidence/R3/rat2rev-ja/manifest.json",
+      "E02/evidence/R3/rat2rev-ja/official_metrics.json",
+      "E02/evidence/R3/rat2rev-ja/metrics.json",
+      "E02/evidence/R3/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E02.R3",
+    "source_row_id": "E02.003",
+    "source_row_id_v2": "E02.V2.R003",
+    "configuration": "TAR ablation A2: A1 + anchored views",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.27955288844864296,
+      "recall_100": 0.47763041659594624,
+      "map": 0.182176616755808
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/d72b19c7dde3db15e90b3dd4f2921256000f4e776b56a2e0e1d0a96f4580de6d.jsonl",
+        "sha256": "d72b19c7dde3db15e90b3dd4f2921256000f4e776b56a2e0e1d0a96f4580de6d"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E02/runs/E02.003/rev2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "d72b19c7dde3db15e90b3dd4f2921256000f4e776b56a2e0e1d0a96f4580de6d",
+      "split": "test",
+      "output_length": 200,
+      "fusion_manifest": "experiments/E02/runs/E02.003/rev2rev-ja/test/manifest.json"
+    },
+    "evidence": [
+      "E02/evidence/R3/rev2rev-ja/manifest.json",
+      "E02/evidence/R3/rev2rev-ja/official_metrics.json",
+      "E02/evidence/R3/rev2rev-ja/metrics.json",
+      "E02/evidence/R3/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E02.R4",
+    "source_row_id": "E02.004",
+    "source_row_id_v2": "E02.V2.R004",
+    "configuration": "TAR ablation A3: A1 + Qwen200",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.2554895224762645,
+      "recall_100": 0.43032695447664965,
+      "map": 0.17666204565634155
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/a8be342fe79d5ef94110200b72ccd03c7455a29c98974f58f2822e042b88c989.jsonl",
+        "sha256": "a8be342fe79d5ef94110200b72ccd03c7455a29c98974f58f2822e042b88c989"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E02/runs/E02.004/rat2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "a8be342fe79d5ef94110200b72ccd03c7455a29c98974f58f2822e042b88c989",
+      "split": "test",
+      "output_length": 200
+    },
+    "evidence": [
+      "E02/evidence/R4/rat2rev-en/manifest.json",
+      "E02/evidence/R4/rat2rev-en/official_metrics.json",
+      "E02/evidence/R4/rat2rev-en/metrics.json",
+      "E02/evidence/R4/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E02.R4",
+    "source_row_id": "E02.004",
+    "source_row_id_v2": "E02.V2.R004",
+    "configuration": "TAR ablation A3: A1 + Qwen200",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.20018478730722689,
+      "recall_100": 0.4319828436448042,
+      "map": 0.13360139743446978
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/724a073a06a1b34ccb202490da5a707916605f3d2135a094dacd62238330a1ce.jsonl",
+        "sha256": "724a073a06a1b34ccb202490da5a707916605f3d2135a094dacd62238330a1ce"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E02/runs/E02.004/rev2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "724a073a06a1b34ccb202490da5a707916605f3d2135a094dacd62238330a1ce",
+      "split": "test",
+      "output_length": 200
+    },
+    "evidence": [
+      "E02/evidence/R4/rev2rev-en/manifest.json",
+      "E02/evidence/R4/rev2rev-en/official_metrics.json",
+      "E02/evidence/R4/rev2rev-en/metrics.json",
+      "E02/evidence/R4/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E02.R4",
+    "source_row_id": "E02.004",
+    "source_row_id_v2": "E02.V2.R004",
+    "configuration": "TAR ablation A3: A1 + Qwen200",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.2882373571356546,
+      "recall_100": 0.548316201884656,
+      "map": 0.19781210584759112
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/eb4fe573f38267e55a1e044b64cbad64eaf4326259e0a6853c6773f2d98f179d.jsonl",
+        "sha256": "eb4fe573f38267e55a1e044b64cbad64eaf4326259e0a6853c6773f2d98f179d"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E02/runs/E02.004/rat2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "eb4fe573f38267e55a1e044b64cbad64eaf4326259e0a6853c6773f2d98f179d",
+      "split": "test",
+      "output_length": 200
+    },
+    "evidence": [
+      "E02/evidence/R4/rat2rev-ja/manifest.json",
+      "E02/evidence/R4/rat2rev-ja/official_metrics.json",
+      "E02/evidence/R4/rat2rev-ja/metrics.json",
+      "E02/evidence/R4/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E02.R4",
+    "source_row_id": "E02.004",
+    "source_row_id_v2": "E02.V2.R004",
+    "configuration": "TAR ablation A3: A1 + Qwen200",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.28503732998437875,
+      "recall_100": 0.5016260127325776,
+      "map": 0.186049854426944
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/2e1ad95feb0650420432f5256639295ada932502fd5bd722db54a50337b1eabd.jsonl",
+        "sha256": "2e1ad95feb0650420432f5256639295ada932502fd5bd722db54a50337b1eabd"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E02/runs/E02.004/rev2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "2e1ad95feb0650420432f5256639295ada932502fd5bd722db54a50337b1eabd",
+      "split": "test",
+      "output_length": 200
+    },
+    "evidence": [
+      "E02/evidence/R4/rev2rev-ja/manifest.json",
+      "E02/evidence/R4/rev2rev-ja/official_metrics.json",
+      "E02/evidence/R4/rev2rev-ja/metrics.json",
+      "E02/evidence/R4/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E02.R5",
+    "source_row_id": "E02.005",
+    "source_row_id_v2": "E02.V2.R005",
+    "configuration": "TAR ablation A4: A2 + Qwen200",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.25490752903263597,
+      "recall_100": 0.4531692229513091,
+      "map": 0.18033753156323276
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/a783fdf764ce58eac65dbefce426914abe6b51b9ef9a87a58dd7d0ff0ad7be43.jsonl",
+        "sha256": "a783fdf764ce58eac65dbefce426914abe6b51b9ef9a87a58dd7d0ff0ad7be43"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E02/runs/E02.005/rat2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "a783fdf764ce58eac65dbefce426914abe6b51b9ef9a87a58dd7d0ff0ad7be43",
+      "split": "test",
+      "output_length": 200
+    },
+    "evidence": [
+      "E02/evidence/R5/rat2rev-en/manifest.json",
+      "E02/evidence/R5/rat2rev-en/official_metrics.json",
+      "E02/evidence/R5/rat2rev-en/metrics.json",
+      "E02/evidence/R5/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E02.R5",
+    "source_row_id": "E02.005",
+    "source_row_id_v2": "E02.V2.R005",
+    "configuration": "TAR ablation A4: A2 + Qwen200",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.19938079280760154,
+      "recall_100": 0.42681862852728386,
+      "map": 0.13244002192716253
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/c5a4b88cdbe7d3497d31a9162478570f215963b471839cf83f6be089463f631e.jsonl",
+        "sha256": "c5a4b88cdbe7d3497d31a9162478570f215963b471839cf83f6be089463f631e"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E02/runs/E02.005/rev2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "c5a4b88cdbe7d3497d31a9162478570f215963b471839cf83f6be089463f631e",
+      "split": "test",
+      "output_length": 200
+    },
+    "evidence": [
+      "E02/evidence/R5/rev2rev-en/manifest.json",
+      "E02/evidence/R5/rev2rev-en/official_metrics.json",
+      "E02/evidence/R5/rev2rev-en/metrics.json",
+      "E02/evidence/R5/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E02.R5",
+    "source_row_id": "E02.005",
+    "source_row_id_v2": "E02.V2.R005",
+    "configuration": "TAR ablation A4: A2 + Qwen200",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.28831744235132345,
+      "recall_100": 0.5544304711886052,
+      "map": 0.19969955773662743
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/34030dd2fc0034466d7099293e7c13291e5b9ea841ae2923326fac03114ee72b.jsonl",
+        "sha256": "34030dd2fc0034466d7099293e7c13291e5b9ea841ae2923326fac03114ee72b"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E02/runs/E02.005/rat2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "34030dd2fc0034466d7099293e7c13291e5b9ea841ae2923326fac03114ee72b",
+      "split": "test",
+      "output_length": 200
+    },
+    "evidence": [
+      "E02/evidence/R5/rat2rev-ja/manifest.json",
+      "E02/evidence/R5/rat2rev-ja/official_metrics.json",
+      "E02/evidence/R5/rat2rev-ja/metrics.json",
+      "E02/evidence/R5/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E02.R5",
+    "source_row_id": "E02.005",
+    "source_row_id_v2": "E02.V2.R005",
+    "configuration": "TAR ablation A4: A2 + Qwen200",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.2831710809369852,
+      "recall_100": 0.5048212043051078,
+      "map": 0.18599990379011
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/c2edb9d6e3f33c08d5c8a7c8c4047b7f6af75a62cb1bd12e675f707df0ff607a.jsonl",
+        "sha256": "c2edb9d6e3f33c08d5c8a7c8c4047b7f6af75a62cb1bd12e675f707df0ff607a"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E02/runs/E02.005/rev2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "c2edb9d6e3f33c08d5c8a7c8c4047b7f6af75a62cb1bd12e675f707df0ff607a",
+      "split": "test",
+      "output_length": 200
+    },
+    "evidence": [
+      "E02/evidence/R5/rev2rev-ja/manifest.json",
+      "E02/evidence/R5/rev2rev-ja/official_metrics.json",
+      "E02/evidence/R5/rev2rev-ja/metrics.json",
+      "E02/evidence/R5/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E02.R6",
+    "source_row_id": "E02.006",
+    "source_row_id_v2": "E02.V2.R006",
+    "configuration": "TAR ablation A5: no Qwen / cached GPT",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_gpt_experiment",
+    "metrics": {
+      "ndcg_10": 0.42324604862271226,
+      "recall_100": 0.3854958271820841,
+      "map": 0.27508163863869395
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/90f4ea597bf24241fd71e7f1933ec6c20b5e94320eb5791539660c230f8786dc.jsonl",
+        "sha256": "90f4ea597bf24241fd71e7f1933ec6c20b5e94320eb5791539660c230f8786dc"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E02/runs/E02.006/rat2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "90f4ea597bf24241fd71e7f1933ec6c20b5e94320eb5791539660c230f8786dc",
+      "split": "test",
+      "config": {
+        "criterion": "T1",
+        "depth": 100,
+        "fixed_window": false,
+        "passage_cap": 0,
+        "query_cap": 0,
+        "passage_word_cap": 0
+      },
+      "model": "gpt-6.1-sol",
+      "new_gpt_http_requests": 228
+    },
+    "evidence": [
+      "E02/evidence/R6/rat2rev-en/manifest.json",
+      "E02/evidence/R6/rat2rev-en/official_metrics.json",
+      "E02/evidence/R6/rat2rev-en/metrics.json",
+      "E02/evidence/R6/rat2rev-en/per_query.csv"
+    ],
+    "request_indexes": [
+      "E02/evidence/R6/rat2rev-en/requests.json"
+    ]
+  },
+  {
+    "row_id": "E02.R6",
+    "source_row_id": "E02.006",
+    "source_row_id_v2": "E02.V2.R006",
+    "configuration": "TAR ablation A5: no Qwen / cached GPT",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_gpt_experiment",
+    "metrics": {
+      "ndcg_10": 0.35840941593630526,
+      "recall_100": 0.4387299816922179,
+      "map": 0.2349443984512752
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/aa0783151ff31432ef468da4d01326ec7491308b1a3d649a6b3878c2f33cb88d.jsonl",
+        "sha256": "aa0783151ff31432ef468da4d01326ec7491308b1a3d649a6b3878c2f33cb88d"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E02/runs/E02.006/rev2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "aa0783151ff31432ef468da4d01326ec7491308b1a3d649a6b3878c2f33cb88d",
+      "split": "test",
+      "config": {
+        "criterion": "T1",
+        "depth": 100,
+        "fixed_window": false,
+        "passage_cap": 0,
+        "query_cap": 0,
+        "passage_word_cap": 0
+      },
+      "model": "gpt-6.1-sol",
+      "new_gpt_http_requests": 983
+    },
+    "evidence": [
+      "E02/evidence/R6/rev2rev-en/manifest.json",
+      "E02/evidence/R6/rev2rev-en/official_metrics.json",
+      "E02/evidence/R6/rev2rev-en/metrics.json",
+      "E02/evidence/R6/rev2rev-en/per_query.csv"
+    ],
+    "request_indexes": [
+      "E02/evidence/R6/rev2rev-en/requests.json"
+    ]
+  },
+  {
+    "row_id": "E02.R6",
+    "source_row_id": "E02.006",
+    "source_row_id_v2": "E02.V2.R006",
+    "configuration": "TAR ablation A5: no Qwen / cached GPT",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_gpt_experiment",
+    "metrics": {
+      "ndcg_10": 0.527922435221512,
+      "recall_100": 0.523371020164839,
+      "map": 0.34480774382327395
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/db83e0c7b4b730ceddf769068aee3dc08e928b4da210fa0bf118e5b5a31b5083.jsonl",
+        "sha256": "db83e0c7b4b730ceddf769068aee3dc08e928b4da210fa0bf118e5b5a31b5083"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E02/runs/E02.006/rat2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "db83e0c7b4b730ceddf769068aee3dc08e928b4da210fa0bf118e5b5a31b5083",
+      "split": "test",
+      "config": {
+        "criterion": "T1",
+        "depth": 100,
+        "fixed_window": false,
+        "passage_cap": 0,
+        "query_cap": 0,
+        "passage_word_cap": 0
+      },
+      "model": "gpt-6.1-sol",
+      "new_gpt_http_requests": 198
+    },
+    "evidence": [
+      "E02/evidence/R6/rat2rev-ja/manifest.json",
+      "E02/evidence/R6/rat2rev-ja/official_metrics.json",
+      "E02/evidence/R6/rat2rev-ja/metrics.json",
+      "E02/evidence/R6/rat2rev-ja/per_query.csv"
+    ],
+    "request_indexes": [
+      "E02/evidence/R6/rat2rev-ja/requests.json"
+    ]
+  },
+  {
+    "row_id": "E02.R6",
+    "source_row_id": "E02.006",
+    "source_row_id_v2": "E02.V2.R006",
+    "configuration": "TAR ablation A5: no Qwen / cached GPT",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_gpt_experiment",
+    "metrics": {
+      "ndcg_10": 0.3246539967325239,
+      "recall_100": 0.48170385711524893,
+      "map": 0.2105685521046578
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/7a2a80e36aa0b5ba885539f2a55850f9fc7986a89964249c1126ee2a967ac73a.jsonl",
+        "sha256": "7a2a80e36aa0b5ba885539f2a55850f9fc7986a89964249c1126ee2a967ac73a"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E02/runs/E02.006/rev2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "7a2a80e36aa0b5ba885539f2a55850f9fc7986a89964249c1126ee2a967ac73a",
+      "split": "test",
+      "config": {
+        "criterion": "T1",
+        "depth": 100,
+        "fixed_window": false,
+        "passage_cap": 0,
+        "query_cap": 0,
+        "passage_word_cap": 0
+      },
+      "model": "gpt-6.1-sol",
+      "new_gpt_http_requests": 885
+    },
+    "evidence": [
+      "E02/evidence/R6/rev2rev-ja/manifest.json",
+      "E02/evidence/R6/rev2rev-ja/official_metrics.json",
+      "E02/evidence/R6/rev2rev-ja/metrics.json",
+      "E02/evidence/R6/rev2rev-ja/per_query.csv"
+    ],
+    "request_indexes": [
+      "E02/evidence/R6/rev2rev-ja/requests.json"
+    ]
+  },
+  {
+    "row_id": "E02.R7",
+    "source_row_id": "E02.007",
+    "source_row_id_v2": "E02.V2.R007",
+    "configuration": "TAR-SQ control A6 (cached GPT)",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_gpt_experiment",
+    "metrics": {
+      "ndcg_10": 0.4457487874936842,
+      "recall_100": 0.43032695447664965,
+      "map": 0.30248082657056263
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/7b3af46e9d2d3244036903991bf41c035e7ea1b2429ef098366d741d1ad21020.jsonl",
+        "sha256": "7b3af46e9d2d3244036903991bf41c035e7ea1b2429ef098366d741d1ad21020"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E02/runs/E02.007/rat2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "7b3af46e9d2d3244036903991bf41c035e7ea1b2429ef098366d741d1ad21020",
+      "split": "test",
+      "config": {
+        "criterion": "T1",
+        "depth": 100,
+        "fixed_window": false,
+        "passage_cap": 0,
+        "query_cap": 0,
+        "passage_word_cap": 0
+      },
+      "model": "gpt-6.1-sol",
+      "new_gpt_http_requests": 0
+    },
+    "evidence": [
+      "E02/evidence/R7/rat2rev-en/manifest.json",
+      "E02/evidence/R7/rat2rev-en/official_metrics.json",
+      "E02/evidence/R7/rat2rev-en/metrics.json",
+      "E02/evidence/R7/rat2rev-en/per_query.csv"
+    ],
+    "request_indexes": [
+      "E02/evidence/R7/rat2rev-en/requests.json"
+    ]
+  },
+  {
+    "row_id": "E02.R7",
+    "source_row_id": "E02.007",
+    "source_row_id_v2": "E02.V2.R007",
+    "configuration": "TAR-SQ control A6 (cached GPT)",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_gpt_experiment",
+    "metrics": {
+      "ndcg_10": 0.3535922701393312,
+      "recall_100": 0.4319828436448042,
+      "map": 0.2323427271067481
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/78d0af2dc6716643b71687bb4a0d4eacd0fe6ea5766de4316d25ed3ba3cbb678.jsonl",
+        "sha256": "78d0af2dc6716643b71687bb4a0d4eacd0fe6ea5766de4316d25ed3ba3cbb678"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E02/runs/E02.007/rev2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "78d0af2dc6716643b71687bb4a0d4eacd0fe6ea5766de4316d25ed3ba3cbb678",
+      "split": "test",
+      "config": {
+        "criterion": "T1",
+        "depth": 100,
+        "fixed_window": false,
+        "passage_cap": 0,
+        "query_cap": 0,
+        "passage_word_cap": 0
+      },
+      "model": "gpt-6.1-sol",
+      "new_gpt_http_requests": 0
+    },
+    "evidence": [
+      "E02/evidence/R7/rev2rev-en/manifest.json",
+      "E02/evidence/R7/rev2rev-en/official_metrics.json",
+      "E02/evidence/R7/rev2rev-en/metrics.json",
+      "E02/evidence/R7/rev2rev-en/per_query.csv"
+    ],
+    "request_indexes": [
+      "E02/evidence/R7/rev2rev-en/requests.json"
+    ]
+  },
+  {
+    "row_id": "E02.R7",
+    "source_row_id": "E02.007",
+    "source_row_id_v2": "E02.V2.R007",
+    "configuration": "TAR-SQ control A6 (cached GPT)",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_gpt_experiment",
+    "metrics": {
+      "ndcg_10": 0.5336523128788915,
+      "recall_100": 0.548316201884656,
+      "map": 0.35463705004873675
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/efa45734d75087c7ce2e4640f2c4bf25620e26cf539dd35e918d7b27b021532e.jsonl",
+        "sha256": "efa45734d75087c7ce2e4640f2c4bf25620e26cf539dd35e918d7b27b021532e"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E02/runs/E02.007/rat2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "efa45734d75087c7ce2e4640f2c4bf25620e26cf539dd35e918d7b27b021532e",
+      "split": "test",
+      "config": {
+        "criterion": "T1",
+        "depth": 100,
+        "fixed_window": false,
+        "passage_cap": 0,
+        "query_cap": 0,
+        "passage_word_cap": 0
+      },
+      "model": "gpt-6.1-sol",
+      "new_gpt_http_requests": 0
+    },
+    "evidence": [
+      "E02/evidence/R7/rat2rev-ja/manifest.json",
+      "E02/evidence/R7/rat2rev-ja/official_metrics.json",
+      "E02/evidence/R7/rat2rev-ja/metrics.json",
+      "E02/evidence/R7/rat2rev-ja/per_query.csv"
+    ],
+    "request_indexes": [
+      "E02/evidence/R7/rat2rev-ja/requests.json"
+    ]
+  },
+  {
+    "row_id": "E02.R7",
+    "source_row_id": "E02.007",
+    "source_row_id_v2": "E02.V2.R007",
+    "configuration": "TAR-SQ control A6 (cached GPT)",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_gpt_experiment",
+    "metrics": {
+      "ndcg_10": 0.3249467309344647,
+      "recall_100": 0.5016260127325776,
+      "map": 0.21232791698586007
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/e1fcd8fbb693764e00ec3c4e8bb363e1dcd5937edc25c2433c8002880a16a87d.jsonl",
+        "sha256": "e1fcd8fbb693764e00ec3c4e8bb363e1dcd5937edc25c2433c8002880a16a87d"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E02/runs/E02.007/rev2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "e1fcd8fbb693764e00ec3c4e8bb363e1dcd5937edc25c2433c8002880a16a87d",
+      "split": "test",
+      "config": {
+        "criterion": "T1",
+        "depth": 100,
+        "fixed_window": false,
+        "passage_cap": 0,
+        "query_cap": 0,
+        "passage_word_cap": 0
+      },
+      "model": "gpt-6.1-sol",
+      "new_gpt_http_requests": 0
+    },
+    "evidence": [
+      "E02/evidence/R7/rev2rev-ja/manifest.json",
+      "E02/evidence/R7/rev2rev-ja/official_metrics.json",
+      "E02/evidence/R7/rev2rev-ja/metrics.json",
+      "E02/evidence/R7/rev2rev-ja/per_query.csv"
+    ],
+    "request_indexes": [
+      "E02/evidence/R7/rev2rev-ja/requests.json"
+    ]
+  }
+]

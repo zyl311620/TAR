@@ -1,0 +1,20 @@
+{
+  "at": "2026-11-07T02:21:10+08:00",
+  "complete": true,
+  "experiment": "E08",
+  "row_id": "E08.010",
+  "task": "rev2rev-en",
+  "split": "test",
+  "criterion": "T2",
+  "decoder_protocol": "native-exact-permutation-json-v1-20261106",
+  "n_queries": 503,
+  "model": "Qwen3.5-9B-native",
+  "model_signature": "1b5fc36ebb0fc769ffa1e3aff2cd674481a5869e13a37c1bde3bfdeff600aa70",
+  "runtime_id": "da1fe59efc16686b5c3966146353db2e98b041630917f95c1a3814195521c648",
+  "source_snapshot": "/root/user/cs_tcci_zhouyulin/recare_paper_20261030/jobs/Table4_R10_constrained_20261106/attempts/1793944100541240075/framework",
+  "candidate_source_sha256": "724a073a06a1b34ccb202490da5a707916605f3d2135a094dacd62238330a1ce",
+  "ranked_sha256": "042e6879ac35d09e02e1b2dcae64d96879e339fbf00707dc3c35bd8afc64be6e",
+  "old_unconstrained_checkpoints_reused": false,
+  "requires_independent_audit_before_manuscript": true,
+  "cross_decoder_T0_T2_is_not_an_isolated_criterion_ablation": true
+}

@@ -1,0 +1,19 @@
+{
+  "complete": true,
+  "signature": "60084e18d270627eec4d5c4ee1a9ad42a7edff568c030545fa2955617eb04f98",
+  "at": "2026-10-30T18:28:31+08:00",
+  "task": "rev2rev-ja",
+  "split": "test",
+  "model": {
+    "directory": "jina-embeddings-v4",
+    "method": "Jina-v4 原始权重",
+    "pooling": "jina_v4",
+    "max_length": 32768,
+    "normalize": true
+  },
+  "index_signature": "2f732bf48b2988e4a0d2520fc901f1db1cf1c1c2a4bbe886dc419d278bb70c6a",
+  "query_rewrite": false,
+  "full_corpus_retrieval": true,
+  "model_api_calls": 0,
+  "scored_top1000_sha256": "5cce87ccdcf91e430af322ff473dc6f1d013475219217a0d22eb11e5a14d6232"
+}

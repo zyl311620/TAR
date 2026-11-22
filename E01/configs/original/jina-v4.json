@@ -1,0 +1,134 @@
+{
+  "model": {
+    "path": "/root/user/cs_tcci_zhouyulin/LLM_list/jina-embeddings-v4",
+    "file_stats": {
+      "adapters/adapter_config.json": [
+        900,
+        1792659627127969297
+      ],
+      "adapters/adapter_model.safetensors": [
+        359863776,
+        1792659657291301455
+      ],
+      "added_tokens.json": [
+        605,
+        1792659627523960509
+      ],
+      "chat_template.json": [
+        1049,
+        1792659627703956514
+      ],
+      "config.json": [
+        2751,
+        1792659627711956336
+      ],
+      "config_sentence_transformers.json": [
+        274,
+        1792659628191945685
+      ],
+      "configuration.json": [
+        83,
+        1792659628199945507
+      ],
+      "configuration_jina_embeddings_v4.py": [
+        750,
+        1792659628307943110
+      ],
+      "custom_lora_module.py": [
+        7743,
+        1792659628707934234
+      ],
+      "custom_st.py": [
+        7550,
+        1792659628723933879
+      ],
+      "generation_config.json": [
+        126,
+        1792659628807932016
+      ],
+      "model-00001-of-00002.safetensors": [
+        4997750728,
+        1792659999095914885
+      ],
+      "model-00002-of-00002.safetensors": [
+        2512111904,
+        1792659816291828882
+      ],
+      "model.safetensors.index.json": [
+        65592,
+        1792659630331898206
+      ],
+      "modeling_jina_embeddings_v4.py": [
+        22602,
+        1792659630823887292
+      ],
+      "modules.json": [
+        168,
+        1792659631607869903
+      ],
+      "preprocessor_config.json": [
+        726,
+        1792659632003861120
+      ],
+      "qwen2_5_vl.py": [
+        133535,
+        1792659632607847726
+      ],
+      "results.json": [
+        20325,
+        1792659633099836818
+      ],
+      "special_tokens_map.json": [
+        613,
+        1792659633803821208
+      ],
+      "tokenizer.json": [
+        11421896,
+        1792659635415785475
+      ],
+      "tokenizer_config.json": [
+        7306,
+        1792659636399763667
+      ],
+      "vocab.json": [
+        2776833,
+        1792659638103725910
+      ]
+    },
+    "files": {
+      "adapters/adapter_config.json": "15ab9afe0e1287708fc8598b1a51fb69fbacb171fd2cd99403e46bcc06da2cab",
+      "adapters/adapter_model.safetensors": "b6b7ab4a79daa3b4f3b5274500cc99d3dc89aa8c3419e9d79f89e366685e12e5",
+      "added_tokens.json": "58b54bbe36fc752f79a24a271ef66a0a0830054b4dfad94bde757d851968060b",
+      "chat_template.json": "94174d7176c52a7192f96fc34eb2cf23c7c2059d63cdbfadca1586ba89731fb7",
+      "config.json": "8bd26fbef1d930d8f968729480fd8ce1dbdd468d5f32079ef3eb0e3e2c59ba24",
+      "config_sentence_transformers.json": "1eee316c1ced66356d6472a0f3e2ff28084e8a693cbb2bb758ed98cc3f20ba22",
+      "configuration.json": "b298f331cf796db72eeedf912e1910131ff5f919bd8d97bedffe93e311c9982e",
+      "configuration_jina_embeddings_v4.py": "a2680c5e12de2052b69f385ed9ebe3ff3b5fcd9a4be2a6d1d5330730b6dfd70a",
+      "custom_lora_module.py": "7abdcfbbbc2106763dba8a739c6fddd70729c901ee13b4b072c14147191c7ebd",
+      "custom_st.py": "96cbccfd686700247992ca513bc34711979d107cab5bcf55c1ffd146804d0d3a",
+      "generation_config.json": "4be8e7b43a811255a415e39b11c9b78a3a267120e20dd198774b1a14dcc5ea86",
+      "model-00001-of-00002.safetensors": "abb244162956ec2f26d944b6c10cbb96afe211d2aff908b8b2f498ec27a9100b",
+      "model-00002-of-00002.safetensors": "5d5252a7ede6469220b0e7386af53fea9a45fa299a1d2af6fe68cb29897de3e3",
+      "model.safetensors.index.json": "360eb251d21193fe4a424dcc2f65ee1e9ca66dcbcb497b8141722f9f6ed56f8a",
+      "modeling_jina_embeddings_v4.py": "8f04b42d4882704446ebdd80fa0a1d4a35bd8adb15992a0f42085e5ac2ff48b3",
+      "modules.json": "b54acf92eab134d664abbbc5e42fd92f27535d3605666962c15dc3c32b2d9744",
+      "preprocessor_config.json": "45e4720bcf1eac214b977199a08aae9e50b5797033987c389b46f601cb359a68",
+      "qwen2_5_vl.py": "d7bef41027301b8bf761589511fa58c83fe11417f5c2bb57a6349f46ffb6eaf9",
+      "results.json": "304bc4d3d620c30be991b788fc0e5c3176495a404a6119d11dbc3c298d5ad575",
+      "special_tokens_map.json": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+      "tokenizer.json": "9c5ae00e602b8860cbd784ba82a8aa14e8feecec692e7076590d014d7b7fdafa",
+      "tokenizer_config.json": "13d28527663126ad9ab8a34aa6a4028b3f0b25f100defec89ee90b442d368dde",
+      "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    },
+    "sha256": "42aa4aa4dbb8b6700b8dbf7d877a223e8ffbdc2a2fa470f68d97321ed304f53b"
+  },
+  "spec": {
+    "directory": "jina-embeddings-v4",
+    "method": "Jina-v4 原始权重",
+    "pooling": "jina_v4",
+    "max_length": 32768,
+    "normalize": true
+  },
+  "gpu": "1",
+  "at": "2026-10-30T16:28:58+08:00"
+}

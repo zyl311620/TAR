@@ -1,0 +1,21 @@
+{
+  "complete": true,
+  "signature": "6554454b7a86ecb44a7a358372e2bbf41f8fc0422fb988c00c679b8a9fde6c78",
+  "at": "2026-10-30T16:11:14+08:00",
+  "task": "rat2rev-ja",
+  "split": "test",
+  "model": {
+    "directory": "multilingual-e5-base",
+    "method": "multilingual-e5-base",
+    "pooling": "mean",
+    "max_length": 512,
+    "normalize": true,
+    "query_prefix": "query: ",
+    "passage_prefix": "passage: "
+  },
+  "index_signature": "f61271916f67ca97778b5bcecade650a3ef4246f4a002dca2e0f4c43cf234b41",
+  "query_rewrite": false,
+  "full_corpus_retrieval": true,
+  "model_api_calls": 0,
+  "scored_top1000_sha256": "22e7aedead02383d0387e6aca285ea1880058ea5a6429f710868a56dbbfe6c4e"
+}

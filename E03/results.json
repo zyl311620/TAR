@@ -1,0 +1,1634 @@
+[
+  {
+    "row_id": "E03.R1",
+    "source_row_id": "E03.001",
+    "source_row_id_v2": "E03.V2.R001",
+    "configuration": "原 query 单路",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.1975231225704035,
+      "recall_100": 0.3854958271820841,
+      "map": 0.12664962229571552
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/a719d4bb6e330e418477734209dda7caacb2aea0ad8ed84a6afd27dc3f5a892e.jsonl",
+        "sha256": "a719d4bb6e330e418477734209dda7caacb2aea0ad8ed84a6afd27dc3f5a892e"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.001/rat2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "a719d4bb6e330e418477734209dda7caacb2aea0ad8ed84a6afd27dc3f5a892e",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "original"
+    },
+    "evidence": [
+      "E03/evidence/R1/rat2rev-en/manifest.json",
+      "E03/evidence/R1/rat2rev-en/official_metrics.json",
+      "E03/evidence/R1/rat2rev-en/metrics.json",
+      "E03/evidence/R1/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R1",
+    "source_row_id": "E03.001",
+    "source_row_id_v2": "E03.V2.R001",
+    "configuration": "原 query 单路",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.24855124681797774,
+      "recall_100": 0.4387299816922179,
+      "map": 0.16162088646908418
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/99842a4c4af89ac57666295184415d6be6a25bb51e6fc8cf5dfaef485db8124a.jsonl",
+        "sha256": "99842a4c4af89ac57666295184415d6be6a25bb51e6fc8cf5dfaef485db8124a"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.001/rev2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "99842a4c4af89ac57666295184415d6be6a25bb51e6fc8cf5dfaef485db8124a",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "original"
+    },
+    "evidence": [
+      "E03/evidence/R1/rev2rev-en/manifest.json",
+      "E03/evidence/R1/rev2rev-en/official_metrics.json",
+      "E03/evidence/R1/rev2rev-en/metrics.json",
+      "E03/evidence/R1/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R1",
+    "source_row_id": "E03.001",
+    "source_row_id_v2": "E03.V2.R001",
+    "configuration": "原 query 单路",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.3004226135109501,
+      "recall_100": 0.523371020164839,
+      "map": 0.2108629438875247
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/3ee2d9b7c727c0ba07f024ccf5c8bd19339a46d15456766d50d72ba7f544640f.jsonl",
+        "sha256": "3ee2d9b7c727c0ba07f024ccf5c8bd19339a46d15456766d50d72ba7f544640f"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.001/rat2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "3ee2d9b7c727c0ba07f024ccf5c8bd19339a46d15456766d50d72ba7f544640f",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "original"
+    },
+    "evidence": [
+      "E03/evidence/R1/rat2rev-ja/manifest.json",
+      "E03/evidence/R1/rat2rev-ja/official_metrics.json",
+      "E03/evidence/R1/rat2rev-ja/metrics.json",
+      "E03/evidence/R1/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R1",
+    "source_row_id": "E03.001",
+    "source_row_id_v2": "E03.V2.R001",
+    "configuration": "原 query 单路",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.28952035725572545,
+      "recall_100": 0.48170385711524893,
+      "map": 0.18929567621830842
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/6895bb3ee6dc6d1b28fca19019688ea7178dab42811c3532c1109674f2743197.jsonl",
+        "sha256": "6895bb3ee6dc6d1b28fca19019688ea7178dab42811c3532c1109674f2743197"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.001/rev2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "6895bb3ee6dc6d1b28fca19019688ea7178dab42811c3532c1109674f2743197",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "original"
+    },
+    "evidence": [
+      "E03/evidence/R1/rev2rev-ja/manifest.json",
+      "E03/evidence/R1/rev2rev-ja/official_metrics.json",
+      "E03/evidence/R1/rev2rev-ja/metrics.json",
+      "E03/evidence/R1/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R2",
+    "source_row_id": "E03.002",
+    "source_row_id_v2": "E03.V2.R002",
+    "configuration": "Q2E 通用扩展",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.20361624264111794,
+      "recall_100": 0.36508675648286876,
+      "map": 0.12821308745046253
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/19e306f95659d01efd2f447e7d812b8559a0acb4146a6dc5295b9e98b64d1f10.jsonl",
+        "sha256": "19e306f95659d01efd2f447e7d812b8559a0acb4146a6dc5295b9e98b64d1f10"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.002/rat2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "19e306f95659d01efd2f447e7d812b8559a0acb4146a6dc5295b9e98b64d1f10",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "q2e"
+    },
+    "evidence": [
+      "E03/evidence/R2/rat2rev-en/manifest.json",
+      "E03/evidence/R2/rat2rev-en/official_metrics.json",
+      "E03/evidence/R2/rat2rev-en/metrics.json",
+      "E03/evidence/R2/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R2",
+    "source_row_id": "E03.002",
+    "source_row_id_v2": "E03.V2.R002",
+    "configuration": "Q2E 通用扩展",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.2368386565240066,
+      "recall_100": 0.4248460549823224,
+      "map": 0.1554390882678758
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/a00342b31fea03361bed37920a62ba2ca0dbed934f3a513ed53ddf6c6b9945ca.jsonl",
+        "sha256": "a00342b31fea03361bed37920a62ba2ca0dbed934f3a513ed53ddf6c6b9945ca"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.002/rev2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "a00342b31fea03361bed37920a62ba2ca0dbed934f3a513ed53ddf6c6b9945ca",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "q2e"
+    },
+    "evidence": [
+      "E03/evidence/R2/rev2rev-en/manifest.json",
+      "E03/evidence/R2/rev2rev-en/official_metrics.json",
+      "E03/evidence/R2/rev2rev-en/metrics.json",
+      "E03/evidence/R2/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R2",
+    "source_row_id": "E03.002",
+    "source_row_id_v2": "E03.V2.R002",
+    "configuration": "Q2E 通用扩展",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.30186268573575714,
+      "recall_100": 0.5169723015686466,
+      "map": 0.20891806781554992
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/0397f2436b34a3961a5d6c3f22d4134450ee73ef72102d11bfb653bc8a335f17.jsonl",
+        "sha256": "0397f2436b34a3961a5d6c3f22d4134450ee73ef72102d11bfb653bc8a335f17"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.002/rat2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "0397f2436b34a3961a5d6c3f22d4134450ee73ef72102d11bfb653bc8a335f17",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "q2e"
+    },
+    "evidence": [
+      "E03/evidence/R2/rat2rev-ja/manifest.json",
+      "E03/evidence/R2/rat2rev-ja/official_metrics.json",
+      "E03/evidence/R2/rat2rev-ja/metrics.json",
+      "E03/evidence/R2/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R2",
+    "source_row_id": "E03.002",
+    "source_row_id_v2": "E03.V2.R002",
+    "configuration": "Q2E 通用扩展",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.285188067208741,
+      "recall_100": 0.4809853075524405,
+      "map": 0.18541725728246045
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/873072b0f76878e6e888a6e072ce1ac7889f801f0fb83c37053198b0a14ab07f.jsonl",
+        "sha256": "873072b0f76878e6e888a6e072ce1ac7889f801f0fb83c37053198b0a14ab07f"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.002/rev2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "873072b0f76878e6e888a6e072ce1ac7889f801f0fb83c37053198b0a14ab07f",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "q2e"
+    },
+    "evidence": [
+      "E03/evidence/R2/rev2rev-ja/manifest.json",
+      "E03/evidence/R2/rev2rev-ja/official_metrics.json",
+      "E03/evidence/R2/rev2rev-ja/metrics.json",
+      "E03/evidence/R2/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R3",
+    "source_row_id": "E03.003",
+    "source_row_id_v2": "E03.V2.R003",
+    "configuration": "Q2D / HyDE-style",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.18773199342859342,
+      "recall_100": 0.3603849093203222,
+      "map": 0.12032778126276615
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/bee9ab2d4c402bb4d450b62565f94b29c1db4b16b3c997db74f23d7c4a3e99f9.jsonl",
+        "sha256": "bee9ab2d4c402bb4d450b62565f94b29c1db4b16b3c997db74f23d7c4a3e99f9"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.003/rat2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "bee9ab2d4c402bb4d450b62565f94b29c1db4b16b3c997db74f23d7c4a3e99f9",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "q2d"
+    },
+    "evidence": [
+      "E03/evidence/R3/rat2rev-en/manifest.json",
+      "E03/evidence/R3/rat2rev-en/official_metrics.json",
+      "E03/evidence/R3/rat2rev-en/metrics.json",
+      "E03/evidence/R3/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R3",
+    "source_row_id": "E03.003",
+    "source_row_id_v2": "E03.V2.R003",
+    "configuration": "Q2D / HyDE-style",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.24081253721920132,
+      "recall_100": 0.4263917946827658,
+      "map": 0.1576156285933196
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/d8af2a4af08b918bac10a00b8ab12a10bfeaa61334481efae438844b0da00a99.jsonl",
+        "sha256": "d8af2a4af08b918bac10a00b8ab12a10bfeaa61334481efae438844b0da00a99"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.003/rev2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "d8af2a4af08b918bac10a00b8ab12a10bfeaa61334481efae438844b0da00a99",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "q2d"
+    },
+    "evidence": [
+      "E03/evidence/R3/rev2rev-en/manifest.json",
+      "E03/evidence/R3/rev2rev-en/official_metrics.json",
+      "E03/evidence/R3/rev2rev-en/metrics.json",
+      "E03/evidence/R3/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R3",
+    "source_row_id": "E03.003",
+    "source_row_id_v2": "E03.V2.R003",
+    "configuration": "Q2D / HyDE-style",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.3103549026030838,
+      "recall_100": 0.5259883544743582,
+      "map": 0.21596704280498885
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/7f327ce6eccf9ea131faccd149bc14af8d5e8db923d9b5ac65c69f248cee2522.jsonl",
+        "sha256": "7f327ce6eccf9ea131faccd149bc14af8d5e8db923d9b5ac65c69f248cee2522"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.003/rat2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "7f327ce6eccf9ea131faccd149bc14af8d5e8db923d9b5ac65c69f248cee2522",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "q2d"
+    },
+    "evidence": [
+      "E03/evidence/R3/rat2rev-ja/manifest.json",
+      "E03/evidence/R3/rat2rev-ja/official_metrics.json",
+      "E03/evidence/R3/rat2rev-ja/metrics.json",
+      "E03/evidence/R3/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R3",
+    "source_row_id": "E03.003",
+    "source_row_id_v2": "E03.V2.R003",
+    "configuration": "Q2D / HyDE-style",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.287957399336664,
+      "recall_100": 0.48174209855365546,
+      "map": 0.1867036319104123
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/0b39a6b083dc97beef543aaaa56f5d12b8d59f28bdc2ab427b16532538c3669e.jsonl",
+        "sha256": "0b39a6b083dc97beef543aaaa56f5d12b8d59f28bdc2ab427b16532538c3669e"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.003/rev2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "0b39a6b083dc97beef543aaaa56f5d12b8d59f28bdc2ab427b16532538c3669e",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "q2d"
+    },
+    "evidence": [
+      "E03/evidence/R3/rev2rev-ja/manifest.json",
+      "E03/evidence/R3/rev2rev-ja/official_metrics.json",
+      "E03/evidence/R3/rev2rev-ja/metrics.json",
+      "E03/evidence/R3/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R4",
+    "source_row_id": "E03.004",
+    "source_row_id_v2": "E03.V2.R004",
+    "configuration": "Task-Q2E，query-only 输入",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.2131736002985754,
+      "recall_100": 0.3899396647235668,
+      "map": 0.13289407279023002
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/6f1ba69994a0a64394922f64a964ffd4c393c1dab007e6692137cc9dedc75aca.jsonl",
+        "sha256": "6f1ba69994a0a64394922f64a964ffd4c393c1dab007e6692137cc9dedc75aca"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.004/rat2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "6f1ba69994a0a64394922f64a964ffd4c393c1dab007e6692137cc9dedc75aca",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "task_q2e"
+    },
+    "evidence": [
+      "E03/evidence/R4/rat2rev-en/manifest.json",
+      "E03/evidence/R4/rat2rev-en/official_metrics.json",
+      "E03/evidence/R4/rat2rev-en/metrics.json",
+      "E03/evidence/R4/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R4",
+    "source_row_id": "E03.004",
+    "source_row_id_v2": "E03.V2.R004",
+    "configuration": "Task-Q2E，query-only 输入",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.22963730661395657,
+      "recall_100": 0.4232502049770077,
+      "map": 0.1520444977204412
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/762b7e44488909872513bf9f8ae8fd92fb1f56ee2d6bbbec6560368c358da912.jsonl",
+        "sha256": "762b7e44488909872513bf9f8ae8fd92fb1f56ee2d6bbbec6560368c358da912"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.004/rev2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "762b7e44488909872513bf9f8ae8fd92fb1f56ee2d6bbbec6560368c358da912",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "task_q2e"
+    },
+    "evidence": [
+      "E03/evidence/R4/rev2rev-en/manifest.json",
+      "E03/evidence/R4/rev2rev-en/official_metrics.json",
+      "E03/evidence/R4/rev2rev-en/metrics.json",
+      "E03/evidence/R4/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R4",
+    "source_row_id": "E03.004",
+    "source_row_id_v2": "E03.V2.R004",
+    "configuration": "Task-Q2E，query-only 输入",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.30982121770220733,
+      "recall_100": 0.5209546895028625,
+      "map": 0.22114992221590182
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/d22bec0a3c1d8e2619eeb6952fa03ed940cf1819cff3073d6f2941c402c84389.jsonl",
+        "sha256": "d22bec0a3c1d8e2619eeb6952fa03ed940cf1819cff3073d6f2941c402c84389"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.004/rat2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "d22bec0a3c1d8e2619eeb6952fa03ed940cf1819cff3073d6f2941c402c84389",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "task_q2e"
+    },
+    "evidence": [
+      "E03/evidence/R4/rat2rev-ja/manifest.json",
+      "E03/evidence/R4/rat2rev-ja/official_metrics.json",
+      "E03/evidence/R4/rat2rev-ja/metrics.json",
+      "E03/evidence/R4/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R4",
+    "source_row_id": "E03.004",
+    "source_row_id_v2": "E03.V2.R004",
+    "configuration": "Task-Q2E，query-only 输入",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.28397453249748034,
+      "recall_100": 0.4835509574072248,
+      "map": 0.18649897507815422
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/9c24a82b65a53902c63eb5780dd4994776242f12b464bd04293bc8b4293f431d.jsonl",
+        "sha256": "9c24a82b65a53902c63eb5780dd4994776242f12b464bd04293bc8b4293f431d"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.004/rev2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "9c24a82b65a53902c63eb5780dd4994776242f12b464bd04293bc8b4293f431d",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "task_q2e"
+    },
+    "evidence": [
+      "E03/evidence/R4/rev2rev-ja/manifest.json",
+      "E03/evidence/R4/rev2rev-ja/official_metrics.json",
+      "E03/evidence/R4/rev2rev-ja/metrics.json",
+      "E03/evidence/R4/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R5",
+    "source_row_id": "E03.005",
+    "source_row_id_v2": "E03.V2.R005",
+    "configuration": "同生成器单路改写",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.15323875472099432,
+      "recall_100": 0.2703504603855352,
+      "map": 0.09093667908655384
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/c17e9713041f8ba948bd2c24d609f65fd2e4fb1caf967b5e748da39b2f2d66c8.jsonl",
+        "sha256": "c17e9713041f8ba948bd2c24d609f65fd2e4fb1caf967b5e748da39b2f2d66c8"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.005/rat2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "c17e9713041f8ba948bd2c24d609f65fd2e4fb1caf967b5e748da39b2f2d66c8",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "multi5"
+    },
+    "evidence": [
+      "E03/evidence/R5/rat2rev-en/manifest.json",
+      "E03/evidence/R5/rat2rev-en/official_metrics.json",
+      "E03/evidence/R5/rat2rev-en/metrics.json",
+      "E03/evidence/R5/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R5",
+    "source_row_id": "E03.005",
+    "source_row_id_v2": "E03.V2.R005",
+    "configuration": "同生成器单路改写",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.1969139587570351,
+      "recall_100": 0.3859254323369843,
+      "map": 0.12808499661423878
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/09d5dbd98bf6aa12ed7e97ee1c7aa98f72d42011b90e1f19b9890e8038c5724d.jsonl",
+        "sha256": "09d5dbd98bf6aa12ed7e97ee1c7aa98f72d42011b90e1f19b9890e8038c5724d"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.005/rev2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "09d5dbd98bf6aa12ed7e97ee1c7aa98f72d42011b90e1f19b9890e8038c5724d",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "multi5"
+    },
+    "evidence": [
+      "E03/evidence/R5/rev2rev-en/manifest.json",
+      "E03/evidence/R5/rev2rev-en/official_metrics.json",
+      "E03/evidence/R5/rev2rev-en/metrics.json",
+      "E03/evidence/R5/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R5",
+    "source_row_id": "E03.005",
+    "source_row_id_v2": "E03.V2.R005",
+    "configuration": "同生成器单路改写",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.264295071600299,
+      "recall_100": 0.4351394172284555,
+      "map": 0.16797661676708217
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/c36e6812ddc908f6f6b7f65b558395cead39acbfdef9fa48824738ad1b7732b5.jsonl",
+        "sha256": "c36e6812ddc908f6f6b7f65b558395cead39acbfdef9fa48824738ad1b7732b5"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.005/rat2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "c36e6812ddc908f6f6b7f65b558395cead39acbfdef9fa48824738ad1b7732b5",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "multi5"
+    },
+    "evidence": [
+      "E03/evidence/R5/rat2rev-ja/manifest.json",
+      "E03/evidence/R5/rat2rev-ja/official_metrics.json",
+      "E03/evidence/R5/rat2rev-ja/metrics.json",
+      "E03/evidence/R5/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R5",
+    "source_row_id": "E03.005",
+    "source_row_id_v2": "E03.V2.R005",
+    "configuration": "同生成器单路改写",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.2587889488123187,
+      "recall_100": 0.4761732097749853,
+      "map": 0.16503921531406313
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/8395ed4a749b5f2049e2087b3a4996ab153a7f36c8dce4df7ad349e78564af5f.jsonl",
+        "sha256": "8395ed4a749b5f2049e2087b3a4996ab153a7f36c8dce4df7ad349e78564af5f"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.005/rev2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "8395ed4a749b5f2049e2087b3a4996ab153a7f36c8dce4df7ad349e78564af5f",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "multi5"
+    },
+    "evidence": [
+      "E03/evidence/R5/rev2rev-ja/manifest.json",
+      "E03/evidence/R5/rev2rev-ja/official_metrics.json",
+      "E03/evidence/R5/rev2rev-ja/metrics.json",
+      "E03/evidence/R5/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R6",
+    "source_row_id": "E03.006",
+    "source_row_id_v2": "E03.V2.R006",
+    "configuration": "只用生成3路，无 anchor",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.15583273705019476,
+      "recall_100": 0.36064927433985394,
+      "map": 0.10162446442585539
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/9e10b96bf73aba61d85d6c9f64983dd66b11f720b70fba5a121172d09d39e23d.jsonl",
+        "sha256": "9e10b96bf73aba61d85d6c9f64983dd66b11f720b70fba5a121172d09d39e23d"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.006/rat2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "9e10b96bf73aba61d85d6c9f64983dd66b11f720b70fba5a121172d09d39e23d",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "multi5"
+    },
+    "evidence": [
+      "E03/evidence/R6/rat2rev-en/manifest.json",
+      "E03/evidence/R6/rat2rev-en/official_metrics.json",
+      "E03/evidence/R6/rat2rev-en/metrics.json",
+      "E03/evidence/R6/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R6",
+    "source_row_id": "E03.006",
+    "source_row_id_v2": "E03.V2.R006",
+    "configuration": "只用生成3路，无 anchor",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.21105436702191732,
+      "recall_100": 0.3949804507740515,
+      "map": 0.13642486436233875
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/2313519ffcc21887e75fcdb952fda5bc8b41ceaea32c873e74ef824d67f3a45f.jsonl",
+        "sha256": "2313519ffcc21887e75fcdb952fda5bc8b41ceaea32c873e74ef824d67f3a45f"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.006/rev2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "2313519ffcc21887e75fcdb952fda5bc8b41ceaea32c873e74ef824d67f3a45f",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "multi5"
+    },
+    "evidence": [
+      "E03/evidence/R6/rev2rev-en/manifest.json",
+      "E03/evidence/R6/rev2rev-en/official_metrics.json",
+      "E03/evidence/R6/rev2rev-en/metrics.json",
+      "E03/evidence/R6/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R6",
+    "source_row_id": "E03.006",
+    "source_row_id_v2": "E03.V2.R006",
+    "configuration": "只用生成3路，无 anchor",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.28737941993715316,
+      "recall_100": 0.5212098532834404,
+      "map": 0.19341379551970062
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/0bbfaa9e21490db427127d48259a6fe7fbe85ed43743834bfb945262395c6eab.jsonl",
+        "sha256": "0bbfaa9e21490db427127d48259a6fe7fbe85ed43743834bfb945262395c6eab"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.006/rat2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "0bbfaa9e21490db427127d48259a6fe7fbe85ed43743834bfb945262395c6eab",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "multi5"
+    },
+    "evidence": [
+      "E03/evidence/R6/rat2rev-ja/manifest.json",
+      "E03/evidence/R6/rat2rev-ja/official_metrics.json",
+      "E03/evidence/R6/rat2rev-ja/metrics.json",
+      "E03/evidence/R6/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R6",
+    "source_row_id": "E03.006",
+    "source_row_id_v2": "E03.V2.R006",
+    "configuration": "只用生成3路，无 anchor",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.25608559571443656,
+      "recall_100": 0.4693575889317764,
+      "map": 0.16455710371686982
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/557bf761a91231bbbdd7c6a9554a7b8186d1257e01503a14fb32f90cccc93158.jsonl",
+        "sha256": "557bf761a91231bbbdd7c6a9554a7b8186d1257e01503a14fb32f90cccc93158"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.006/rev2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "557bf761a91231bbbdd7c6a9554a7b8186d1257e01503a14fb32f90cccc93158",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "multi5"
+    },
+    "evidence": [
+      "E03/evidence/R6/rev2rev-ja/manifest.json",
+      "E03/evidence/R6/rev2rev-ja/official_metrics.json",
+      "E03/evidence/R6/rev2rev-ja/metrics.json",
+      "E03/evidence/R6/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R7",
+    "source_row_id": "E03.007",
+    "source_row_id_v2": "E03.V2.R007",
+    "configuration": "只用生成5路，无 anchor",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.1667951037378157,
+      "recall_100": 0.37641171553251707,
+      "map": 0.10704590487501697
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/764969db1cb488b5e05e6f8950d1398a3c80148f5bfca528407fe92e83ddbe48.jsonl",
+        "sha256": "764969db1cb488b5e05e6f8950d1398a3c80148f5bfca528407fe92e83ddbe48"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.007/rat2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "764969db1cb488b5e05e6f8950d1398a3c80148f5bfca528407fe92e83ddbe48",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "multi5"
+    },
+    "evidence": [
+      "E03/evidence/R7/rat2rev-en/manifest.json",
+      "E03/evidence/R7/rat2rev-en/official_metrics.json",
+      "E03/evidence/R7/rat2rev-en/metrics.json",
+      "E03/evidence/R7/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R7",
+    "source_row_id": "E03.007",
+    "source_row_id_v2": "E03.V2.R007",
+    "configuration": "只用生成5路，无 anchor",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.20804614391262638,
+      "recall_100": 0.39754193554049017,
+      "map": 0.13454803540636182
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/c04e5c20ac3438e80ccf404c61dc085d990f97fd47fc55d8e3e4c3bad139282b.jsonl",
+        "sha256": "c04e5c20ac3438e80ccf404c61dc085d990f97fd47fc55d8e3e4c3bad139282b"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.007/rev2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "c04e5c20ac3438e80ccf404c61dc085d990f97fd47fc55d8e3e4c3bad139282b",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "multi5"
+    },
+    "evidence": [
+      "E03/evidence/R7/rev2rev-en/manifest.json",
+      "E03/evidence/R7/rev2rev-en/official_metrics.json",
+      "E03/evidence/R7/rev2rev-en/metrics.json",
+      "E03/evidence/R7/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R7",
+    "source_row_id": "E03.007",
+    "source_row_id_v2": "E03.V2.R007",
+    "configuration": "只用生成5路，无 anchor",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.2886442753163612,
+      "recall_100": 0.5208785490673075,
+      "map": 0.1988147200522198
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/c8b85139be02b01ad3b11fb43655c94f1049667d91f7db148a1de6599181a4f8.jsonl",
+        "sha256": "c8b85139be02b01ad3b11fb43655c94f1049667d91f7db148a1de6599181a4f8"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.007/rat2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "c8b85139be02b01ad3b11fb43655c94f1049667d91f7db148a1de6599181a4f8",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "multi5"
+    },
+    "evidence": [
+      "E03/evidence/R7/rat2rev-ja/manifest.json",
+      "E03/evidence/R7/rat2rev-ja/official_metrics.json",
+      "E03/evidence/R7/rat2rev-ja/metrics.json",
+      "E03/evidence/R7/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R7",
+    "source_row_id": "E03.007",
+    "source_row_id_v2": "E03.V2.R007",
+    "configuration": "只用生成5路，无 anchor",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.26288930112626957,
+      "recall_100": 0.4712915095240674,
+      "map": 0.16964332235107582
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/79cc8ebdff91cd58690885a5b64109741ff2334de76931da3092e7acfb5074da.jsonl",
+        "sha256": "79cc8ebdff91cd58690885a5b64109741ff2334de76931da3092e7acfb5074da"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.007/rev2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "79cc8ebdff91cd58690885a5b64109741ff2334de76931da3092e7acfb5074da",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "multi5"
+    },
+    "evidence": [
+      "E03/evidence/R7/rev2rev-ja/manifest.json",
+      "E03/evidence/R7/rev2rev-ja/official_metrics.json",
+      "E03/evidence/R7/rev2rev-ja/metrics.json",
+      "E03/evidence/R7/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R8",
+    "source_row_id": "E03.008",
+    "source_row_id_v2": "E03.V2.R008",
+    "configuration": "原 query anchor + 1路",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.18384555546024758,
+      "recall_100": 0.40026082094080395,
+      "map": 0.12117637654673576
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/1ec50caadfb8887627a7005f6cf3496b990dd52c62f7d537d98a61961c70346a.jsonl",
+        "sha256": "1ec50caadfb8887627a7005f6cf3496b990dd52c62f7d537d98a61961c70346a"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.008/rat2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "1ec50caadfb8887627a7005f6cf3496b990dd52c62f7d537d98a61961c70346a",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "multi5"
+    },
+    "evidence": [
+      "E03/evidence/R8/rat2rev-en/manifest.json",
+      "E03/evidence/R8/rat2rev-en/official_metrics.json",
+      "E03/evidence/R8/rat2rev-en/metrics.json",
+      "E03/evidence/R8/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R8",
+    "source_row_id": "E03.008",
+    "source_row_id_v2": "E03.V2.R008",
+    "configuration": "原 query anchor + 1路",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.23322110076823668,
+      "recall_100": 0.4208814620659434,
+      "map": 0.15284254887595433
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/9a370b5b071a1f3c09f4b4909098e39c16e060f4a806e692f443301ce1c7aac0.jsonl",
+        "sha256": "9a370b5b071a1f3c09f4b4909098e39c16e060f4a806e692f443301ce1c7aac0"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.008/rev2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "9a370b5b071a1f3c09f4b4909098e39c16e060f4a806e692f443301ce1c7aac0",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "multi5"
+    },
+    "evidence": [
+      "E03/evidence/R8/rev2rev-en/manifest.json",
+      "E03/evidence/R8/rev2rev-en/official_metrics.json",
+      "E03/evidence/R8/rev2rev-en/metrics.json",
+      "E03/evidence/R8/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R8",
+    "source_row_id": "E03.008",
+    "source_row_id_v2": "E03.V2.R008",
+    "configuration": "原 query anchor + 1路",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.29235842262329276,
+      "recall_100": 0.5222692846602006,
+      "map": 0.20260252017914154
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/1b853b4019246ab1ecc5e196506f976a0fcfd69a8241fa4971ded5df61e66967.jsonl",
+        "sha256": "1b853b4019246ab1ecc5e196506f976a0fcfd69a8241fa4971ded5df61e66967"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.008/rat2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "1b853b4019246ab1ecc5e196506f976a0fcfd69a8241fa4971ded5df61e66967",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "multi5"
+    },
+    "evidence": [
+      "E03/evidence/R8/rat2rev-ja/manifest.json",
+      "E03/evidence/R8/rat2rev-ja/official_metrics.json",
+      "E03/evidence/R8/rat2rev-ja/metrics.json",
+      "E03/evidence/R8/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R8",
+    "source_row_id": "E03.008",
+    "source_row_id_v2": "E03.V2.R008",
+    "configuration": "原 query anchor + 1路",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.28126178326624274,
+      "recall_100": 0.4853435369159318,
+      "map": 0.18201611202913553
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/72a38d8b3c3fa8c4936e214c4dbbf2f6356e3c1785a61bf602f62eda8787e001.jsonl",
+        "sha256": "72a38d8b3c3fa8c4936e214c4dbbf2f6356e3c1785a61bf602f62eda8787e001"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.008/rev2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "72a38d8b3c3fa8c4936e214c4dbbf2f6356e3c1785a61bf602f62eda8787e001",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "multi5"
+    },
+    "evidence": [
+      "E03/evidence/R8/rev2rev-ja/manifest.json",
+      "E03/evidence/R8/rev2rev-ja/official_metrics.json",
+      "E03/evidence/R8/rev2rev-ja/metrics.json",
+      "E03/evidence/R8/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R9",
+    "source_row_id": "E03.009",
+    "source_row_id_v2": "E03.V2.R009",
+    "configuration": "原 query anchor + 3路",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.1898675182997568,
+      "recall_100": 0.41117350478131803,
+      "map": 0.1264362246037485
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/2c60ee5bd1dbe53030874963c7fda1bd18dbf900b35def4a16eb035519704838.jsonl",
+        "sha256": "2c60ee5bd1dbe53030874963c7fda1bd18dbf900b35def4a16eb035519704838"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.009/rat2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "2c60ee5bd1dbe53030874963c7fda1bd18dbf900b35def4a16eb035519704838",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "multi5"
+    },
+    "evidence": [
+      "E03/evidence/R9/rat2rev-en/manifest.json",
+      "E03/evidence/R9/rat2rev-en/official_metrics.json",
+      "E03/evidence/R9/rat2rev-en/metrics.json",
+      "E03/evidence/R9/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R9",
+    "source_row_id": "E03.009",
+    "source_row_id_v2": "E03.V2.R009",
+    "configuration": "原 query anchor + 3路",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.2343029036907711,
+      "recall_100": 0.41885945599580315,
+      "map": 0.15213872833894473
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/c88b57ea195f42ee55f1fe6af624e470d2e493db7c9b8c18c17d39c77a33c717.jsonl",
+        "sha256": "c88b57ea195f42ee55f1fe6af624e470d2e493db7c9b8c18c17d39c77a33c717"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.009/rev2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "c88b57ea195f42ee55f1fe6af624e470d2e493db7c9b8c18c17d39c77a33c717",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "multi5"
+    },
+    "evidence": [
+      "E03/evidence/R9/rev2rev-en/manifest.json",
+      "E03/evidence/R9/rev2rev-en/official_metrics.json",
+      "E03/evidence/R9/rev2rev-en/metrics.json",
+      "E03/evidence/R9/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R9",
+    "source_row_id": "E03.009",
+    "source_row_id_v2": "E03.V2.R009",
+    "configuration": "原 query anchor + 3路",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.29534189069500927,
+      "recall_100": 0.5295666155831594,
+      "map": 0.2043872890167551
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/59819c0c585e1ef8366874c4258fbcbdf00daf86b02b1af88b74d080441f9d43.jsonl",
+        "sha256": "59819c0c585e1ef8366874c4258fbcbdf00daf86b02b1af88b74d080441f9d43"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.009/rat2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "59819c0c585e1ef8366874c4258fbcbdf00daf86b02b1af88b74d080441f9d43",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "multi5"
+    },
+    "evidence": [
+      "E03/evidence/R9/rat2rev-ja/manifest.json",
+      "E03/evidence/R9/rat2rev-ja/official_metrics.json",
+      "E03/evidence/R9/rat2rev-ja/metrics.json",
+      "E03/evidence/R9/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R9",
+    "source_row_id": "E03.009",
+    "source_row_id_v2": "E03.V2.R009",
+    "configuration": "原 query anchor + 3路",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.2773166909986447,
+      "recall_100": 0.4774133648503005,
+      "map": 0.1807208444601015
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/6802d41bf9964515363cbcf13707e87db2cd10d232636bc3873b5cfc478832d0.jsonl",
+        "sha256": "6802d41bf9964515363cbcf13707e87db2cd10d232636bc3873b5cfc478832d0"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.009/rev2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "6802d41bf9964515363cbcf13707e87db2cd10d232636bc3873b5cfc478832d0",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "multi5"
+    },
+    "evidence": [
+      "E03/evidence/R9/rev2rev-ja/manifest.json",
+      "E03/evidence/R9/rev2rev-ja/official_metrics.json",
+      "E03/evidence/R9/rev2rev-ja/metrics.json",
+      "E03/evidence/R9/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R10",
+    "source_row_id": "E03.010",
+    "source_row_id_v2": "E03.V2.R010",
+    "configuration": "原 query anchor + 5路，U",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.1961553524552994,
+      "recall_100": 0.41928658061406954,
+      "map": 0.13112252192186025
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/990acdfb75ecaeaadfea44d96ad33f8cb632dc7ea6b91d30f95b148dbe2421d8.jsonl",
+        "sha256": "990acdfb75ecaeaadfea44d96ad33f8cb632dc7ea6b91d30f95b148dbe2421d8"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.010/rat2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "990acdfb75ecaeaadfea44d96ad33f8cb632dc7ea6b91d30f95b148dbe2421d8",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "multi5"
+    },
+    "evidence": [
+      "E03/evidence/R10/rat2rev-en/manifest.json",
+      "E03/evidence/R10/rat2rev-en/official_metrics.json",
+      "E03/evidence/R10/rat2rev-en/metrics.json",
+      "E03/evidence/R10/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R10",
+    "source_row_id": "E03.010",
+    "source_row_id_v2": "E03.V2.R010",
+    "configuration": "原 query anchor + 5路，U",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.23487897738012609,
+      "recall_100": 0.41906069355742714,
+      "map": 0.1521041204275812
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/73be0265acfef7e7e9c6efa634cdc57e610f826f6fb45bffbaaf9907d4c9684d.jsonl",
+        "sha256": "73be0265acfef7e7e9c6efa634cdc57e610f826f6fb45bffbaaf9907d4c9684d"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.010/rev2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "73be0265acfef7e7e9c6efa634cdc57e610f826f6fb45bffbaaf9907d4c9684d",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "multi5"
+    },
+    "evidence": [
+      "E03/evidence/R10/rev2rev-en/manifest.json",
+      "E03/evidence/R10/rev2rev-en/official_metrics.json",
+      "E03/evidence/R10/rev2rev-en/metrics.json",
+      "E03/evidence/R10/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R10",
+    "source_row_id": "E03.010",
+    "source_row_id_v2": "E03.V2.R010",
+    "configuration": "原 query anchor + 5路，U",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.2976073447087522,
+      "recall_100": 0.5297286579911702,
+      "map": 0.20951213525525605
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/284cd56091f1ce192ce8f9caa01cd7096d6fcf2a3ff81cef6e4878c89f98c3b7.jsonl",
+        "sha256": "284cd56091f1ce192ce8f9caa01cd7096d6fcf2a3ff81cef6e4878c89f98c3b7"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.010/rat2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "284cd56091f1ce192ce8f9caa01cd7096d6fcf2a3ff81cef6e4878c89f98c3b7",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "multi5"
+    },
+    "evidence": [
+      "E03/evidence/R10/rat2rev-ja/manifest.json",
+      "E03/evidence/R10/rat2rev-ja/official_metrics.json",
+      "E03/evidence/R10/rat2rev-ja/metrics.json",
+      "E03/evidence/R10/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R10",
+    "source_row_id": "E03.010",
+    "source_row_id_v2": "E03.V2.R010",
+    "configuration": "原 query anchor + 5路，U",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.27955288844864296,
+      "recall_100": 0.47763041659594624,
+      "map": 0.182176616755808
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/d72b19c7dde3db15e90b3dd4f2921256000f4e776b56a2e0e1d0a96f4580de6d.jsonl",
+        "sha256": "d72b19c7dde3db15e90b3dd4f2921256000f4e776b56a2e0e1d0a96f4580de6d"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.010/rev2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "d72b19c7dde3db15e90b3dd4f2921256000f4e776b56a2e0e1d0a96f4580de6d",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "multi5"
+    },
+    "evidence": [
+      "E03/evidence/R10/rev2rev-ja/manifest.json",
+      "E03/evidence/R10/rev2rev-ja/official_metrics.json",
+      "E03/evidence/R10/rev2rev-ja/metrics.json",
+      "E03/evidence/R10/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R11",
+    "source_row_id": "E03.011",
+    "source_row_id_v2": "E03.V2.R011",
+    "configuration": "anchor + 同一条改写重复5份",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.18384555546024758,
+      "recall_100": 0.40026082094080395,
+      "map": 0.12117676946663605
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/27313e09e2191285913f5817fe87b3d22701e09ce4ebd8956a3a6cb204719928.jsonl",
+        "sha256": "27313e09e2191285913f5817fe87b3d22701e09ce4ebd8956a3a6cb204719928"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.011/rat2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "27313e09e2191285913f5817fe87b3d22701e09ce4ebd8956a3a6cb204719928",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "multi5"
+    },
+    "evidence": [
+      "E03/evidence/R11/rat2rev-en/manifest.json",
+      "E03/evidence/R11/rat2rev-en/official_metrics.json",
+      "E03/evidence/R11/rat2rev-en/metrics.json",
+      "E03/evidence/R11/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R11",
+    "source_row_id": "E03.011",
+    "source_row_id_v2": "E03.V2.R011",
+    "configuration": "anchor + 同一条改写重复5份",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.23322110076823668,
+      "recall_100": 0.4208814620659434,
+      "map": 0.15284258968461462
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/b4f309b61c5f9b21b1f13de145642f57b373416c2d9c1cb5e2d8a0c3e57c86df.jsonl",
+        "sha256": "b4f309b61c5f9b21b1f13de145642f57b373416c2d9c1cb5e2d8a0c3e57c86df"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.011/rev2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "b4f309b61c5f9b21b1f13de145642f57b373416c2d9c1cb5e2d8a0c3e57c86df",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "multi5"
+    },
+    "evidence": [
+      "E03/evidence/R11/rev2rev-en/manifest.json",
+      "E03/evidence/R11/rev2rev-en/official_metrics.json",
+      "E03/evidence/R11/rev2rev-en/metrics.json",
+      "E03/evidence/R11/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R11",
+    "source_row_id": "E03.011",
+    "source_row_id_v2": "E03.V2.R011",
+    "configuration": "anchor + 同一条改写重复5份",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.29092704398645897,
+      "recall_100": 0.5222692846602006,
+      "map": 0.20122480213845514
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/7ceed4f91f35626070669f60f3924bc4132814f4ca79f47a70e39fc32ecc32f7.jsonl",
+        "sha256": "7ceed4f91f35626070669f60f3924bc4132814f4ca79f47a70e39fc32ecc32f7"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.011/rat2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "7ceed4f91f35626070669f60f3924bc4132814f4ca79f47a70e39fc32ecc32f7",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "multi5"
+    },
+    "evidence": [
+      "E03/evidence/R11/rat2rev-ja/manifest.json",
+      "E03/evidence/R11/rat2rev-ja/official_metrics.json",
+      "E03/evidence/R11/rat2rev-ja/metrics.json",
+      "E03/evidence/R11/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R11",
+    "source_row_id": "E03.011",
+    "source_row_id_v2": "E03.V2.R011",
+    "configuration": "anchor + 同一条改写重复5份",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.28126178326624274,
+      "recall_100": 0.4853435369159318,
+      "map": 0.18201611202913553
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/70845e66fa9faa9233532dd9a227a44dccb4324d27766b61a56fd9d9d2e4b83d.jsonl",
+        "sha256": "70845e66fa9faa9233532dd9a227a44dccb4324d27766b61a56fd9d9d2e4b83d"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.011/rev2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "70845e66fa9faa9233532dd9a227a44dccb4324d27766b61a56fd9d9d2e4b83d",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "multi5"
+    },
+    "evidence": [
+      "E03/evidence/R11/rev2rev-ja/manifest.json",
+      "E03/evidence/R11/rev2rev-ja/official_metrics.json",
+      "E03/evidence/R11/rev2rev-ja/metrics.json",
+      "E03/evidence/R11/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R12",
+    "source_row_id": "E03.012",
+    "source_row_id_v2": "E03.V2.R012",
+    "configuration": "等总生成预算的单条长改写【补充】",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.2021008459013778,
+      "recall_100": 0.3900336301267594,
+      "map": 0.13131269767594864
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/de11bcd937b6b9887695b30e18901429e385d6623dc2c7e2720eff6522163d43.jsonl",
+        "sha256": "de11bcd937b6b9887695b30e18901429e385d6623dc2c7e2720eff6522163d43"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.012/rat2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "de11bcd937b6b9887695b30e18901429e385d6623dc2c7e2720eff6522163d43",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "long_single"
+    },
+    "evidence": [
+      "E03/evidence/R12/rat2rev-en/manifest.json",
+      "E03/evidence/R12/rat2rev-en/official_metrics.json",
+      "E03/evidence/R12/rat2rev-en/metrics.json",
+      "E03/evidence/R12/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R12",
+    "source_row_id": "E03.012",
+    "source_row_id_v2": "E03.V2.R012",
+    "configuration": "等总生成预算的单条长改写【补充】",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.23415274423407093,
+      "recall_100": 0.4124076102886592,
+      "map": 0.14967778809949672
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/79f578cce4367e7728dd7250aec206f94a246dc74d93f7bb65ce4d476dfdf804.jsonl",
+        "sha256": "79f578cce4367e7728dd7250aec206f94a246dc74d93f7bb65ce4d476dfdf804"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.012/rev2rev-en/test/ranked.jsonl",
+      "canonical_sha256": "79f578cce4367e7728dd7250aec206f94a246dc74d93f7bb65ce4d476dfdf804",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "long_single"
+    },
+    "evidence": [
+      "E03/evidence/R12/rev2rev-en/manifest.json",
+      "E03/evidence/R12/rev2rev-en/official_metrics.json",
+      "E03/evidence/R12/rev2rev-en/metrics.json",
+      "E03/evidence/R12/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R12",
+    "source_row_id": "E03.012",
+    "source_row_id_v2": "E03.V2.R012",
+    "configuration": "等总生成预算的单条长改写【补充】",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.3088554455544274,
+      "recall_100": 0.5219000367422117,
+      "map": 0.2159499522596063
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/2e51c544b9fd252ce522d429f2ef91f6c5b34a3b08f5ba49de1dd3919a141888.jsonl",
+        "sha256": "2e51c544b9fd252ce522d429f2ef91f6c5b34a3b08f5ba49de1dd3919a141888"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.012/rat2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "2e51c544b9fd252ce522d429f2ef91f6c5b34a3b08f5ba49de1dd3919a141888",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "long_single"
+    },
+    "evidence": [
+      "E03/evidence/R12/rat2rev-ja/manifest.json",
+      "E03/evidence/R12/rat2rev-ja/official_metrics.json",
+      "E03/evidence/R12/rat2rev-ja/metrics.json",
+      "E03/evidence/R12/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E03.R12",
+    "source_row_id": "E03.012",
+    "source_row_id_v2": "E03.V2.R012",
+    "configuration": "等总生成预算的单条长改写【补充】",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.28330486602314625,
+      "recall_100": 0.47715245274585943,
+      "map": 0.18334752056358172
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/17d6b4cd669570f28feacd17b76d9128754384fa1505f8e935fd1efa0672993b.jsonl",
+        "sha256": "17d6b4cd669570f28feacd17b76d9128754384fa1505f8e935fd1efa0672993b"
+      }
+    ],
+    "original_provenance": {
+      "canonical_ranked_path": "experiments/E03/runs/E03.012/rev2rev-ja/test/ranked.jsonl",
+      "canonical_sha256": "17d6b4cd669570f28feacd17b76d9128754384fa1505f8e935fd1efa0672993b",
+      "split": "test",
+      "model": "jina-v4",
+      "recipe": "long_single"
+    },
+    "evidence": [
+      "E03/evidence/R12/rev2rev-ja/manifest.json",
+      "E03/evidence/R12/rev2rev-ja/official_metrics.json",
+      "E03/evidence/R12/rev2rev-ja/metrics.json",
+      "E03/evidence/R12/rev2rev-ja/per_query.csv"
+    ]
+  }
+]

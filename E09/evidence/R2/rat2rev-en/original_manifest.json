@@ -1,0 +1,117 @@
+{
+  "complete": true,
+  "task": "rat2rev-en",
+  "variant": "multiquery_selected",
+  "identity_hash": "828b74c2cbeed8cea8166dd3a39c20bade7c9b7cd4a454bfe77ad2cfea707c4a",
+  "scorer": {
+    "corpus_sha256": "dea3c9a5b5986e4aacb3add4c91263a1c8639e337818ed49cc6d19c7b11a9827",
+    "query_source_sha256": "727c50e779b096f829faf14f3abc7e71895ef696d1db0661f8ed653a81ccfaaa",
+    "model_config_sha256": "e87a4f50c475c7276fc642eabfc986a7c8da1c8a30a4ee34b4979048b330f2be",
+    "model_weight_index_sha256": "8a22e7ffd6001796256c0be7c73594835b6f907eec442fde691301ebf35087d9",
+    "source_sha256": {
+      "reranker.py": "c9cddb5e4200d650361c4b044fb1b8abea31fc2b5536129f91a42c343fa1584a"
+    },
+    "max_length": 8192,
+    "token_ids": {
+      "recare": [
+        9834,
+        902
+      ]
+    },
+    "prefix_ids": [
+      151644,
+      8948,
+      198,
+      60256,
+      3425,
+      279,
+      11789,
+      20027,
+      279,
+      8502,
+      3118,
+      389,
+      279,
+      11361,
+      323,
+      279,
+      758,
+      1235,
+      3897,
+      13,
+      7036,
+      429,
+      279,
+      4226,
+      646,
+      1172,
+      387,
+      330,
+      9693,
+      1,
+      476,
+      330,
+      2152,
+      3263,
+      151645,
+      198,
+      151644,
+      872,
+      198
+    ],
+    "suffix_ids": [
+      151645,
+      198,
+      151644,
+      77091,
+      198,
+      151667,
+      271,
+      151668,
+      271
+    ]
+  },
+  "candidates_sha256": "0b29971d90e5f983bcaccff8ddf73674908104879b7588773244d18049bb61d6",
+  "run_sha256": "37f56fa4e588de7f760c1dc24f8767b185858c0ef21f053635ceebba88f2ea1b",
+  "native_reference_sha256": "52c1d1be7eee074fc96b3a3f1812cd187c98b9a760a1f18c44da2896a68b4954",
+  "cache_sources": [
+    {
+      "directory": "/root/user/cs_tcci_zhouyulin/recare_official_20261024/runs/qwen3_rerank_native/local_team_run1",
+      "manifest_sha256": "2807aab628a21c9356d89d358a4cfaeb98a75939171681c98c31ce0e408ca469",
+      "scores_sha256": "8bf53710c0c7199e8cd81e0497a6f533b5462c06cd06b1c087b0fdd17308fc26",
+      "queries": 113,
+      "fresh_native_reference_max_difference": 0.01953125
+    },
+    {
+      "directory": "/root/user/cs_tcci_zhouyulin/recare_official_20261024/runs/llm_experiments/qwen35_v2_combined_rat/qwen3_reranker",
+      "manifest_sha256": "3dfcf85d962b678108ac4e7169347e2d90ba4a1649db8831e7c03b383c7c0111",
+      "scores_sha256": "bf09dfe89d2f7ef5cfdac55c4da76473421f7ebeaa4675b24d38c2d70a8f755d",
+      "queries": 113,
+      "fresh_native_reference_max_difference": 0.01953125
+    },
+    {
+      "shared_directory": "/root/user/cs_tcci_zhouyulin/recare_official_20261024/runs/improvements_20261028/tuned_pipeline/qwen_shared/rat2rev-en",
+      "manifest_sha256": "797038c84dde050e17e4d58d2cd517adec98c9208683061cb5e1f8322c40be76",
+      "pair_files_sha256": "e7b3166bb1ec9d1354479977835288aaa5d464ad14c21f83d525fe7c57072000",
+      "native_reference_sha256": "ff531e8486a535ca1f07f7749871711d8937ecdcfcc827470da85fa17718f4a9"
+    },
+    {
+      "shared_directory": "/root/user/cs_tcci_zhouyulin/recare_official_20261024/runs/finetune/jina_v3_recovery_v2/hybrid_top50_fulltext/qwen_shared/rat2rev-en",
+      "manifest_sha256": "38175f4ccc198d68c025aa34a03cf14b72fe7cf38669fe24872d0028a8e5f631",
+      "pair_files_sha256": "eedb83146cdff720be2aeea86d25ee73dc765b499ea925cd15ddbd9300353a8e",
+      "native_reference_sha256": "4ef759aff04c33a851626b15675638116651121be11955cddb68eebaabdb2ed2"
+    },
+    {
+      "shared_directory": "/root/user/cs_tcci_zhouyulin/recare_official_20261024/runs/v4_multiquery_20261028/v4_single/reranking/qwen_shared/rat2rev-en",
+      "manifest_sha256": "282ada1c64b01e590d315fc02b9cf7146bf3bcd93dd3bfbd47d25762afe7abf5",
+      "pair_files_sha256": "c8a3bfe682234ca82b3bd0542ba2a3e6af88500a339301730b2f6483c5895c70",
+      "native_reference_sha256": "bc5d837f1f7df35bf2f90cca2a16e7d5996886f903b8937bc2e79f56d0a8e8b7"
+    }
+  ],
+  "metrics": {
+    "ndcg_10": 0.258076438841542,
+    "recall_100": 0.47141817014643306
+  },
+  "top_k": 200,
+  "qrels_used_for_inference": false
+}

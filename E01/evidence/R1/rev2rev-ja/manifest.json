@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "signature": "8ecfcfc9379899c5eba76346bf7b967c59fe829af75ff266480f37e64551973c",
+  "k1": 0.9,
+  "b": 0.4,
+  "at": "2026-10-30T13:12:20+08:00",
+  "task": "rev2rev-ja",
+  "split": "test",
+  "output_length": 200,
+  "model_api_calls": 0,
+  "query_builder": "query-TF weighted OR, Anserini BagOfWords construction",
+  "implementation": "direct Lucene 9.12.1, not a claim of bitwise Pyserini equivalence"
+}

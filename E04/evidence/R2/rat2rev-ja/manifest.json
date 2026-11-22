@@ -1,0 +1,21 @@
+{
+  "complete": true,
+  "config": {
+    "criterion": "T1",
+    "depth": 100,
+    "fixed_window": false,
+    "passage_cap": 0,
+    "query_cap": 0,
+    "passage_word_cap": 0
+  },
+  "split": "test",
+  "task": "rat2rev-ja",
+  "source_pool_sha256": "eb4fe573f38267e55a1e044b64cbad64eaf4326259e0a6853c6773f2d98f179d",
+  "corpus_sha256": "303fcfaa4bd70e752cb4f65d08f8e48f29a4c7d9c286ab9b98ca73a1ed3a39f9",
+  "model": "gpt-6.1-sol",
+  "at": "2026-10-31T03:32:23+08:00",
+  "gpt_global_inflight_limit": 1,
+  "new_gpt_http_requests": 185,
+  "n_queries_expected": 121,
+  "n_queries_fit": 121
+}

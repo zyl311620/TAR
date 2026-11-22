@@ -1,0 +1,129 @@
+{
+  "model": {
+    "path": "/root/user/cs_tcci_zhouyulin/LLM_list/jina-embeddings-v3",
+    "file_stats": {
+      "1_Pooling/config.json": [
+        192,
+        1792717017806462847
+      ],
+      "config.json": [
+        1979,
+        1792758194009669519
+      ],
+      "config_sentence_transformers.json": [
+        464,
+        1792717017818462848
+      ],
+      "configuration.json": [
+        2,
+        1792717017974462857
+      ],
+      "custom_st.py": [
+        8877,
+        1792717018006462858
+      ],
+      "model.safetensors": [
+        1144685320,
+        1792717090730464548
+      ],
+      "modules.json": [
+        378,
+        1792717018214462870
+      ],
+      "pytorch_model.bin": [
+        1144846522,
+        1792717096870464481
+      ],
+      "special_tokens_map.json": [
+        964,
+        1792717092158464536
+      ],
+      "tokenizer.json": [
+        17082756,
+        1792717093366464524
+      ],
+      "tokenizer_config.json": [
+        1148,
+        1792717093638464520
+      ],
+      "xlm-roberta-flash-implementation/block.py": [
+        17796,
+        1792758115404645186
+      ],
+      "xlm-roberta-flash-implementation/configuration_xlm_roberta.py": [
+        6542,
+        1792758115576646933
+      ],
+      "xlm-roberta-flash-implementation/convert_roberta_weights_to_flash.py": [
+        6944,
+        1792758115576646933
+      ],
+      "xlm-roberta-flash-implementation/embedding.py": [
+        4442,
+        1792758117036661742
+      ],
+      "xlm-roberta-flash-implementation/mha.py": [
+        34368,
+        1792758119876690403
+      ],
+      "xlm-roberta-flash-implementation/mlp.py": [
+        7619,
+        1792758119988691531
+      ],
+      "xlm-roberta-flash-implementation/modeling_lora.py": [
+        15447,
+        1792758119992691572
+      ],
+      "xlm-roberta-flash-implementation/modeling_xlm_roberta.py": [
+        51134,
+        1792758120208693741
+      ],
+      "xlm-roberta-flash-implementation/rotary.py": [
+        24758,
+        1792758120428695951
+      ],
+      "xlm-roberta-flash-implementation/stochastic_depth.py": [
+        3761,
+        1792758120540697076
+      ],
+      "xlm-roberta-flash-implementation/xlm_padding.py": [
+        10032,
+        1792758120548697156
+      ]
+    },
+    "files": {
+      "1_Pooling/config.json": "2dcd38f327d6becc231516951049ddc841d0e0dee9bb4ec5514fb413341b6401",
+      "config.json": "6734e16c16d1088cb9965c6783af64bc80e161d495c4d7fa06632ed32a080849",
+      "config_sentence_transformers.json": "151f37c3e01b7ec0a97f5301ff559496c6a178b7ffb2a2bbb13348a3344072c6",
+      "configuration.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "custom_st.py": "a2e02dd7d02efcfd19f8249a440999f6441dfccfe1200fac7c508fe148d9f50a",
+      "model.safetensors": "17ca06efd886a065d0081912b04c9e27ef5086a9dd09659cce32aa9c84587f23",
+      "modules.json": "5195606c12cbe65635173069d503c1eeb503b6358d6453936f66ca0e38390c29",
+      "pytorch_model.bin": "9e83da37d1052fa1f9a6763199a5aa0fea1b5d3f290dc6b3d2e3ffb7c5356bcc",
+      "special_tokens_map.json": "8c785abebea9ae3257b61681b4e6fd8365ceafde980c21970d001e834cf10835",
+      "tokenizer.json": "f59925fcb90c92b894cb93e51bb9b4a6105c5c249fe54ce1c704420ac39b81af",
+      "tokenizer_config.json": "e1bc77da5b90ba65b47aa8bd776c6317f47d50dc6717e92b10177686b3b8f161",
+      "xlm-roberta-flash-implementation/block.py": "780b08f908042eb3cbc2819d41fb2bf5b65836e5ca0c23328735f02f7b59a74f",
+      "xlm-roberta-flash-implementation/configuration_xlm_roberta.py": "c9f89c2fca97b2495c2cc0f348c6b4133b0d164760291ac4549a0eeb7b650e4d",
+      "xlm-roberta-flash-implementation/convert_roberta_weights_to_flash.py": "61dc3ee4ec5d492ff6fb07aa917ec987b199636e5e7ee93b7f3d5afe7fe58e1e",
+      "xlm-roberta-flash-implementation/embedding.py": "df66c8d738b3bd348fb4b497ffcddc7ef6d3d2ffca19d1e1d6c3e5d2518454ad",
+      "xlm-roberta-flash-implementation/mha.py": "5277540434395421637a68791c297dc0a1195afe37cb27fcaed2922ff0248916",
+      "xlm-roberta-flash-implementation/mlp.py": "f7f2dde3508d1c40b42e2f82237190ce1d9a6310cc5204ce85ade2659b829d2b",
+      "xlm-roberta-flash-implementation/modeling_lora.py": "356365b8602a63e0a542fdadc1e72d6a02efdce4e47edfb15a43ad4da7539732",
+      "xlm-roberta-flash-implementation/modeling_xlm_roberta.py": "6506a289df8e24df87fac121f2d45045cf1967db628d1c6eb8e0c3bd72d43851",
+      "xlm-roberta-flash-implementation/rotary.py": "7fd9c5347553737af7ca631ff8745f0ede50917a3aa90c76e285d94ffb9496b8",
+      "xlm-roberta-flash-implementation/stochastic_depth.py": "6e352eab354052edc5a8eeba2a5e4f713312f790295230875d80f2eaf3bc0345",
+      "xlm-roberta-flash-implementation/xlm_padding.py": "df78bb408fb3bbbeb31ea471655b075b8628d0634c7a6416a22950c145ae7d41"
+    },
+    "sha256": "2bce83802c9ba3409a485cfd64105be699f053ea8c5d4a72bbbec6a58446222a"
+  },
+  "spec": {
+    "directory": "jina-embeddings-v3",
+    "method": "Jina-v3 原始权重",
+    "pooling": "jina_encode",
+    "max_length": 8192,
+    "normalize": true
+  },
+  "gpu": "0",
+  "at": "2026-10-30T13:22:53+08:00"
+}

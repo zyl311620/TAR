@@ -1,0 +1,2235 @@
+{
+  "updated_at": "2026-10-27T20:19:21+08:00",
+  "dataset": {
+    "complete": true,
+    "source_groups_sha256": "6579c1408f6114c7fd413f600d35bee33d8b9fcc4d9001391fc6531988eb145b",
+    "groups_sha256": "923d7a5e1938f1bdbbd0efb9a09898200ef6150fdfbad31ec0c9694e12bb0876",
+    "corpus_sha256": "dea3c9a5b5986e4aacb3add4c91263a1c8639e337818ed49cc6d19c7b11a9827",
+    "split_policy": "Connected target-article sets plus identical original query texts; seed 20261027; 15% holdout",
+    "split": {
+      "components": 302,
+      "maximum_component_groups": 12,
+      "holdout_groups": 185,
+      "train_groups": 1051
+    },
+    "counts": {
+      "rat2rev-en/train": 193,
+      "rat2rev-en/holdout": 34,
+      "rev2rev-en/train": 858,
+      "rev2rev-en/holdout": 151
+    },
+    "repaired_negative_groups": [
+      "rat2rev-en:32014L0051",
+      "rat2rev-en:32014R1150",
+      "rat2rev-en:32019R2175",
+      "rat2rev-en:32019R2176",
+      "rat2rev-en:32024R2838",
+      "rat2rev-en:32010R0541",
+      "rat2rev-en:32010R0542",
+      "rat2rev-en:32021R1151",
+      "rev2rev-en:32008D0839_00000000_0000000000_10",
+      "rev2rev-en:32008D0839_00000000_0000000000_11",
+      "rev2rev-en:32008D0839_00000000_0000000000_1",
+      "rev2rev-en:32002R1605_20071227_0000000000_60",
+      "rev2rev-en:32002R1605_20071227_0000000000_85",
+      "rev2rev-en:32006R0765_20110524_0000000000_2b",
+      "rev2rev-en:32006R0765_20110524_0000000000_3",
+      "rev2rev-en:32006R0765_20110524_0000000000_8a",
+      "rev2rev-en:32009R0302_00000000_0000000000_41",
+      "rev2rev-en:31997D0836_00000000_0000000000_3",
+      "rev2rev-en:31997D0836_00000000_0000000000_4",
+      "rev2rev-en:32005R0111_00000000_0000000000_13",
+      "rev2rev-en:32007R1528_20081209_0000000000_2",
+      "rev2rev-en:32012R0966_00000000_0000000000_38",
+      "rev2rev-en:32012R0966_00000000_0000000000_99",
+      "rev2rev-en:32016R1139_00000000_0000000000_1",
+      "rev2rev-en:32016R1139_00000000_0000000000_18",
+      "rev2rev-en:32010R1093_00000000_0000000000_7",
+      "rev2rev-en:32011R1343_00000000_0000000000_2",
+      "rev2rev-en:32005R2173_00000000_0000000000_9",
+      "rev2rev-en:32010R1094_20140523_0000000000_39",
+      "rev2rev-en:32010R1095_20140523_0000000000_63",
+      "rev2rev-en:32009R1215_20110101_0000000000_8",
+      "rev2rev-en:32018R1046_00000000_0000000000_22",
+      "rev2rev-en:32015L0413_00000000_0000000000_7",
+      "rev2rev-en:32007D0573_00000000_0000000000_57",
+      "rev2rev-en:32008R1104_00000000_0000000000_1",
+      "rev2rev-en:32008R1104_00000000_0000000000_11",
+      "rev2rev-en:32008R1104_00000000_0000000000_10",
+      "rev2rev-en:32006R1412_20070101_0000000000_7",
+      "rev2rev-en:31999L0032_20100101_0000000000_11",
+      "rev2rev-en:32006D1639_00000000_0000000000_50",
+      "rev2rev-en:32006D1639_00000000_0000000000_3",
+      "rev2rev-en:32009R0754_20100201_0000000000_2",
+      "rev2rev-en:32008R0055_20081207_0000000000_10",
+      "rev2rev-en:32005R2173_00000000_0000000000_12",
+      "rev2rev-en:32002R2012_00000000_0000000000_15",
+      "rev2rev-en:32014R0374_00000000_0000000000_1",
+      "rev2rev-en:32002R1406_20130301_0000000000_15",
+      "rev2rev-en:32010L0040_00000000_0000000000_13",
+      "rev2rev-en:32009R0469_20130701_0000000000_23",
+      "rev2rev-en:32009R0469_20130701_0000000000_5",
+      "rev2rev-en:32010R1092_00000000_0000000000_19",
+      "rev2rev-en:32010R1092_00000000_0000000000_14",
+      "rev2rev-en:32010R1092_00000000_0000000000_11",
+      "rev2rev-en:32007R0862_00000000_0000000000_14",
+      "rev2rev-en:32017R2454_00000000_0000000000_2",
+      "rev2rev-en:32006R1367_00000000_0000000000_12",
+      "rev2rev-en:32016R0794_00000000_0000000000_44",
+      "rev2rev-en:32019L1153_00000000_0000000000_22"
+    ],
+    "test_labels_used": false,
+    "target_id_overlap_between_train_holdout": 0,
+    "metadata_event_overlap_between_train_holdout": 0,
+    "metadata_event_resolved_groups": 903,
+    "source_splits": [
+      "train",
+      "validation"
+    ]
+  },
+  "variants": {
+    "query_full": {
+      "config": {
+        "variant": "query_full",
+        "learning_rate": 1e-05,
+        "temperature": 0.05,
+        "epochs": 3,
+        "batch_groups": 16,
+        "anchor_weight": 0.0,
+        "query_views": [
+          "original",
+          "rewritten"
+        ],
+        "max_length": 8192,
+        "test_labels_used": false,
+        "dataset_sha256": "923d7a5e1938f1bdbbd0efb9a09898200ef6150fdfbad31ec0c9694e12bb0876",
+        "source_model": "/root/user/cs_tcci_zhouyulin/LLM_list/jina-embeddings-v3",
+        "train_groups": 1051,
+        "holdout_groups": 185,
+        "passage_frozen": true,
+        "weight_decay": 0.0,
+        "seed": 20261027,
+        "checkpoint_metric": "event-isolated validation full-corpus macro nDCG@10",
+        "warmup_steps": 8,
+        "negative_policy": "all eligible corpus documents",
+        "identity": "7f2d7a4b43c97c647a70feacfc58e4837732f1d579790ce411e3d3be6c75dfac"
+      },
+      "status": {
+        "status": "complete",
+        "variant": "query_full",
+        "step": 198,
+        "best": {
+          "step": 24,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10407091687472915,
+              "recall_100": 0.25255278965719946
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.145711951932817,
+              "recall_100": 0.20068644324630663
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.40229687094688416,
+              "dimension_variance": 0.5801236033439636
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.39217156171798706,
+              "dimension_variance": 0.6038030982017517
+            }
+          },
+          "macro_ndcg_10": 0.12489143440377307,
+          "macro_recall_100": 0.22661961645175305,
+          "epoch": 1
+        },
+        "updated_at": "2026-10-27T19:25:36+08:00"
+      },
+      "result": {
+        "complete": true,
+        "pilot": false,
+        "step": 198,
+        "config": {
+          "variant": "query_full",
+          "learning_rate": 1e-05,
+          "temperature": 0.05,
+          "epochs": 3,
+          "batch_groups": 16,
+          "anchor_weight": 0.0,
+          "query_views": [
+            "original",
+            "rewritten"
+          ],
+          "max_length": 8192,
+          "test_labels_used": false,
+          "dataset_sha256": "923d7a5e1938f1bdbbd0efb9a09898200ef6150fdfbad31ec0c9694e12bb0876",
+          "source_model": "/root/user/cs_tcci_zhouyulin/LLM_list/jina-embeddings-v3",
+          "train_groups": 1051,
+          "holdout_groups": 185,
+          "passage_frozen": true,
+          "weight_decay": 0.0,
+          "seed": 20261027,
+          "checkpoint_metric": "event-isolated validation full-corpus macro nDCG@10",
+          "warmup_steps": 8,
+          "negative_policy": "all eligible corpus documents"
+        },
+        "baseline": {
+          "step": 0,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10168299438382324,
+              "recall_100": 0.25103321920506744
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.14777311021461878,
+              "recall_100": 0.1989037551179093
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.4288482367992401,
+              "dimension_variance": 0.5543532371520996
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.41476917266845703,
+              "dimension_variance": 0.581355094909668
+            }
+          },
+          "macro_ndcg_10": 0.12472805229922101,
+          "macro_recall_100": 0.22496848716148837
+        },
+        "best": {
+          "step": 24,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10407091687472915,
+              "recall_100": 0.25255278965719946
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.145711951932817,
+              "recall_100": 0.20068644324630663
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.40229687094688416,
+              "dimension_variance": 0.5801236033439636
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.39217156171798706,
+              "dimension_variance": 0.6038030982017517
+            }
+          },
+          "macro_ndcg_10": 0.12489143440377307,
+          "macro_recall_100": 0.22661961645175305,
+          "epoch": 1
+        },
+        "frozen_passage_verified": true,
+        "test_labels_used": false,
+        "completed_at": "2026-10-27T19:25:36+08:00"
+      },
+      "runtime": {
+        "encoder_microbatch": 4,
+        "index_batch_size": 16,
+        "free_memory_bytes_after_model_load": 37162385408,
+        "torch": "2.7.1+cu126",
+        "training_source_sha256": "1f6aaa2dc3d94b558322018f65a39a3488c8c73447d2eb7f87cc7ae2ff713b34",
+        "gpu": "NVIDIA RTX A6000",
+        "created_at": "2026-10-27T18:49:12+08:00"
+      },
+      "history": [
+        {
+          "step": 0,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10168299438382324,
+              "recall_100": 0.25103321920506744
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.14777311021461878,
+              "recall_100": 0.1989037551179093
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.4288482367992401,
+              "dimension_variance": 0.5543532371520996
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.41476917266845703,
+              "dimension_variance": 0.581355094909668
+            }
+          },
+          "macro_ndcg_10": 0.12472805229922101,
+          "macro_recall_100": 0.22496848716148837
+        },
+        {
+          "step": 12,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10163289015878858,
+              "recall_100": 0.24972602966258375
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.14605879431273514,
+              "recall_100": 0.2001263967733079
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.41813895106315613,
+              "dimension_variance": 0.5647474527359009
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.4058213531970978,
+              "dimension_variance": 0.5902436971664429
+            }
+          },
+          "macro_ndcg_10": 0.12384584223576187,
+          "macro_recall_100": 0.22492621321794581,
+          "epoch": 1
+        },
+        {
+          "step": 24,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10407091687472915,
+              "recall_100": 0.25255278965719946
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.145711951932817,
+              "recall_100": 0.20068644324630663
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.40229687094688416,
+              "dimension_variance": 0.5801236033439636
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.39217156171798706,
+              "dimension_variance": 0.6038030982017517
+            }
+          },
+          "macro_ndcg_10": 0.12489143440377307,
+          "macro_recall_100": 0.22661961645175305,
+          "epoch": 1
+        },
+        {
+          "step": 48,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.09687817244615823,
+              "recall_100": 0.25332539465648374
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.1459946164837133,
+              "recall_100": 0.20047314490393203
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.3781040906906128,
+              "dimension_variance": 0.6036049127578735
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.3716643750667572,
+              "dimension_variance": 0.6241744160652161
+            }
+          },
+          "macro_ndcg_10": 0.12143639446493577,
+          "macro_recall_100": 0.22689926978020789,
+          "epoch": 1
+        },
+        {
+          "step": 66,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.09470998583630343,
+              "recall_100": 0.2570675799363928
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.1480951135551381,
+              "recall_100": 0.2024844249434112
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.3645265996456146,
+              "dimension_variance": 0.6167830228805542
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.36046871542930603,
+              "dimension_variance": 0.6352959871292114
+            }
+          },
+          "macro_ndcg_10": 0.12140254969572076,
+          "macro_recall_100": 0.22977600243990198,
+          "epoch": 1
+        },
+        {
+          "step": 72,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.09459431818446275,
+              "recall_100": 0.2619695407207065
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.1478127318647464,
+              "recall_100": 0.20194811619956446
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.36145928502082825,
+              "dimension_variance": 0.6197600960731506
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.3578047454357147,
+              "dimension_variance": 0.6379423141479492
+            }
+          },
+          "macro_ndcg_10": 0.12120352502460457,
+          "macro_recall_100": 0.2319588284601355,
+          "epoch": 2
+        },
+        {
+          "step": 96,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.09228901952969744,
+              "recall_100": 0.26687150150502026
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.1479581088586308,
+              "recall_100": 0.20256864392552154
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.34979769587516785,
+              "dimension_variance": 0.6310787200927734
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.3480658531188965,
+              "dimension_variance": 0.6476166248321533
+            }
+          },
+          "macro_ndcg_10": 0.12012356419416412,
+          "macro_recall_100": 0.2347200727152709,
+          "epoch": 2
+        },
+        {
+          "step": 120,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.09113130544172454,
+              "recall_100": 0.2653266411366304
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.1493309309048908,
+              "recall_100": 0.20334543825203813
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.3422994017601013,
+              "dimension_variance": 0.6383564472198486
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.3421368896961212,
+              "dimension_variance": 0.6535064578056335
+            }
+          },
+          "macro_ndcg_10": 0.12023111817330767,
+          "macro_recall_100": 0.23433603969433425,
+          "epoch": 2
+        },
+        {
+          "step": 132,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.0906473629651523,
+              "recall_100": 0.26598023590787223
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.14895095890338558,
+              "recall_100": 0.20373623882725125
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.3397871255874634,
+              "dimension_variance": 0.6407948732376099
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.3398904800415039,
+              "dimension_variance": 0.6557379364967346
+            }
+          },
+          "macro_ndcg_10": 0.11979916093426894,
+          "macro_recall_100": 0.23485823736756173,
+          "epoch": 2
+        },
+        {
+          "step": 144,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.09187334938808671,
+              "recall_100": 0.2653266411366304
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.14953325148678154,
+              "recall_100": 0.20358572708733558
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.338405966758728,
+              "dimension_variance": 0.6421353816986084
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.3388333022594452,
+              "dimension_variance": 0.6567881107330322
+            }
+          },
+          "macro_ndcg_10": 0.12070330043743413,
+          "macro_recall_100": 0.234456184111983,
+          "epoch": 3
+        },
+        {
+          "step": 168,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.09190206225831497,
+              "recall_100": 0.2644353755394825
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.14922712968263172,
+              "recall_100": 0.20672180642374602
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.33664050698280334,
+              "dimension_variance": 0.6438488960266113
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.3374236822128296,
+              "dimension_variance": 0.6581884026527405
+            }
+          },
+          "macro_ndcg_10": 0.12056459597047334,
+          "macro_recall_100": 0.23557859098161427,
+          "epoch": 3
+        },
+        {
+          "step": 192,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.09175399323245276,
+              "recall_100": 0.2650889703107243
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.14980341690769156,
+              "recall_100": 0.2068422158156786
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.3364112079143524,
+              "dimension_variance": 0.6440714597702026
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.3370925188064575,
+              "dimension_variance": 0.6585173606872559
+            }
+          },
+          "macro_ndcg_10": 0.12077870507007216,
+          "macro_recall_100": 0.23596559306320147,
+          "epoch": 3
+        },
+        {
+          "step": 198,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.09175399323245276,
+              "recall_100": 0.2644353755394825
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.1483062021192942,
+              "recall_100": 0.2063924513222834
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.3363044261932373,
+              "dimension_variance": 0.6441751718521118
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.3370206356048584,
+              "dimension_variance": 0.6585887670516968
+            }
+          },
+          "macro_ndcg_10": 0.12003009767587348,
+          "macro_recall_100": 0.23541391343088294,
+          "epoch": 3
+        }
+      ]
+    },
+    "query_full_anchor": {
+      "config": {
+        "variant": "query_full_anchor",
+        "learning_rate": 1e-05,
+        "temperature": 0.05,
+        "epochs": 3,
+        "batch_groups": 16,
+        "anchor_weight": 1.0,
+        "query_views": [
+          "original",
+          "rewritten"
+        ],
+        "max_length": 8192,
+        "test_labels_used": false,
+        "dataset_sha256": "923d7a5e1938f1bdbbd0efb9a09898200ef6150fdfbad31ec0c9694e12bb0876",
+        "source_model": "/root/user/cs_tcci_zhouyulin/LLM_list/jina-embeddings-v3",
+        "train_groups": 1051,
+        "holdout_groups": 185,
+        "passage_frozen": true,
+        "weight_decay": 0.0,
+        "seed": 20261027,
+        "checkpoint_metric": "event-isolated validation full-corpus macro nDCG@10",
+        "warmup_steps": 8,
+        "negative_policy": "all eligible corpus documents",
+        "identity": "b1d57806e476976da31a13400e70543313c6b7451fc80b59190898d577acdcd4"
+      },
+      "status": {
+        "status": "pilot_complete",
+        "variant": "query_full_anchor",
+        "step": 24,
+        "best": {
+          "step": 24,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.1047721390905727,
+              "recall_100": 0.25255278965719946
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.14496573128113174,
+              "recall_100": 0.20054847415138388
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.40244948863983154,
+              "dimension_variance": 0.5799754858016968
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.3923400342464447,
+              "dimension_variance": 0.6036356687545776
+            }
+          },
+          "macro_ndcg_10": 0.12486893518585222,
+          "macro_recall_100": 0.22655063190429167,
+          "epoch": 1
+        },
+        "updated_at": "2026-10-27T19:17:10+08:00"
+      },
+      "result": {
+        "complete": true,
+        "pilot": true,
+        "step": 24,
+        "config": {
+          "variant": "query_full_anchor",
+          "learning_rate": 1e-05,
+          "temperature": 0.05,
+          "epochs": 3,
+          "batch_groups": 16,
+          "anchor_weight": 1.0,
+          "query_views": [
+            "original",
+            "rewritten"
+          ],
+          "max_length": 8192,
+          "test_labels_used": false,
+          "dataset_sha256": "923d7a5e1938f1bdbbd0efb9a09898200ef6150fdfbad31ec0c9694e12bb0876",
+          "source_model": "/root/user/cs_tcci_zhouyulin/LLM_list/jina-embeddings-v3",
+          "train_groups": 1051,
+          "holdout_groups": 185,
+          "passage_frozen": true,
+          "weight_decay": 0.0,
+          "seed": 20261027,
+          "checkpoint_metric": "event-isolated validation full-corpus macro nDCG@10",
+          "warmup_steps": 8,
+          "negative_policy": "all eligible corpus documents"
+        },
+        "baseline": {
+          "step": 0,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10168299438382324,
+              "recall_100": 0.25103321920506744
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.14777311021461878,
+              "recall_100": 0.1989037551179093
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.4288482367992401,
+              "dimension_variance": 0.5543532371520996
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.41476917266845703,
+              "dimension_variance": 0.581355094909668
+            }
+          },
+          "macro_ndcg_10": 0.12472805229922101,
+          "macro_recall_100": 0.22496848716148837
+        },
+        "best": {
+          "step": 24,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.1047721390905727,
+              "recall_100": 0.25255278965719946
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.14496573128113174,
+              "recall_100": 0.20054847415138388
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.40244948863983154,
+              "dimension_variance": 0.5799754858016968
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.3923400342464447,
+              "dimension_variance": 0.6036356687545776
+            }
+          },
+          "macro_ndcg_10": 0.12486893518585222,
+          "macro_recall_100": 0.22655063190429167,
+          "epoch": 1
+        },
+        "frozen_passage_verified": true,
+        "test_labels_used": false,
+        "completed_at": "2026-10-27T19:17:10+08:00"
+      },
+      "runtime": {
+        "encoder_microbatch": 4,
+        "index_batch_size": 16,
+        "free_memory_bytes_after_model_load": 45650804736,
+        "torch": "2.7.1+cu126",
+        "training_source_sha256": "1f6aaa2dc3d94b558322018f65a39a3488c8c73447d2eb7f87cc7ae2ff713b34",
+        "gpu": "NVIDIA RTX A6000",
+        "created_at": "2026-10-27T18:49:19+08:00"
+      },
+      "history": [
+        {
+          "step": 0,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10168299438382324,
+              "recall_100": 0.25103321920506744
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.14777311021461878,
+              "recall_100": 0.1989037551179093
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.4288482367992401,
+              "dimension_variance": 0.5543532371520996
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.41476917266845703,
+              "dimension_variance": 0.581355094909668
+            }
+          },
+          "macro_ndcg_10": 0.12472805229922101,
+          "macro_recall_100": 0.22496848716148837
+        },
+        {
+          "step": 12,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10172633129062354,
+              "recall_100": 0.24972602966258375
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.14612508634392687,
+              "recall_100": 0.20014771926979597
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.41818323731422424,
+              "dimension_variance": 0.5647045373916626
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.40589290857315063,
+              "dimension_variance": 0.5901725888252258
+            }
+          },
+          "macro_ndcg_10": 0.12392570881727522,
+          "macro_recall_100": 0.22493687446618987,
+          "epoch": 1
+        },
+        {
+          "step": 24,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.1047721390905727,
+              "recall_100": 0.25255278965719946
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.14496573128113174,
+              "recall_100": 0.20054847415138388
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.40244948863983154,
+              "dimension_variance": 0.5799754858016968
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.3923400342464447,
+              "dimension_variance": 0.6036356687545776
+            }
+          },
+          "macro_ndcg_10": 0.12486893518585222,
+          "macro_recall_100": 0.22655063190429167,
+          "epoch": 1
+        }
+      ]
+    },
+    "query_full_all_lora": {
+      "config": {
+        "variant": "query_full_all_lora",
+        "learning_rate": 1e-05,
+        "temperature": 0.05,
+        "epochs": 3,
+        "batch_groups": 16,
+        "anchor_weight": 0.0,
+        "query_views": [
+          "original",
+          "rewritten"
+        ],
+        "max_length": 8192,
+        "test_labels_used": false,
+        "dataset_sha256": "923d7a5e1938f1bdbbd0efb9a09898200ef6150fdfbad31ec0c9694e12bb0876",
+        "source_model": "/root/user/cs_tcci_zhouyulin/LLM_list/jina-embeddings-v3",
+        "train_groups": 1051,
+        "holdout_groups": 185,
+        "passage_frozen": true,
+        "weight_decay": 0.0,
+        "seed": 20261027,
+        "checkpoint_metric": "event-isolated validation full-corpus macro nDCG@10",
+        "warmup_steps": 8,
+        "negative_policy": "all eligible corpus documents",
+        "train_embedding_adapters": true,
+        "identity": "76719d4f78675baed02d19d336d8c96034af67c89948b119e1f2f8619395006a"
+      },
+      "status": {
+        "status": "pilot_complete",
+        "variant": "query_full_all_lora",
+        "step": 24,
+        "best": {
+          "step": 24,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10467869795873776,
+              "recall_100": 0.25255278965719946
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.1454998912372987,
+              "recall_100": 0.20068644324630663
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.40260812640190125,
+              "dimension_variance": 0.5798215270042419
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.39229434728622437,
+              "dimension_variance": 0.6036810874938965
+            }
+          },
+          "macro_ndcg_10": 0.12508929459801824,
+          "macro_recall_100": 0.22661961645175305,
+          "epoch": 1
+        },
+        "updated_at": "2026-10-27T19:38:15+08:00"
+      },
+      "result": {
+        "complete": true,
+        "pilot": true,
+        "step": 24,
+        "config": {
+          "variant": "query_full_all_lora",
+          "learning_rate": 1e-05,
+          "temperature": 0.05,
+          "epochs": 3,
+          "batch_groups": 16,
+          "anchor_weight": 0.0,
+          "query_views": [
+            "original",
+            "rewritten"
+          ],
+          "max_length": 8192,
+          "test_labels_used": false,
+          "dataset_sha256": "923d7a5e1938f1bdbbd0efb9a09898200ef6150fdfbad31ec0c9694e12bb0876",
+          "source_model": "/root/user/cs_tcci_zhouyulin/LLM_list/jina-embeddings-v3",
+          "train_groups": 1051,
+          "holdout_groups": 185,
+          "passage_frozen": true,
+          "weight_decay": 0.0,
+          "seed": 20261027,
+          "checkpoint_metric": "event-isolated validation full-corpus macro nDCG@10",
+          "warmup_steps": 8,
+          "negative_policy": "all eligible corpus documents",
+          "train_embedding_adapters": true
+        },
+        "baseline": {
+          "step": 0,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10168299438382324,
+              "recall_100": 0.25103321920506744
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.14777311021461878,
+              "recall_100": 0.1989037551179093
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.4288482367992401,
+              "dimension_variance": 0.5543532371520996
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.41476917266845703,
+              "dimension_variance": 0.581355094909668
+            }
+          },
+          "macro_ndcg_10": 0.12472805229922101,
+          "macro_recall_100": 0.22496848716148837
+        },
+        "best": {
+          "step": 24,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10467869795873776,
+              "recall_100": 0.25255278965719946
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.1454998912372987,
+              "recall_100": 0.20068644324630663
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.40260812640190125,
+              "dimension_variance": 0.5798215270042419
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.39229434728622437,
+              "dimension_variance": 0.6036810874938965
+            }
+          },
+          "macro_ndcg_10": 0.12508929459801824,
+          "macro_recall_100": 0.22661961645175305,
+          "epoch": 1
+        },
+        "frozen_passage_verified": true,
+        "test_labels_used": false,
+        "completed_at": "2026-10-27T19:38:15+08:00"
+      },
+      "runtime": {
+        "encoder_microbatch": 4,
+        "index_batch_size": 16,
+        "free_memory_bytes_after_model_load": 36642291712,
+        "torch": "2.7.1+cu126",
+        "training_source_sha256": "d733bedb89f48081d12bcd7fe9ee172ea105340890ebf6741d2164124203c5c7",
+        "gpu": "NVIDIA RTX A6000",
+        "created_at": "2026-10-27T19:33:19+08:00"
+      },
+      "history": [
+        {
+          "step": 0,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10168299438382324,
+              "recall_100": 0.25103321920506744
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.14777311021461878,
+              "recall_100": 0.1989037551179093
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.4288482367992401,
+              "dimension_variance": 0.5543532371520996
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.41476917266845703,
+              "dimension_variance": 0.581355094909668
+            }
+          },
+          "macro_ndcg_10": 0.12472805229922101,
+          "macro_recall_100": 0.22496848716148837
+        },
+        {
+          "step": 12,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10184199894246422,
+              "recall_100": 0.24972602966258375
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.1457813438413846,
+              "recall_100": 0.20003409766221253
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.41851356625556946,
+              "dimension_variance": 0.564383864402771
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.4060032069683075,
+              "dimension_variance": 0.5900630354881287
+            }
+          },
+          "macro_ndcg_10": 0.12381167139192442,
+          "macro_recall_100": 0.22488006366239816,
+          "epoch": 1
+        },
+        {
+          "step": 24,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10467869795873776,
+              "recall_100": 0.25255278965719946
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.1454998912372987,
+              "recall_100": 0.20068644324630663
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.40260812640190125,
+              "dimension_variance": 0.5798215270042419
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.39229434728622437,
+              "dimension_variance": 0.6036810874938965
+            }
+          },
+          "macro_ndcg_10": 0.12508929459801824,
+          "macro_recall_100": 0.22661961645175305,
+          "epoch": 1
+        }
+      ]
+    },
+    "query_full_pool": {
+      "config": {
+        "variant": "query_full_pool",
+        "learning_rate": 1e-05,
+        "temperature": 0.05,
+        "epochs": 3,
+        "batch_groups": 16,
+        "anchor_weight": 0.0,
+        "query_views": [
+          "original",
+          "rewritten"
+        ],
+        "max_length": 8192,
+        "test_labels_used": false,
+        "dataset_sha256": "923d7a5e1938f1bdbbd0efb9a09898200ef6150fdfbad31ec0c9694e12bb0876",
+        "source_model": "/root/user/cs_tcci_zhouyulin/LLM_list/jina-embeddings-v3",
+        "train_groups": 1051,
+        "holdout_groups": 185,
+        "passage_frozen": true,
+        "weight_decay": 0.0,
+        "seed": 20261027,
+        "checkpoint_metric": "event-isolated validation full-corpus macro nDCG@10",
+        "warmup_steps": 8,
+        "negative_policy": "all eligible corpus documents",
+        "positive_objective": "0.9 pooled-positive NCE + 0.1 uniform-positive NCE",
+        "identity": "02a4a79954bacf9cb8971e62add0063ce1d1d27a2d40d0ad39b97b25046f3d23"
+      },
+      "status": {
+        "status": "complete",
+        "variant": "query_full_pool",
+        "step": 198,
+        "best": {
+          "step": 24,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10879701144983375,
+              "recall_100": 0.2532063844284413
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.14510308251972076,
+              "recall_100": 0.2006530785412874
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.4004007577896118,
+              "dimension_variance": 0.5819639563560486
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.3906964063644409,
+              "dimension_variance": 0.6052684783935547
+            }
+          },
+          "macro_ndcg_10": 0.12695004698477724,
+          "macro_recall_100": 0.22692973148486434,
+          "epoch": 1
+        },
+        "updated_at": "2026-10-27T19:59:08+08:00"
+      },
+      "result": {
+        "complete": true,
+        "pilot": false,
+        "step": 198,
+        "config": {
+          "variant": "query_full_pool",
+          "learning_rate": 1e-05,
+          "temperature": 0.05,
+          "epochs": 3,
+          "batch_groups": 16,
+          "anchor_weight": 0.0,
+          "query_views": [
+            "original",
+            "rewritten"
+          ],
+          "max_length": 8192,
+          "test_labels_used": false,
+          "dataset_sha256": "923d7a5e1938f1bdbbd0efb9a09898200ef6150fdfbad31ec0c9694e12bb0876",
+          "source_model": "/root/user/cs_tcci_zhouyulin/LLM_list/jina-embeddings-v3",
+          "train_groups": 1051,
+          "holdout_groups": 185,
+          "passage_frozen": true,
+          "weight_decay": 0.0,
+          "seed": 20261027,
+          "checkpoint_metric": "event-isolated validation full-corpus macro nDCG@10",
+          "warmup_steps": 8,
+          "negative_policy": "all eligible corpus documents",
+          "positive_objective": "0.9 pooled-positive NCE + 0.1 uniform-positive NCE"
+        },
+        "baseline": {
+          "step": 0,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10168299438382324,
+              "recall_100": 0.25103321920506744
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.14777311021461878,
+              "recall_100": 0.1989037551179093
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.4288482367992401,
+              "dimension_variance": 0.5543532371520996
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.41476917266845703,
+              "dimension_variance": 0.581355094909668
+            }
+          },
+          "macro_ndcg_10": 0.12472805229922101,
+          "macro_recall_100": 0.22496848716148837
+        },
+        "best": {
+          "step": 24,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10879701144983375,
+              "recall_100": 0.2532063844284413
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.14510308251972076,
+              "recall_100": 0.2006530785412874
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.4004007577896118,
+              "dimension_variance": 0.5819639563560486
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.3906964063644409,
+              "dimension_variance": 0.6052684783935547
+            }
+          },
+          "macro_ndcg_10": 0.12695004698477724,
+          "macro_recall_100": 0.22692973148486434,
+          "epoch": 1
+        },
+        "frozen_passage_verified": true,
+        "test_labels_used": false,
+        "completed_at": "2026-10-27T19:59:08+08:00"
+      },
+      "runtime": {
+        "encoder_microbatch": 2,
+        "index_batch_size": 4,
+        "free_memory_bytes_after_model_load": 6358433792,
+        "torch": "2.7.1+cu126",
+        "training_source_sha256": "d733bedb89f48081d12bcd7fe9ee172ea105340890ebf6741d2164124203c5c7",
+        "gpu": "NVIDIA RTX A6000",
+        "created_at": "2026-10-27T19:31:11+08:00"
+      },
+      "history": [
+        {
+          "step": 0,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10168299438382324,
+              "recall_100": 0.25103321920506744
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.14777311021461878,
+              "recall_100": 0.1989037551179093
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.4288482367992401,
+              "dimension_variance": 0.5543532371520996
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.41476917266845703,
+              "dimension_variance": 0.581355094909668
+            }
+          },
+          "macro_ndcg_10": 0.12472805229922101,
+          "macro_recall_100": 0.22496848716148837
+        },
+        {
+          "step": 12,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10184199894246422,
+              "recall_100": 0.2503796244338256
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.14658529119006783,
+              "recall_100": 0.1996979547764008
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.41794219613075256,
+              "dimension_variance": 0.5649384260177612
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.4057392477989197,
+              "dimension_variance": 0.5903252363204956
+            }
+          },
+          "macro_ndcg_10": 0.12421364506626603,
+          "macro_recall_100": 0.2250387896051132,
+          "epoch": 1
+        },
+        {
+          "step": 24,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10879701144983375,
+              "recall_100": 0.2532063844284413
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.14510308251972076,
+              "recall_100": 0.2006530785412874
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.4004007577896118,
+              "dimension_variance": 0.5819639563560486
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.3906964063644409,
+              "dimension_variance": 0.6052684783935547
+            }
+          },
+          "macro_ndcg_10": 0.12695004698477724,
+          "macro_recall_100": 0.22692973148486434,
+          "epoch": 1
+        },
+        {
+          "step": 48,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10566665764034512,
+              "recall_100": 0.2530845965828683
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.14659265938569987,
+              "recall_100": 0.19949364024615032
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.3719758093357086,
+              "dimension_variance": 0.6095529198646545
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.36657094955444336,
+              "dimension_variance": 0.6292341351509094
+            }
+          },
+          "macro_ndcg_10": 0.1261296585130225,
+          "macro_recall_100": 0.22628911841450933,
+          "epoch": 1
+        },
+        {
+          "step": 66,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10402662745480995,
+              "recall_100": 0.2552577618062421
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.1450129793691972,
+              "recall_100": 0.20228524255372465
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.35599955916404724,
+              "dimension_variance": 0.6250592470169067
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.3525122106075287,
+              "dimension_variance": 0.6431998014450073
+            }
+          },
+          "macro_ndcg_10": 0.12451980341200357,
+          "macro_recall_100": 0.22877150217998338,
+          "epoch": 1
+        },
+        {
+          "step": 72,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10402662745480995,
+              "recall_100": 0.2561768794533009
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.14626924398915872,
+              "recall_100": 0.20307351822450403
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.351605087518692,
+              "dimension_variance": 0.6293244361877441
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.3486606776714325,
+              "dimension_variance": 0.6470258235931396
+            }
+          },
+          "macro_ndcg_10": 0.12514793572198435,
+          "macro_recall_100": 0.22962519883890248,
+          "epoch": 2
+        },
+        {
+          "step": 96,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10252781595875318,
+              "recall_100": 0.26663383067911406
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.1456677663828327,
+              "recall_100": 0.20212872901812545
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.33655405044555664,
+              "dimension_variance": 0.6439328193664551
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.33564525842666626,
+              "dimension_variance": 0.6599550247192383
+            }
+          },
+          "macro_ndcg_10": 0.12409779117079293,
+          "macro_recall_100": 0.23438127984861976,
+          "epoch": 2
+        },
+        {
+          "step": 120,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10227895256315168,
+              "recall_100": 0.26598023590787223
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.14503710199750416,
+              "recall_100": 0.20273483151233632
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.32673799991607666,
+              "dimension_variance": 0.6534602046012878
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.326839804649353,
+              "dimension_variance": 0.6687021851539612
+            }
+          },
+          "macro_ndcg_10": 0.12365802728032793,
+          "macro_recall_100": 0.23435753371010426,
+          "epoch": 2
+        },
+        {
+          "step": 132,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10237239369498663,
+              "recall_100": 0.26600808795778313
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.1445591173166508,
+              "recall_100": 0.2022983769786866
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.32352206110954285,
+              "dimension_variance": 0.6565815210342407
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.3238894045352936,
+              "dimension_variance": 0.6716330647468567
+            }
+          },
+          "macro_ndcg_10": 0.12346575550581872,
+          "macro_recall_100": 0.23415323246823488,
+          "epoch": 2
+        },
+        {
+          "step": 144,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10252046272084885,
+              "recall_100": 0.26600808795778313
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.14425293142233292,
+              "recall_100": 0.20573699134445328
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.32156404852867126,
+              "dimension_variance": 0.6584819555282593
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.3221690356731415,
+              "dimension_variance": 0.6733420491218567
+            }
+          },
+          "macro_ndcg_10": 0.12338669707159089,
+          "macro_recall_100": 0.2358725396511182,
+          "epoch": 3
+        },
+        {
+          "step": 168,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10252046272084885,
+              "recall_100": 0.2601257350166067
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.14425516683678466,
+              "recall_100": 0.20537952596215348
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.3193572163581848,
+              "dimension_variance": 0.6606238484382629
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.32017531991004944,
+              "dimension_variance": 0.6753225326538086
+            }
+          },
+          "macro_ndcg_10": 0.12338781477881675,
+          "macro_recall_100": 0.23275263048938008,
+          "epoch": 3
+        },
+        {
+          "step": 192,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10022120235409554,
+              "recall_100": 0.2601257350166067
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.14432187262844834,
+              "recall_100": 0.20553003770206918
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.31890854239463806,
+              "dimension_variance": 0.6610593795776367
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.31976231932640076,
+              "dimension_variance": 0.6757327914237976
+            }
+          },
+          "macro_ndcg_10": 0.12227153749127194,
+          "macro_recall_100": 0.23282788635933793,
+          "epoch": 3
+        },
+        {
+          "step": 198,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10101715790482887,
+              "recall_100": 0.2601257350166067
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.14392743317399256,
+              "recall_100": 0.20524155686723072
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.31868237257003784,
+              "dimension_variance": 0.6612789034843445
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.3197489082813263,
+              "dimension_variance": 0.6757460832595825
+            }
+          },
+          "macro_ndcg_10": 0.12247229553941072,
+          "macro_recall_100": 0.2326836459419187,
+          "epoch": 3
+        }
+      ]
+    },
+    "query_phase2_pool": {
+      "config": {
+        "variant": "query_phase2_pool",
+        "learning_rate": 1e-05,
+        "temperature": 0.05,
+        "epochs": 3,
+        "batch_groups": 16,
+        "anchor_weight": 10.0,
+        "query_views": [
+          "original",
+          "rewritten"
+        ],
+        "max_length": 8192,
+        "test_labels_used": false,
+        "dataset_sha256": "923d7a5e1938f1bdbbd0efb9a09898200ef6150fdfbad31ec0c9694e12bb0876",
+        "source_model": "/root/user/cs_tcci_zhouyulin/LLM_list/jina-embeddings-v3",
+        "train_groups": 1051,
+        "holdout_groups": 185,
+        "passage_frozen": true,
+        "weight_decay": 0.0,
+        "seed": 20261027,
+        "checkpoint_metric": "event-isolated validation full-corpus macro nDCG@10",
+        "warmup_steps": 8,
+        "negative_policy": "all eligible corpus documents",
+        "positive_objective": "0.9 pooled-positive NCE + 0.1 uniform-positive NCE",
+        "initial_checkpoint": "/root/user/cs_tcci_zhouyulin/recare_official_20261024/runs/finetune/jina_v3_recovery_v2/exports/dual_mixed_anchor-step00024",
+        "initial_weights_sha256": "db1b2495dbcda8600f6130571a59bc59b097f88ab0c81461820ef6863ed0a07e",
+        "training_passage_index": "/root/user/cs_tcci_zhouyulin/recare_official_20261024/runs/finetune/jina_v3_recovery_v2/dual_mixed_anchor/indexes/step_00024/embeddings.npy",
+        "training_passage_index_sha256": "19804c015714c28c7e260f7c8c4995b88937e19f0587b10216078b8ecec863d5",
+        "selection_guard": "each task ndcg >= 99% and recall >= 98% of phase-one validation",
+        "identity": "08d9fa07a5c2a219aeb35c0a24ec4ed94f46afe3dc82414651cfd84f786235e6"
+      },
+      "status": {
+        "status": "training",
+        "variant": "query_phase2_pool",
+        "step": 12,
+        "epoch": 1,
+        "groups_done": 192,
+        "groups_total": 1051,
+        "loss": 5.642257325351238,
+        "lr": 9.989068136093873e-06,
+        "gradient_norm": 2.411653757095337,
+        "step_seconds": 9.986372167943045,
+        "best": {
+          "step": 0,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10769419180507546,
+              "recall_100": 0.2498450398906262
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.14931295418636373,
+              "recall_100": 0.20026917890457294
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.4335874915122986,
+              "dimension_variance": 0.5497533082962036
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.4207231402397156,
+              "dimension_variance": 0.5754406452178955
+            }
+          },
+          "macro_ndcg_10": 0.1285035729957196,
+          "macro_recall_100": 0.22505710939759957,
+          "document_geometry": {
+            "sample_documents": 500,
+            "mean_pairwise_cosine": 0.3263874053955078,
+            "dimension_variance": 0.6722654104232788
+          }
+        },
+        "updated_at": "2026-10-27T20:19:20+08:00"
+      },
+      "runtime": {
+        "encoder_microbatch": 4,
+        "index_batch_size": 16,
+        "mixed_batch_packing": "homogeneous roles; length-sorted; adaptive token budget",
+        "free_memory_bytes_after_model_load": 39179845632,
+        "torch": "2.7.1+cu126",
+        "training_source_sha256": "fd10e5a5cd9426cb6b3241942917a3193dade00a78f2c28dab7cbd7aed37dcdd",
+        "gpu": "NVIDIA RTX A6000",
+        "created_at": "2026-10-27T20:12:35+08:00"
+      }
+    },
+    "dual_fixed": {
+      "config": {
+        "variant": "dual_fixed",
+        "learning_rate": 1e-05,
+        "temperature": 0.05,
+        "epochs": 3,
+        "batch_groups": 16,
+        "anchor_weight": 0.0,
+        "query_views": [
+          "original",
+          "rewritten"
+        ],
+        "max_length": 8192,
+        "test_labels_used": false,
+        "dataset_sha256": "923d7a5e1938f1bdbbd0efb9a09898200ef6150fdfbad31ec0c9694e12bb0876",
+        "source_model": "/root/user/cs_tcci_zhouyulin/LLM_list/jina-embeddings-v3",
+        "train_groups": 1051,
+        "holdout_groups": 185,
+        "passage_frozen": false,
+        "weight_decay": 0.0,
+        "seed": 20261027,
+        "checkpoint_metric": "event-isolated validation full-corpus macro nDCG@10",
+        "warmup_steps": 8,
+        "negative_policy": "clean fixed10 teacher negatives",
+        "identity": "ac6c2c4e9f03f4621255fabf0475ba67bc9ae0a85a4712239c26651cbacc1d2e"
+      },
+      "status": {
+        "status": "pilot_complete",
+        "variant": "dual_fixed",
+        "step": 8,
+        "best": {
+          "step": 8,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10307233705854466,
+              "recall_100": 0.2503796244338256
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.14714787705052745,
+              "recall_100": 0.19933728557306973
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.4306654632091522,
+              "dimension_variance": 0.5525893568992615
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.4166239798069,
+              "dimension_variance": 0.5795125961303711
+            }
+          },
+          "macro_ndcg_10": 0.12511010705453607,
+          "macro_recall_100": 0.22485845500344767,
+          "epoch": 1
+        },
+        "updated_at": "2026-10-27T19:33:40+08:00"
+      },
+      "result": {
+        "complete": true,
+        "pilot": true,
+        "step": 8,
+        "config": {
+          "variant": "dual_fixed",
+          "learning_rate": 1e-05,
+          "temperature": 0.05,
+          "epochs": 3,
+          "batch_groups": 16,
+          "anchor_weight": 0.0,
+          "query_views": [
+            "original",
+            "rewritten"
+          ],
+          "max_length": 8192,
+          "test_labels_used": false,
+          "dataset_sha256": "923d7a5e1938f1bdbbd0efb9a09898200ef6150fdfbad31ec0c9694e12bb0876",
+          "source_model": "/root/user/cs_tcci_zhouyulin/LLM_list/jina-embeddings-v3",
+          "train_groups": 1051,
+          "holdout_groups": 185,
+          "passage_frozen": false,
+          "weight_decay": 0.0,
+          "seed": 20261027,
+          "checkpoint_metric": "event-isolated validation full-corpus macro nDCG@10",
+          "warmup_steps": 8,
+          "negative_policy": "clean fixed10 teacher negatives"
+        },
+        "baseline": {
+          "step": 0,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10168299438382324,
+              "recall_100": 0.25103321920506744
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.14777311021461878,
+              "recall_100": 0.1989037551179093
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.4288482367992401,
+              "dimension_variance": 0.5543532371520996
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.41476917266845703,
+              "dimension_variance": 0.581355094909668
+            }
+          },
+          "macro_ndcg_10": 0.12472805229922101,
+          "macro_recall_100": 0.22496848716148837
+        },
+        "best": {
+          "step": 8,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10307233705854466,
+              "recall_100": 0.2503796244338256
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.14714787705052745,
+              "recall_100": 0.19933728557306973
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.4306654632091522,
+              "dimension_variance": 0.5525893568992615
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.4166239798069,
+              "dimension_variance": 0.5795125961303711
+            }
+          },
+          "macro_ndcg_10": 0.12511010705453607,
+          "macro_recall_100": 0.22485845500344767,
+          "epoch": 1
+        },
+        "frozen_passage_verified": false,
+        "test_labels_used": false,
+        "completed_at": "2026-10-27T19:33:40+08:00"
+      },
+      "history": [
+        {
+          "step": 0,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10168299438382324,
+              "recall_100": 0.25103321920506744
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.14777311021461878,
+              "recall_100": 0.1989037551179093
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.4288482367992401,
+              "dimension_variance": 0.5543532371520996
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.41476917266845703,
+              "dimension_variance": 0.581355094909668
+            }
+          },
+          "macro_ndcg_10": 0.12472805229922101,
+          "macro_recall_100": 0.22496848716148837
+        },
+        {
+          "step": 8,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10307233705854466,
+              "recall_100": 0.2503796244338256
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.14714787705052745,
+              "recall_100": 0.19933728557306973
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.4306654632091522,
+              "dimension_variance": 0.5525893568992615
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.4166239798069,
+              "dimension_variance": 0.5795125961303711
+            }
+          },
+          "macro_ndcg_10": 0.12511010705453607,
+          "macro_recall_100": 0.22485845500344767,
+          "epoch": 1
+        }
+      ]
+    },
+    "dual_mixed": {
+      "config": {
+        "variant": "dual_mixed",
+        "learning_rate": 1e-05,
+        "temperature": 0.05,
+        "epochs": 3,
+        "batch_groups": 4,
+        "anchor_weight": 0.0,
+        "query_views": [
+          "original",
+          "rewritten"
+        ],
+        "max_length": 8192,
+        "test_labels_used": false,
+        "dataset_sha256": "923d7a5e1938f1bdbbd0efb9a09898200ef6150fdfbad31ec0c9694e12bb0876",
+        "source_model": "/root/user/cs_tcci_zhouyulin/LLM_list/jina-embeddings-v3",
+        "train_groups": 1051,
+        "holdout_groups": 185,
+        "passage_frozen": false,
+        "weight_decay": 0.0,
+        "seed": 20261027,
+        "checkpoint_metric": "event-isolated validation full-corpus macro nDCG@10",
+        "warmup_steps": 8,
+        "negative_policy": "fixed10 teacher + dynamic8 + random8 + masked cross-query batch",
+        "identity": "7e47a0c6a1a75e02e79816cf59996692af0de714ae6e71d5fa8e4d1f6ff0a452"
+      },
+      "status": {
+        "status": "pilot_complete",
+        "variant": "dual_mixed",
+        "step": 24,
+        "best": {
+          "step": 24,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10588705804170821,
+              "recall_100": 0.2498450398906262
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.148554433214169,
+              "recall_100": 0.20026917890457294
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.43365249037742615,
+              "dimension_variance": 0.5496902465820312
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.42034995555877686,
+              "dimension_variance": 0.5758113265037537
+            }
+          },
+          "macro_ndcg_10": 0.12722074562793861,
+          "macro_recall_100": 0.22505710939759957,
+          "epoch": 1
+        },
+        "updated_at": "2026-10-27T19:36:37+08:00"
+      },
+      "result": {
+        "complete": true,
+        "pilot": true,
+        "step": 24,
+        "config": {
+          "variant": "dual_mixed",
+          "learning_rate": 1e-05,
+          "temperature": 0.05,
+          "epochs": 3,
+          "batch_groups": 4,
+          "anchor_weight": 0.0,
+          "query_views": [
+            "original",
+            "rewritten"
+          ],
+          "max_length": 8192,
+          "test_labels_used": false,
+          "dataset_sha256": "923d7a5e1938f1bdbbd0efb9a09898200ef6150fdfbad31ec0c9694e12bb0876",
+          "source_model": "/root/user/cs_tcci_zhouyulin/LLM_list/jina-embeddings-v3",
+          "train_groups": 1051,
+          "holdout_groups": 185,
+          "passage_frozen": false,
+          "weight_decay": 0.0,
+          "seed": 20261027,
+          "checkpoint_metric": "event-isolated validation full-corpus macro nDCG@10",
+          "warmup_steps": 8,
+          "negative_policy": "fixed10 teacher + dynamic8 + random8 + masked cross-query batch"
+        },
+        "baseline": {
+          "step": 0,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10168299438382324,
+              "recall_100": 0.25103321920506744
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.14777311021461878,
+              "recall_100": 0.1989037551179093
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.4288482367992401,
+              "dimension_variance": 0.5543532371520996
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.41476917266845703,
+              "dimension_variance": 0.581355094909668
+            }
+          },
+          "macro_ndcg_10": 0.12472805229922101,
+          "macro_recall_100": 0.22496848716148837
+        },
+        "best": {
+          "step": 24,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10588705804170821,
+              "recall_100": 0.2498450398906262
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.148554433214169,
+              "recall_100": 0.20026917890457294
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.43365249037742615,
+              "dimension_variance": 0.5496902465820312
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.42034995555877686,
+              "dimension_variance": 0.5758113265037537
+            }
+          },
+          "macro_ndcg_10": 0.12722074562793861,
+          "macro_recall_100": 0.22505710939759957,
+          "epoch": 1
+        },
+        "frozen_passage_verified": false,
+        "test_labels_used": false,
+        "completed_at": "2026-10-27T19:36:37+08:00"
+      },
+      "runtime": {
+        "encoder_microbatch": 4,
+        "index_batch_size": 4,
+        "free_memory_bytes_after_model_load": 20134625280,
+        "torch": "2.7.1+cu126",
+        "training_source_sha256": "1f6aaa2dc3d94b558322018f65a39a3488c8c73447d2eb7f87cc7ae2ff713b34",
+        "gpu": "NVIDIA RTX A6000",
+        "created_at": "2026-10-27T18:49:12+08:00"
+      },
+      "history": [
+        {
+          "step": 0,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10168299438382324,
+              "recall_100": 0.25103321920506744
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.14777311021461878,
+              "recall_100": 0.1989037551179093
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.4288482367992401,
+              "dimension_variance": 0.5543532371520996
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.41476917266845703,
+              "dimension_variance": 0.581355094909668
+            }
+          },
+          "macro_ndcg_10": 0.12472805229922101,
+          "macro_recall_100": 0.22496848716148837
+        },
+        {
+          "step": 24,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10588705804170821,
+              "recall_100": 0.2498450398906262
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.148554433214169,
+              "recall_100": 0.20026917890457294
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.43365249037742615,
+              "dimension_variance": 0.5496902465820312
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.42034995555877686,
+              "dimension_variance": 0.5758113265037537
+            }
+          },
+          "macro_ndcg_10": 0.12722074562793861,
+          "macro_recall_100": 0.22505710939759957,
+          "epoch": 1
+        }
+      ]
+    },
+    "dual_mixed_anchor": {
+      "config": {
+        "variant": "dual_mixed_anchor",
+        "learning_rate": 1e-05,
+        "temperature": 0.05,
+        "epochs": 3,
+        "batch_groups": 4,
+        "anchor_weight": 10.0,
+        "query_views": [
+          "original",
+          "rewritten"
+        ],
+        "max_length": 8192,
+        "test_labels_used": false,
+        "dataset_sha256": "923d7a5e1938f1bdbbd0efb9a09898200ef6150fdfbad31ec0c9694e12bb0876",
+        "source_model": "/root/user/cs_tcci_zhouyulin/LLM_list/jina-embeddings-v3",
+        "train_groups": 1051,
+        "holdout_groups": 185,
+        "passage_frozen": false,
+        "weight_decay": 0.0,
+        "seed": 20261027,
+        "checkpoint_metric": "event-isolated validation full-corpus macro nDCG@10",
+        "warmup_steps": 8,
+        "negative_policy": "fixed10 teacher + dynamic8 + random8 + masked cross-query batch",
+        "identity": "60371a7dea868a5db69e1a8ca426e6e9336dff61a69703277e81c2d917da4ac5"
+      },
+      "status": {
+        "status": "stopped_checkpointed",
+        "variant": "dual_mixed_anchor",
+        "step": 102,
+        "epoch": 1,
+        "groups_done": 408,
+        "groups_total": 1051,
+        "loss": 4.287668228149414,
+        "lr": 9.646806374450615e-06,
+        "gradient_norm": 3.2398808002471924,
+        "step_seconds": 17.341943235951476,
+        "best": {
+          "step": 24,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10769419180507546,
+              "recall_100": 0.2498450398906262
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.14931295418636373,
+              "recall_100": 0.20026917890457294
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.4335874915122986,
+              "dimension_variance": 0.5497533082962036
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.4207231402397156,
+              "dimension_variance": 0.5754406452178955
+            }
+          },
+          "macro_ndcg_10": 0.1285035729957196,
+          "macro_recall_100": 0.22505710939759957,
+          "epoch": 1
+        },
+        "updated_at": "2026-10-27T20:09:46+08:00",
+        "reason": "Freeze the validation-selected passage encoder and calibrate queries against the full corpus",
+        "stopped_at": "2026-10-27T20:09:47+08:00"
+      },
+      "result": {
+        "complete": true,
+        "pilot": true,
+        "step": 24,
+        "config": {
+          "variant": "dual_mixed_anchor",
+          "learning_rate": 1e-05,
+          "temperature": 0.05,
+          "epochs": 3,
+          "batch_groups": 4,
+          "anchor_weight": 10.0,
+          "query_views": [
+            "original",
+            "rewritten"
+          ],
+          "max_length": 8192,
+          "test_labels_used": false,
+          "dataset_sha256": "923d7a5e1938f1bdbbd0efb9a09898200ef6150fdfbad31ec0c9694e12bb0876",
+          "source_model": "/root/user/cs_tcci_zhouyulin/LLM_list/jina-embeddings-v3",
+          "train_groups": 1051,
+          "holdout_groups": 185,
+          "passage_frozen": false,
+          "weight_decay": 0.0,
+          "seed": 20261027,
+          "checkpoint_metric": "event-isolated validation full-corpus macro nDCG@10",
+          "warmup_steps": 8,
+          "negative_policy": "fixed10 teacher + dynamic8 + random8 + masked cross-query batch"
+        },
+        "baseline": {
+          "step": 0,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10168299438382324,
+              "recall_100": 0.25103321920506744
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.14777311021461878,
+              "recall_100": 0.1989037551179093
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.4288482367992401,
+              "dimension_variance": 0.5543532371520996
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.41476917266845703,
+              "dimension_variance": 0.581355094909668
+            }
+          },
+          "macro_ndcg_10": 0.12472805229922101,
+          "macro_recall_100": 0.22496848716148837
+        },
+        "best": {
+          "step": 24,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10769419180507546,
+              "recall_100": 0.2498450398906262
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.14931295418636373,
+              "recall_100": 0.20026917890457294
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.4335874915122986,
+              "dimension_variance": 0.5497533082962036
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.4207231402397156,
+              "dimension_variance": 0.5754406452178955
+            }
+          },
+          "macro_ndcg_10": 0.1285035729957196,
+          "macro_recall_100": 0.22505710939759957,
+          "epoch": 1
+        },
+        "frozen_passage_verified": false,
+        "test_labels_used": false,
+        "completed_at": "2026-10-27T19:39:01+08:00"
+      },
+      "runtime": {
+        "encoder_microbatch": 4,
+        "index_batch_size": 16,
+        "mixed_batch_packing": "homogeneous roles; length-sorted; adaptive token budget",
+        "free_memory_bytes_after_model_load": 44651315200,
+        "torch": "2.7.1+cu126",
+        "training_source_sha256": "d2a6306dcad335a4e8c8527b459e30728fbab7644fc34bcbc622db9863a1f53e",
+        "gpu": "NVIDIA RTX A6000",
+        "created_at": "2026-10-27T19:50:17+08:00"
+      },
+      "history": [
+        {
+          "step": 0,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10168299438382324,
+              "recall_100": 0.25103321920506744
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.14777311021461878,
+              "recall_100": 0.1989037551179093
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.4288482367992401,
+              "dimension_variance": 0.5543532371520996
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.41476917266845703,
+              "dimension_variance": 0.581355094909668
+            }
+          },
+          "macro_ndcg_10": 0.12472805229922101,
+          "macro_recall_100": 0.22496848716148837
+        },
+        {
+          "step": 24,
+          "tasks": {
+            "rat2rev-en": {
+              "ndcg_10": 0.10769419180507546,
+              "recall_100": 0.2498450398906262
+            },
+            "rev2rev-en": {
+              "ndcg_10": 0.14931295418636373,
+              "recall_100": 0.20026917890457294
+            }
+          },
+          "query_geometry": {
+            "rat2rev-en": {
+              "mean_pairwise_cosine": 0.4335874915122986,
+              "dimension_variance": 0.5497533082962036
+            },
+            "rev2rev-en": {
+              "mean_pairwise_cosine": 0.4207231402397156,
+              "dimension_variance": 0.5754406452178955
+            }
+          },
+          "macro_ndcg_10": 0.1285035729957196,
+          "macro_recall_100": 0.22505710939759957,
+          "epoch": 1
+        }
+      ]
+    }
+  }
+}

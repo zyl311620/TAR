@@ -1,0 +1,340 @@
+[
+  {
+    "row_id": "E01.R1",
+    "configuration": "BM25 (official parameters)",
+    "source_experiment": "E01",
+    "source_row_id": "E01.001",
+    "source_row_id_v2": "E01.V2.R001",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E01.R2",
+    "configuration": "BM25 (validation-selected)",
+    "source_experiment": "E01",
+    "source_row_id": "E01.002",
+    "source_row_id_v2": "E01.V2.R002",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E01.R3",
+    "configuration": "BM25 + RM3",
+    "source_experiment": "E01",
+    "source_row_id": "E01.003",
+    "source_row_id_v2": "E01.V2.R003",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E01.R4",
+    "configuration": "mDPR (reported)\\textsuperscript{r}",
+    "source_experiment": "E01",
+    "source_row_id": "E01.004",
+    "source_row_id_v2": "E01.V2.R004",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E01.R5",
+    "configuration": "mContriever (reported)\\textsuperscript{r}",
+    "source_experiment": "E01",
+    "source_row_id": "E01.005",
+    "source_row_id_v2": "E01.V2.R005",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E01.R6",
+    "configuration": "multilingual-e5-base",
+    "source_experiment": "E01",
+    "source_row_id": "E01.006",
+    "source_row_id_v2": "E01.V2.R006",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E01.R7",
+    "configuration": "BGE-M3 dense",
+    "source_experiment": "E01",
+    "source_row_id": "E01.007",
+    "source_row_id_v2": "E01.V2.R007",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E01.R8",
+    "configuration": "Jina-v3",
+    "source_experiment": "E01",
+    "source_row_id": "E01.008",
+    "source_row_id_v2": "E01.V2.R008",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E01.R9",
+    "configuration": "Jina-v4",
+    "source_experiment": "E01",
+    "source_row_id": "E01.009",
+    "source_row_id_v2": "E01.V2.R009",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E01.R10",
+    "configuration": "Qwen3-Embedding-8B",
+    "source_experiment": "E01",
+    "source_row_id": "E01.010",
+    "source_row_id_v2": "E01.V2.R010",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E01.R11",
+    "configuration": "Jina-v5-text-small",
+    "source_experiment": "E01",
+    "source_row_id": "E01.011",
+    "source_row_id_v2": "E01.V2.R011",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E01.R12",
+    "configuration": "BM25 + Jina-v4, equal RRF",
+    "source_experiment": "E01",
+    "source_row_id": "E01.012",
+    "source_row_id_v2": "E01.V2.R012",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E01.R13",
+    "configuration": "BM25 + Jina-v4, weighted RRF",
+    "source_experiment": "E01",
+    "source_row_id": "E01.013",
+    "source_row_id_v2": "E01.V2.R013",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E01.R14",
+    "configuration": "Unreranked RRF",
+    "source_experiment": "E01",
+    "source_row_id": "E01.014",
+    "source_row_id_v2": "E01.V2.R014",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E01.R15",
+    "configuration": "BGE-Reranker-v2-M3",
+    "source_experiment": "E01",
+    "source_row_id": "E01.015",
+    "source_row_id_v2": "E01.V2.R015",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E01.R16",
+    "configuration": "Jina Reranker v2",
+    "source_experiment": "E01",
+    "source_row_id": "E01.016",
+    "source_row_id_v2": "E01.V2.R016",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E01.R17",
+    "configuration": "Qwen3-Reranker-0.6B",
+    "source_experiment": "E01",
+    "source_row_id": "E01.017",
+    "source_row_id_v2": "E01.V2.R017",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E01.R18",
+    "configuration": "Qwen3-Reranker-4B",
+    "source_experiment": "E01",
+    "source_row_id": "E01.018",
+    "source_row_id_v2": "E01.V2.R018",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E01.R19",
+    "configuration": "Qwen3-Reranker-8B",
+    "source_experiment": "E01",
+    "source_row_id": "E01.019",
+    "source_row_id_v2": "E01.V2.R019",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E01.R20",
+    "configuration": "Jina Reranker v3.5 (native batches)",
+    "source_experiment": "E01",
+    "source_row_id": "E01.020",
+    "source_row_id_v2": "E01.V2.R020",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E01.R21",
+    "configuration": "Reported RankGPT / gpt-4.1-mini\\textsuperscript{r}",
+    "source_experiment": "E01",
+    "source_row_id": "E01.021",
+    "source_row_id_v2": "E01.V2.R021",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E01.R22",
+    "configuration": "Reported RankGPT / gpt-5.4-mini\\textsuperscript{r}",
+    "source_experiment": "E01",
+    "source_row_id": "E01.022",
+    "source_row_id_v2": "E01.V2.R022",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E01.R23",
+    "configuration": "Our retrieval: single-query hybrid",
+    "source_experiment": "E01",
+    "source_row_id": "E01.023",
+    "source_row_id_v2": "E01.V2.R023",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E01.R24",
+    "configuration": "Our selection: hybrid + Qwen8B",
+    "source_experiment": "E01",
+    "source_row_id": "E01.024",
+    "source_row_id_v2": "E01.V2.R024",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E01.R25",
+    "configuration": "TAR-SQ (Ours; cached GPT / T1)",
+    "source_experiment": "E01",
+    "source_row_id": "E01.026",
+    "source_row_id_v2": "E01.V2.R025",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  },
+  {
+    "row_id": "E01.R26",
+    "configuration": "Our historical system H (frozen)",
+    "source_experiment": "E01",
+    "source_row_id": "E01.029",
+    "source_row_id_v2": "E01.V2.R026",
+    "required_tasks": [
+      "rat2rev-en",
+      "rev2rev-en",
+      "rat2rev-ja",
+      "rev2rev-ja"
+    ]
+  }
+]

@@ -1,0 +1,1930 @@
+[
+  {
+    "row_id": "E10.R1",
+    "source_row_id": "E12.001",
+    "source_row_id_v2": "E12.V2.R001",
+    "configuration": "Qwen3-8B / Qwen原顺序，3次独立调用",
+    "task": "rat2rev-en",
+    "split": "validation",
+    "scope_qids": [
+      "32010D0458",
+      "32020R0283",
+      "32017R1123",
+      "32010R1231",
+      "32015R1929",
+      "32017D0955",
+      "32010L0073",
+      "32021R2260",
+      "32013L0018",
+      "32013L0024",
+      "32012D0281",
+      "32024R3242",
+      "32019L1160",
+      "32022R0641",
+      "32022R1032",
+      "32014R0547",
+      "32018R1475",
+      "32010R0541",
+      "32021R2269",
+      "32012R0464",
+      "32017R2393",
+      "32019L0878",
+      "32021R1151",
+      "32025R1215",
+      "32014R0662"
+    ],
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.14956259029737184,
+      "recall_100": 0.3860614095441683,
+      "map": 0.09353714113094763
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/d8ea0bd0c2018068e325e85d4ddbd6acb66abb61d158fbad54a920185dfa09f4.jsonl",
+        "sha256": "d8ea0bd0c2018068e325e85d4ddbd6acb66abb61d158fbad54a920185dfa09f4"
+      },
+      {
+        "path": "_shared/rankings/d8ea0bd0c2018068e325e85d4ddbd6acb66abb61d158fbad54a920185dfa09f4.jsonl",
+        "sha256": "d8ea0bd0c2018068e325e85d4ddbd6acb66abb61d158fbad54a920185dfa09f4"
+      },
+      {
+        "path": "_shared/rankings/d8ea0bd0c2018068e325e85d4ddbd6acb66abb61d158fbad54a920185dfa09f4.jsonl",
+        "sha256": "d8ea0bd0c2018068e325e85d4ddbd6acb66abb61d158fbad54a920185dfa09f4"
+      }
+    ],
+    "original_provenance": {
+      "split": "validation",
+      "scope_qids": [
+        "32010D0458",
+        "32020R0283",
+        "32017R1123",
+        "32010R1231",
+        "32015R1929",
+        "32017D0955",
+        "32010L0073",
+        "32021R2260",
+        "32013L0018",
+        "32013L0024",
+        "32012D0281",
+        "32024R3242",
+        "32019L1160",
+        "32022R0641",
+        "32022R1032",
+        "32014R0547",
+        "32018R1475",
+        "32010R0541",
+        "32021R2269",
+        "32012R0464",
+        "32017R2393",
+        "32019L0878",
+        "32021R1151",
+        "32025R1215",
+        "32014R0662"
+      ],
+      "repeats": 3,
+      "backend": "Qwen3-8B",
+      "model_signature": "96904184738e357761d3c76100324f876c8b4b313c7906291301fb5223ebff01",
+      "repeat_folders": "experiments/E12/runs/E12.001/rat2rev-en"
+    },
+    "evidence": [
+      "E10/evidence/R1/rat2rev-en/repeat0/official_metrics.json",
+      "E10/evidence/R1/rat2rev-en/repeat0/scope.qrels.jsonl",
+      "E10/evidence/R1/rat2rev-en/repeat1/official_metrics.json",
+      "E10/evidence/R1/rat2rev-en/repeat1/scope.qrels.jsonl",
+      "E10/evidence/R1/rat2rev-en/repeat2/official_metrics.json",
+      "E10/evidence/R1/rat2rev-en/repeat2/scope.qrels.jsonl"
+    ],
+    "request_indexes": [
+      "E10/evidence/R1/rat2rev-en/repeat0/requests.json",
+      "E10/evidence/R1/rat2rev-en/repeat1/requests.json",
+      "E10/evidence/R1/rat2rev-en/repeat2/requests.json"
+    ]
+  },
+  {
+    "row_id": "E10.R1",
+    "source_row_id": "E12.001",
+    "source_row_id_v2": "E12.V2.R001",
+    "configuration": "Qwen3-8B / Qwen原顺序，3次独立调用",
+    "task": "rev2rev-en",
+    "split": "validation",
+    "scope_qids": [
+      "32008L0105_00000000_0000000000_9",
+      "32020R1706_20210101_0000000000_6",
+      "32009L0042_20100416_0000000000_10",
+      "32008D0376_00000000_0000000000_33",
+      "32004R0726_20090706_0000000000_1",
+      "32014R0833_20240224_0000000000_5l",
+      "32006L0112_20100409_0000000000_232",
+      "32007L0014_00000000_0000000000_15",
+      "32008R0055_20081207_0000000000_10",
+      "32007D0573_00000000_0000000000_21",
+      "32009R0924_20190418_0000000000_3",
+      "32008L0105_00000000_0000000000_5",
+      "32001L0083_20091005_0000000000_23",
+      "32004L0109_20080320_0000000000_16",
+      "32015R0848_20150605_0000000000_8",
+      "32006R1083_20090409_0000000000_57",
+      "32001L0110_20020201_0000000000_2",
+      "32018R1862_20190611_0000000000_53",
+      "31997R0515_20080816_0000000000_43",
+      "32009R0428_20090827_0000000000_19",
+      "32009L0065_20110721_0000000000_118",
+      "32018R1862_20190611_0000000000_37",
+      "32016R0794_00000000_0000000000_44",
+      "32002R2012_00000000_0000000000_5",
+      "32010L0040_00000000_0000000000_14"
+    ],
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.13741265173373785,
+      "recall_100": 0.37944356582696237,
+      "map": 0.10027891604157829
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/c6772e2f8dd0e4e1307912d9deae7fe992f8b231aa07edee487bad61ee12efb8.jsonl",
+        "sha256": "c6772e2f8dd0e4e1307912d9deae7fe992f8b231aa07edee487bad61ee12efb8"
+      },
+      {
+        "path": "_shared/rankings/c6772e2f8dd0e4e1307912d9deae7fe992f8b231aa07edee487bad61ee12efb8.jsonl",
+        "sha256": "c6772e2f8dd0e4e1307912d9deae7fe992f8b231aa07edee487bad61ee12efb8"
+      },
+      {
+        "path": "_shared/rankings/c6772e2f8dd0e4e1307912d9deae7fe992f8b231aa07edee487bad61ee12efb8.jsonl",
+        "sha256": "c6772e2f8dd0e4e1307912d9deae7fe992f8b231aa07edee487bad61ee12efb8"
+      }
+    ],
+    "original_provenance": {
+      "split": "validation",
+      "scope_qids": [
+        "32008L0105_00000000_0000000000_9",
+        "32020R1706_20210101_0000000000_6",
+        "32009L0042_20100416_0000000000_10",
+        "32008D0376_00000000_0000000000_33",
+        "32004R0726_20090706_0000000000_1",
+        "32014R0833_20240224_0000000000_5l",
+        "32006L0112_20100409_0000000000_232",
+        "32007L0014_00000000_0000000000_15",
+        "32008R0055_20081207_0000000000_10",
+        "32007D0573_00000000_0000000000_21",
+        "32009R0924_20190418_0000000000_3",
+        "32008L0105_00000000_0000000000_5",
+        "32001L0083_20091005_0000000000_23",
+        "32004L0109_20080320_0000000000_16",
+        "32015R0848_20150605_0000000000_8",
+        "32006R1083_20090409_0000000000_57",
+        "32001L0110_20020201_0000000000_2",
+        "32018R1862_20190611_0000000000_53",
+        "31997R0515_20080816_0000000000_43",
+        "32009R0428_20090827_0000000000_19",
+        "32009L0065_20110721_0000000000_118",
+        "32018R1862_20190611_0000000000_37",
+        "32016R0794_00000000_0000000000_44",
+        "32002R2012_00000000_0000000000_5",
+        "32010L0040_00000000_0000000000_14"
+      ],
+      "repeats": 3,
+      "backend": "Qwen3-8B",
+      "model_signature": "96904184738e357761d3c76100324f876c8b4b313c7906291301fb5223ebff01",
+      "repeat_folders": "experiments/E12/runs/E12.001/rev2rev-en"
+    },
+    "evidence": [
+      "E10/evidence/R1/rev2rev-en/repeat0/official_metrics.json",
+      "E10/evidence/R1/rev2rev-en/repeat0/scope.qrels.jsonl",
+      "E10/evidence/R1/rev2rev-en/repeat1/official_metrics.json",
+      "E10/evidence/R1/rev2rev-en/repeat1/scope.qrels.jsonl",
+      "E10/evidence/R1/rev2rev-en/repeat2/official_metrics.json",
+      "E10/evidence/R1/rev2rev-en/repeat2/scope.qrels.jsonl"
+    ],
+    "request_indexes": [
+      "E10/evidence/R1/rev2rev-en/repeat0/requests.json",
+      "E10/evidence/R1/rev2rev-en/repeat1/requests.json",
+      "E10/evidence/R1/rev2rev-en/repeat2/requests.json"
+    ]
+  },
+  {
+    "row_id": "E10.R1",
+    "source_row_id": "E12.001",
+    "source_row_id_v2": "E12.V2.R001",
+    "configuration": "Qwen3-8B / Qwen原顺序，3次独立调用",
+    "task": "rat2rev-ja",
+    "split": "validation",
+    "scope_qids": [
+      "504AC0000000002",
+      "502AC0000000015",
+      "501AC0000000006",
+      "507AC1000000011",
+      "504AC0000000049",
+      "503AC0000000044",
+      "504AC0000000059",
+      "501AC0000000002",
+      "507AC1000000065",
+      "502AC0000000023",
+      "506AC0000000030",
+      "507AC0000000048",
+      "505AC0000000048",
+      "506AC0000000032",
+      "504AC0000000055",
+      "504AC0000000097",
+      "506AC0000000046",
+      "507AC0000000054",
+      "505AC0000000073",
+      "506AC0000000072",
+      "501AC0000000017",
+      "502AC0000000049",
+      "507AC0000000014",
+      "503AC0000000035",
+      "504AC0000000065"
+    ],
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.3546331738574022,
+      "recall_100": 0.588743610134892,
+      "map": 0.23057835117446523
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/a9609bd715a34fb9f52e65fad293c8378e28d94fbb4342ad7df414a9e4106f50.jsonl",
+        "sha256": "a9609bd715a34fb9f52e65fad293c8378e28d94fbb4342ad7df414a9e4106f50"
+      },
+      {
+        "path": "_shared/rankings/a9609bd715a34fb9f52e65fad293c8378e28d94fbb4342ad7df414a9e4106f50.jsonl",
+        "sha256": "a9609bd715a34fb9f52e65fad293c8378e28d94fbb4342ad7df414a9e4106f50"
+      },
+      {
+        "path": "_shared/rankings/a9609bd715a34fb9f52e65fad293c8378e28d94fbb4342ad7df414a9e4106f50.jsonl",
+        "sha256": "a9609bd715a34fb9f52e65fad293c8378e28d94fbb4342ad7df414a9e4106f50"
+      }
+    ],
+    "original_provenance": {
+      "split": "validation",
+      "scope_qids": [
+        "504AC0000000002",
+        "502AC0000000015",
+        "501AC0000000006",
+        "507AC1000000011",
+        "504AC0000000049",
+        "503AC0000000044",
+        "504AC0000000059",
+        "501AC0000000002",
+        "507AC1000000065",
+        "502AC0000000023",
+        "506AC0000000030",
+        "507AC0000000048",
+        "505AC0000000048",
+        "506AC0000000032",
+        "504AC0000000055",
+        "504AC0000000097",
+        "506AC0000000046",
+        "507AC0000000054",
+        "505AC0000000073",
+        "506AC0000000072",
+        "501AC0000000017",
+        "502AC0000000049",
+        "507AC0000000014",
+        "503AC0000000035",
+        "504AC0000000065"
+      ],
+      "repeats": 3,
+      "backend": "Qwen3-8B",
+      "model_signature": "96904184738e357761d3c76100324f876c8b4b313c7906291301fb5223ebff01",
+      "repeat_folders": "experiments/E12/runs/E12.001/rat2rev-ja"
+    },
+    "evidence": [
+      "E10/evidence/R1/rat2rev-ja/repeat0/official_metrics.json",
+      "E10/evidence/R1/rat2rev-ja/repeat0/scope.qrels.jsonl",
+      "E10/evidence/R1/rat2rev-ja/repeat1/official_metrics.json",
+      "E10/evidence/R1/rat2rev-ja/repeat1/scope.qrels.jsonl",
+      "E10/evidence/R1/rat2rev-ja/repeat2/official_metrics.json",
+      "E10/evidence/R1/rat2rev-ja/repeat2/scope.qrels.jsonl"
+    ],
+    "request_indexes": [
+      "E10/evidence/R1/rat2rev-ja/repeat0/requests.json",
+      "E10/evidence/R1/rat2rev-ja/repeat1/requests.json",
+      "E10/evidence/R1/rat2rev-ja/repeat2/requests.json"
+    ]
+  },
+  {
+    "row_id": "E10.R1",
+    "source_row_id": "E12.001",
+    "source_row_id_v2": "E12.V2.R001",
+    "configuration": "Qwen3-8B / Qwen原顺序，3次独立调用",
+    "task": "rev2rev-ja",
+    "split": "validation",
+    "scope_qids": [
+      "326AC1000000004_20160401_426AC0000000069_19",
+      "358AC1000000043_20160401_426AC0000000069_11",
+      "327AC0000000191_20190330_431AC0000000012_10-2",
+      "337AC1000000073_20160401_427AC0000000046_1",
+      "416AC0000000123_20180713_430AC0000000072_164",
+      "327AC0000000231_20170602_429AC0000000045_99",
+      "359AC0000000068_20180620_430AC0000000059_38",
+      "423AC0000000040_20180401_428AC0000000065_125",
+      "425AC0000000107_20190401_430AC0000000102_24-3",
+      "337AC0000000134_20160401_426AC0000000118_23",
+      "332AC0000000161_20160401_426AC0000000069_12",
+      "331AC0000000080_20140401_425AC0000000076_4",
+      "325AC0000000226_20190401_431AC0000000003_72-91",
+      "429AC0100000076_20170623_000000000000000_6",
+      "326AC1000000166_20160401_426AC0000000069_17",
+      "330AC0000000097_20200401_429AC0000000045_23-19",
+      "411AC0000000017_20190401_431AC0000000005_2",
+      "343AC0000000097_20200401_429AC0000000045_2",
+      "414AC0000000136_20150401_426AC0000000067_32",
+      "428AC1000000101_20201201_430AC0000000095_16",
+      "324AC0000000147_20190401_429AC0000000041_7",
+      "339AC0000000170_20200401_429AC0000000015_51",
+      "326AC0000000180_20130614_425AC0000000044_19",
+      "324AC0000000148_20090401_419AC0000000098_2",
+      "329AC0000000162_20200401_429AC0000000029_37"
+    ],
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.1964874165582988,
+      "recall_100": 0.5418244871569027,
+      "map": 0.14079764607113587
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/58e61d1d989130855960b7aa900cadec61a6fcdbf864c4fc9d45322931da9b54.jsonl",
+        "sha256": "58e61d1d989130855960b7aa900cadec61a6fcdbf864c4fc9d45322931da9b54"
+      },
+      {
+        "path": "_shared/rankings/58e61d1d989130855960b7aa900cadec61a6fcdbf864c4fc9d45322931da9b54.jsonl",
+        "sha256": "58e61d1d989130855960b7aa900cadec61a6fcdbf864c4fc9d45322931da9b54"
+      },
+      {
+        "path": "_shared/rankings/58e61d1d989130855960b7aa900cadec61a6fcdbf864c4fc9d45322931da9b54.jsonl",
+        "sha256": "58e61d1d989130855960b7aa900cadec61a6fcdbf864c4fc9d45322931da9b54"
+      }
+    ],
+    "original_provenance": {
+      "split": "validation",
+      "scope_qids": [
+        "326AC1000000004_20160401_426AC0000000069_19",
+        "358AC1000000043_20160401_426AC0000000069_11",
+        "327AC0000000191_20190330_431AC0000000012_10-2",
+        "337AC1000000073_20160401_427AC0000000046_1",
+        "416AC0000000123_20180713_430AC0000000072_164",
+        "327AC0000000231_20170602_429AC0000000045_99",
+        "359AC0000000068_20180620_430AC0000000059_38",
+        "423AC0000000040_20180401_428AC0000000065_125",
+        "425AC0000000107_20190401_430AC0000000102_24-3",
+        "337AC0000000134_20160401_426AC0000000118_23",
+        "332AC0000000161_20160401_426AC0000000069_12",
+        "331AC0000000080_20140401_425AC0000000076_4",
+        "325AC0000000226_20190401_431AC0000000003_72-91",
+        "429AC0100000076_20170623_000000000000000_6",
+        "326AC1000000166_20160401_426AC0000000069_17",
+        "330AC0000000097_20200401_429AC0000000045_23-19",
+        "411AC0000000017_20190401_431AC0000000005_2",
+        "343AC0000000097_20200401_429AC0000000045_2",
+        "414AC0000000136_20150401_426AC0000000067_32",
+        "428AC1000000101_20201201_430AC0000000095_16",
+        "324AC0000000147_20190401_429AC0000000041_7",
+        "339AC0000000170_20200401_429AC0000000015_51",
+        "326AC0000000180_20130614_425AC0000000044_19",
+        "324AC0000000148_20090401_419AC0000000098_2",
+        "329AC0000000162_20200401_429AC0000000029_37"
+      ],
+      "repeats": 3,
+      "backend": "Qwen3-8B",
+      "model_signature": "96904184738e357761d3c76100324f876c8b4b313c7906291301fb5223ebff01",
+      "repeat_folders": "experiments/E12/runs/E12.001/rev2rev-ja"
+    },
+    "evidence": [
+      "E10/evidence/R1/rev2rev-ja/repeat0/official_metrics.json",
+      "E10/evidence/R1/rev2rev-ja/repeat0/scope.qrels.jsonl",
+      "E10/evidence/R1/rev2rev-ja/repeat1/official_metrics.json",
+      "E10/evidence/R1/rev2rev-ja/repeat1/scope.qrels.jsonl",
+      "E10/evidence/R1/rev2rev-ja/repeat2/official_metrics.json",
+      "E10/evidence/R1/rev2rev-ja/repeat2/scope.qrels.jsonl"
+    ],
+    "request_indexes": [
+      "E10/evidence/R1/rev2rev-ja/repeat0/requests.json",
+      "E10/evidence/R1/rev2rev-ja/repeat1/requests.json",
+      "E10/evidence/R1/rev2rev-ja/repeat2/requests.json"
+    ]
+  },
+  {
+    "row_id": "E10.R2",
+    "source_row_id": "E12.003",
+    "source_row_id_v2": "E12.V2.R002",
+    "configuration": "Qwen3-8B / 同一集合反序，3次独立调用",
+    "task": "rat2rev-en",
+    "split": "validation",
+    "scope_qids": [
+      "32010D0458",
+      "32020R0283",
+      "32017R1123",
+      "32010R1231",
+      "32015R1929",
+      "32017D0955",
+      "32010L0073",
+      "32021R2260",
+      "32013L0018",
+      "32013L0024",
+      "32012D0281",
+      "32024R3242",
+      "32019L1160",
+      "32022R0641",
+      "32022R1032",
+      "32014R0547",
+      "32018R1475",
+      "32010R0541",
+      "32021R2269",
+      "32012R0464",
+      "32017R2393",
+      "32019L0878",
+      "32021R1151",
+      "32025R1215",
+      "32014R0662"
+    ],
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.06586499228251813,
+      "recall_100": 0.3860614095441683,
+      "map": 0.06203696800405054
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/771de295edd812ed59793976465d71d16af8af6572464f6f9258ca963f6edc23.jsonl",
+        "sha256": "771de295edd812ed59793976465d71d16af8af6572464f6f9258ca963f6edc23"
+      },
+      {
+        "path": "_shared/rankings/771de295edd812ed59793976465d71d16af8af6572464f6f9258ca963f6edc23.jsonl",
+        "sha256": "771de295edd812ed59793976465d71d16af8af6572464f6f9258ca963f6edc23"
+      },
+      {
+        "path": "_shared/rankings/771de295edd812ed59793976465d71d16af8af6572464f6f9258ca963f6edc23.jsonl",
+        "sha256": "771de295edd812ed59793976465d71d16af8af6572464f6f9258ca963f6edc23"
+      }
+    ],
+    "original_provenance": {
+      "split": "validation",
+      "scope_qids": [
+        "32010D0458",
+        "32020R0283",
+        "32017R1123",
+        "32010R1231",
+        "32015R1929",
+        "32017D0955",
+        "32010L0073",
+        "32021R2260",
+        "32013L0018",
+        "32013L0024",
+        "32012D0281",
+        "32024R3242",
+        "32019L1160",
+        "32022R0641",
+        "32022R1032",
+        "32014R0547",
+        "32018R1475",
+        "32010R0541",
+        "32021R2269",
+        "32012R0464",
+        "32017R2393",
+        "32019L0878",
+        "32021R1151",
+        "32025R1215",
+        "32014R0662"
+      ],
+      "repeats": 3,
+      "backend": "Qwen3-8B",
+      "model_signature": "96904184738e357761d3c76100324f876c8b4b313c7906291301fb5223ebff01",
+      "repeat_folders": "experiments/E12/runs/E12.003/rat2rev-en"
+    },
+    "evidence": [
+      "E10/evidence/R2/rat2rev-en/repeat0/official_metrics.json",
+      "E10/evidence/R2/rat2rev-en/repeat0/scope.qrels.jsonl",
+      "E10/evidence/R2/rat2rev-en/repeat1/official_metrics.json",
+      "E10/evidence/R2/rat2rev-en/repeat1/scope.qrels.jsonl",
+      "E10/evidence/R2/rat2rev-en/repeat2/official_metrics.json",
+      "E10/evidence/R2/rat2rev-en/repeat2/scope.qrels.jsonl"
+    ],
+    "request_indexes": [
+      "E10/evidence/R2/rat2rev-en/repeat0/requests.json",
+      "E10/evidence/R2/rat2rev-en/repeat1/requests.json",
+      "E10/evidence/R2/rat2rev-en/repeat2/requests.json"
+    ]
+  },
+  {
+    "row_id": "E10.R2",
+    "source_row_id": "E12.003",
+    "source_row_id_v2": "E12.V2.R002",
+    "configuration": "Qwen3-8B / 同一集合反序，3次独立调用",
+    "task": "rev2rev-en",
+    "split": "validation",
+    "scope_qids": [
+      "32008L0105_00000000_0000000000_9",
+      "32020R1706_20210101_0000000000_6",
+      "32009L0042_20100416_0000000000_10",
+      "32008D0376_00000000_0000000000_33",
+      "32004R0726_20090706_0000000000_1",
+      "32014R0833_20240224_0000000000_5l",
+      "32006L0112_20100409_0000000000_232",
+      "32007L0014_00000000_0000000000_15",
+      "32008R0055_20081207_0000000000_10",
+      "32007D0573_00000000_0000000000_21",
+      "32009R0924_20190418_0000000000_3",
+      "32008L0105_00000000_0000000000_5",
+      "32001L0083_20091005_0000000000_23",
+      "32004L0109_20080320_0000000000_16",
+      "32015R0848_20150605_0000000000_8",
+      "32006R1083_20090409_0000000000_57",
+      "32001L0110_20020201_0000000000_2",
+      "32018R1862_20190611_0000000000_53",
+      "31997R0515_20080816_0000000000_43",
+      "32009R0428_20090827_0000000000_19",
+      "32009L0065_20110721_0000000000_118",
+      "32018R1862_20190611_0000000000_37",
+      "32016R0794_00000000_0000000000_44",
+      "32002R2012_00000000_0000000000_5",
+      "32010L0040_00000000_0000000000_14"
+    ],
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.08149017567588654,
+      "recall_100": 0.37944356582696237,
+      "map": 0.06219293822650849
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/95c8c34ff78dbbb226472572bf3142462df6174b09ab04e78597c7a49ad5e007.jsonl",
+        "sha256": "95c8c34ff78dbbb226472572bf3142462df6174b09ab04e78597c7a49ad5e007"
+      },
+      {
+        "path": "_shared/rankings/95c8c34ff78dbbb226472572bf3142462df6174b09ab04e78597c7a49ad5e007.jsonl",
+        "sha256": "95c8c34ff78dbbb226472572bf3142462df6174b09ab04e78597c7a49ad5e007"
+      },
+      {
+        "path": "_shared/rankings/95c8c34ff78dbbb226472572bf3142462df6174b09ab04e78597c7a49ad5e007.jsonl",
+        "sha256": "95c8c34ff78dbbb226472572bf3142462df6174b09ab04e78597c7a49ad5e007"
+      }
+    ],
+    "original_provenance": {
+      "split": "validation",
+      "scope_qids": [
+        "32008L0105_00000000_0000000000_9",
+        "32020R1706_20210101_0000000000_6",
+        "32009L0042_20100416_0000000000_10",
+        "32008D0376_00000000_0000000000_33",
+        "32004R0726_20090706_0000000000_1",
+        "32014R0833_20240224_0000000000_5l",
+        "32006L0112_20100409_0000000000_232",
+        "32007L0014_00000000_0000000000_15",
+        "32008R0055_20081207_0000000000_10",
+        "32007D0573_00000000_0000000000_21",
+        "32009R0924_20190418_0000000000_3",
+        "32008L0105_00000000_0000000000_5",
+        "32001L0083_20091005_0000000000_23",
+        "32004L0109_20080320_0000000000_16",
+        "32015R0848_20150605_0000000000_8",
+        "32006R1083_20090409_0000000000_57",
+        "32001L0110_20020201_0000000000_2",
+        "32018R1862_20190611_0000000000_53",
+        "31997R0515_20080816_0000000000_43",
+        "32009R0428_20090827_0000000000_19",
+        "32009L0065_20110721_0000000000_118",
+        "32018R1862_20190611_0000000000_37",
+        "32016R0794_00000000_0000000000_44",
+        "32002R2012_00000000_0000000000_5",
+        "32010L0040_00000000_0000000000_14"
+      ],
+      "repeats": 3,
+      "backend": "Qwen3-8B",
+      "model_signature": "96904184738e357761d3c76100324f876c8b4b313c7906291301fb5223ebff01",
+      "repeat_folders": "experiments/E12/runs/E12.003/rev2rev-en"
+    },
+    "evidence": [
+      "E10/evidence/R2/rev2rev-en/repeat0/official_metrics.json",
+      "E10/evidence/R2/rev2rev-en/repeat0/scope.qrels.jsonl",
+      "E10/evidence/R2/rev2rev-en/repeat1/official_metrics.json",
+      "E10/evidence/R2/rev2rev-en/repeat1/scope.qrels.jsonl",
+      "E10/evidence/R2/rev2rev-en/repeat2/official_metrics.json",
+      "E10/evidence/R2/rev2rev-en/repeat2/scope.qrels.jsonl"
+    ],
+    "request_indexes": [
+      "E10/evidence/R2/rev2rev-en/repeat0/requests.json",
+      "E10/evidence/R2/rev2rev-en/repeat1/requests.json",
+      "E10/evidence/R2/rev2rev-en/repeat2/requests.json"
+    ]
+  },
+  {
+    "row_id": "E10.R2",
+    "source_row_id": "E12.003",
+    "source_row_id_v2": "E12.V2.R002",
+    "configuration": "Qwen3-8B / 同一集合反序，3次独立调用",
+    "task": "rat2rev-ja",
+    "split": "validation",
+    "scope_qids": [
+      "504AC0000000002",
+      "502AC0000000015",
+      "501AC0000000006",
+      "507AC1000000011",
+      "504AC0000000049",
+      "503AC0000000044",
+      "504AC0000000059",
+      "501AC0000000002",
+      "507AC1000000065",
+      "502AC0000000023",
+      "506AC0000000030",
+      "507AC0000000048",
+      "505AC0000000048",
+      "506AC0000000032",
+      "504AC0000000055",
+      "504AC0000000097",
+      "506AC0000000046",
+      "507AC0000000054",
+      "505AC0000000073",
+      "506AC0000000072",
+      "501AC0000000017",
+      "502AC0000000049",
+      "507AC0000000014",
+      "503AC0000000035",
+      "504AC0000000065"
+    ],
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.14962992966000294,
+      "recall_100": 0.588743610134892,
+      "map": 0.12524349972908688
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/f67fc91cd710ec18825cf8f17e3834d700a62bed999ff4dbf79450b0675cb863.jsonl",
+        "sha256": "f67fc91cd710ec18825cf8f17e3834d700a62bed999ff4dbf79450b0675cb863"
+      },
+      {
+        "path": "_shared/rankings/f67fc91cd710ec18825cf8f17e3834d700a62bed999ff4dbf79450b0675cb863.jsonl",
+        "sha256": "f67fc91cd710ec18825cf8f17e3834d700a62bed999ff4dbf79450b0675cb863"
+      },
+      {
+        "path": "_shared/rankings/f67fc91cd710ec18825cf8f17e3834d700a62bed999ff4dbf79450b0675cb863.jsonl",
+        "sha256": "f67fc91cd710ec18825cf8f17e3834d700a62bed999ff4dbf79450b0675cb863"
+      }
+    ],
+    "original_provenance": {
+      "split": "validation",
+      "scope_qids": [
+        "504AC0000000002",
+        "502AC0000000015",
+        "501AC0000000006",
+        "507AC1000000011",
+        "504AC0000000049",
+        "503AC0000000044",
+        "504AC0000000059",
+        "501AC0000000002",
+        "507AC1000000065",
+        "502AC0000000023",
+        "506AC0000000030",
+        "507AC0000000048",
+        "505AC0000000048",
+        "506AC0000000032",
+        "504AC0000000055",
+        "504AC0000000097",
+        "506AC0000000046",
+        "507AC0000000054",
+        "505AC0000000073",
+        "506AC0000000072",
+        "501AC0000000017",
+        "502AC0000000049",
+        "507AC0000000014",
+        "503AC0000000035",
+        "504AC0000000065"
+      ],
+      "repeats": 3,
+      "backend": "Qwen3-8B",
+      "model_signature": "96904184738e357761d3c76100324f876c8b4b313c7906291301fb5223ebff01",
+      "repeat_folders": "experiments/E12/runs/E12.003/rat2rev-ja"
+    },
+    "evidence": [
+      "E10/evidence/R2/rat2rev-ja/repeat0/official_metrics.json",
+      "E10/evidence/R2/rat2rev-ja/repeat0/scope.qrels.jsonl",
+      "E10/evidence/R2/rat2rev-ja/repeat1/official_metrics.json",
+      "E10/evidence/R2/rat2rev-ja/repeat1/scope.qrels.jsonl",
+      "E10/evidence/R2/rat2rev-ja/repeat2/official_metrics.json",
+      "E10/evidence/R2/rat2rev-ja/repeat2/scope.qrels.jsonl"
+    ],
+    "request_indexes": [
+      "E10/evidence/R2/rat2rev-ja/repeat0/requests.json",
+      "E10/evidence/R2/rat2rev-ja/repeat1/requests.json",
+      "E10/evidence/R2/rat2rev-ja/repeat2/requests.json"
+    ]
+  },
+  {
+    "row_id": "E10.R2",
+    "source_row_id": "E12.003",
+    "source_row_id_v2": "E12.V2.R002",
+    "configuration": "Qwen3-8B / 同一集合反序，3次独立调用",
+    "task": "rev2rev-ja",
+    "split": "validation",
+    "scope_qids": [
+      "326AC1000000004_20160401_426AC0000000069_19",
+      "358AC1000000043_20160401_426AC0000000069_11",
+      "327AC0000000191_20190330_431AC0000000012_10-2",
+      "337AC1000000073_20160401_427AC0000000046_1",
+      "416AC0000000123_20180713_430AC0000000072_164",
+      "327AC0000000231_20170602_429AC0000000045_99",
+      "359AC0000000068_20180620_430AC0000000059_38",
+      "423AC0000000040_20180401_428AC0000000065_125",
+      "425AC0000000107_20190401_430AC0000000102_24-3",
+      "337AC0000000134_20160401_426AC0000000118_23",
+      "332AC0000000161_20160401_426AC0000000069_12",
+      "331AC0000000080_20140401_425AC0000000076_4",
+      "325AC0000000226_20190401_431AC0000000003_72-91",
+      "429AC0100000076_20170623_000000000000000_6",
+      "326AC1000000166_20160401_426AC0000000069_17",
+      "330AC0000000097_20200401_429AC0000000045_23-19",
+      "411AC0000000017_20190401_431AC0000000005_2",
+      "343AC0000000097_20200401_429AC0000000045_2",
+      "414AC0000000136_20150401_426AC0000000067_32",
+      "428AC1000000101_20201201_430AC0000000095_16",
+      "324AC0000000147_20190401_429AC0000000041_7",
+      "339AC0000000170_20200401_429AC0000000015_51",
+      "326AC0000000180_20130614_425AC0000000044_19",
+      "324AC0000000148_20090401_419AC0000000098_2",
+      "329AC0000000162_20200401_429AC0000000029_37"
+    ],
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.10332672862438975,
+      "recall_100": 0.5418244871569027,
+      "map": 0.07795837655778286
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/f31b40c0363b36909ed93f56ef16100f478a1cddea9b19e3673b14c9ff221103.jsonl",
+        "sha256": "f31b40c0363b36909ed93f56ef16100f478a1cddea9b19e3673b14c9ff221103"
+      },
+      {
+        "path": "_shared/rankings/f31b40c0363b36909ed93f56ef16100f478a1cddea9b19e3673b14c9ff221103.jsonl",
+        "sha256": "f31b40c0363b36909ed93f56ef16100f478a1cddea9b19e3673b14c9ff221103"
+      },
+      {
+        "path": "_shared/rankings/f31b40c0363b36909ed93f56ef16100f478a1cddea9b19e3673b14c9ff221103.jsonl",
+        "sha256": "f31b40c0363b36909ed93f56ef16100f478a1cddea9b19e3673b14c9ff221103"
+      }
+    ],
+    "original_provenance": {
+      "split": "validation",
+      "scope_qids": [
+        "326AC1000000004_20160401_426AC0000000069_19",
+        "358AC1000000043_20160401_426AC0000000069_11",
+        "327AC0000000191_20190330_431AC0000000012_10-2",
+        "337AC1000000073_20160401_427AC0000000046_1",
+        "416AC0000000123_20180713_430AC0000000072_164",
+        "327AC0000000231_20170602_429AC0000000045_99",
+        "359AC0000000068_20180620_430AC0000000059_38",
+        "423AC0000000040_20180401_428AC0000000065_125",
+        "425AC0000000107_20190401_430AC0000000102_24-3",
+        "337AC0000000134_20160401_426AC0000000118_23",
+        "332AC0000000161_20160401_426AC0000000069_12",
+        "331AC0000000080_20140401_425AC0000000076_4",
+        "325AC0000000226_20190401_431AC0000000003_72-91",
+        "429AC0100000076_20170623_000000000000000_6",
+        "326AC1000000166_20160401_426AC0000000069_17",
+        "330AC0000000097_20200401_429AC0000000045_23-19",
+        "411AC0000000017_20190401_431AC0000000005_2",
+        "343AC0000000097_20200401_429AC0000000045_2",
+        "414AC0000000136_20150401_426AC0000000067_32",
+        "428AC1000000101_20201201_430AC0000000095_16",
+        "324AC0000000147_20190401_429AC0000000041_7",
+        "339AC0000000170_20200401_429AC0000000015_51",
+        "326AC0000000180_20130614_425AC0000000044_19",
+        "324AC0000000148_20090401_419AC0000000098_2",
+        "329AC0000000162_20200401_429AC0000000029_37"
+      ],
+      "repeats": 3,
+      "backend": "Qwen3-8B",
+      "model_signature": "96904184738e357761d3c76100324f876c8b4b313c7906291301fb5223ebff01",
+      "repeat_folders": "experiments/E12/runs/E12.003/rev2rev-ja"
+    },
+    "evidence": [
+      "E10/evidence/R2/rev2rev-ja/repeat0/official_metrics.json",
+      "E10/evidence/R2/rev2rev-ja/repeat0/scope.qrels.jsonl",
+      "E10/evidence/R2/rev2rev-ja/repeat1/official_metrics.json",
+      "E10/evidence/R2/rev2rev-ja/repeat1/scope.qrels.jsonl",
+      "E10/evidence/R2/rev2rev-ja/repeat2/official_metrics.json",
+      "E10/evidence/R2/rev2rev-ja/repeat2/scope.qrels.jsonl"
+    ],
+    "request_indexes": [
+      "E10/evidence/R2/rev2rev-ja/repeat0/requests.json",
+      "E10/evidence/R2/rev2rev-ja/repeat1/requests.json",
+      "E10/evidence/R2/rev2rev-ja/repeat2/requests.json"
+    ]
+  },
+  {
+    "row_id": "E10.R3",
+    "source_row_id": "E12.005",
+    "source_row_id_v2": "E12.V2.R003",
+    "configuration": "Qwen3-8B / 同一集合固定随机序，3次独立调用",
+    "task": "rat2rev-en",
+    "split": "validation",
+    "scope_qids": [
+      "32010D0458",
+      "32020R0283",
+      "32017R1123",
+      "32010R1231",
+      "32015R1929",
+      "32017D0955",
+      "32010L0073",
+      "32021R2260",
+      "32013L0018",
+      "32013L0024",
+      "32012D0281",
+      "32024R3242",
+      "32019L1160",
+      "32022R0641",
+      "32022R1032",
+      "32014R0547",
+      "32018R1475",
+      "32010R0541",
+      "32021R2269",
+      "32012R0464",
+      "32017R2393",
+      "32019L0878",
+      "32021R1151",
+      "32025R1215",
+      "32014R0662"
+    ],
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.13185135270365148,
+      "recall_100": 0.3860614095441683,
+      "map": 0.08518815564513454
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/968e80d2054e7c6c70cfc6bc4ec472cf9cfbad51adeb83ba58b1fed340d825e6.jsonl",
+        "sha256": "968e80d2054e7c6c70cfc6bc4ec472cf9cfbad51adeb83ba58b1fed340d825e6"
+      },
+      {
+        "path": "_shared/rankings/968e80d2054e7c6c70cfc6bc4ec472cf9cfbad51adeb83ba58b1fed340d825e6.jsonl",
+        "sha256": "968e80d2054e7c6c70cfc6bc4ec472cf9cfbad51adeb83ba58b1fed340d825e6"
+      },
+      {
+        "path": "_shared/rankings/968e80d2054e7c6c70cfc6bc4ec472cf9cfbad51adeb83ba58b1fed340d825e6.jsonl",
+        "sha256": "968e80d2054e7c6c70cfc6bc4ec472cf9cfbad51adeb83ba58b1fed340d825e6"
+      }
+    ],
+    "original_provenance": {
+      "split": "validation",
+      "scope_qids": [
+        "32010D0458",
+        "32020R0283",
+        "32017R1123",
+        "32010R1231",
+        "32015R1929",
+        "32017D0955",
+        "32010L0073",
+        "32021R2260",
+        "32013L0018",
+        "32013L0024",
+        "32012D0281",
+        "32024R3242",
+        "32019L1160",
+        "32022R0641",
+        "32022R1032",
+        "32014R0547",
+        "32018R1475",
+        "32010R0541",
+        "32021R2269",
+        "32012R0464",
+        "32017R2393",
+        "32019L0878",
+        "32021R1151",
+        "32025R1215",
+        "32014R0662"
+      ],
+      "repeats": 3,
+      "backend": "Qwen3-8B",
+      "model_signature": "96904184738e357761d3c76100324f876c8b4b313c7906291301fb5223ebff01",
+      "repeat_folders": "experiments/E12/runs/E12.005/rat2rev-en"
+    },
+    "evidence": [
+      "E10/evidence/R3/rat2rev-en/repeat0/official_metrics.json",
+      "E10/evidence/R3/rat2rev-en/repeat0/scope.qrels.jsonl",
+      "E10/evidence/R3/rat2rev-en/repeat1/official_metrics.json",
+      "E10/evidence/R3/rat2rev-en/repeat1/scope.qrels.jsonl",
+      "E10/evidence/R3/rat2rev-en/repeat2/official_metrics.json",
+      "E10/evidence/R3/rat2rev-en/repeat2/scope.qrels.jsonl"
+    ],
+    "request_indexes": [
+      "E10/evidence/R3/rat2rev-en/repeat0/requests.json",
+      "E10/evidence/R3/rat2rev-en/repeat1/requests.json",
+      "E10/evidence/R3/rat2rev-en/repeat2/requests.json"
+    ]
+  },
+  {
+    "row_id": "E10.R3",
+    "source_row_id": "E12.005",
+    "source_row_id_v2": "E12.V2.R003",
+    "configuration": "Qwen3-8B / 同一集合固定随机序，3次独立调用",
+    "task": "rev2rev-en",
+    "split": "validation",
+    "scope_qids": [
+      "32008L0105_00000000_0000000000_9",
+      "32020R1706_20210101_0000000000_6",
+      "32009L0042_20100416_0000000000_10",
+      "32008D0376_00000000_0000000000_33",
+      "32004R0726_20090706_0000000000_1",
+      "32014R0833_20240224_0000000000_5l",
+      "32006L0112_20100409_0000000000_232",
+      "32007L0014_00000000_0000000000_15",
+      "32008R0055_20081207_0000000000_10",
+      "32007D0573_00000000_0000000000_21",
+      "32009R0924_20190418_0000000000_3",
+      "32008L0105_00000000_0000000000_5",
+      "32001L0083_20091005_0000000000_23",
+      "32004L0109_20080320_0000000000_16",
+      "32015R0848_20150605_0000000000_8",
+      "32006R1083_20090409_0000000000_57",
+      "32001L0110_20020201_0000000000_2",
+      "32018R1862_20190611_0000000000_53",
+      "31997R0515_20080816_0000000000_43",
+      "32009R0428_20090827_0000000000_19",
+      "32009L0065_20110721_0000000000_118",
+      "32018R1862_20190611_0000000000_37",
+      "32016R0794_00000000_0000000000_44",
+      "32002R2012_00000000_0000000000_5",
+      "32010L0040_00000000_0000000000_14"
+    ],
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.08699084407318851,
+      "recall_100": 0.37944356582696237,
+      "map": 0.06545178267648868
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/0320026fa428d205ab4b835e91ae11b1b79c81cb1409113451ce48f4e8b35802.jsonl",
+        "sha256": "0320026fa428d205ab4b835e91ae11b1b79c81cb1409113451ce48f4e8b35802"
+      },
+      {
+        "path": "_shared/rankings/0320026fa428d205ab4b835e91ae11b1b79c81cb1409113451ce48f4e8b35802.jsonl",
+        "sha256": "0320026fa428d205ab4b835e91ae11b1b79c81cb1409113451ce48f4e8b35802"
+      },
+      {
+        "path": "_shared/rankings/0320026fa428d205ab4b835e91ae11b1b79c81cb1409113451ce48f4e8b35802.jsonl",
+        "sha256": "0320026fa428d205ab4b835e91ae11b1b79c81cb1409113451ce48f4e8b35802"
+      }
+    ],
+    "original_provenance": {
+      "split": "validation",
+      "scope_qids": [
+        "32008L0105_00000000_0000000000_9",
+        "32020R1706_20210101_0000000000_6",
+        "32009L0042_20100416_0000000000_10",
+        "32008D0376_00000000_0000000000_33",
+        "32004R0726_20090706_0000000000_1",
+        "32014R0833_20240224_0000000000_5l",
+        "32006L0112_20100409_0000000000_232",
+        "32007L0014_00000000_0000000000_15",
+        "32008R0055_20081207_0000000000_10",
+        "32007D0573_00000000_0000000000_21",
+        "32009R0924_20190418_0000000000_3",
+        "32008L0105_00000000_0000000000_5",
+        "32001L0083_20091005_0000000000_23",
+        "32004L0109_20080320_0000000000_16",
+        "32015R0848_20150605_0000000000_8",
+        "32006R1083_20090409_0000000000_57",
+        "32001L0110_20020201_0000000000_2",
+        "32018R1862_20190611_0000000000_53",
+        "31997R0515_20080816_0000000000_43",
+        "32009R0428_20090827_0000000000_19",
+        "32009L0065_20110721_0000000000_118",
+        "32018R1862_20190611_0000000000_37",
+        "32016R0794_00000000_0000000000_44",
+        "32002R2012_00000000_0000000000_5",
+        "32010L0040_00000000_0000000000_14"
+      ],
+      "repeats": 3,
+      "backend": "Qwen3-8B",
+      "model_signature": "96904184738e357761d3c76100324f876c8b4b313c7906291301fb5223ebff01",
+      "repeat_folders": "experiments/E12/runs/E12.005/rev2rev-en"
+    },
+    "evidence": [
+      "E10/evidence/R3/rev2rev-en/repeat0/official_metrics.json",
+      "E10/evidence/R3/rev2rev-en/repeat0/scope.qrels.jsonl",
+      "E10/evidence/R3/rev2rev-en/repeat1/official_metrics.json",
+      "E10/evidence/R3/rev2rev-en/repeat1/scope.qrels.jsonl",
+      "E10/evidence/R3/rev2rev-en/repeat2/official_metrics.json",
+      "E10/evidence/R3/rev2rev-en/repeat2/scope.qrels.jsonl"
+    ],
+    "request_indexes": [
+      "E10/evidence/R3/rev2rev-en/repeat0/requests.json",
+      "E10/evidence/R3/rev2rev-en/repeat1/requests.json",
+      "E10/evidence/R3/rev2rev-en/repeat2/requests.json"
+    ]
+  },
+  {
+    "row_id": "E10.R3",
+    "source_row_id": "E12.005",
+    "source_row_id_v2": "E12.V2.R003",
+    "configuration": "Qwen3-8B / 同一集合固定随机序，3次独立调用",
+    "task": "rat2rev-ja",
+    "split": "validation",
+    "scope_qids": [
+      "504AC0000000002",
+      "502AC0000000015",
+      "501AC0000000006",
+      "507AC1000000011",
+      "504AC0000000049",
+      "503AC0000000044",
+      "504AC0000000059",
+      "501AC0000000002",
+      "507AC1000000065",
+      "502AC0000000023",
+      "506AC0000000030",
+      "507AC0000000048",
+      "505AC0000000048",
+      "506AC0000000032",
+      "504AC0000000055",
+      "504AC0000000097",
+      "506AC0000000046",
+      "507AC0000000054",
+      "505AC0000000073",
+      "506AC0000000072",
+      "501AC0000000017",
+      "502AC0000000049",
+      "507AC0000000014",
+      "503AC0000000035",
+      "504AC0000000065"
+    ],
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.17468205235365183,
+      "recall_100": 0.588743610134892,
+      "map": 0.11965722386976711
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/443d0ab883561e78e31cad528a52d2941cf6ed5d2456c221989334dc315f30c7.jsonl",
+        "sha256": "443d0ab883561e78e31cad528a52d2941cf6ed5d2456c221989334dc315f30c7"
+      },
+      {
+        "path": "_shared/rankings/443d0ab883561e78e31cad528a52d2941cf6ed5d2456c221989334dc315f30c7.jsonl",
+        "sha256": "443d0ab883561e78e31cad528a52d2941cf6ed5d2456c221989334dc315f30c7"
+      },
+      {
+        "path": "_shared/rankings/443d0ab883561e78e31cad528a52d2941cf6ed5d2456c221989334dc315f30c7.jsonl",
+        "sha256": "443d0ab883561e78e31cad528a52d2941cf6ed5d2456c221989334dc315f30c7"
+      }
+    ],
+    "original_provenance": {
+      "split": "validation",
+      "scope_qids": [
+        "504AC0000000002",
+        "502AC0000000015",
+        "501AC0000000006",
+        "507AC1000000011",
+        "504AC0000000049",
+        "503AC0000000044",
+        "504AC0000000059",
+        "501AC0000000002",
+        "507AC1000000065",
+        "502AC0000000023",
+        "506AC0000000030",
+        "507AC0000000048",
+        "505AC0000000048",
+        "506AC0000000032",
+        "504AC0000000055",
+        "504AC0000000097",
+        "506AC0000000046",
+        "507AC0000000054",
+        "505AC0000000073",
+        "506AC0000000072",
+        "501AC0000000017",
+        "502AC0000000049",
+        "507AC0000000014",
+        "503AC0000000035",
+        "504AC0000000065"
+      ],
+      "repeats": 3,
+      "backend": "Qwen3-8B",
+      "model_signature": "96904184738e357761d3c76100324f876c8b4b313c7906291301fb5223ebff01",
+      "repeat_folders": "experiments/E12/runs/E12.005/rat2rev-ja"
+    },
+    "evidence": [
+      "E10/evidence/R3/rat2rev-ja/repeat0/official_metrics.json",
+      "E10/evidence/R3/rat2rev-ja/repeat0/scope.qrels.jsonl",
+      "E10/evidence/R3/rat2rev-ja/repeat1/official_metrics.json",
+      "E10/evidence/R3/rat2rev-ja/repeat1/scope.qrels.jsonl",
+      "E10/evidence/R3/rat2rev-ja/repeat2/official_metrics.json",
+      "E10/evidence/R3/rat2rev-ja/repeat2/scope.qrels.jsonl"
+    ],
+    "request_indexes": [
+      "E10/evidence/R3/rat2rev-ja/repeat0/requests.json",
+      "E10/evidence/R3/rat2rev-ja/repeat1/requests.json",
+      "E10/evidence/R3/rat2rev-ja/repeat2/requests.json"
+    ]
+  },
+  {
+    "row_id": "E10.R3",
+    "source_row_id": "E12.005",
+    "source_row_id_v2": "E12.V2.R003",
+    "configuration": "Qwen3-8B / 同一集合固定随机序，3次独立调用",
+    "task": "rev2rev-ja",
+    "split": "validation",
+    "scope_qids": [
+      "326AC1000000004_20160401_426AC0000000069_19",
+      "358AC1000000043_20160401_426AC0000000069_11",
+      "327AC0000000191_20190330_431AC0000000012_10-2",
+      "337AC1000000073_20160401_427AC0000000046_1",
+      "416AC0000000123_20180713_430AC0000000072_164",
+      "327AC0000000231_20170602_429AC0000000045_99",
+      "359AC0000000068_20180620_430AC0000000059_38",
+      "423AC0000000040_20180401_428AC0000000065_125",
+      "425AC0000000107_20190401_430AC0000000102_24-3",
+      "337AC0000000134_20160401_426AC0000000118_23",
+      "332AC0000000161_20160401_426AC0000000069_12",
+      "331AC0000000080_20140401_425AC0000000076_4",
+      "325AC0000000226_20190401_431AC0000000003_72-91",
+      "429AC0100000076_20170623_000000000000000_6",
+      "326AC1000000166_20160401_426AC0000000069_17",
+      "330AC0000000097_20200401_429AC0000000045_23-19",
+      "411AC0000000017_20190401_431AC0000000005_2",
+      "343AC0000000097_20200401_429AC0000000045_2",
+      "414AC0000000136_20150401_426AC0000000067_32",
+      "428AC1000000101_20201201_430AC0000000095_16",
+      "324AC0000000147_20190401_429AC0000000041_7",
+      "339AC0000000170_20200401_429AC0000000015_51",
+      "326AC0000000180_20130614_425AC0000000044_19",
+      "324AC0000000148_20090401_419AC0000000098_2",
+      "329AC0000000162_20200401_429AC0000000029_37"
+    ],
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.1585155232137066,
+      "recall_100": 0.5418244871569027,
+      "map": 0.11066249459212048
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/9ffad6b392ef0b89dca78574be3f80e7d2a0cd7d5a6e6177f6d5a07b7f6a064f.jsonl",
+        "sha256": "9ffad6b392ef0b89dca78574be3f80e7d2a0cd7d5a6e6177f6d5a07b7f6a064f"
+      },
+      {
+        "path": "_shared/rankings/9ffad6b392ef0b89dca78574be3f80e7d2a0cd7d5a6e6177f6d5a07b7f6a064f.jsonl",
+        "sha256": "9ffad6b392ef0b89dca78574be3f80e7d2a0cd7d5a6e6177f6d5a07b7f6a064f"
+      },
+      {
+        "path": "_shared/rankings/9ffad6b392ef0b89dca78574be3f80e7d2a0cd7d5a6e6177f6d5a07b7f6a064f.jsonl",
+        "sha256": "9ffad6b392ef0b89dca78574be3f80e7d2a0cd7d5a6e6177f6d5a07b7f6a064f"
+      }
+    ],
+    "original_provenance": {
+      "split": "validation",
+      "scope_qids": [
+        "326AC1000000004_20160401_426AC0000000069_19",
+        "358AC1000000043_20160401_426AC0000000069_11",
+        "327AC0000000191_20190330_431AC0000000012_10-2",
+        "337AC1000000073_20160401_427AC0000000046_1",
+        "416AC0000000123_20180713_430AC0000000072_164",
+        "327AC0000000231_20170602_429AC0000000045_99",
+        "359AC0000000068_20180620_430AC0000000059_38",
+        "423AC0000000040_20180401_428AC0000000065_125",
+        "425AC0000000107_20190401_430AC0000000102_24-3",
+        "337AC0000000134_20160401_426AC0000000118_23",
+        "332AC0000000161_20160401_426AC0000000069_12",
+        "331AC0000000080_20140401_425AC0000000076_4",
+        "325AC0000000226_20190401_431AC0000000003_72-91",
+        "429AC0100000076_20170623_000000000000000_6",
+        "326AC1000000166_20160401_426AC0000000069_17",
+        "330AC0000000097_20200401_429AC0000000045_23-19",
+        "411AC0000000017_20190401_431AC0000000005_2",
+        "343AC0000000097_20200401_429AC0000000045_2",
+        "414AC0000000136_20150401_426AC0000000067_32",
+        "428AC1000000101_20201201_430AC0000000095_16",
+        "324AC0000000147_20190401_429AC0000000041_7",
+        "339AC0000000170_20200401_429AC0000000015_51",
+        "326AC0000000180_20130614_425AC0000000044_19",
+        "324AC0000000148_20090401_419AC0000000098_2",
+        "329AC0000000162_20200401_429AC0000000029_37"
+      ],
+      "repeats": 3,
+      "backend": "Qwen3-8B",
+      "model_signature": "96904184738e357761d3c76100324f876c8b4b313c7906291301fb5223ebff01",
+      "repeat_folders": "experiments/E12/runs/E12.005/rev2rev-ja"
+    },
+    "evidence": [
+      "E10/evidence/R3/rev2rev-ja/repeat0/official_metrics.json",
+      "E10/evidence/R3/rev2rev-ja/repeat0/scope.qrels.jsonl",
+      "E10/evidence/R3/rev2rev-ja/repeat1/official_metrics.json",
+      "E10/evidence/R3/rev2rev-ja/repeat1/scope.qrels.jsonl",
+      "E10/evidence/R3/rev2rev-ja/repeat2/official_metrics.json",
+      "E10/evidence/R3/rev2rev-ja/repeat2/scope.qrels.jsonl"
+    ],
+    "request_indexes": [
+      "E10/evidence/R3/rev2rev-ja/repeat0/requests.json",
+      "E10/evidence/R3/rev2rev-ja/repeat1/requests.json",
+      "E10/evidence/R3/rev2rev-ja/repeat2/requests.json"
+    ]
+  },
+  {
+    "row_id": "E10.R4",
+    "source_row_id": "E12.007",
+    "source_row_id_v2": "E12.V2.R004",
+    "configuration": "Qwen3-8B / 仅空白/格式规范化【补充】",
+    "task": "rat2rev-en",
+    "split": "validation",
+    "scope_qids": [
+      "32010D0458",
+      "32020R0283",
+      "32017R1123",
+      "32010R1231",
+      "32015R1929",
+      "32017D0955",
+      "32010L0073",
+      "32021R2260",
+      "32013L0018",
+      "32013L0024",
+      "32012D0281",
+      "32024R3242",
+      "32019L1160",
+      "32022R0641",
+      "32022R1032",
+      "32014R0547",
+      "32018R1475",
+      "32010R0541",
+      "32021R2269",
+      "32012R0464",
+      "32017R2393",
+      "32019L0878",
+      "32021R1151",
+      "32025R1215",
+      "32014R0662"
+    ],
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.14577820425238686,
+      "recall_100": 0.38606140954416823,
+      "map": 0.09297462964017329
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/7e5efc6a7a5091449b26d66a7162d14fb8983b1a186de29bb037d2f1d0933b5f.jsonl",
+        "sha256": "7e5efc6a7a5091449b26d66a7162d14fb8983b1a186de29bb037d2f1d0933b5f"
+      }
+    ],
+    "original_provenance": {
+      "split": "validation",
+      "scope_qids": [
+        "32010D0458",
+        "32020R0283",
+        "32017R1123",
+        "32010R1231",
+        "32015R1929",
+        "32017D0955",
+        "32010L0073",
+        "32021R2260",
+        "32013L0018",
+        "32013L0024",
+        "32012D0281",
+        "32024R3242",
+        "32019L1160",
+        "32022R0641",
+        "32022R1032",
+        "32014R0547",
+        "32018R1475",
+        "32010R0541",
+        "32021R2269",
+        "32012R0464",
+        "32017R2393",
+        "32019L0878",
+        "32021R1151",
+        "32025R1215",
+        "32014R0662"
+      ],
+      "repeats": 1,
+      "backend": "Qwen3-8B",
+      "model_signature": "96904184738e357761d3c76100324f876c8b4b313c7906291301fb5223ebff01",
+      "repeat_folders": "experiments/E12/runs/E12.007/rat2rev-en"
+    },
+    "evidence": [
+      "E10/evidence/R4/rat2rev-en/official_metrics.json",
+      "E10/evidence/R4/rat2rev-en/scope.qrels.jsonl"
+    ],
+    "request_indexes": [
+      "E10/evidence/R4/rat2rev-en/requests.json"
+    ]
+  },
+  {
+    "row_id": "E10.R4",
+    "source_row_id": "E12.007",
+    "source_row_id_v2": "E12.V2.R004",
+    "configuration": "Qwen3-8B / 仅空白/格式规范化【补充】",
+    "task": "rev2rev-en",
+    "split": "validation",
+    "scope_qids": [
+      "32008L0105_00000000_0000000000_9",
+      "32020R1706_20210101_0000000000_6",
+      "32009L0042_20100416_0000000000_10",
+      "32008D0376_00000000_0000000000_33",
+      "32004R0726_20090706_0000000000_1",
+      "32014R0833_20240224_0000000000_5l",
+      "32006L0112_20100409_0000000000_232",
+      "32007L0014_00000000_0000000000_15",
+      "32008R0055_20081207_0000000000_10",
+      "32007D0573_00000000_0000000000_21",
+      "32009R0924_20190418_0000000000_3",
+      "32008L0105_00000000_0000000000_5",
+      "32001L0083_20091005_0000000000_23",
+      "32004L0109_20080320_0000000000_16",
+      "32015R0848_20150605_0000000000_8",
+      "32006R1083_20090409_0000000000_57",
+      "32001L0110_20020201_0000000000_2",
+      "32018R1862_20190611_0000000000_53",
+      "31997R0515_20080816_0000000000_43",
+      "32009R0428_20090827_0000000000_19",
+      "32009L0065_20110721_0000000000_118",
+      "32018R1862_20190611_0000000000_37",
+      "32016R0794_00000000_0000000000_44",
+      "32002R2012_00000000_0000000000_5",
+      "32010L0040_00000000_0000000000_14"
+    ],
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.13741265173373785,
+      "recall_100": 0.37944356582696237,
+      "map": 0.10027891604157829
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/c6772e2f8dd0e4e1307912d9deae7fe992f8b231aa07edee487bad61ee12efb8.jsonl",
+        "sha256": "c6772e2f8dd0e4e1307912d9deae7fe992f8b231aa07edee487bad61ee12efb8"
+      }
+    ],
+    "original_provenance": {
+      "split": "validation",
+      "scope_qids": [
+        "32008L0105_00000000_0000000000_9",
+        "32020R1706_20210101_0000000000_6",
+        "32009L0042_20100416_0000000000_10",
+        "32008D0376_00000000_0000000000_33",
+        "32004R0726_20090706_0000000000_1",
+        "32014R0833_20240224_0000000000_5l",
+        "32006L0112_20100409_0000000000_232",
+        "32007L0014_00000000_0000000000_15",
+        "32008R0055_20081207_0000000000_10",
+        "32007D0573_00000000_0000000000_21",
+        "32009R0924_20190418_0000000000_3",
+        "32008L0105_00000000_0000000000_5",
+        "32001L0083_20091005_0000000000_23",
+        "32004L0109_20080320_0000000000_16",
+        "32015R0848_20150605_0000000000_8",
+        "32006R1083_20090409_0000000000_57",
+        "32001L0110_20020201_0000000000_2",
+        "32018R1862_20190611_0000000000_53",
+        "31997R0515_20080816_0000000000_43",
+        "32009R0428_20090827_0000000000_19",
+        "32009L0065_20110721_0000000000_118",
+        "32018R1862_20190611_0000000000_37",
+        "32016R0794_00000000_0000000000_44",
+        "32002R2012_00000000_0000000000_5",
+        "32010L0040_00000000_0000000000_14"
+      ],
+      "repeats": 1,
+      "backend": "Qwen3-8B",
+      "model_signature": "96904184738e357761d3c76100324f876c8b4b313c7906291301fb5223ebff01",
+      "repeat_folders": "experiments/E12/runs/E12.007/rev2rev-en"
+    },
+    "evidence": [
+      "E10/evidence/R4/rev2rev-en/official_metrics.json",
+      "E10/evidence/R4/rev2rev-en/scope.qrels.jsonl"
+    ],
+    "request_indexes": [
+      "E10/evidence/R4/rev2rev-en/requests.json"
+    ]
+  },
+  {
+    "row_id": "E10.R4",
+    "source_row_id": "E12.007",
+    "source_row_id_v2": "E12.V2.R004",
+    "configuration": "Qwen3-8B / 仅空白/格式规范化【补充】",
+    "task": "rat2rev-ja",
+    "split": "validation",
+    "scope_qids": [
+      "504AC0000000002",
+      "502AC0000000015",
+      "501AC0000000006",
+      "507AC1000000011",
+      "504AC0000000049",
+      "503AC0000000044",
+      "504AC0000000059",
+      "501AC0000000002",
+      "507AC1000000065",
+      "502AC0000000023",
+      "506AC0000000030",
+      "507AC0000000048",
+      "505AC0000000048",
+      "506AC0000000032",
+      "504AC0000000055",
+      "504AC0000000097",
+      "506AC0000000046",
+      "507AC0000000054",
+      "505AC0000000073",
+      "506AC0000000072",
+      "501AC0000000017",
+      "502AC0000000049",
+      "507AC0000000014",
+      "503AC0000000035",
+      "504AC0000000065"
+    ],
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.3546331738574022,
+      "recall_100": 0.588743610134892,
+      "map": 0.23057835117446523
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/a9609bd715a34fb9f52e65fad293c8378e28d94fbb4342ad7df414a9e4106f50.jsonl",
+        "sha256": "a9609bd715a34fb9f52e65fad293c8378e28d94fbb4342ad7df414a9e4106f50"
+      }
+    ],
+    "original_provenance": {
+      "split": "validation",
+      "scope_qids": [
+        "504AC0000000002",
+        "502AC0000000015",
+        "501AC0000000006",
+        "507AC1000000011",
+        "504AC0000000049",
+        "503AC0000000044",
+        "504AC0000000059",
+        "501AC0000000002",
+        "507AC1000000065",
+        "502AC0000000023",
+        "506AC0000000030",
+        "507AC0000000048",
+        "505AC0000000048",
+        "506AC0000000032",
+        "504AC0000000055",
+        "504AC0000000097",
+        "506AC0000000046",
+        "507AC0000000054",
+        "505AC0000000073",
+        "506AC0000000072",
+        "501AC0000000017",
+        "502AC0000000049",
+        "507AC0000000014",
+        "503AC0000000035",
+        "504AC0000000065"
+      ],
+      "repeats": 1,
+      "backend": "Qwen3-8B",
+      "model_signature": "96904184738e357761d3c76100324f876c8b4b313c7906291301fb5223ebff01",
+      "repeat_folders": "experiments/E12/runs/E12.007/rat2rev-ja"
+    },
+    "evidence": [
+      "E10/evidence/R4/rat2rev-ja/official_metrics.json",
+      "E10/evidence/R4/rat2rev-ja/scope.qrels.jsonl"
+    ],
+    "request_indexes": [
+      "E10/evidence/R4/rat2rev-ja/requests.json"
+    ]
+  },
+  {
+    "row_id": "E10.R4",
+    "source_row_id": "E12.007",
+    "source_row_id_v2": "E12.V2.R004",
+    "configuration": "Qwen3-8B / 仅空白/格式规范化【补充】",
+    "task": "rev2rev-ja",
+    "split": "validation",
+    "scope_qids": [
+      "326AC1000000004_20160401_426AC0000000069_19",
+      "358AC1000000043_20160401_426AC0000000069_11",
+      "327AC0000000191_20190330_431AC0000000012_10-2",
+      "337AC1000000073_20160401_427AC0000000046_1",
+      "416AC0000000123_20180713_430AC0000000072_164",
+      "327AC0000000231_20170602_429AC0000000045_99",
+      "359AC0000000068_20180620_430AC0000000059_38",
+      "423AC0000000040_20180401_428AC0000000065_125",
+      "425AC0000000107_20190401_430AC0000000102_24-3",
+      "337AC0000000134_20160401_426AC0000000118_23",
+      "332AC0000000161_20160401_426AC0000000069_12",
+      "331AC0000000080_20140401_425AC0000000076_4",
+      "325AC0000000226_20190401_431AC0000000003_72-91",
+      "429AC0100000076_20170623_000000000000000_6",
+      "326AC1000000166_20160401_426AC0000000069_17",
+      "330AC0000000097_20200401_429AC0000000045_23-19",
+      "411AC0000000017_20190401_431AC0000000005_2",
+      "343AC0000000097_20200401_429AC0000000045_2",
+      "414AC0000000136_20150401_426AC0000000067_32",
+      "428AC1000000101_20201201_430AC0000000095_16",
+      "324AC0000000147_20190401_429AC0000000041_7",
+      "339AC0000000170_20200401_429AC0000000015_51",
+      "326AC0000000180_20130614_425AC0000000044_19",
+      "324AC0000000148_20090401_419AC0000000098_2",
+      "329AC0000000162_20200401_429AC0000000029_37"
+    ],
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.1971430203739338,
+      "recall_100": 0.5418244871569027,
+      "map": 0.14109971299379345
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/16f1ad67d54437cf77166745d546c4a8008ab864545cfea5b2c0608e85f0821b.jsonl",
+        "sha256": "16f1ad67d54437cf77166745d546c4a8008ab864545cfea5b2c0608e85f0821b"
+      }
+    ],
+    "original_provenance": {
+      "split": "validation",
+      "scope_qids": [
+        "326AC1000000004_20160401_426AC0000000069_19",
+        "358AC1000000043_20160401_426AC0000000069_11",
+        "327AC0000000191_20190330_431AC0000000012_10-2",
+        "337AC1000000073_20160401_427AC0000000046_1",
+        "416AC0000000123_20180713_430AC0000000072_164",
+        "327AC0000000231_20170602_429AC0000000045_99",
+        "359AC0000000068_20180620_430AC0000000059_38",
+        "423AC0000000040_20180401_428AC0000000065_125",
+        "425AC0000000107_20190401_430AC0000000102_24-3",
+        "337AC0000000134_20160401_426AC0000000118_23",
+        "332AC0000000161_20160401_426AC0000000069_12",
+        "331AC0000000080_20140401_425AC0000000076_4",
+        "325AC0000000226_20190401_431AC0000000003_72-91",
+        "429AC0100000076_20170623_000000000000000_6",
+        "326AC1000000166_20160401_426AC0000000069_17",
+        "330AC0000000097_20200401_429AC0000000045_23-19",
+        "411AC0000000017_20190401_431AC0000000005_2",
+        "343AC0000000097_20200401_429AC0000000045_2",
+        "414AC0000000136_20150401_426AC0000000067_32",
+        "428AC1000000101_20201201_430AC0000000095_16",
+        "324AC0000000147_20190401_429AC0000000041_7",
+        "339AC0000000170_20200401_429AC0000000015_51",
+        "326AC0000000180_20130614_425AC0000000044_19",
+        "324AC0000000148_20090401_419AC0000000098_2",
+        "329AC0000000162_20200401_429AC0000000029_37"
+      ],
+      "repeats": 1,
+      "backend": "Qwen3-8B",
+      "model_signature": "96904184738e357761d3c76100324f876c8b4b313c7906291301fb5223ebff01",
+      "repeat_folders": "experiments/E12/runs/E12.007/rev2rev-ja"
+    },
+    "evidence": [
+      "E10/evidence/R4/rev2rev-ja/official_metrics.json",
+      "E10/evidence/R4/rev2rev-ja/scope.qrels.jsonl"
+    ],
+    "request_indexes": [
+      "E10/evidence/R4/rev2rev-ja/requests.json"
+    ]
+  },
+  {
+    "row_id": "E10.R5",
+    "source_row_id": "E12.009",
+    "source_row_id_v2": "E12.V2.R005",
+    "configuration": "Qwen3-8B / 多视角检索丢一路【补充，改变候选池】",
+    "task": "rat2rev-en",
+    "split": "validation",
+    "scope_qids": [
+      "32010D0458",
+      "32020R0283",
+      "32017R1123",
+      "32010R1231",
+      "32015R1929",
+      "32017D0955",
+      "32010L0073",
+      "32021R2260",
+      "32013L0018",
+      "32013L0024",
+      "32012D0281",
+      "32024R3242",
+      "32019L1160",
+      "32022R0641",
+      "32022R1032",
+      "32014R0547",
+      "32018R1475",
+      "32010R0541",
+      "32021R2269",
+      "32012R0464",
+      "32017R2393",
+      "32019L0878",
+      "32021R1151",
+      "32025R1215",
+      "32014R0662"
+    ],
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.113632858193122,
+      "recall_100": 0.3869502984330571,
+      "map": 0.07723734220963002
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/24da365d9ca6373f055e1d86438f3df9025a4dcacf61fdc4448d4c9fb6de2589.jsonl",
+        "sha256": "24da365d9ca6373f055e1d86438f3df9025a4dcacf61fdc4448d4c9fb6de2589"
+      }
+    ],
+    "original_provenance": {
+      "split": "validation",
+      "scope_qids": [
+        "32010D0458",
+        "32020R0283",
+        "32017R1123",
+        "32010R1231",
+        "32015R1929",
+        "32017D0955",
+        "32010L0073",
+        "32021R2260",
+        "32013L0018",
+        "32013L0024",
+        "32012D0281",
+        "32024R3242",
+        "32019L1160",
+        "32022R0641",
+        "32022R1032",
+        "32014R0547",
+        "32018R1475",
+        "32010R0541",
+        "32021R2269",
+        "32012R0464",
+        "32017R2393",
+        "32019L0878",
+        "32021R1151",
+        "32025R1215",
+        "32014R0662"
+      ],
+      "repeats": 1,
+      "backend": "Qwen3-8B",
+      "model_signature": "96904184738e357761d3c76100324f876c8b4b313c7906291301fb5223ebff01",
+      "repeat_folders": "experiments/E12/runs/E12.009/rat2rev-en"
+    },
+    "evidence": [
+      "E10/evidence/R5/rat2rev-en/official_metrics.json",
+      "E10/evidence/R5/rat2rev-en/scope.qrels.jsonl"
+    ],
+    "request_indexes": [
+      "E10/evidence/R5/rat2rev-en/requests.json"
+    ]
+  },
+  {
+    "row_id": "E10.R5",
+    "source_row_id": "E12.009",
+    "source_row_id_v2": "E12.V2.R005",
+    "configuration": "Qwen3-8B / 多视角检索丢一路【补充，改变候选池】",
+    "task": "rev2rev-en",
+    "split": "validation",
+    "scope_qids": [
+      "32008L0105_00000000_0000000000_9",
+      "32020R1706_20210101_0000000000_6",
+      "32009L0042_20100416_0000000000_10",
+      "32008D0376_00000000_0000000000_33",
+      "32004R0726_20090706_0000000000_1",
+      "32014R0833_20240224_0000000000_5l",
+      "32006L0112_20100409_0000000000_232",
+      "32007L0014_00000000_0000000000_15",
+      "32008R0055_20081207_0000000000_10",
+      "32007D0573_00000000_0000000000_21",
+      "32009R0924_20190418_0000000000_3",
+      "32008L0105_00000000_0000000000_5",
+      "32001L0083_20091005_0000000000_23",
+      "32004L0109_20080320_0000000000_16",
+      "32015R0848_20150605_0000000000_8",
+      "32006R1083_20090409_0000000000_57",
+      "32001L0110_20020201_0000000000_2",
+      "32018R1862_20190611_0000000000_53",
+      "31997R0515_20080816_0000000000_43",
+      "32009R0428_20090827_0000000000_19",
+      "32009L0065_20110721_0000000000_118",
+      "32018R1862_20190611_0000000000_37",
+      "32016R0794_00000000_0000000000_44",
+      "32002R2012_00000000_0000000000_5",
+      "32010L0040_00000000_0000000000_14"
+    ],
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.16594570473232012,
+      "recall_100": 0.38304650700343296,
+      "map": 0.10692658254765174
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/fe43da7cbb95c9f46cd0f7998b9fac571ae2834a05667e3f6faea999e4a149b0.jsonl",
+        "sha256": "fe43da7cbb95c9f46cd0f7998b9fac571ae2834a05667e3f6faea999e4a149b0"
+      }
+    ],
+    "original_provenance": {
+      "split": "validation",
+      "scope_qids": [
+        "32008L0105_00000000_0000000000_9",
+        "32020R1706_20210101_0000000000_6",
+        "32009L0042_20100416_0000000000_10",
+        "32008D0376_00000000_0000000000_33",
+        "32004R0726_20090706_0000000000_1",
+        "32014R0833_20240224_0000000000_5l",
+        "32006L0112_20100409_0000000000_232",
+        "32007L0014_00000000_0000000000_15",
+        "32008R0055_20081207_0000000000_10",
+        "32007D0573_00000000_0000000000_21",
+        "32009R0924_20190418_0000000000_3",
+        "32008L0105_00000000_0000000000_5",
+        "32001L0083_20091005_0000000000_23",
+        "32004L0109_20080320_0000000000_16",
+        "32015R0848_20150605_0000000000_8",
+        "32006R1083_20090409_0000000000_57",
+        "32001L0110_20020201_0000000000_2",
+        "32018R1862_20190611_0000000000_53",
+        "31997R0515_20080816_0000000000_43",
+        "32009R0428_20090827_0000000000_19",
+        "32009L0065_20110721_0000000000_118",
+        "32018R1862_20190611_0000000000_37",
+        "32016R0794_00000000_0000000000_44",
+        "32002R2012_00000000_0000000000_5",
+        "32010L0040_00000000_0000000000_14"
+      ],
+      "repeats": 1,
+      "backend": "Qwen3-8B",
+      "model_signature": "96904184738e357761d3c76100324f876c8b4b313c7906291301fb5223ebff01",
+      "repeat_folders": "experiments/E12/runs/E12.009/rev2rev-en"
+    },
+    "evidence": [
+      "E10/evidence/R5/rev2rev-en/official_metrics.json",
+      "E10/evidence/R5/rev2rev-en/scope.qrels.jsonl"
+    ],
+    "request_indexes": [
+      "E10/evidence/R5/rev2rev-en/requests.json"
+    ]
+  },
+  {
+    "row_id": "E10.R5",
+    "source_row_id": "E12.009",
+    "source_row_id_v2": "E12.V2.R005",
+    "configuration": "Qwen3-8B / 多视角检索丢一路【补充，改变候选池】",
+    "task": "rat2rev-ja",
+    "split": "validation",
+    "scope_qids": [
+      "504AC0000000002",
+      "502AC0000000015",
+      "501AC0000000006",
+      "507AC1000000011",
+      "504AC0000000049",
+      "503AC0000000044",
+      "504AC0000000059",
+      "501AC0000000002",
+      "507AC1000000065",
+      "502AC0000000023",
+      "506AC0000000030",
+      "507AC0000000048",
+      "505AC0000000048",
+      "506AC0000000032",
+      "504AC0000000055",
+      "504AC0000000097",
+      "506AC0000000046",
+      "507AC0000000054",
+      "505AC0000000073",
+      "506AC0000000072",
+      "501AC0000000017",
+      "502AC0000000049",
+      "507AC0000000014",
+      "503AC0000000035",
+      "504AC0000000065"
+    ],
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.34891654722547216,
+      "recall_100": 0.5875362625179699,
+      "map": 0.22363995951806523
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/5754f670198f808c4fb8e7cc82cbfe85430fdafd8789b2ba78bd5210f7f4b809.jsonl",
+        "sha256": "5754f670198f808c4fb8e7cc82cbfe85430fdafd8789b2ba78bd5210f7f4b809"
+      }
+    ],
+    "original_provenance": {
+      "split": "validation",
+      "scope_qids": [
+        "504AC0000000002",
+        "502AC0000000015",
+        "501AC0000000006",
+        "507AC1000000011",
+        "504AC0000000049",
+        "503AC0000000044",
+        "504AC0000000059",
+        "501AC0000000002",
+        "507AC1000000065",
+        "502AC0000000023",
+        "506AC0000000030",
+        "507AC0000000048",
+        "505AC0000000048",
+        "506AC0000000032",
+        "504AC0000000055",
+        "504AC0000000097",
+        "506AC0000000046",
+        "507AC0000000054",
+        "505AC0000000073",
+        "506AC0000000072",
+        "501AC0000000017",
+        "502AC0000000049",
+        "507AC0000000014",
+        "503AC0000000035",
+        "504AC0000000065"
+      ],
+      "repeats": 1,
+      "backend": "Qwen3-8B",
+      "model_signature": "96904184738e357761d3c76100324f876c8b4b313c7906291301fb5223ebff01",
+      "repeat_folders": "experiments/E12/runs/E12.009/rat2rev-ja"
+    },
+    "evidence": [
+      "E10/evidence/R5/rat2rev-ja/official_metrics.json",
+      "E10/evidence/R5/rat2rev-ja/scope.qrels.jsonl"
+    ],
+    "request_indexes": [
+      "E10/evidence/R5/rat2rev-ja/requests.json"
+    ]
+  },
+  {
+    "row_id": "E10.R5",
+    "source_row_id": "E12.009",
+    "source_row_id_v2": "E12.V2.R005",
+    "configuration": "Qwen3-8B / 多视角检索丢一路【补充，改变候选池】",
+    "task": "rev2rev-ja",
+    "split": "validation",
+    "scope_qids": [
+      "326AC1000000004_20160401_426AC0000000069_19",
+      "358AC1000000043_20160401_426AC0000000069_11",
+      "327AC0000000191_20190330_431AC0000000012_10-2",
+      "337AC1000000073_20160401_427AC0000000046_1",
+      "416AC0000000123_20180713_430AC0000000072_164",
+      "327AC0000000231_20170602_429AC0000000045_99",
+      "359AC0000000068_20180620_430AC0000000059_38",
+      "423AC0000000040_20180401_428AC0000000065_125",
+      "425AC0000000107_20190401_430AC0000000102_24-3",
+      "337AC0000000134_20160401_426AC0000000118_23",
+      "332AC0000000161_20160401_426AC0000000069_12",
+      "331AC0000000080_20140401_425AC0000000076_4",
+      "325AC0000000226_20190401_431AC0000000003_72-91",
+      "429AC0100000076_20170623_000000000000000_6",
+      "326AC1000000166_20160401_426AC0000000069_17",
+      "330AC0000000097_20200401_429AC0000000045_23-19",
+      "411AC0000000017_20190401_431AC0000000005_2",
+      "343AC0000000097_20200401_429AC0000000045_2",
+      "414AC0000000136_20150401_426AC0000000067_32",
+      "428AC1000000101_20201201_430AC0000000095_16",
+      "324AC0000000147_20190401_429AC0000000041_7",
+      "339AC0000000170_20200401_429AC0000000015_51",
+      "326AC0000000180_20130614_425AC0000000044_19",
+      "324AC0000000148_20090401_419AC0000000098_2",
+      "329AC0000000162_20200401_429AC0000000029_37"
+    ],
+    "source_type": "new_native_reproduced",
+    "metrics": {
+      "ndcg_10": 0.19414498534848978,
+      "recall_100": 0.5443730602606697,
+      "map": 0.13518193474067627
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/56cf0ebe7028d7479d322d2114c5e8d2968f2e936194f0cdbc6cc53ed58871a6.jsonl",
+        "sha256": "56cf0ebe7028d7479d322d2114c5e8d2968f2e936194f0cdbc6cc53ed58871a6"
+      }
+    ],
+    "original_provenance": {
+      "split": "validation",
+      "scope_qids": [
+        "326AC1000000004_20160401_426AC0000000069_19",
+        "358AC1000000043_20160401_426AC0000000069_11",
+        "327AC0000000191_20190330_431AC0000000012_10-2",
+        "337AC1000000073_20160401_427AC0000000046_1",
+        "416AC0000000123_20180713_430AC0000000072_164",
+        "327AC0000000231_20170602_429AC0000000045_99",
+        "359AC0000000068_20180620_430AC0000000059_38",
+        "423AC0000000040_20180401_428AC0000000065_125",
+        "425AC0000000107_20190401_430AC0000000102_24-3",
+        "337AC0000000134_20160401_426AC0000000118_23",
+        "332AC0000000161_20160401_426AC0000000069_12",
+        "331AC0000000080_20140401_425AC0000000076_4",
+        "325AC0000000226_20190401_431AC0000000003_72-91",
+        "429AC0100000076_20170623_000000000000000_6",
+        "326AC1000000166_20160401_426AC0000000069_17",
+        "330AC0000000097_20200401_429AC0000000045_23-19",
+        "411AC0000000017_20190401_431AC0000000005_2",
+        "343AC0000000097_20200401_429AC0000000045_2",
+        "414AC0000000136_20150401_426AC0000000067_32",
+        "428AC1000000101_20201201_430AC0000000095_16",
+        "324AC0000000147_20190401_429AC0000000041_7",
+        "339AC0000000170_20200401_429AC0000000015_51",
+        "326AC0000000180_20130614_425AC0000000044_19",
+        "324AC0000000148_20090401_419AC0000000098_2",
+        "329AC0000000162_20200401_429AC0000000029_37"
+      ],
+      "repeats": 1,
+      "backend": "Qwen3-8B",
+      "model_signature": "96904184738e357761d3c76100324f876c8b4b313c7906291301fb5223ebff01",
+      "repeat_folders": "experiments/E12/runs/E12.009/rev2rev-ja"
+    },
+    "evidence": [
+      "E10/evidence/R5/rev2rev-ja/official_metrics.json",
+      "E10/evidence/R5/rev2rev-ja/scope.qrels.jsonl"
+    ],
+    "request_indexes": [
+      "E10/evidence/R5/rev2rev-ja/requests.json"
+    ]
+  }
+]

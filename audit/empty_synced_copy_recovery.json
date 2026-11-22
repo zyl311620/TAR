@@ -1,0 +1,40 @@
+{
+  "original_local_copy_provenance": {
+    "_shared/requests/793085938f0dff69880970fae676d663a99e2805f483b0a7bb1898c19fe9b4e0.json.gz": {
+      "source": "paper_experiment_plan\\experiments\\E12\\raw\\local_llm_requests\\793085938f0dff69880970fae676d663a99e2805f483b0a7bb1898c19fe9b4e0.json.gz",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "_shared/requests/c11ea606b234378c902dd457d58a64bfe88923b052bf0eac6e01e7f78b8658b6.json.gz": {
+      "source": "paper_experiment_plan\\experiments\\E12\\raw\\local_llm_requests\\c11ea606b234378c902dd457d58a64bfe88923b052bf0eac6e01e7f78b8658b6.json.gz",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "_shared/requests/d5b3896998eb275aea9e570a36bcca095ff682cad7d992f16e227f826ec0c6f4.json.gz": {
+      "source": "paper_experiment_plan\\experiments\\E12\\raw\\local_llm_requests\\d5b3896998eb275aea9e570a36bcca095ff682cad7d992f16e227f826ec0c6f4.json.gz",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "_shared/requests/f66cee3de1db1030b10eb46b8d7e7105548281b98a27dae3caa3c93b650f37c0.json.gz": {
+      "source": "paper_experiment_plan\\experiments\\E12\\raw\\local_llm_requests\\f66cee3de1db1030b10eb46b8d7e7105548281b98a27dae3caa3c93b650f37c0.json.gz",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "raw_server_sha256": {
+    "793085938f0dff69880970fae676d663a99e2805f483b0a7bb1898c19fe9b4e0": {
+      "sha256": "4368f7ff241799eb4089ba9be913adac3ffd0d893ea8c6fdc8982ab5259968d5",
+      "bytes": 94577
+    },
+    "c11ea606b234378c902dd457d58a64bfe88923b052bf0eac6e01e7f78b8658b6": {
+      "sha256": "2c845e26b9608c27a16264a1ed8a9c946eed0d4a3363b28f23bab9d309135af9",
+      "bytes": 113150
+    },
+    "d5b3896998eb275aea9e570a36bcca095ff682cad7d992f16e227f826ec0c6f4": {
+      "sha256": "cfdddd8615814cb5bb7714f11d908cb50c7db9528e68a0116cd36b9f602ee9f1",
+      "bytes": 118944
+    },
+    "f66cee3de1db1030b10eb46b8d7e7105548281b98a27dae3caa3c93b650f37c0": {
+      "sha256": "0fcfb79f253c1111fdafbdd3b188c172862a3d7076ebe7b7f94d31f1b049f271",
+      "bytes": 113150
+    }
+  },
+  "archive_sha256": "678cc4cd6015153d799121f4caf82caaa7e00b64e5eeb598899c597c822ff57d",
+  "new_inference": false
+}

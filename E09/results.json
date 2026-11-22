@@ -1,0 +1,452 @@
+[
+  {
+    "row_id": "E09.R1",
+    "source_row_id": "E11.001",
+    "source_row_id_v2": "E11.V2.R001",
+    "configuration": "RRF Top200完整排名",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "historical_replay",
+    "metrics": {
+      "ndcg_10": 0.21012985806183218,
+      "recall_100": 0.4351073969908456,
+      "map": 0.1425041650848385
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/0b29971d90e5f983bcaccff8ddf73674908104879b7588773244d18049bb61d6.jsonl",
+        "sha256": "0b29971d90e5f983bcaccff8ddf73674908104879b7588773244d18049bb61d6"
+      }
+    ],
+    "original_provenance": {
+      "original_path": "D:\\论文+比赛\\2026比赛\\CAIL\\法律修订候选检索\\初赛\\runs\\v4_multiquery_20261028\\multiquery_retrieval\\rat2rev-en\\selected\\test\\rrf.jsonl",
+      "original_sha256": "0b29971d90e5f983bcaccff8ddf73674908104879b7588773244d18049bb61d6",
+      "canonical_ranked_path": "experiments\\E11\\runs\\E11.001\\rat2rev-en\\ranked.jsonl",
+      "canonical_sha256": "0b29971d90e5f983bcaccff8ddf73674908104879b7588773244d18049bb61d6",
+      "qrels_sha256": "c5215c8506c684bcbed81b5d04429db6fe7a83ba77ddfb1888cb57a607fdf485",
+      "output_length": 200,
+      "conditions": "Historical bilingual pipeline; original generators differ across languages",
+      "inference_was_not_repeated": true
+    },
+    "evidence": [
+      "E09/evidence/R1/rat2rev-en/provenance.json",
+      "E09/evidence/R1/rat2rev-en/official_metrics.json",
+      "E09/evidence/R1/rat2rev-en/metrics.json",
+      "E09/evidence/R1/rat2rev-en/per_query.csv",
+      "E09/evidence/R1/rat2rev-en/original_manifest.json"
+    ]
+  },
+  {
+    "row_id": "E09.R1",
+    "source_row_id": "E11.001",
+    "source_row_id_v2": "E11.V2.R001",
+    "configuration": "RRF Top200完整排名",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "historical_replay",
+    "metrics": {
+      "ndcg_10": 0.24790615128712662,
+      "recall_100": 0.44196741830062075,
+      "map": 0.16069005067498848
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/90d242312a47f940da9c1a087107187dfd75015b6e6aee2698710f5d25637f41.jsonl",
+        "sha256": "90d242312a47f940da9c1a087107187dfd75015b6e6aee2698710f5d25637f41"
+      }
+    ],
+    "original_provenance": {
+      "original_path": "D:\\论文+比赛\\2026比赛\\CAIL\\法律修订候选检索\\初赛\\runs\\v4_multiquery_20261028\\v4_single\\retrieval\\rev2rev-en\\test\\rrf.jsonl",
+      "original_sha256": "90d242312a47f940da9c1a087107187dfd75015b6e6aee2698710f5d25637f41",
+      "canonical_ranked_path": "experiments\\E11\\runs\\E11.001\\rev2rev-en\\ranked.jsonl",
+      "canonical_sha256": "90d242312a47f940da9c1a087107187dfd75015b6e6aee2698710f5d25637f41",
+      "qrels_sha256": "21a4908238fdd57ce19d9e1ac5d7474cca18d2a52677d8727df2260ee0ec216b",
+      "output_length": 200,
+      "conditions": "Historical bilingual pipeline; original generators differ across languages",
+      "inference_was_not_repeated": true
+    },
+    "evidence": [
+      "E09/evidence/R1/rev2rev-en/provenance.json",
+      "E09/evidence/R1/rev2rev-en/official_metrics.json",
+      "E09/evidence/R1/rev2rev-en/metrics.json",
+      "E09/evidence/R1/rev2rev-en/per_query.csv",
+      "E09/evidence/R1/rev2rev-en/original_manifest.json"
+    ]
+  },
+  {
+    "row_id": "E09.R1",
+    "source_row_id": "E11.001",
+    "source_row_id_v2": "E11.V2.R001",
+    "configuration": "RRF Top200完整排名",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "historical_replay",
+    "metrics": {
+      "ndcg_10": 0.31403132576890985,
+      "recall_100": 0.5374888545256633,
+      "map": 0.22341616777063028
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/896a604cb6c6f2ea8e87a015d21202acfa381546c2e0ceffed2503d96739f86d.jsonl",
+        "sha256": "896a604cb6c6f2ea8e87a015d21202acfa381546c2e0ceffed2503d96739f86d"
+      }
+    ],
+    "original_provenance": {
+      "original_path": "D:\\论文+比赛\\2026比赛\\CAIL\\法律修订候选检索\\初赛\\runs\\japanese_best_20261029\\retrieval\\rat2rev-ja\\rrf.jsonl",
+      "original_sha256": "896a604cb6c6f2ea8e87a015d21202acfa381546c2e0ceffed2503d96739f86d",
+      "canonical_ranked_path": "experiments\\E11\\runs\\E11.001\\rat2rev-ja\\ranked.jsonl",
+      "canonical_sha256": "896a604cb6c6f2ea8e87a015d21202acfa381546c2e0ceffed2503d96739f86d",
+      "qrels_sha256": "c10a46fbf861019e8661fce69885122cd1122e373f34fa3c0254aa1504bccc99",
+      "output_length": 200,
+      "conditions": "Historical bilingual pipeline; original generators differ across languages",
+      "inference_was_not_repeated": true
+    },
+    "evidence": [
+      "E09/evidence/R1/rat2rev-ja/provenance.json",
+      "E09/evidence/R1/rat2rev-ja/official_metrics.json",
+      "E09/evidence/R1/rat2rev-ja/metrics.json",
+      "E09/evidence/R1/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E09.R1",
+    "source_row_id": "E11.001",
+    "source_row_id_v2": "E11.V2.R001",
+    "configuration": "RRF Top200完整排名",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "historical_replay",
+    "metrics": {
+      "ndcg_10": 0.2890353881001392,
+      "recall_100": 0.4801423531898163,
+      "map": 0.1877837936824209
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/a25c878df24aa1be38cbd13bd7f17f746d2afcb02f9ecbf09c752311b434a8f8.jsonl",
+        "sha256": "a25c878df24aa1be38cbd13bd7f17f746d2afcb02f9ecbf09c752311b434a8f8"
+      }
+    ],
+    "original_provenance": {
+      "original_path": "D:\\论文+比赛\\2026比赛\\CAIL\\法律修订候选检索\\初赛\\runs\\japanese_best_20261029\\retrieval\\rev2rev-ja\\rrf.jsonl",
+      "original_sha256": "a25c878df24aa1be38cbd13bd7f17f746d2afcb02f9ecbf09c752311b434a8f8",
+      "canonical_ranked_path": "experiments\\E11\\runs\\E11.001\\rev2rev-ja\\ranked.jsonl",
+      "canonical_sha256": "a25c878df24aa1be38cbd13bd7f17f746d2afcb02f9ecbf09c752311b434a8f8",
+      "qrels_sha256": "5549bfbbac295aaef91fa7ba17824252a4f617c8da6447de08be75af9d62d4aa",
+      "output_length": 200,
+      "conditions": "Historical bilingual pipeline; original generators differ across languages",
+      "inference_was_not_repeated": true
+    },
+    "evidence": [
+      "E09/evidence/R1/rev2rev-ja/provenance.json",
+      "E09/evidence/R1/rev2rev-ja/official_metrics.json",
+      "E09/evidence/R1/rev2rev-ja/metrics.json",
+      "E09/evidence/R1/rev2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E09.R2",
+    "source_row_id": "E11.002",
+    "source_row_id_v2": "E11.V2.R002",
+    "configuration": "Qwen重排200后的完整排名",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "historical_replay",
+    "metrics": {
+      "ndcg_10": 0.258076438841542,
+      "recall_100": 0.47141817014643306,
+      "map": 0.18000892284048656
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/37f56fa4e588de7f760c1dc24f8767b185858c0ef21f053635ceebba88f2ea1b.jsonl",
+        "sha256": "37f56fa4e588de7f760c1dc24f8767b185858c0ef21f053635ceebba88f2ea1b"
+      }
+    ],
+    "original_provenance": {
+      "original_path": "D:\\论文+比赛\\2026比赛\\CAIL\\法律修订候选检索\\初赛\\runs\\v4_multiquery_20261028\\multiquery_selected\\reranking\\multiquery_selected\\qwen\\rat2rev-en\\recare.jsonl",
+      "original_sha256": "37f56fa4e588de7f760c1dc24f8767b185858c0ef21f053635ceebba88f2ea1b",
+      "canonical_ranked_path": "experiments\\E11\\runs\\E11.002\\rat2rev-en\\ranked.jsonl",
+      "canonical_sha256": "37f56fa4e588de7f760c1dc24f8767b185858c0ef21f053635ceebba88f2ea1b",
+      "qrels_sha256": "c5215c8506c684bcbed81b5d04429db6fe7a83ba77ddfb1888cb57a607fdf485",
+      "output_length": 200,
+      "conditions": "Historical bilingual pipeline; original generators differ across languages",
+      "inference_was_not_repeated": true
+    },
+    "evidence": [
+      "E09/evidence/R2/rat2rev-en/provenance.json",
+      "E09/evidence/R2/rat2rev-en/official_metrics.json",
+      "E09/evidence/R2/rat2rev-en/metrics.json",
+      "E09/evidence/R2/rat2rev-en/per_query.csv",
+      "E09/evidence/R2/rat2rev-en/original_manifest.json"
+    ]
+  },
+  {
+    "row_id": "E09.R2",
+    "source_row_id": "E11.002",
+    "source_row_id_v2": "E11.V2.R002",
+    "configuration": "Qwen重排200后的完整排名",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "historical_replay",
+    "metrics": {
+      "ndcg_10": 0.19948371449308097,
+      "recall_100": 0.43526180107535384,
+      "map": 0.1331131433223731
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/9566a44fa34d148a3783815ec5b30129285dfe997a43d7a7bd53d7d56fa7f351.jsonl",
+        "sha256": "9566a44fa34d148a3783815ec5b30129285dfe997a43d7a7bd53d7d56fa7f351"
+      }
+    ],
+    "original_provenance": {
+      "original_path": "D:\\论文+比赛\\2026比赛\\CAIL\\法律修订候选检索\\初赛\\runs\\v4_multiquery_20261028\\v4_single\\reranking\\v4_single\\qwen\\rev2rev-en\\recare.jsonl",
+      "original_sha256": "9566a44fa34d148a3783815ec5b30129285dfe997a43d7a7bd53d7d56fa7f351",
+      "canonical_ranked_path": "experiments\\E11\\runs\\E11.002\\rev2rev-en\\ranked.jsonl",
+      "canonical_sha256": "9566a44fa34d148a3783815ec5b30129285dfe997a43d7a7bd53d7d56fa7f351",
+      "qrels_sha256": "21a4908238fdd57ce19d9e1ac5d7474cca18d2a52677d8727df2260ee0ec216b",
+      "output_length": 200,
+      "conditions": "Historical bilingual pipeline; original generators differ across languages",
+      "inference_was_not_repeated": true
+    },
+    "evidence": [
+      "E09/evidence/R2/rev2rev-en/provenance.json",
+      "E09/evidence/R2/rev2rev-en/official_metrics.json",
+      "E09/evidence/R2/rev2rev-en/metrics.json",
+      "E09/evidence/R2/rev2rev-en/per_query.csv",
+      "E09/evidence/R2/rev2rev-en/original_manifest.json"
+    ]
+  },
+  {
+    "row_id": "E09.R2",
+    "source_row_id": "E11.002",
+    "source_row_id_v2": "E11.V2.R002",
+    "configuration": "Qwen重排200后的完整排名",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "historical_replay",
+    "metrics": {
+      "ndcg_10": 0.2884686975292167,
+      "recall_100": 0.5655061149987424,
+      "map": 0.20461377006383696
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/0845a21232216c1527532241870e673a449c0feaedd68cc3478ebd72b45dfe88.jsonl",
+        "sha256": "0845a21232216c1527532241870e673a449c0feaedd68cc3478ebd72b45dfe88"
+      }
+    ],
+    "original_provenance": {
+      "original_path": "D:\\论文+比赛\\2026比赛\\CAIL\\法律修订候选检索\\初赛\\runs\\japanese_best_20261029\\qwen\\rat2rev-ja\\recare.jsonl",
+      "original_sha256": "0845a21232216c1527532241870e673a449c0feaedd68cc3478ebd72b45dfe88",
+      "canonical_ranked_path": "experiments\\E11\\runs\\E11.002\\rat2rev-ja\\ranked.jsonl",
+      "canonical_sha256": "0845a21232216c1527532241870e673a449c0feaedd68cc3478ebd72b45dfe88",
+      "qrels_sha256": "c10a46fbf861019e8661fce69885122cd1122e373f34fa3c0254aa1504bccc99",
+      "output_length": 200,
+      "conditions": "Historical bilingual pipeline; original generators differ across languages",
+      "inference_was_not_repeated": true
+    },
+    "evidence": [
+      "E09/evidence/R2/rat2rev-ja/provenance.json",
+      "E09/evidence/R2/rat2rev-ja/official_metrics.json",
+      "E09/evidence/R2/rat2rev-ja/metrics.json",
+      "E09/evidence/R2/rat2rev-ja/per_query.csv",
+      "E09/evidence/R2/rat2rev-ja/original_manifest.json"
+    ]
+  },
+  {
+    "row_id": "E09.R2",
+    "source_row_id": "E11.002",
+    "source_row_id_v2": "E11.V2.R002",
+    "configuration": "Qwen重排200后的完整排名",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "historical_replay",
+    "metrics": {
+      "ndcg_10": 0.2841362133002822,
+      "recall_100": 0.4981913260314031,
+      "map": 0.18519596051137568
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/c36498c2081a5307f05c03350885b54513530ccc8d970feb02769b82cd27b388.jsonl",
+        "sha256": "c36498c2081a5307f05c03350885b54513530ccc8d970feb02769b82cd27b388"
+      }
+    ],
+    "original_provenance": {
+      "original_path": "D:\\论文+比赛\\2026比赛\\CAIL\\法律修订候选检索\\初赛\\runs\\japanese_best_20261029\\qwen\\rev2rev-ja\\recare.jsonl",
+      "original_sha256": "c36498c2081a5307f05c03350885b54513530ccc8d970feb02769b82cd27b388",
+      "canonical_ranked_path": "experiments\\E11\\runs\\E11.002\\rev2rev-ja\\ranked.jsonl",
+      "canonical_sha256": "c36498c2081a5307f05c03350885b54513530ccc8d970feb02769b82cd27b388",
+      "qrels_sha256": "5549bfbbac295aaef91fa7ba17824252a4f617c8da6447de08be75af9d62d4aa",
+      "output_length": 200,
+      "conditions": "Historical bilingual pipeline; original generators differ across languages",
+      "inference_was_not_repeated": true
+    },
+    "evidence": [
+      "E09/evidence/R2/rev2rev-ja/provenance.json",
+      "E09/evidence/R2/rev2rev-ja/official_metrics.json",
+      "E09/evidence/R2/rev2rev-ja/metrics.json",
+      "E09/evidence/R2/rev2rev-ja/per_query.csv",
+      "E09/evidence/R2/rev2rev-ja/original_manifest.json"
+    ]
+  },
+  {
+    "row_id": "E09.R3",
+    "source_row_id": "E11.003",
+    "source_row_id_v2": "E11.V2.R003",
+    "configuration": "最终LLM重排Top100、尾部保留",
+    "task": "rat2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "historical_replay",
+    "metrics": {
+      "ndcg_10": 0.4530401954325326,
+      "recall_100": 0.47141817014643306,
+      "map": 0.30778871431677457
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/ce31888dc9aea414a8291dd6030ce0a77602b51dc1d5eae812fe061a47889ca1.jsonl",
+        "sha256": "ce31888dc9aea414a8291dd6030ce0a77602b51dc1d5eae812fe061a47889ca1"
+      }
+    ],
+    "original_provenance": {
+      "original_path": "D:\\论文+比赛\\2026比赛\\CAIL\\法律修订候选检索\\初赛\\submissions\\english_main_best_gpt61_20261029_run1\\local_team_rat2rev-en_run1.jsonl",
+      "original_sha256": "ce31888dc9aea414a8291dd6030ce0a77602b51dc1d5eae812fe061a47889ca1",
+      "canonical_ranked_path": "experiments\\E11\\runs\\E11.003\\rat2rev-en\\ranked.jsonl",
+      "canonical_sha256": "ce31888dc9aea414a8291dd6030ce0a77602b51dc1d5eae812fe061a47889ca1",
+      "qrels_sha256": "c5215c8506c684bcbed81b5d04429db6fe7a83ba77ddfb1888cb57a607fdf485",
+      "output_length": 200,
+      "conditions": "Historical bilingual pipeline; original generators differ across languages",
+      "inference_was_not_repeated": true
+    },
+    "evidence": [
+      "E09/evidence/R3/rat2rev-en/provenance.json",
+      "E09/evidence/R3/rat2rev-en/official_metrics.json",
+      "E09/evidence/R3/rat2rev-en/metrics.json",
+      "E09/evidence/R3/rat2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E09.R3",
+    "source_row_id": "E11.003",
+    "source_row_id_v2": "E11.V2.R003",
+    "configuration": "最终LLM重排Top100、尾部保留",
+    "task": "rev2rev-en",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "historical_replay",
+    "metrics": {
+      "ndcg_10": 0.3684642580644215,
+      "recall_100": 0.43526180107535384,
+      "map": 0.240918266467248
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/5b31ee3df1e3c9c6ed0dd2a6932055e02cae0e7de1aea901736eacb14274a0df.jsonl",
+        "sha256": "5b31ee3df1e3c9c6ed0dd2a6932055e02cae0e7de1aea901736eacb14274a0df"
+      }
+    ],
+    "original_provenance": {
+      "original_path": "D:\\论文+比赛\\2026比赛\\CAIL\\法律修订候选检索\\初赛\\submissions\\english_main_best_gpt61_20261029_run1\\local_team_rev2rev-en_run1.jsonl",
+      "original_sha256": "5b31ee3df1e3c9c6ed0dd2a6932055e02cae0e7de1aea901736eacb14274a0df",
+      "canonical_ranked_path": "experiments\\E11\\runs\\E11.003\\rev2rev-en\\ranked.jsonl",
+      "canonical_sha256": "5b31ee3df1e3c9c6ed0dd2a6932055e02cae0e7de1aea901736eacb14274a0df",
+      "qrels_sha256": "21a4908238fdd57ce19d9e1ac5d7474cca18d2a52677d8727df2260ee0ec216b",
+      "output_length": 200,
+      "conditions": "Historical bilingual pipeline; original generators differ across languages",
+      "inference_was_not_repeated": true
+    },
+    "evidence": [
+      "E09/evidence/R3/rev2rev-en/provenance.json",
+      "E09/evidence/R3/rev2rev-en/official_metrics.json",
+      "E09/evidence/R3/rev2rev-en/metrics.json",
+      "E09/evidence/R3/rev2rev-en/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E09.R3",
+    "source_row_id": "E11.003",
+    "source_row_id_v2": "E11.V2.R003",
+    "configuration": "最终LLM重排Top100、尾部保留",
+    "task": "rat2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "historical_replay",
+    "metrics": {
+      "ndcg_10": 0.5191362879696059,
+      "recall_100": 0.5655061149987424,
+      "map": 0.35136516404269824
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/1e85f716a46c5302f0c4e778ccde5ef71c728707c094414280b68689ecc50d3b.jsonl",
+        "sha256": "1e85f716a46c5302f0c4e778ccde5ef71c728707c094414280b68689ecc50d3b"
+      }
+    ],
+    "original_provenance": {
+      "original_path": "D:\\论文+比赛\\2026比赛\\CAIL\\法律修订候选检索\\初赛\\runs\\japanese_best_20261029\\final\\local_team_rat2rev-ja_run1.jsonl",
+      "original_sha256": "1e85f716a46c5302f0c4e778ccde5ef71c728707c094414280b68689ecc50d3b",
+      "canonical_ranked_path": "experiments\\E11\\runs\\E11.003\\rat2rev-ja\\ranked.jsonl",
+      "canonical_sha256": "1e85f716a46c5302f0c4e778ccde5ef71c728707c094414280b68689ecc50d3b",
+      "qrels_sha256": "c10a46fbf861019e8661fce69885122cd1122e373f34fa3c0254aa1504bccc99",
+      "output_length": 200,
+      "conditions": "Historical bilingual pipeline; original generators differ across languages",
+      "inference_was_not_repeated": true
+    },
+    "evidence": [
+      "E09/evidence/R3/rat2rev-ja/provenance.json",
+      "E09/evidence/R3/rat2rev-ja/official_metrics.json",
+      "E09/evidence/R3/rat2rev-ja/metrics.json",
+      "E09/evidence/R3/rat2rev-ja/per_query.csv"
+    ]
+  },
+  {
+    "row_id": "E09.R3",
+    "source_row_id": "E11.003",
+    "source_row_id_v2": "E11.V2.R003",
+    "configuration": "最终LLM重排Top100、尾部保留",
+    "task": "rev2rev-ja",
+    "split": "test",
+    "scope_qids": null,
+    "source_type": "historical_replay",
+    "metrics": {
+      "ndcg_10": 0.31954069812307556,
+      "recall_100": 0.4981913260314031,
+      "map": 0.2128671718167413
+    },
+    "rankings": [
+      {
+        "path": "_shared/rankings/06123abdc4a3acf0b150f1d8bbdbb56c43d5e083fe36a7357fbe4b6e568a09bf.jsonl",
+        "sha256": "06123abdc4a3acf0b150f1d8bbdbb56c43d5e083fe36a7357fbe4b6e568a09bf"
+      }
+    ],
+    "original_provenance": {
+      "original_path": "D:\\论文+比赛\\2026比赛\\CAIL\\法律修订候选检索\\初赛\\runs\\japanese_best_20261029\\final\\local_team_rev2rev-ja_run1.jsonl",
+      "original_sha256": "06123abdc4a3acf0b150f1d8bbdbb56c43d5e083fe36a7357fbe4b6e568a09bf",
+      "canonical_ranked_path": "experiments\\E11\\runs\\E11.003\\rev2rev-ja\\ranked.jsonl",
+      "canonical_sha256": "06123abdc4a3acf0b150f1d8bbdbb56c43d5e083fe36a7357fbe4b6e568a09bf",
+      "qrels_sha256": "5549bfbbac295aaef91fa7ba17824252a4f617c8da6447de08be75af9d62d4aa",
+      "output_length": 200,
+      "conditions": "Historical bilingual pipeline; original generators differ across languages",
+      "inference_was_not_repeated": true
+    },
+    "evidence": [
+      "E09/evidence/R3/rev2rev-ja/provenance.json",
+      "E09/evidence/R3/rev2rev-ja/official_metrics.json",
+      "E09/evidence/R3/rev2rev-ja/metrics.json",
+      "E09/evidence/R3/rev2rev-ja/per_query.csv"
+    ]
+  }
+]
